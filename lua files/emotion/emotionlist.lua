@@ -79,6 +79,13 @@ ET_SPIT = 77
 ET_ENE = 78
 ET_PANIC = 79
 ET_WHISP = 80
+ET_YUT1 = 81
+ET_YUT2 = 82
+ET_YUT3 = 83
+ET_YUT4 = 84
+ET_YUT5 = 85
+ET_YUT6 = 86
+ET_YUT7 = 87
 MSI_EMOTION_SURPRISE = 544
 MSI_EMOTION_QUESTION = 545
 MSI_EMOTION_DELIGHT = 546
@@ -495,7 +502,7 @@ InsertEmotionListTable(ET_WHISP, MSI_EMOTION_WHISP, 79)
 InsertEmotionMsgListTable(ET_WHISP,c_GetMsgString(MSI_EMOTION_WHISP))
 InsertEmotionMsgListTable(ET_WHISP,"/e33")
 InsertEmotionMsgListTable(ET_WHISP,"/À§½ºÆÛ")
---Individual Start
+--Individual Start 1
 InsertEmotionListTable(ET_FLAG, -1, 14)
 InsertEmotionListTable(ET_CHAT_PROHIBIT, -1, 1000)
 InsertEmotionListTable(ET_INDONESIA_FLAG, -1, 34)
@@ -503,16 +510,28 @@ InsertEmotionListTable(ET_PH_FLAG, -1, 47)
 InsertEmotionListTable(ET_MY_FLAG, -1, 48)
 InsertEmotionListTable(ET_SI_FLAG, -1, 49)
 InsertEmotionListTable(ET_BR_FLAG, -1, 50)
+--Individual End 1
+--Group 66
 InsertEmotionListTable(ET_DICE1, -1, 57)
+InsertEmotionMsgListTable(ET_DICE1,"/dice")
+InsertEmotionMsgListTable(ET_DICE1,"/e19")
 InsertEmotionListTable(ET_DICE2, -1, 58)
 InsertEmotionListTable(ET_DICE3, -1, 59)
 InsertEmotionListTable(ET_DICE4, -1, 60)
 InsertEmotionListTable(ET_DICE5, -1, 61)
 InsertEmotionListTable(ET_DICE6, -1, 62)
+--Individual Start 2
 InsertEmotionListTable(ET_INDIA_FLAG, -1, 63)
 InsertEmotionListTable(ET_FLAG8, -1, 65)
 InsertEmotionListTable(ET_FLAG9, -1, 66)
--- Individual End
---Group 65
-InsertEmotionMsgListTable(ET_DICE,"/dice")
-InsertEmotionMsgListTable(ET_DICE,"/e19")
+--Individual End 2
+--Group 67
+InsertEmotionListTable(ET_YUT1, -1, 86)
+InsertEmotionMsgListTable(ET_YUT1,"/À·")
+InsertEmotionMsgListTable(ET_YUT1,"/dbc")
+InsertEmotionListTable(ET_YUT2, -1, 87)
+InsertEmotionListTable(ET_YUT3, -1, 88)
+InsertEmotionListTable(ET_YUT4, -1, 89)
+InsertEmotionListTable(ET_YUT5, -1, 90)
+InsertEmotionListTable(ET_YUT6, -1, 91)
+InsertEmotionListTable(ET_YUT7, -1, 92)

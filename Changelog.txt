@@ -1,3 +1,6 @@
-rev1
+rev3
+ - Updated 2010-02-03 latest emotionlist.lua
+
+rev2
  - Added 2009-12-23 decompiled lua binary files
  - Added 2009-12-23+ translated compiled lub files for clients from 2009-12-23 to 2010-02-10
