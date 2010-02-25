@@ -190,7 +190,9 @@ HOTKEY_2 = {
 	[29] = { EXE = "Party Setup" },
 	[30] = { EXE = "Battlefield Window Position" },
 	[31] = { EXE = "Chatmode On/Off", KEY1 = 13 },
-	[32] = { EXE = "Info Display Button", KEY1 = 192, KEY2 = 18 }
+	[32] = { EXE = "Info Display Button", KEY1 = 192, KEY2 = 18 },
+	[33] = { EXE = "파티 모집 창" },
+	[34] = { EXE = "파티 부킹 리스트 창" }
 }
 HOTKEY_3 = {
 	[0] = { EXE = "Emote 1", KEY1 = 49, KEY2 = 18 },
@@ -273,21 +275,17 @@ GetBeHaviorOfWindow = function(winID)
 	end
 end
 
-function GetNullHotKeyInfo ()
-	return 0,0,toStr(""),toStr("")
-end
-
 GetHotKeyInfo = function(tableName, idx)
 	element = _G[tableName]
 	if element ~= nil then
 		v = element[idx]
 		if v == nil or v == "NULL" then
-			return GetNullHotKeyInfo()
+			return 0,0,toStr(""),toStr("")
 		else
 			return toInt(v["KEY1"]), toInt(v["KEY2"]), toStr(GetKeyDes(v["KEY1"],v["KEY2"])), toStr(v["EXE"])
 		end
 	else
-		return GetNullHotKeyInfo()
+		return 0,0,toStr(""),toStr("")
 	end
 end
 
@@ -399,14 +397,14 @@ ResetTheHotKey  = function(tabNum, idx, inKey1, inKey2)
 	end
 end
 
-function SaveUserHotKeys ()
-	saveFile = io.open("data\\UserKeys.lua","w")
+SaveUserHotKeys = function(saveFileName)
+	saveFile = io.open(saveFileName,"w")
 	if saveFile ~= nil then
 		tabNum = 1
 		while tabNum <= 3 do
 			userTable = _G[string.format("USERKEY_%d", tabNum)]
 			if userTable ~= nil then
-				saveFile:write(string.format("USERKEY_%d = {\r\n", tabNum))
+				saveFile:write(string.format("USERKEY_%d = {\n", tabNum))
 				idx = 0
 				key1,key2,keyDes,behaviorDes = GetUserHotKeyInfo(tabNum, idx)
 				tableLen = GetOriginalHotKeyListSize(tabNum)
@@ -419,12 +417,12 @@ function SaveUserHotKeys ()
 						if key2 ~= 0 then
 							saveFile:write(string.format(", KEY2 = %d", key2))
 						end
-						saveFile:write(" },\r\n")
+						saveFile:write(" },\n")
 					end
 				idx = idx + 1
 				key1,key2,keyDes,behaviorDes = GetUserHotKeyInfo(tabNum, idx)
 				end
-			saveFile:write("}\r\n\r\n")
+			saveFile:write("}\n\n")
 			end
 		tabNum = tabNum + 1
 		end
