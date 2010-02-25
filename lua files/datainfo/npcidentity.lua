@@ -1599,5 +1599,6 @@ jobtbl = {
 	["JT_4_F_JP_NOAH"] = 501,
 	["JT_4_F_JP_OZ"] = 502,
 	["JT_4_F_JP_CHROME"] = 503,
-	["JT_4_F_JP_RINNE"] = 504
+	["JT_4_F_JP_RINNE"] = 504,
+	["JT_4_WHITETIGER"] = 505
 }

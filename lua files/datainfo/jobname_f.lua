@@ -2,7 +2,7 @@ ReqJobName = function(index)
    if JobNameTable[index] == nil then
       return ""
    end
-   local NameMsg = JobNameTable[index].name
+   local NameMsg = JobNameTable[index]
    if NameMsg ~= nil then
       return NameMsg
    else
