@@ -1,3 +1,6 @@
+rev7 - 
+ - Added luac5.0.2.exe to compile your lua (not really needed but still some wants it to be compiled)
+
 rev6 - [2010-02-24]
  - Added lua files/datainfo/accessoryid.lua = viewids of headgears
  - Added lua files/datainfo/accname.lua = sprite names of headgears
