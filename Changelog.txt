@@ -1,3 +1,9 @@
+rev6 - [2010-02-24]
+ - Added lua files/datainfo/accessoryid.lua = viewids of headgears
+ - Added lua files/datainfo/accname.lua = sprite names of headgears
+ - Added lua files/datainfo/accname_f.lua = function that connects those 2 tables
+ - Added a packaged translated compiled lub files for this update.
+ 
 rev5 - [2010-02-17]
  - Updated /lua files/datainfo/* files to add the latest npc JT_4_WHITETIGER
  - kRO changed the structure of those files
@@ -5,7 +11,7 @@ rev5 - [2010-02-17]
 
 rev4 - [2010-02-10]
  - Updated 2010-02-10 hotkey.lua
- - Added 2009-12-23+ translated compiled lub files for clients from 2009-12-23 to 2010-02-10 [moved from rev2 forgot to commit]
+ - Added 2009-12-23+ translated compiled lub files for clients from 2009-12-23 to 2010-02-03 [moved from rev2 forgot to commit]
  - Added 2010-02-10 translated compiled lub files for client 2010-02-10
 
 rev3 - [2010-02-03]
