@@ -1,3 +1,13 @@
+rev9 - [2010-03-03]
+ - Updated skilltreeview.lua, skillinfo_f.lua, accname.lua and accessoryid.lua
+ - Gravity changed the structure of skilltreeview and fixed some skills with reject sword and gnome skills
+   but i still see 1 mistake which is GN_SPORE_EXPLOSION has max level of 25 but ill stay using that value
+   its up to you to change it
+ - Skillinfo_f.lua has added some checks/functions for the new structure
+ - accname.lua and accessoryid.lua added new headgears called Sloth Hat, Duneyrr Helm and Golden Angel
+   not sure why those new headgears are not in the same numbers
+ - Added 2010-03-03 translated compiled lub files for client 2010-03-03
+
 rev7~8 - 
  - Added luac5.0.2.exe to compile your lua (not really needed but still some wants it to be compiled)
 

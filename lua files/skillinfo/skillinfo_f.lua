@@ -12,20 +12,6 @@ GetInheritJob = function(job)
    return i
 end
 
-GetSkillInfoInLua = function(jobID, index)
-   local skillInfo = NEED_SKILLLIST_FOR_JOB[jobID]
-   if skillInfo ~= nil then
-      skillInfo = NEED_SKILLLIST_FOR_JOB[jobID][index]
-   else
-      return "", -1, -1, -1
-   end
-   if skillInfo ~= nil then
-      return skillInfo[1], skillInfo.Pos, skillInfo.MaxLv, getTableSize(skillInfo.NeedSkillList)
-   else
-      return "", -1, -1, -1
-   end
-end
-
 GetNeedSkillPosInLua = function(jobID, index, indx)
    local needSkillInfo = NEED_SKILLLIST_FOR_JOB[jobID]
    if needSkillInfo ~= nil then
@@ -46,3 +32,14 @@ GetNeedSkillPosInLua = function(jobID, index, indx)
    end
    return -1
 end
+
+InitSkillTreeView = function(jobID, arrayNum)
+   local skillList = NEED_SKILLLIST_FOR_JOB[jobID]
+   if skillList ~= nil then
+      for idx, skillInfo in pairs(skillList) do
+         c_AddSkillList(jobID, arrayNum, idx, skillInfo[1], skillInfo.Pos, skillInfo.MaxLv, getTableSize(skillInfo.NeedSkillList))
+      end
+   end
+end
+
+
