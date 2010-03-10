@@ -842,7 +842,7 @@ NEED_SKILLLIST_FOR_JOB = {
 		{"GN_HELLS_PLANT", 2490; Pos = 17, MaxLv = 5, NeedSkillList = {10}},
 		{"GN_DEMONIC_FIRE", 2485; Pos = 18, MaxLv = 5, NeedSkillList = {11}},
 		{"GN_CARTCANNON", 2477; Pos = 19, MaxLv = 5, NeedSkillList = {5}},
-		{"GN_CRAZYWEED", 2483; Pos = 23, MaxLv = 5, NeedSkillList = {16}},
+		{"GN_CRAZYWEED", 2483; Pos = 23, MaxLv = 10, NeedSkillList = {16}},
 		{"GN_MANDRAGORA", 2492; Pos = 24, MaxLv = 5, NeedSkillList = {17}},
 		{"GN_FIRE_EXPANSION", 2486; Pos = 25, MaxLv = 5, NeedSkillList = {18}},
 		{"GN_CARTBOOST", 2478; Pos = 26, MaxLv = 5, NeedSkillList = {5}}

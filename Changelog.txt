@@ -1,3 +1,9 @@
+rev10 - [2010-03-10]
+ - Updated Skilltreeview.lua
+ - Added Optioninfo.lua and Optioninfo_f.lua [not yet translated will be translated on next revision]
+ - Added an "incomplete" party_booking.lua this might take a while before i can finish it kRO used a weird structure for this lub file
+ * Once done ill be add 2010-03-10 lub files in the download section
+
 rev9 - [2010-03-03]
  - Updated skilltreeview.lua, skillinfo_f.lua, accname.lua and accessoryid.lua
  - Gravity changed the structure of skilltreeview and fixed some skills with reject sword and gnome skills
