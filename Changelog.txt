@@ -1,3 +1,7 @@
+rev11 - [2010-03-11]
+ - Translated Optioninfo.lua to English
+ - Updated and Translated party_booking.lua to English but still incomplete
+
 rev10 - [2010-03-10]
  - Updated Skilltreeview.lua
  - Added Optioninfo.lua and Optioninfo_f.lua [not yet translated will be translated on next revision]
