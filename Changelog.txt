@@ -1,3 +1,9 @@
+rev12 - [2010-03-13]
+ - Fixed wrong info showed when /ex is highlighted in Option window.
+ - Translated Hotkey_2 [33] and [34]
+ - Added 2010-03-10 lub files v1. 
+   v1 doesnt include party_booking.lub files eathena doesnt have this feature so no need to hurry and it's hard to decompile.
+
 rev11 - [2010-03-11]
  - Translated Optioninfo.lua to English
  - Updated and Translated party_booking.lua to English but still incomplete

@@ -191,8 +191,8 @@ HOTKEY_2 = {
 	[30] = { EXE = "Battlefield Window Position" },
 	[31] = { EXE = "Chatmode On/Off", KEY1 = 13 },
 	[32] = { EXE = "Info Display Button", KEY1 = 192, KEY2 = 18 },
-	[33] = { EXE = "파티 모집 창" },
-	[34] = { EXE = "파티 부킹 리스트 창" }
+	[33] = { EXE = "Party Recruit Window" },
+	[34] = { EXE = "Party Booking Window" }
 }
 HOTKEY_3 = {
 	[0] = { EXE = "Emote 1", KEY1 = 49, KEY2 = 18 },
