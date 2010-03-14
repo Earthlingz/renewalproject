@@ -1,3 +1,8 @@
+rev13 - [2010-03-15]
+ - Added kRO update new headgear from data.grf that is not in rdata.grf
+ - Fixed party_booking.lua wrong table structure on map list
+ * still not done decompiling yet.
+
 rev12 - [2010-03-13]
  - Fixed wrong info showed when /ex is highlighted in Option window.
  - Translated Hotkey_2 [33] and [34]
