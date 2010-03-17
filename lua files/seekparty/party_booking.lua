@@ -18,7 +18,7 @@ map_list = {
 	list = {{name = "Fields"},
 		{name = "Gypsy Village"},
 		{name = "Geffen Dungeon F1"},
-		{name = "Geffen Dungeon F2", coloR = 255, colorG = 0, colorB = 0},
+		{name = "Geffen Dungeon F2", colorR = 255, colorG = 0, colorB = 0},
 		{name = "Geffen Dungeon F3", colorR= 255, colorG = 0, colorB = 0},
 		{name = "Geffenia"},
 		{name = "Orc Village", colorR = 255, colorG = 0, colorB = 0},

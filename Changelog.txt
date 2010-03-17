@@ -1,3 +1,9 @@
+rev14 - [2010-03-17]
+ - Added stateicon_f.lua and efstids.lua
+ - Updated jobname.lua, npcidentity.lua, accessoryid.lua and accname.lub
+ - updated wndinfo.lua
+ - Updated some typo and translated english in party_booking.lua 95% done
+
 rev13 - [2010-03-15]
  - Added kRO update new headgear from data.grf that is not in rdata.grf
  - Fixed party_booking.lua wrong table structure on map list
