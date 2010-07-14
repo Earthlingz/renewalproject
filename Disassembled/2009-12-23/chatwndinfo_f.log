@@ -1,0 +1,175 @@
+R0 := closure(Function #0)
+Iter_getTable := R0
+R0 := closure(Function #1)
+Iter_getOptionValue := R0
+R0 := closure(Function #2)
+GetSubChatWndList := R0
+R0 := GetSubChatWndList
+R1 := "ChatSubWnd"
+R0(R1)
+return 
+
+
+Function #0:
+;
+Name:            
+Defined at line: 1
+#Upvalues:       0
+#Parameters:     1 (R0)
+Is_vararg:       0
+Max Stack Size:  3
+;
+Locals:
+Start PC |  End PC  | Name
+00000000 | 00000005 | tableName
+00000001 | 00000005 | i
+;
+No upvalues
+
+R1 := 0
+R2 := closure(Function #0.0,R2,R3)
+R0 := R1
+R0 := R0
+return R2
+return 
+
+
+Function #0.0:
+;
+Name:            
+Defined at line: 3
+#Upvalues:       2
+#Parameters:     0
+Is_vararg:       0
+Max Stack Size:  6
+;
+No locals information
+Upvalues:
+;
+
+R0 := U0
+R0 := R0 + 1
+U0 := 0
+R0 := U0
+R1 := _G
+R2 := string
+R2 := R2["format"]
+R3 := "%s_%d"
+R4 := U1
+R5 := U0
+R2 := R2(R3,R4,R5)
+R1 := R1[R2]
+return R0,R1
+return 
+
+
+Function #1:
+;
+Name:            
+Defined at line: 9
+#Upvalues:       0
+#Parameters:     1 (R0)
+Is_vararg:       0
+Max Stack Size:  3
+;
+Locals:
+Start PC |  End PC  | Name
+00000000 | 00000005 | element
+00000001 | 00000005 | i
+;
+No upvalues
+
+R1 := 0
+R2 := closure(Function #1.0,R2,R3)
+R0 := R1
+R0 := R0
+return R2
+return 
+
+
+Function #1.0:
+;
+Name:            
+Defined at line: 11
+#Upvalues:       2
+#Parameters:     0
+Is_vararg:       0
+Max Stack Size:  5
+;
+No locals information
+Upvalues:
+;
+
+R0 := U0
+R0 := R0 + 1
+U0 := 0
+R0 := U0
+R1 := U1
+R2 := string
+R2 := R2["format"]
+R3 := "option%d"
+R4 := U0
+R2 := R2(R3,R4)
+R1 := R1[R2]
+return R0,R1
+return 
+
+
+Function #2:
+;
+Name:            
+Defined at line: 17
+#Upvalues:       0
+#Parameters:     1 (R0)
+Is_vararg:       0
+Max Stack Size:  14
+;
+Locals:
+Start PC |  End PC  | Name
+00000000 | 00000022 | tableName
+00000004 | 00000022 | (for generator)
+00000004 | 00000022 | (for state)
+00000004 | 00000022 | idx
+00000004 | 00000022 | v
+00000014 | 00000020 | (for generator)
+00000014 | 00000020 | (for state)
+00000014 | 00000020 | i
+00000014 | 00000020 | v2
+;
+No upvalues
+
+R1 := Iter_getTable
+R2 := R0
+R1,R2,R3,R4 := R1(R2)
+end
+if R4 != nil then PC := 8
+  6 [19]: JMP       8
+return 
+R5 := SetSubChatWndList
+R6 := R4["TabState"]
+R7 := R4["TabName"]
+R8 := R4["XPos"]
+R9 := R4["YPos"]
+R10 := R4["Width"]
+R11 := R4["Height"]
+R5 := R5(R6,R7,R8,R9,R10,R11)
+index := R5
+R5 := Iter_getOptionValue
+R6 := R4
+R5,R6,R7,R8 := R5(R6)
+end
+if R8 == nil then PC := 33
+ 22 [26]: JMP       33
+R9 := SetSubChatWndOption
+R10 := R4["TabState"]
+R11 := index
+R12 := R7
+R13 := R8
+R9(R10,R11,R12,R13)
+PC := 31
+PC := 33
+if R7 ~= nil then PC = 21
+ 32 [30]: JMP       21
+if R3 ~= nil then PC = 5
+ 34 [31]: JMP       5
+return 

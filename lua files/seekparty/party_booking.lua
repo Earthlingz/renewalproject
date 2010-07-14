@@ -344,46 +344,56 @@ getMapIterator = function(regionId)
 end
 
 makeMapList()
---Lines Below is my next work.. functions are done so few more lines to go :)
---code below are wrong codes
 print("[All Output Data Structure]")
 regionIterator = getRegionIterator()
-if not regionIterator.hasNext() 
-		or not mapIterator.hasNext() then
-			region = regionIterator.value()
-			print(region["id"],region["name"])
-			mapIterator = getMapIterator(region["id"])
-			map = mapIterator.value()
-			print("\t",queryMapInfo(region.id,map.id))
+while regionIterator.hasNext() do
+	region = regionIterator.value()
+	print(region["id"],region["name"])
+	mapIterator = getMapIterator(region["id"])
+	while mapIterator.hasNext() do
+		map = mapIterator.value()
+		print("\t",queryMapInfo(region.id,map.id))
+	end
 end
+
 print("\n[Local Data Search]")
-
-
---[[
---Ignore this line below
-ShowUpdateNowConfirmationDialog = function(l_2_0)
-if EasterEggRunning == true then
-return
+regionIterator = getRegionIterator()
+while regionIterator.hasNext() do
+	region = regionIterator.value()
+	print(region.id,region.name)
 end
-if navigatingOut == true then
-return
-end
-local l_2_1 = URL("Manila://Confirmation.dialog")
-l_2_1.Parameters:AddParameter("Title", Locale:GetString("IDS_YOU_ARE_ROAMING"))
-l_2_1.Parameters:AddParameter("ContentString", Locale:GetString("IDS_UPDATE_NOW_DLG_MSG"))
-local l_2_2 = _application.DialogManager:GetDialog(l_2_1)
--- internal function below this line
-l_2_2.OnExit:connect(function(l_1_0)
-OnShowUpdateNowConfirmationDialogReturned(l_1_0, l_2_0)
-end)
-l_2_2:Show()
-end
---]]
---[[
-makeMapList()
-print["All Output Data Structure"]
-getRegionIterator()
 
-Incomplete working on it.
-5 Functions left and it's done.
---]]
+print("\n[Map Data Search]")
+mapIterator = getMapIterator(2)
+while mapIterator.hasNext() do
+	map = mapIterator.value()
+	print(map.id,map.name)
+end
+
+print("\n[Regional Data Information Request]")
+print(queryRegionInfo(2))
+_,_,mapIterator,_ = queryRegionInfo(2)
+while mapIterator.hasNext() do
+	map = mapIterator.value()
+	print(map.id,map.name)
+end
+
+print("\n[Map Data Information Request]")
+print(queryMapInfo(2,1))
+PartyBookingHelp = {
+	"/recruit: Brings up the Recruitment Party window.",
+	"/booking: Brings up the Party Application List window.", --or Brings up the Party Booking List window
+	"/organize \"Party Name\": Creates a party.",
+	"/invite \"Character Name\": Invite the specific character to the party."
+}
+GetPartyBookingHelp = function()
+	local descript = ""
+	local obj = PartyBookingHelp
+	if obj ~= nil then
+		for i,v in pairs(obj) do
+			descript = descript .. v
+			descript = descript .. "\r\n"
+		end
+	end
+	return descript
+end

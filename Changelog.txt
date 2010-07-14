@@ -1,3 +1,7 @@
+rev15 - [2010-07-17]
+ - Added updates from http://svn6.assembla.com/svn/ClientSide/
+ - Added disassembled lub files (by date)
+
 rev14 - [2010-03-17]
  - Added stateicon_f.lua and efstids.lua
  - Updated jobname.lua, npcidentity.lua, accessoryid.lua and accname.lub

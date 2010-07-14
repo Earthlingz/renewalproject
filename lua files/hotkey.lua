@@ -120,122 +120,125 @@ KEYNAME = {
 	[222] = "'",
 }
 HOTKEY_1 = {
-	[0] = { EXE = "Hotkey 1-1", KEY1 = 112 },
-	[1] = { EXE = "Hotkey 1-2", KEY1 = 113 },
-	[2] = { EXE = "Hotkey 1-3", KEY1 = 114 },
-	[3] = { EXE = "Hotkey 1-4", KEY1 = 115 },
-	[4] = { EXE = "Hotkey 1-5", KEY1 = 116 },
-	[5] = { EXE = "Hotkey 1-6", KEY1 = 117 },
-	[6] = { EXE = "Hotkey 1-7", KEY1 = 118 },
-	[7] = { EXE = "Hotkey 1-8", KEY1 = 119 },
-	[8] = { EXE = "Hotkey 1-9", KEY1 = 120 },
-	[9] = { EXE = "Hotkey 2-1" },
-	[10] = { EXE = "Hotkey 2-2" },
-	[11] = { EXE = "Hotkey 2-3" },
-	[12] = { EXE = "Hotkey 2-4" },
-	[13] = { EXE = "Hotkey 2-5" },
-	[14] = { EXE = "Hotkey 2-6" },
-	[15] = { EXE = "Hotkey 2-7" },
-	[16] = { EXE = "Hotkey 2-8" },
-	[17] = { EXE = "Hotkey 2-9" },
-	[18] = { EXE = "Hotkey 3-1" },
-	[19] = { EXE = "Hotkey 3-2" },
-	[20] = { EXE = "Hotkey 3-3" },
-	[21] = { EXE = "Hotkey 3-4" },
-	[22] = { EXE = "Hotkey 3-5" },
-	[23] = { EXE = "Hotkey 3-6" },
-	[24] = { EXE = "Hotkey 3-7" },
-	[25] = { EXE = "Hotkey 3-8" },
-	[26] = { EXE = "Hotkey 3-9" },
-	[27] = { EXE = "Hotkey 4-1" },
-	[28] = { EXE = "Hotkey 4-2" },
-	[29] = { EXE = "Hotkey 4-3" },
-	[30] = { EXE = "Hotkey 4-4" },
-	[31] = { EXE = "Hotkey 4-5" },
-	[32] = { EXE = "Hotkey 4-6" },
-	[33] = { EXE = "Hotkey 4-7" },
-	[34] = { EXE = "Hotkey 4-8" },
-	[35] = { EXE = "Hotkey 4-9" }
+	[0] = { EXE = MsgStrID.MSI_HK_SKILLBAR1_1, KEY1 = 112 },
+	[1] = { EXE = MsgStrID.MSI_HK_SKILLBAR1_2, KEY1 = 113 },
+	[2] = { EXE = MsgStrID.MSI_HK_SKILLBAR1_3, KEY1 = 114 },
+	[3] = { EXE = MsgStrID.MSI_HK_SKILLBAR1_4, KEY1 = 115 },
+	[4] = { EXE = MsgStrID.MSI_HK_SKILLBAR1_5, KEY1 = 116 },
+	[5] = { EXE = MsgStrID.MSI_HK_SKILLBAR1_6, KEY1 = 117 },
+	[6] = { EXE = MsgStrID.MSI_HK_SKILLBAR1_7, KEY1 = 118 },
+	[7] = { EXE = MsgStrID.MSI_HK_SKILLBAR1_8, KEY1 = 119 },
+	[8] = { EXE = MsgStrID.MSI_HK_SKILLBAR1_9, KEY1 = 120 },
+	[9] = { EXE = MsgStrID.MSI_HK_SKILLBAR2_1 },
+	[10] = { EXE = MsgStrID.MSI_HK_SKILLBAR2_2 },
+	[11] = { EXE = MsgStrID.MSI_HK_SKILLBAR2_3 },
+	[12] = { EXE = MsgStrID.MSI_HK_SKILLBAR2_4 },
+	[13] = { EXE = MsgStrID.MSI_HK_SKILLBAR2_5 },
+	[14] = { EXE = MsgStrID.MSI_HK_SKILLBAR2_6 },
+	[15] = { EXE = MsgStrID.MSI_HK_SKILLBAR2_7 },
+	[16] = { EXE = MsgStrID.MSI_HK_SKILLBAR2_8 },
+	[17] = { EXE = MsgStrID.MSI_HK_SKILLBAR2_9 },
+	[18] = { EXE = MsgStrID.MSI_HK_SKILLBAR3_1 },
+	[19] = { EXE = MsgStrID.MSI_HK_SKILLBAR3_2 },
+	[20] = { EXE = MsgStrID.MSI_HK_SKILLBAR3_3 },
+	[21] = { EXE = MsgStrID.MSI_HK_SKILLBAR3_4 },
+	[22] = { EXE = MsgStrID.MSI_HK_SKILLBAR3_5 },
+	[23] = { EXE = MsgStrID.MSI_HK_SKILLBAR3_6 },
+	[24] = { EXE = MsgStrID.MSI_HK_SKILLBAR3_7 },
+	[25] = { EXE = MsgStrID.MSI_HK_SKILLBAR3_8 },
+	[26] = { EXE = MsgStrID.MSI_HK_SKILLBAR3_9 },
+	[27] = { EXE = MsgStrID.MSI_HK_SKILLBAR4_1 },
+	[28] = { EXE = MsgStrID.MSI_HK_SKILLBAR4_2 },
+	[29] = { EXE = MsgStrID.MSI_HK_SKILLBAR4_3 },
+	[30] = { EXE = MsgStrID.MSI_HK_SKILLBAR4_4 },
+	[31] = { EXE = MsgStrID.MSI_HK_SKILLBAR4_5 },
+	[32] = { EXE = MsgStrID.MSI_HK_SKILLBAR4_6 },
+	[33] = { EXE = MsgStrID.MSI_HK_SKILLBAR4_7 },
+	[34] = { EXE = MsgStrID.MSI_HK_SKILLBAR4_8 },
+	[35] = { EXE = MsgStrID.MSI_HK_SKILLBAR4_9 }
 }
 HOTKEY_2 = {
-	[0] = { EXE = "Basic Information", KEY1 = 86, KEY2 = 18 },
-	[1] = { EXE = "Equipment/Status", KEY1 = 81, KEY2 = 18 },
-	[2] = { EXE = "Skills", KEY1 = 83, KEY2 = 18 },
-	[3] = { EXE = "Quest Log", KEY1 = 85, KEY2 = 18 },
-	[4] = { EXE = "Friends List", KEY1 = 72, KEY2 = 18 },
-	[5] = { EXE = "Party List", KEY1 = 90, KEY2 = 18 },
-	[6] = { EXE = "Chatroom", KEY1 = 67, KEY2 = 18 },
-	[7] = { EXE = "View Cart", KEY1 = 87, KEY2 = 18 },
-	[8] = { EXE = "World Map", KEY1 = 192, KEY2 = 17 },
-	[9] = { EXE = "Inventory", KEY1 = 69, KEY2 = 18 },
-	[10] = { EXE = "Guild Options", KEY1 = 71, KEY2 = 18 },
-	[11] = { EXE = "Emotion Icon List", KEY1 = 76, KEY2 = 18 },
-	[12] = { EXE = "Sit/Stand", KEY1 = 45 },
-	[13] = { EXE = "Mini-Map", KEY1 = 9, KEY2 = 17 },
-	[14] = { EXE = "Shortcuts List", KEY1 = 77, KEY2 = 18 },
-	[15] = { EXE = "Commands List", KEY1 = 89, KEY2 = 18 },
-	[16] = { EXE = "Close Tabs", KEY1 = 122 },
-	[17] = { EXE = "Hotkeys Bar", KEY1 = 123 },
-	[18] = { EXE = "Chatting Tab", KEY1 = 121, KEY2 = 18 },
-	[19] = { EXE = "Re-size Chatting Tab", KEY1 = 121 },
-	[20] = { EXE = "View HP/SP Status", KEY1 = 35, KEY2 = 18 },
-	[21] = { EXE = "Screenshot", KEY1 = 44 },
-	[22] = { EXE = "Memorial Dungeon", KEY1 = 66, KEY2 = 18 },
-	[23] = { EXE = "Pet Information", KEY1 = 74, KEY2 = 18 },
-	[24] = { EXE = "Homunculus Info.", KEY1 = 82, KEY2 = 18 },
-	[25] = { EXE = "Mercenary Info.", KEY1 = 82, KEY2 = 17 },
-	[26] = { EXE = "Homun. Command", KEY1 = 84, KEY2 = 18 },
-	[27] = { EXE = "Merc. Command", KEY1 = 84, KEY2 = 17 },
-	[28] = { EXE = "Friend Setup" },
-	[29] = { EXE = "Party Setup" },
-	[30] = { EXE = "Battlefield Window Position" },
-	[31] = { EXE = "Chatmode On/Off", KEY1 = 13 },
-	[32] = { EXE = "Info Display Button", KEY1 = 192, KEY2 = 18 },
-	[33] = { EXE = "Party Recruit Window" },
-	[34] = { EXE = "Party Booking Window" }
+	[0] = { EXE = MsgStrID.MSI_HK_BASICINFOWND_MINI, KEY1 = 86, KEY2 = 18 },
+	[1] = { EXE = MsgStrID.MSI_HK_EQUIPWND_ONOFF, KEY1 = 81, KEY2 = 18 },
+	[2] = { EXE = MsgStrID.MSI_HK_SKILLWND_ONOFF, KEY1 = 83, KEY2 = 18 },
+	[3] = { EXE = MsgStrID.MSI_HK_QUESTWND_ONOFF, KEY1 = 85, KEY2 = 18 },
+	[4] = { EXE = MsgStrID.MSI_HK_FRIENDWND_ONOFF, KEY1 = 72, KEY2 = 18 },
+	[5] = { EXE = MsgStrID.MSI_HK_PARTYWND_ONOFF, KEY1 = 90, KEY2 = 18 },
+	[6] = { EXE = MsgStrID.MSI_HK_CHATWND_MAKE, KEY1 = 67, KEY2 = 18 },
+	[7] = { EXE = MsgStrID.MSI_HK_CARTWND_ONOFF, KEY1 = 87, KEY2 = 18 },
+	[8] = { EXE = MsgStrID.MSI_HK_MAPWND_ONOFF, KEY1 = 192, KEY2 = 17 },
+	[9] = { EXE = MsgStrID.MSI_HK_ITEMWND_ONOFF, KEY1 = 69, KEY2 = 18 },
+	[10] = { EXE = MsgStrID.MSI_HK_GUILDWND_ONOFF, KEY1 = 71, KEY2 = 18 },
+	[11] = { EXE = MsgStrID.MSI_HK_EMOTIONWND_ONOFF, KEY1 = 76, KEY2 = 18 },
+	[12] = { EXE = MsgStrID.MSI_HK_SITORSTAND, KEY1 = 45 },
+	[13] = { EXE = MsgStrID.MSI_HK_MINIMAP_ONOFF, KEY1 = 9, KEY2 = 17 },
+	[14] = { EXE = MsgStrID.MSI_HK_MACROWND_ONOFF, KEY1 = 77, KEY2 = 18 },
+	[15] = { EXE = MsgStrID.MSI_HK_EXEWND_ONOFF, KEY1 = 89, KEY2 = 18 },
+	[16] = { EXE = MsgStrID.MSI_HK_ALLWND_OFF, KEY1 = 122 },
+	[17] = { EXE = MsgStrID.MSI_HK_SKILLBAR_ONOFF, KEY1 = 123 },
+	[18] = { EXE = MsgStrID.MSI_HK_CHATWND_ONOFF, KEY1 = 121, KEY2 = 18 },
+	[19] = { EXE = MsgStrID.MSI_HK_CHATWND_ZOOM, KEY1 = 121 },
+	[20] = { EXE = MsgStrID.MSI_HK_GAGE_ONOFF, KEY1 = 35, KEY2 = 18 },
+	[21] = { EXE = MsgStrID.MSI_HK_SNAPSHOT, KEY1 = 44 },
+	[22] = { EXE = MsgStrID.MSI_HK_MEMORIALWND_ONOFF, KEY1 = 66, KEY2 = 18 },
+	[23] = { EXE = MsgStrID.MSI_HK_PETWND_ONOFF, KEY1 = 74, KEY2 = 18 },
+	[24] = { EXE = MsgStrID.MSI_HK_HOMUNWND_ONOFF, KEY1 = 82, KEY2 = 18 },
+	[25] = { EXE = MsgStrID.MSI_HK_MERWND_ONOFF, KEY1 = 82, KEY2 = 17 },
+	[26] = { EXE = MsgStrID.MSI_HK_HOMUN_FOLLOW, KEY1 = 84, KEY2 = 18 },
+	[27] = { EXE = MsgStrID.MSI_HK_MER_FOLLOW, KEY1 = 84, KEY2 = 17 },
+	[28] = { EXE = MsgStrID.MSI_HK_FRIEND_OPTIONWND },
+	[29] = { EXE = MsgStrID.MSI_HK_PARTY_OPTIONWND },
+	[30] = { EXE = MsgStrID.MSI_HK_BATTLEFIELDWND },
+	[31] = { EXE = MsgStrID.MSI_HK_CHATMODE_ONOFF, KEY1 = 13 },
+	[32] = { EXE = MsgStrID.MSI_HK_BASICINFOWND_BTN_ONOFF, KEY1 = 192, KEY2 = 18 },
+	[33] = { EXE = MsgStrID.MSI_HK_PARTY_RECRUIT },
+	[34] = { EXE = MsgStrID.MSI_HK_PARTY_BOOKING_LIST }, -- they changed it to "Party Recruitment List Window" but its too long to fit in hotkey window
+	[35] = { EXE = MsgStrID.MSI_HK_GROUND_CURSOR_ONOFF, KEY1 = 36, KEY2 = 18 }
 }
 HOTKEY_3 = {
-	[0] = { EXE = "Emote 1", KEY1 = 49, KEY2 = 18 },
-	[1] = { EXE = "Emote 2", KEY1 = 50, KEY2 = 18 },
-	[2] = { EXE = "Emote 3", KEY1 = 51, KEY2 = 18 },
-	[3] = { EXE = "Emote 4", KEY1 = 52, KEY2 = 18 },
-	[4] = { EXE = "Emote 5", KEY1 = 53, KEY2 = 18 },
-	[5] = { EXE = "Emote 6", KEY1 = 54, KEY2 = 18 },
-	[6] = { EXE = "Emote 7", KEY1 = 55, KEY2 = 18 },
-	[7] = { EXE = "Emote 8", KEY1 = 56, KEY2 = 18 },
-	[8] = { EXE = "Emote 9", KEY1 = 57, KEY2 = 18 },
-	[9] = { EXE = "Emote 10", KEY1 = 48, KEY2 = 18 },
-	[10] = { EXE = "Flag 1", KEY1 = 49, KEY2 = 17 },
-	[11] = { EXE = "Flag 2", KEY1 = 50, KEY2 = 17 },
-	[12] = { EXE = "Flag 3", KEY1 = 51, KEY2 = 17 },
-	[13] = { EXE = "Flag 4", KEY1 = 52, KEY2 = 17 },
-	[14] = { EXE = "Flag 5", KEY1 = 53, KEY2 = 17 },
-	[15] = { EXE = "Flag 6", KEY1 = 54, KEY2 = 17 },
-	[16] = { EXE = "Flag 7", KEY1 = 55, KEY2 = 17 },
-	[17] = { EXE = "Flag 8", KEY1 = 56, KEY2 = 17 },
-	[18] = { EXE = "Flag 9", KEY1 = 57, KEY2 = 17 },
-	[19] = { EXE = "Flag 10", KEY1 = 48, KEY2 = 17 }
+	[0] = { EXE = MsgStrID.MSI_HK_MACRO_1, KEY1 = 49, KEY2 = 18 },
+	[1] = { EXE = MsgStrID.MSI_HK_MACRO_2, KEY1 = 50, KEY2 = 18 },
+	[2] = { EXE = MsgStrID.MSI_HK_MACRO_3, KEY1 = 51, KEY2 = 18 },
+	[3] = { EXE = MsgStrID.MSI_HK_MACRO_4, KEY1 = 52, KEY2 = 18 },
+	[4] = { EXE = MsgStrID.MSI_HK_MACRO_5, KEY1 = 53, KEY2 = 18 },
+	[5] = { EXE = MsgStrID.MSI_HK_MACRO_6, KEY1 = 54, KEY2 = 18 },
+	[6] = { EXE = MsgStrID.MSI_HK_MACRO_7, KEY1 = 55, KEY2 = 18 },
+	[7] = { EXE = MsgStrID.MSI_HK_MACRO_8, KEY1 = 56, KEY2 = 18 },
+	[8] = { EXE = MsgStrID.MSI_HK_MACRO_9, KEY1 = 57, KEY2 = 18 },
+	[9] = { EXE = MsgStrID.MSI_HK_MACRO_10, KEY1 = 48, KEY2 = 18 },
+	[10] = { EXE = MsgStrID.MSI_HK_FLAG_1, KEY1 = 49, KEY2 = 17 },
+	[11] = { EXE = MsgStrID.MSI_HK_FLAG_2, KEY1 = 50, KEY2 = 17 },
+	[12] = { EXE = MsgStrID.MSI_HK_FLAG_3, KEY1 = 51, KEY2 = 17 },
+	[13] = { EXE = MsgStrID.MSI_HK_FLAG_4, KEY1 = 52, KEY2 = 17 },
+	[14] = { EXE = MsgStrID.MSI_HK_FLAG_5, KEY1 = 53, KEY2 = 17 },
+	[15] = { EXE = MsgStrID.MSI_HK_FLAG_6, KEY1 = 54, KEY2 = 17 },
+	[16] = { EXE = MsgStrID.MSI_HK_FLAG_7, KEY1 = 55, KEY2 = 17 },
+	[17] = { EXE = MsgStrID.MSI_HK_FLAG_8, KEY1 = 56, KEY2 = 17 },
+	[18] = { EXE = MsgStrID.MSI_HK_FLAG_9, KEY1 = 57, KEY2 = 17 },
+	[19] = { EXE = MsgStrID.MSI_HK_FLAG_10, KEY1 = 48, KEY2 = 17 }
 
 }
 BEHAVIOR_TO_WINDOWID = {
+	[0] = 0,
 	[10] = 1,
 	[37] = 2,
-	[141] = 3,
+	[134] = 3,
 	[40] = 7,
-	[147] = 8,
-	[8] = 9,
+	[140] = 8,
+	[8]= 9,
 	[59] = 10,
 	[87] = 11,
-	[14] = 86,
-	[15] = 112,
+	[86] = 14,
+	[112] = 15,
 	[36] = 17,
-	[22] = 144,
-	[23] = 88,
-	[24] = 113,
-	[132] = 25,
-	[164] = 31,
+	[137] = 22,
+	[88] = 23,
+	[113] = 24,
+	[125] = 25,
+	[157] = 31,
 }
 
+--Function #0
 GetKeyDes = function(key1, key2)
 	local keyName1 = KEYNAME[key1]
 	local keyName2 = KEYNAME[key2]
@@ -248,6 +251,7 @@ GetKeyDes = function(key1, key2)
 	end
 end
 
+--Function #1
 GetBeHaviorOfWindow = function(winID)
 	local behavior = BEHAVIOR_TO_WINDOWID[winID]
 	if behavior ~= nil then
@@ -256,7 +260,7 @@ GetBeHaviorOfWindow = function(winID)
 			local key2 = nil
 		if userTable ~= nil then
 			userTable = USERKEY_2[behavior]
-			if userTable ~= nil then
+			if userTable ~= nil and userTable ~= "NULL" then
 				key1 = userTable["KEY1"]
 				key2 = userTable["KEY2"]
 			end
@@ -275,6 +279,7 @@ GetBeHaviorOfWindow = function(winID)
 	end
 end
 
+--Function #2
 GetHotKeyInfo = function(tableName, idx)
 	element = _G[tableName]
 	if element ~= nil then
@@ -289,14 +294,17 @@ GetHotKeyInfo = function(tableName, idx)
 	end
 end
 
+--Function #3
 GetOriginalHotKeyInfo = function(tabNum, idx)
 	return GetHotKeyInfo(string.format("HOTKEY_%d", tabNum), idx)
 end
 
+--Function #4
 GetUserHotKeyInfo = function(tabNum, idx)
 	return GetHotKeyInfo(string.format("USERKEY_%d", tabNum), idx)
 end
 
+--Function #5
 GetOriginalHotKeyListSize = function(tabNum)
 	local tableSize = 0
 	table = _G[string.format("HOTKEY_%d", tabNum)]
@@ -306,6 +314,7 @@ GetOriginalHotKeyListSize = function(tabNum)
 	return tableSize
 end
 
+--Function #6
 GetHotKey = function(tabNum, idx)
 	key1,key2,des,exe = GetUserHotKeyInfo(tabNum, idx)
 	if exe == "" then
@@ -314,6 +323,7 @@ GetHotKey = function(tabNum, idx)
 	return key1,key2,des,exe
 end
 
+--Function #7
 GetBehaviorOfHotKey = function(inKey1, inKey2)
 	size = 0
 	tab = 1
@@ -322,6 +332,9 @@ GetBehaviorOfHotKey = function(inKey1, inKey2)
 		idx = 0
 		key1,key2,des,exe = GetHotKey(tab, idx)
 		while exe ~= "" do
+			if exe == MsgStrID.MSI_HK_CHATMODE_ONOFF and key1 == inKey1 then
+				return idx + size
+			end
 			if key1 == inKey1 and key2 == inKey2 then
 				return idx + size
 			end
@@ -335,6 +348,7 @@ GetBehaviorOfHotKey = function(inKey1, inKey2)
 	return -1
 end
 
+--Function #8
 ChangeUserHotKey = function(tabNum, idx, exe, key1, key2)
 	TableName = string.format("USERKEY_%d", tabNum)
 	UserKeyTable = _G[TableName]
@@ -360,6 +374,7 @@ ChangeUserHotKey = function(tabNum, idx, exe, key1, key2)
 	_G[TableName] = UserKeyTable
 end
 
+--Function #9
 GetIndexOfTheUserHotKey = function(inKey1, inKey2)
 	tab = 1
 	tableLen = GetOriginalHotKeyListSize(tab)
@@ -379,6 +394,7 @@ GetIndexOfTheUserHotKey = function(inKey1, inKey2)
 	return -1
 end
 
+--Function #10
 ResetTheHotKey  = function(tabNum, idx, inKey1, inKey2)
 	tableLen = GetOriginalHotKeyListSize(tabNum)
 	idx = idx - tableLen
@@ -397,6 +413,7 @@ ResetTheHotKey  = function(tabNum, idx, inKey1, inKey2)
 	end
 end
 
+--Function #11
 SaveUserHotKeys = function(saveFileName)
 	saveFile = io.open(saveFileName,"w")
 	if saveFile ~= nil then

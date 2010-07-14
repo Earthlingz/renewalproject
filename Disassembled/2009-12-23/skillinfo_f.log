@@ -1,0 +1,141 @@
+R0 := closure(Function #0)
+GetInheritJob := R0
+R0 := closure(Function #1)
+GetSkillInfoInLua := R0
+R0 := closure(Function #2)
+GetNeedSkillPosInLua := R0
+return 
+
+
+Function #0:
+;
+Name:            
+Defined at line: 1
+#Upvalues:       0
+#Parameters:     1 (R0)
+Is_vararg:       0
+Max Stack Size:  3
+;
+Locals:
+Start PC |  End PC  | Name
+00000000 | 00000010 | job
+00000007 | 00000010 | i
+;
+No upvalues
+
+R1 := {}
+JobInheritTable := R1
+if R0 != nil then PC := 7
+  4 [ 5]: JMP       7
+R1 := nil
+return R1
+R1 := 0
+PC := 14
+R1 := R1 + 1
+R2 := JobInheritTable
+R2[R1] := R0
+R2 := JOB_INHERIT_LIST
+R0 := R2[R0]
+if R0 != nil then PC := 9
+ 15 [10]: JMP       9
+return R1
+return 
+
+
+Function #1:
+;
+Name:            
+Defined at line: 20
+#Upvalues:       0
+#Parameters:     2 (R0, R1)
+Is_vararg:       0
+Max Stack Size:  8
+;
+Locals:
+Start PC |  End PC  | Name
+00000000 | 0000001c | jobID
+00000000 | 0000001c | index
+00000002 | 0000001c | skillInfo
+;
+No upvalues
+
+R2 := NEED_SKILLLIST_FOR_JOB
+R2 := R2[R0]
+if R2 == nil then PC := 9
+  4 [23]: JMP       9
+R3 := NEED_SKILLLIST_FOR_JOB
+R3 := R3[R0]
+R2 := R3[R1]
+PC := 14
+R3 := ""
+R4 := -1
+R5 := -1
+R6 := -1
+return R3,R4,R5,R6
+if R2 == nil then PC := 24
+ 15 [29]: JMP       24
+R3 := R2[1]
+R4 := R2["Pos"]
+R5 := R2["MaxLv"]
+R6 := getTableSize
+R7 := R2["NeedSkillList"]
+R6,... := R6(R7)
+return R3,...
+PC := 29
+R3 := ""
+R4 := -1
+R5 := -1
+R6 := -1
+return R3,R4,R5,R6
+return 
+
+
+Function #2:
+;
+Name:            
+Defined at line: 36
+#Upvalues:       0
+#Parameters:     3 (R0, R1, R2)
+Is_vararg:       0
+Max Stack Size:  5
+;
+Locals:
+Start PC |  End PC  | Name
+00000000 | 0000001e | jobID
+00000000 | 0000001e | index
+00000000 | 0000001e | indx
+00000002 | 0000001e | needSkillInfo
+;
+No upvalues
+
+R3 := NEED_SKILLLIST_FOR_JOB
+R3 := R3[R0]
+if R3 == nil then PC := 9
+  4 [39]: JMP       9
+R4 := NEED_SKILLLIST_FOR_JOB
+R4 := R4[R0]
+R3 := R4[R1]
+PC := 11
+R4 := -1
+return R4
+if R3 == nil then PC := 18
+ 12 [45]: JMP       18
+R4 := NEED_SKILLLIST_FOR_JOB
+R4 := R4[R0]
+R4 := R4[R1]
+R3 := R4["NeedSkillList"]
+PC := 20
+R4 := -1
+return R4
+if R3 != nil then PC := 24
+ 21 [51]: JMP       24
+R4 := -1
+return R4
+R4 := R3[R2]
+if R4 == nil then PC := 29
+ 26 [55]: JMP       29
+R4 := R3[R2]
+return R4
+R4 := -1
+return R4
+return 

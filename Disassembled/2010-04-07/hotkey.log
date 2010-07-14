@@ -1,0 +1,1646 @@
+R0 := {}
+R0[1] := "MB_L"
+R0[2] := "MB_R"
+R0[4] := "MB_C"
+R0[8] := "Back"
+R0[9] := "Tab"
+R0[12] := "Clear"
+R0[13] := "Return"
+R0[16] := "Shift"
+R0[17] := "Ctrl"
+R0[18] := "Alt"
+R0[19] := "Pause"
+R0[20] := "Caps"
+R0[21] := "Hangul"
+R0[25] := "Hanja"
+R0[32] := "Space"
+R0[33] := "Prior"
+R0[34] := "Next"
+R0[35] := "End"
+R0[36] := "Home"
+R0[37] := "Left"
+R0[38] := "Up"
+R0[39] := "Right"
+R0[40] := "Down"
+R0[41] := "Select"
+R0[43] := "Execute"
+R0[44] := "Snapshot"
+R0[45] := "Ins"
+R0[46] := "Del"
+R0[47] := "Help"
+R0[48] := "0"
+R0[49] := "1"
+R0[50] := "2"
+R0[51] := "3"
+R0[52] := "4"
+R0[53] := "5"
+R0[54] := "6"
+R0[55] := "7"
+R0[56] := "8"
+R0[57] := "9"
+R0[65] := "A"
+R0[66] := "B"
+R0[67] := "C"
+R0[68] := "D"
+R0[69] := "E"
+R0[70] := "F"
+R0[71] := "G"
+R0[72] := "H"
+R0[73] := "I"
+R0[74] := "J"
+R0[75] := "K"
+R0[76] := "L"
+R0[77] := "M"
+R0[78] := "N"
+R0[79] := "O"
+R0[80] := "P"
+R0[81] := "Q"
+R0[82] := "R"
+R0[83] := "S"
+R0[84] := "T"
+R0[85] := "U"
+R0[86] := "V"
+R0[87] := "W"
+R0[88] := "X"
+R0[89] := "Y"
+R0[90] := "Z"
+R0[93] := "Apps"
+R0[96] := "Num_0"
+R0[97] := "Num_1"
+R0[98] := "Num_2"
+R0[99] := "Num_3"
+R0[100] := "Num_4"
+R0[101] := "Num_5"
+R0[102] := "Num_6"
+R0[103] := "Num_7"
+R0[104] := "Num_8"
+R0[105] := "Num_9"
+R0[106] := "Multiply"
+R0[107] := "Add"
+R0[108] := "Sep"
+R0[109] := "Sub"
+R0[110] := "Decimal"
+R0[111] := "Devide"
+R0[112] := "F1"
+R0[113] := "F2"
+R0[114] := "F3"
+R0[115] := "F4"
+R0[116] := "F5"
+R0[117] := "F6"
+R0[118] := "F7"
+R0[119] := "F8"
+R0[120] := "F9"
+R0[121] := "F10"
+R0[122] := "F11"
+R0[123] := "F12"
+R0[124] := "F13"
+R0[125] := "F14"
+R0[126] := "F15"
+R0[127] := "F16"
+R0[128] := "F17"
+R0[129] := "F18"
+R0[130] := "F19"
+R0[131] := "F20"
+R0[132] := "F21"
+R0[133] := "F22"
+R0[134] := "F23"
+R0[135] := "F24"
+R0[144] := "Num"
+R0[145] := "Scroll"
+R0[186] := ";"
+R0[187] := "="
+R0[188] := ","
+R0[189] := "-"
+R0[190] := "."
+R0[191] := "/"
+R0[192] := "`"
+R0[219] := "["
+R0[220] := "\\"
+R0[221] := "]"
+R0[222] := "\'"
+KEYNAME := R0
+R0 := {}
+R1 := {}
+R2 := MsgStrID
+R2 := R2["MSI_HK_SKILLBAR1_1"]
+R1["EXE"] := R2
+R1["KEY1"] := 112
+R0[0] := R1
+R1 := {}
+R2 := MsgStrID
+R2 := R2["MSI_HK_SKILLBAR1_2"]
+R1["EXE"] := R2
+R1["KEY1"] := 113
+R0[1] := R1
+R1 := {}
+R2 := MsgStrID
+R2 := R2["MSI_HK_SKILLBAR1_3"]
+R1["EXE"] := R2
+R1["KEY1"] := 114
+R0[2] := R1
+R1 := {}
+R2 := MsgStrID
+R2 := R2["MSI_HK_SKILLBAR1_4"]
+R1["EXE"] := R2
+R1["KEY1"] := 115
+R0[3] := R1
+R1 := {}
+R2 := MsgStrID
+R2 := R2["MSI_HK_SKILLBAR1_5"]
+R1["EXE"] := R2
+R1["KEY1"] := 116
+R0[4] := R1
+R1 := {}
+R2 := MsgStrID
+R2 := R2["MSI_HK_SKILLBAR1_6"]
+R1["EXE"] := R2
+R1["KEY1"] := 117
+R0[5] := R1
+R1 := {}
+R2 := MsgStrID
+R2 := R2["MSI_HK_SKILLBAR1_7"]
+R1["EXE"] := R2
+R1["KEY1"] := 118
+R0[6] := R1
+R1 := {}
+R2 := MsgStrID
+R2 := R2["MSI_HK_SKILLBAR1_8"]
+R1["EXE"] := R2
+R1["KEY1"] := 119
+R0[7] := R1
+R1 := {}
+R2 := MsgStrID
+R2 := R2["MSI_HK_SKILLBAR1_9"]
+R1["EXE"] := R2
+R1["KEY1"] := 120
+R0[8] := R1
+R1 := {}
+R2 := MsgStrID
+R2 := R2["MSI_HK_SKILLBAR2_1"]
+R1["EXE"] := R2
+R0[9] := R1
+R1 := {}
+R2 := MsgStrID
+R2 := R2["MSI_HK_SKILLBAR2_2"]
+R1["EXE"] := R2
+R0[10] := R1
+R1 := {}
+R2 := MsgStrID
+R2 := R2["MSI_HK_SKILLBAR2_3"]
+R1["EXE"] := R2
+R0[11] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_SKILLBAR2_4"
+R2 := R2[R3]
+R1["EXE"] := R2
+R0[12] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_SKILLBAR2_5"
+R2 := R2[R3]
+R1["EXE"] := R2
+R0[13] := R1
+R1 := 14
+R2 := {}
+R3 := MsgStrID
+R4 := "MSI_HK_SKILLBAR2_6"
+R3 := R3[R4]
+R2["EXE"] := R3
+R0[R1] := R2
+R1 := 15
+R2 := {}
+R3 := MsgStrID
+R4 := "MSI_HK_SKILLBAR2_7"
+R3 := R3[R4]
+R2["EXE"] := R3
+R0[R1] := R2
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_SKILLBAR2_8"
+R2 := R2[R3]
+R1["EXE"] := R2
+R0[16] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_SKILLBAR2_9"
+R2 := R2[R3]
+R1["EXE"] := R2
+R0[17] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_SKILLBAR3_1"
+R2 := R2[R3]
+R1["EXE"] := R2
+R0[18] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_SKILLBAR3_2"
+R2 := R2[R3]
+R1["EXE"] := R2
+R0[19] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_SKILLBAR3_3"
+R2 := R2[R3]
+R1["EXE"] := R2
+R0[20] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_SKILLBAR3_4"
+R2 := R2[R3]
+R1["EXE"] := R2
+R0[21] := R1
+R1 := 22
+R2 := {}
+R3 := MsgStrID
+R4 := "MSI_HK_SKILLBAR3_5"
+R3 := R3[R4]
+R2["EXE"] := R3
+R0[R1] := R2
+R1 := 23
+R2 := {}
+R3 := MsgStrID
+R4 := "MSI_HK_SKILLBAR3_6"
+R3 := R3[R4]
+R2["EXE"] := R3
+R0[R1] := R2
+R1 := 24
+R2 := {}
+R3 := MsgStrID
+R4 := "MSI_HK_SKILLBAR3_7"
+R3 := R3[R4]
+R2["EXE"] := R3
+R0[R1] := R2
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_SKILLBAR3_8"
+R2 := R2[R3]
+R1["EXE"] := R2
+R0[25] := R1
+R1 := 26
+R2 := {}
+R3 := MsgStrID
+R4 := "MSI_HK_SKILLBAR3_9"
+R3 := R3[R4]
+R2["EXE"] := R3
+R0[R1] := R2
+R1 := 27
+R2 := {}
+R3 := MsgStrID
+R4 := "MSI_HK_SKILLBAR4_1"
+R3 := R3[R4]
+R2["EXE"] := R3
+R0[R1] := R2
+R1 := 28
+R2 := {}
+R3 := MsgStrID
+R4 := "MSI_HK_SKILLBAR4_2"
+R3 := R3[R4]
+R2["EXE"] := R3
+R0[R1] := R2
+R1 := 29
+R2 := {}
+R3 := MsgStrID
+R4 := "MSI_HK_SKILLBAR4_3"
+R3 := R3[R4]
+R2["EXE"] := R3
+R0[R1] := R2
+R1 := 30
+R2 := {}
+R3 := MsgStrID
+R4 := "MSI_HK_SKILLBAR4_4"
+R3 := R3[R4]
+R2["EXE"] := R3
+R0[R1] := R2
+R1 := 31
+R2 := {}
+R3 := MsgStrID
+R4 := "MSI_HK_SKILLBAR4_5"
+R3 := R3[R4]
+R2["EXE"] := R3
+R0[R1] := R2
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_SKILLBAR4_6"
+R2 := R2[R3]
+R1["EXE"] := R2
+R0[32] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_SKILLBAR4_7"
+R2 := R2[R3]
+R1["EXE"] := R2
+R0[33] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_SKILLBAR4_8"
+R2 := R2[R3]
+R1["EXE"] := R2
+R0[34] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_SKILLBAR4_9"
+R2 := R2[R3]
+R1["EXE"] := R2
+R0[35] := R1
+HOTKEY_1 := R0
+R0 := {}
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_BASICINFOWND_MINI"
+R2 := R2[R3]
+R1["EXE"] := R2
+R1["KEY1"] := 86
+R2 := "KEY2"
+R1[R2] := 18
+R0[0] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_EQUIPWND_ONOFF"
+R2 := R2[R3]
+R1["EXE"] := R2
+R1["KEY1"] := 81
+R2 := "KEY2"
+R1[R2] := 18
+R0[1] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_SKILLWND_ONOFF"
+R2 := R2[R3]
+R1["EXE"] := R2
+R1["KEY1"] := 83
+R2 := "KEY2"
+R1[R2] := 18
+R0[2] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_QUESTWND_ONOFF"
+R2 := R2[R3]
+R1["EXE"] := R2
+R1["KEY1"] := 85
+R2 := "KEY2"
+R1[R2] := 18
+R0[3] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_FRIENDWND_ONOFF"
+R2 := R2[R3]
+R1["EXE"] := R2
+R1["KEY1"] := 72
+R2 := "KEY2"
+R1[R2] := 18
+R0[4] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_PARTYWND_ONOFF"
+R2 := R2[R3]
+R1["EXE"] := R2
+R1["KEY1"] := 90
+R2 := "KEY2"
+R1[R2] := 18
+R0[5] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_CHATWND_MAKE"
+R2 := R2[R3]
+R1["EXE"] := R2
+R1["KEY1"] := 67
+R2 := "KEY2"
+R1[R2] := 18
+R0[6] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_CARTWND_ONOFF"
+R2 := R2[R3]
+R1["EXE"] := R2
+R1["KEY1"] := 87
+R2 := "KEY2"
+R1[R2] := 18
+R0[7] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_MAPWND_ONOFF"
+R2 := R2[R3]
+R1["EXE"] := R2
+R1["KEY1"] := 192
+R2 := "KEY2"
+R1[R2] := 17
+R0[8] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_ITEMWND_ONOFF"
+R2 := R2[R3]
+R1["EXE"] := R2
+R1["KEY1"] := 69
+R2 := "KEY2"
+R1[R2] := 18
+R0[9] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_GUILDWND_ONOFF"
+R2 := R2[R3]
+R1["EXE"] := R2
+R1["KEY1"] := 71
+R2 := "KEY2"
+R1[R2] := 18
+R0[10] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_EMOTIONWND_ONOFF"
+R2 := R2[R3]
+R1["EXE"] := R2
+R1["KEY1"] := 76
+R2 := "KEY2"
+R1[R2] := 18
+R0[11] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_SITORSTAND"
+R2 := R2[R3]
+R1["EXE"] := R2
+R1["KEY1"] := 45
+R0[12] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_MINIMAP_ONOFF"
+R2 := R2[R3]
+R1["EXE"] := R2
+R1["KEY1"] := 9
+R2 := "KEY2"
+R1[R2] := 17
+R0[13] := R1
+R1 := 14
+R2 := {}
+R3 := MsgStrID
+R4 := "MSI_HK_MACROWND_ONOFF"
+R3 := R3[R4]
+R2["EXE"] := R3
+R2["KEY1"] := 77
+R3 := "KEY2"
+R2[R3] := 18
+R0[R1] := R2
+R1 := 15
+R2 := {}
+R3 := MsgStrID
+R4 := "MSI_HK_EXEWND_ONOFF"
+R3 := R3[R4]
+R2["EXE"] := R3
+R2["KEY1"] := 89
+R3 := "KEY2"
+R2[R3] := 18
+R0[R1] := R2
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_ALLWND_OFF"
+R2 := R2[R3]
+R1["EXE"] := R2
+R1["KEY1"] := 122
+R0[16] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_SKILLBAR_ONOFF"
+R2 := R2[R3]
+R1["EXE"] := R2
+R1["KEY1"] := 123
+R0[17] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_CHATWND_ONOFF"
+R2 := R2[R3]
+R1["EXE"] := R2
+R1["KEY1"] := 121
+R2 := "KEY2"
+R1[R2] := 18
+R0[18] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_CHATWND_ZOOM"
+R2 := R2[R3]
+R1["EXE"] := R2
+R1["KEY1"] := 121
+R0[19] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_GAGE_ONOFF"
+R2 := R2[R3]
+R1["EXE"] := R2
+R1["KEY1"] := 35
+R2 := "KEY2"
+R1[R2] := 18
+R0[20] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_SNAPSHOT"
+R2 := R2[R3]
+R1["EXE"] := R2
+R1["KEY1"] := 44
+R0[21] := R1
+R1 := 22
+R2 := {}
+R3 := MsgStrID
+R4 := "MSI_HK_MEMORIALWND_ONOFF"
+R3 := R3[R4]
+R2["EXE"] := R3
+R2["KEY1"] := 66
+R3 := "KEY2"
+R2[R3] := 18
+R0[R1] := R2
+R1 := 23
+R2 := {}
+R3 := MsgStrID
+R4 := "MSI_HK_PETWND_ONOFF"
+R3 := R3[R4]
+R2["EXE"] := R3
+R2["KEY1"] := 74
+R3 := "KEY2"
+R2[R3] := 18
+R0[R1] := R2
+R1 := 24
+R2 := {}
+R3 := MsgStrID
+R4 := "MSI_HK_HOMUNWND_ONOFF"
+R3 := R3[R4]
+R2["EXE"] := R3
+R2["KEY1"] := 82
+R3 := "KEY2"
+R2[R3] := 18
+R0[R1] := R2
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_MERWND_ONOFF"
+R2 := R2[R3]
+R1["EXE"] := R2
+R1["KEY1"] := 82
+R2 := "KEY2"
+R1[R2] := 17
+R0[25] := R1
+R1 := 26
+R2 := {}
+R3 := MsgStrID
+R4 := "MSI_HK_HOMUN_FOLLOW"
+R3 := R3[R4]
+R2["EXE"] := R3
+R2["KEY1"] := 84
+R3 := "KEY2"
+R2[R3] := 18
+R0[R1] := R2
+R1 := 27
+R2 := {}
+R3 := MsgStrID
+R4 := "MSI_HK_MER_FOLLOW"
+R3 := R3[R4]
+R2["EXE"] := R3
+R2["KEY1"] := 84
+R3 := "KEY2"
+R2[R3] := 17
+R0[R1] := R2
+R1 := 28
+R2 := {}
+R3 := MsgStrID
+R4 := "MSI_HK_FRIEND_OPTIONWND"
+R3 := R3[R4]
+R2["EXE"] := R3
+R0[R1] := R2
+R1 := 29
+R2 := {}
+R3 := MsgStrID
+R4 := "MSI_HK_PARTY_OPTIONWND"
+R3 := R3[R4]
+R2["EXE"] := R3
+R0[R1] := R2
+R1 := 30
+R2 := {}
+R3 := MsgStrID
+R4 := "MSI_HK_BATTLEFIELDWND"
+R3 := R3[R4]
+R2["EXE"] := R3
+R0[R1] := R2
+R1 := 31
+R2 := {}
+R3 := MsgStrID
+R4 := "MSI_HK_CHATMODE_ONOFF"
+R3 := R3[R4]
+R2["EXE"] := R3
+R2["KEY1"] := 13
+R0[R1] := R2
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_BASICINFOWND_BTN_ONOFF"
+R2 := R2[R3]
+R1["EXE"] := R2
+R1["KEY1"] := 192
+R2 := "KEY2"
+R1[R2] := 18
+R0[32] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_PARTY_RECRUIT"
+R2 := R2[R3]
+R1["EXE"] := R2
+R0[33] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_PARTY_BOOKING_LIST"
+R2 := R2[R3]
+R1["EXE"] := R2
+R0[34] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_GROUND_CURSOR_ONOFF"
+R2 := R2[R3]
+R1["EXE"] := R2
+R1["KEY1"] := 36
+R2 := "KEY2"
+R1[R2] := 18
+R0[35] := R1
+HOTKEY_2 := R0
+R0 := {}
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_MACRO_1"
+R2 := R2[R3]
+R1["EXE"] := R2
+R1["KEY1"] := 49
+R2 := "KEY2"
+R1[R2] := 18
+R0[0] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_MACRO_2"
+R2 := R2[R3]
+R1["EXE"] := R2
+R1["KEY1"] := 50
+R2 := "KEY2"
+R1[R2] := 18
+R0[1] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_MACRO_3"
+R2 := R2[R3]
+R1["EXE"] := R2
+R1["KEY1"] := 51
+R2 := "KEY2"
+R1[R2] := 18
+R0[2] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_MACRO_4"
+R2 := R2[R3]
+R1["EXE"] := R2
+R1["KEY1"] := 52
+R2 := "KEY2"
+R1[R2] := 18
+R0[3] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_MACRO_5"
+R2 := R2[R3]
+R1["EXE"] := R2
+R1["KEY1"] := 53
+R2 := "KEY2"
+R1[R2] := 18
+R0[4] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_MACRO_6"
+R2 := R2[R3]
+R1["EXE"] := R2
+R1["KEY1"] := 54
+R2 := "KEY2"
+R1[R2] := 18
+R0[5] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_MACRO_7"
+R2 := R2[R3]
+R1["EXE"] := R2
+R1["KEY1"] := 55
+R2 := "KEY2"
+R1[R2] := 18
+R0[6] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_MACRO_8"
+R2 := R2[R3]
+R1["EXE"] := R2
+R1["KEY1"] := 56
+R2 := "KEY2"
+R1[R2] := 18
+R0[7] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_MACRO_9"
+R2 := R2[R3]
+R1["EXE"] := R2
+R1["KEY1"] := 57
+R2 := "KEY2"
+R1[R2] := 18
+R0[8] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_MACRO_10"
+R2 := R2[R3]
+R1["EXE"] := R2
+R1["KEY1"] := 48
+R2 := "KEY2"
+R1[R2] := 18
+R0[9] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_FLAG_1"
+R2 := R2[R3]
+R1["EXE"] := R2
+R1["KEY1"] := 49
+R2 := "KEY2"
+R1[R2] := 17
+R0[10] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_FLAG_2"
+R2 := R2[R3]
+R1["EXE"] := R2
+R1["KEY1"] := 50
+R2 := "KEY2"
+R1[R2] := 17
+R0[11] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_FLAG_3"
+R2 := R2[R3]
+R1["EXE"] := R2
+R1["KEY1"] := 51
+R2 := "KEY2"
+R1[R2] := 17
+R0[12] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_FLAG_4"
+R2 := R2[R3]
+R1["EXE"] := R2
+R1["KEY1"] := 52
+R2 := "KEY2"
+R1[R2] := 17
+R0[13] := R1
+R1 := 14
+R2 := {}
+R3 := MsgStrID
+R4 := "MSI_HK_FLAG_5"
+R3 := R3[R4]
+R2["EXE"] := R3
+R2["KEY1"] := 53
+R3 := "KEY2"
+R2[R3] := 17
+R0[R1] := R2
+R1 := 15
+R2 := {}
+R3 := MsgStrID
+R4 := "MSI_HK_FLAG_6"
+R3 := R3[R4]
+R2["EXE"] := R3
+R2["KEY1"] := 54
+R3 := "KEY2"
+R2[R3] := 17
+R0[R1] := R2
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_FLAG_7"
+R2 := R2[R3]
+R1["EXE"] := R2
+R1["KEY1"] := 55
+R2 := "KEY2"
+R1[R2] := 17
+R0[16] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_FLAG_8"
+R2 := R2[R3]
+R1["EXE"] := R2
+R1["KEY1"] := 56
+R2 := "KEY2"
+R1[R2] := 17
+R0[17] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_FLAG_9"
+R2 := R2[R3]
+R1["EXE"] := R2
+R1["KEY1"] := 57
+R2 := "KEY2"
+R1[R2] := 17
+R0[18] := R1
+R1 := {}
+R2 := MsgStrID
+R3 := "MSI_HK_FLAG_10"
+R2 := R2[R3]
+R1["EXE"] := R2
+R1["KEY1"] := 48
+R2 := "KEY2"
+R1[R2] := 17
+R0[19] := R1
+HOTKEY_3 := R0
+R0 := {}
+R0[0] := 0
+R0[10] := 1
+R0[37] := 2
+R0[134] := 3
+R0[40] := 7
+R1 := 140
+R0[R1] := 8
+R0[8] := 9
+R1 := 59
+R0[R1] := 10
+R0[87] := 11
+R1 := 14
+R0[86] := R1
+R1 := 15
+R0[112] := R1
+R0[36] := 17
+R1 := 137
+R2 := 22
+R0[R1] := R2
+R1 := 23
+R0[88] := R1
+R1 := 24
+R0[113] := R1
+R0[125] := 25
+R1 := 157
+R2 := 31
+R0[R1] := R2
+BEHAVIOR_TO_WINDOWID := R0
+R0 := closure(Function #0)
+GetKeyDes := R0
+R0 := closure(Function #1)
+GetBeHaviorOfWindow := R0
+R0 := closure(Function #2)
+GetHotKeyInfo := R0
+R0 := closure(Function #3)
+GetOriginalHotKeyInfo := R0
+R0 := closure(Function #4)
+GetUserHotKeyInfo := R0
+R0 := closure(Function #5)
+GetOriginalHotKeyListSize := R0
+R0 := closure(Function #6)
+GetHotKey := R0
+R0 := closure(Function #7)
+GetBehaviorOfHotKey := R0
+R0 := closure(Function #8)
+ChangeUserHotKey := R0
+R0 := closure(Function #9)
+GetIndexOfTheUserHotKey := R0
+R0 := closure(Function #10)
+ResetTheHotKey := R0
+R0 := closure(Function #11)
+SaveUserHotKeys := R0
+return 
+
+
+Function #0:
+;
+Name:            
+Defined at line: 260
+#Upvalues:       0
+#Parameters:     2 (R0, R1)
+Is_vararg:       0
+Max Stack Size:  8
+;
+Locals:
+Start PC |  End PC  | Name
+00000000 | 00000014 | key1
+00000000 | 00000014 | key2
+00000002 | 00000014 | keyName1
+00000004 | 00000014 | keyName2
+;
+No upvalues
+
+R2 := KEYNAME
+R2 := R2[R0]
+R3 := KEYNAME
+R3 := R3[R1]
+if R2 != nil then PC := 10
+  6 [264]: JMP       10
+R4 := ""
+return R4
+PC := 21
+if R3 == nil then PC := 20
+ 11 [267]: JMP       20
+R4 := string
+R4 := R4["format"]
+R5 := "%s + %s"
+R6 := R3
+R7 := R2
+return R4(R5,R6,R7)
+return R4,...
+PC := 21
+return R2
+return 
+
+
+Function #1:
+;
+Name:            
+Defined at line: 280
+#Upvalues:       0
+#Parameters:     1 (R0)
+Is_vararg:       0
+Max Stack Size:  8
+;
+Locals:
+Start PC |  End PC  | Name
+00000000 | 00000025 | winID
+00000002 | 00000025 | behavior
+00000005 | 00000022 | userTable
+00000006 | 00000022 | key1
+00000006 | 00000022 | key2
+;
+No upvalues
+
+R1 := BEHAVIOR_TO_WINDOWID
+R1 := R1[R0]
+if R1 == nil then PC := 36
+  4 [283]: JMP       36
+R2 := USERKEY_2
+R3 := R4 := nil
+if R2 == nil then PC := 17
+  8 [288]: JMP       17
+R5 := USERKEY_2
+R2 := R5[R1]
+if R2 == nil then PC := 17
+ 12 [291]: JMP       17
+if R2 == "NULL" then PC := 17
+ 14 [291]: JMP       17
+R3 := R2["KEY1"]
+R4 := R2["KEY2"]
+if R3 != nil then PC := 25
+ 18 [297]: JMP       25
+R5 := HOTKEY_2
+R5 := R5[R1]
+R3 := R5["KEY1"]
+R5 := HOTKEY_2
+R5 := R5[R1]
+R4 := R5["KEY2"]
+if R3 == nil then PC := 33
+ 26 [302]: JMP       33
+R5 := GetKeyDes
+R6 := R3
+R7 := R4
+return R5(R6,R7)
+return R5,...
+PC := 38
+R5 := ""
+return R5
+PC := 38
+R2 := ""
+return R2
+return 
+
+
+Function #2:
+;
+Name:            
+Defined at line: 317
+#Upvalues:       0
+#Parameters:     2 (R0, R1)
+Is_vararg:       0
+Max Stack Size:  8
+;
+Locals:
+Start PC |  End PC  | Name
+00000000 | 00000038 | tableName
+00000000 | 00000038 | idx
+;
+No upvalues
+
+R2 := _G
+R2 := R2[R0]
+element := R2
+R2 := element
+if R2 == nil then PC := 48
+  6 [320]: JMP       48
+R2 := element
+R2 := R2[R1]
+v := R2
+R2 := v
+if R2 == nil then PC := 16
+ 12 [323]: JMP       16
+R2 := v
+if R2 != "NULL" then PC := 26
+ 15 [323]: JMP       26
+R2 := 0
+R3 := 0
+R4 := toStr
+R5 := ""
+R4 := R4(R5)
+R5 := toStr
+R6 := ""
+R5,... := R5(R6)
+return R2,...
+PC := 57
+R2 := toInt
+R3 := v
+R3 := R3["KEY1"]
+R2 := R2(R3)
+R3 := toInt
+R4 := v
+R4 := R4["KEY2"]
+R3 := R3(R4)
+R4 := toStr
+R5 := GetKeyDes
+R6 := v
+R6 := R6["KEY1"]
+R7 := v
+R7 := R7["KEY2"]
+R5,... := R5(R6,R7)
+R4 := R4(R5,...)
+R5 := toStr
+R6 := v
+R6 := R6["EXE"]
+R5,... := R5(R6)
+return R2,...
+PC := 57
+R2 := 0
+R3 := 0
+R4 := toStr
+R5 := ""
+R4 := R4(R5)
+R5 := toStr
+R6 := ""
+R5,... := R5(R6)
+return R2,...
+return 
+
+
+Function #3:
+;
+Name:            
+Defined at line: 339
+#Upvalues:       0
+#Parameters:     2 (R0, R1)
+Is_vararg:       0
+Max Stack Size:  6
+;
+Locals:
+Start PC |  End PC  | Name
+00000000 | 00000009 | tabNum
+00000000 | 00000009 | idx
+;
+No upvalues
+
+R2 := GetHotKeyInfo
+R3 := string
+R3 := R3["format"]
+R4 := "HOTKEY_%d"
+R5 := R0
+R3 := R3(R4,R5)
+R4 := R1
+return R2(R3,R4)
+return R2,...
+return 
+
+
+Function #4:
+;
+Name:            
+Defined at line: 348
+#Upvalues:       0
+#Parameters:     2 (R0, R1)
+Is_vararg:       0
+Max Stack Size:  6
+;
+Locals:
+Start PC |  End PC  | Name
+00000000 | 00000009 | tabNum
+00000000 | 00000009 | idx
+;
+No upvalues
+
+R2 := GetHotKeyInfo
+R3 := string
+R3 := R3["format"]
+R4 := "USERKEY_%d"
+R5 := R0
+R3 := R3(R4,R5)
+R4 := R1
+return R2(R3,R4)
+return R2,...
+return 
+
+
+Function #5:
+;
+Name:            
+Defined at line: 357
+#Upvalues:       0
+#Parameters:     1 (R0)
+Is_vararg:       0
+Max Stack Size:  7
+;
+Locals:
+Start PC |  End PC  | Name
+00000000 | 00000017 | tabNum
+00000001 | 00000017 | tableSize
+;
+No upvalues
+
+R1 := 0
+R2 := _G
+R3 := string
+R3 := R3["format"]
+R4 := "HOTKEY_%d"
+R5 := R0
+R3 := R3(R4,R5)
+R2 := R2[R3]
+table := R2
+R2 := table
+if R2 == nil then PC := 23
+ 12 [361]: JMP       23
+R2 := getTableSize
+R3 := _G
+R4 := string
+R4 := R4["format"]
+R5 := "HOTKEY_%d"
+R6 := R0
+R4 := R4(R5,R6)
+R3 := R3[R4]
+R2 := R2(R3)
+R1 := R2
+return R1
+return 
+
+
+Function #6:
+;
+Name:            
+Defined at line: 373
+#Upvalues:       0
+#Parameters:     2 (R0, R1)
+Is_vararg:       0
+Max Stack Size:  6
+;
+Locals:
+Start PC |  End PC  | Name
+00000000 | 00000015 | tabNum
+00000000 | 00000015 | idx
+;
+No upvalues
+
+R2 := GetUserHotKeyInfo
+R3 := R0
+R4 := R1
+R2,R3,R4,R5 := R2(R3,R4)
+exe := R5
+des := R4
+key2 := R3
+key1 := R2
+R2 := exe
+if R2 != "" then PC := 17
+ 11 [376]: JMP       17
+R2 := GetOriginalHotKeyInfo
+R3 := R0
+R4 := R1
+return R2(R3,R4)
+return R2,...
+R2 := key1
+R3 := key2
+R4 := des
+R5 := exe
+return R2,R3,R4,R5
+return 
+
+
+Function #7:
+;
+Name:            
+Defined at line: 388
+#Upvalues:       0
+#Parameters:     2 (R0, R1)
+Is_vararg:       0
+Max Stack Size:  6
+;
+Locals:
+Start PC |  End PC  | Name
+00000000 | 0000003c | inKey1
+00000000 | 0000003c | inKey2
+;
+No upvalues
+
+R2 := 0
+size := R2
+R2 := 1
+tab := R2
+R2 := GetOriginalHotKeyListSize
+R3 := tab
+R2 := R2(R3)
+tableLen := R2
+PC := 56
+R2 := 0
+idx := R2
+R2 := GetHotKey
+R3 := tab
+R4 := idx
+R2,R3,R4,R5 := R2(R3,R4)
+exe := R5
+des := R4
+key2 := R3
+key1 := R2
+PC := 42
+R2 := key1
+if R2 != R0 then PC := 31
+ 23 [398]: JMP       31
+R2 := key2
+if R2 != R1 then PC := 31
+ 26 [398]: JMP       31
+R2 := idx
+R3 := size
+R2 := R2 + R3
+return R2
+R2 := idx
+R2 := R2 + 1
+idx := R2
+R2 := GetHotKey
+R3 := tab
+R4 := idx
+R2,R3,R4,R5 := R2(R3,R4)
+exe := R5
+des := R4
+key2 := R3
+key1 := R2
+R2 := exe
+if R2 != "" then PC := 21
+ 44 [397]: JMP       21
+R2 := size
+R3 := tableLen
+R2 := R2 + R3
+size := R2
+R2 := tab
+R2 := R2 + 1
+tab := R2
+R2 := GetOriginalHotKeyListSize
+R3 := tab
+R2 := R2(R3)
+tableLen := R2
+R2 := tableLen
+if R2 != 0 then PC := 10
+ 58 [393]: JMP       10
+R2 := -1
+return R2
+return 
+
+
+Function #8:
+;
+Name:            
+Defined at line: 420
+#Upvalues:       0
+#Parameters:     5 (R0, R1, R2, R3, R4)
+Is_vararg:       0
+Max Stack Size:  9
+;
+Locals:
+Start PC |  End PC  | Name
+00000000 | 00000043 | tabNum
+00000000 | 00000043 | idx
+00000000 | 00000043 | exe
+00000000 | 00000043 | key1
+00000000 | 00000043 | key2
+;
+No upvalues
+
+R5 := string
+R5 := R5["format"]
+R6 := "USERKEY_%d"
+R7 := R0
+R5 := R5(R6,R7)
+TableName := R5
+R5 := _G
+R6 := TableName
+R5 := R5[R6]
+UserKeyTable := R5
+R5 := GetOriginalHotKeyInfo
+R6 := R0
+R7 := R1
+R5,R6,R7,R8 := R5(R6,R7)
+R2 := R8
+dis := R7
+originalKey2 := R6
+originalKey1 := R5
+R5 := string
+R5 := R5["len"]
+R6 := R2
+R5 := R5(R6)
+if R5 == 0 then PC := 37
+ 24 [427]: JMP       37
+R5 := originalKey1
+if R3 != R5 then PC := 37
+ 27 [428]: JMP       37
+R5 := originalKey2
+if R4 != R5 then PC := 37
+ 30 [428]: JMP       37
+R5 := UserKeyTable
+if R5 == nil then PC := 37
+ 33 [429]: JMP       37
+R5 := UserKeyTable
+R5[R1] := nil
+return 
+R5 := UserKeyTable
+if R5 != nil then PC := 42
+ 39 [436]: JMP       42
+R5 := {}
+UserKeyTable := R5
+R5 := UserKeyTable
+R5 := R5[R1]
+UserKey := R5
+R5 := UserKey
+if R5 != "NULL" then PC := 50
+ 47 [442]: JMP       50
+R5 := nil
+UserKey := R5
+R5 := UserKey
+if R5 != nil then PC := 55
+ 52 [446]: JMP       55
+R5 := {}
+UserKey := R5
+R5 := UserKey
+R5["EXE"] := R2
+R5 := UserKey
+R5["KEY1"] := R3
+R5 := UserKey
+R5["KEY2"] := R4
+R5 := UserKeyTable
+R6 := UserKey
+R5[R1] := R6
+R5 := _G
+R6 := TableName
+R7 := UserKeyTable
+R5[R6] := R7
+return 
+
+
+Function #9:
+;
+Name:            
+Defined at line: 463
+#Upvalues:       0
+#Parameters:     2 (R0, R1)
+Is_vararg:       0
+Max Stack Size:  6
+;
+Locals:
+Start PC |  End PC  | Name
+00000000 | 00000035 | inKey1
+00000000 | 00000035 | inKey2
+;
+No upvalues
+
+R2 := 1
+tab := R2
+R2 := GetOriginalHotKeyListSize
+R3 := tab
+R2 := R2(R3)
+tableLen := R2
+PC := 49
+R2 := 0
+idx := R2
+R2 := GetUserHotKeyInfo
+R3 := tab
+R4 := idx
+R2,R3,R4,R5 := R2(R3,R4)
+exe := R5
+des := R4
+key2 := R3
+key1 := R2
+PC := 38
+R2 := key1
+if R2 != R0 then PC := 27
+ 21 [472]: JMP       27
+R2 := key2
+if R2 != R1 then PC := 27
+ 24 [472]: JMP       27
+R2 := idx
+return R2
+R2 := idx
+R2 := R2 + 1
+idx := R2
+R2 := GetUserHotKeyInfo
+R3 := tab
+R4 := idx
+R2,R3,R4,R5 := R2(R3,R4)
+exe := R5
+des := R4
+key2 := R3
+key1 := R2
+R2 := idx
+R3 := tableLen
+if R2 < R3 then PC := 19
+ 41 [471]: JMP       19
+R2 := tab
+R2 := R2 + 1
+tab := R2
+R2 := GetOriginalHotKeyListSize
+R3 := tab
+R2 := R2(R3)
+tableLen := R2
+R2 := tableLen
+if R2 != 0 then PC := 8
+ 51 [467]: JMP       8
+R2 := -1
+return R2
+return 
+
+
+Function #10:
+;
+Name:            
+Defined at line: 492
+#Upvalues:       0
+#Parameters:     4 (R0, R1, R2, R3)
+Is_vararg:       0
+Max Stack Size:  8
+;
+Locals:
+Start PC |  End PC  | Name
+00000000 | 0000002e | tabNum
+00000000 | 0000002e | idx
+00000000 | 0000002e | inKey1
+00000000 | 0000002e | inKey2
+;
+No upvalues
+
+R4 := GetOriginalHotKeyListSize
+R5 := R0
+R4 := R4(R5)
+tableLen := R4
+R4 := tableLen
+R1 := R1 - R4
+R0 := R0 + 1
+R4 := string
+R4 := R4["format"]
+R5 := "USERKEY_%d"
+R6 := R0
+R4 := R4(R5,R6)
+TableName := R4
+R4 := _G
+R5 := TableName
+R4 := R4[R5]
+UserKeyTable := R4
+R4 := UserKeyTable
+if R4 != nil then PC := 22
+ 20 [500]: JMP       22
+return 
+R4 := GetUserHotKeyInfo
+R5 := R0
+R6 := R1
+R4,R5,R6,R7 := R4(R5,R6)
+exe := R7
+des := R6
+key2 := R5
+key1 := R4
+R4 := key1
+if R4 != 0 then PC := 47
+ 32 [506]: JMP       47
+R4 := key2
+if R4 != 0 then PC := 47
+ 35 [506]: JMP       47
+R4 := GetIndexOfTheUserHotKey
+R5 := R2
+R6 := R3
+R4 := R4(R5,R6)
+idx2 := R4
+R4 := idx2
+if R4 == -1 then PC := 47
+ 43 [509]: JMP       47
+R4 := UserKeyTable
+R5 := idx2
+R4[R5] := nil
+return 
+
+
+Function #11:
+;
+Name:            
+Defined at line: 520
+#Upvalues:       0
+#Parameters:     1 (R0)
+Is_vararg:       0
+Max Stack Size:  7
+;
+Locals:
+Start PC |  End PC  | Name
+00000000 | 00000071 | saveFileName
+;
+No upvalues
+
+R1 := io
+R1 := R1["open"]
+R2 := R0
+R3 := "w"
+R1 := R1(R2,R3)
+saveFile := R1
+R1 := saveFile
+if R1 == nil then PC := 110
+  9 [523]: JMP       110
+R1 := 1
+tabNum := R1
+PC := 107
+R1 := _G
+R2 := string
+R2 := R2["format"]
+R3 := "USERKEY_%d"
+R4 := tabNum
+R2 := R2(R3,R4)
+R1 := R1[R2]
+userTable := R1
+R1 := userTable
+if R1 == nil then PC := 104
+ 23 [529]: JMP       104
+R1 := saveFile
+R1 := R1["write"]
+R3 := string
+R3 := R3["format"]
+R4 := "USERKEY_%d = {\n"
+R5 := tabNum
+R3,... := R3(R4,R5)
+R1(R2,...)
+R1 := 0
+idx := R1
+R1 := GetUserHotKeyInfo
+R2 := tabNum
+R3 := idx
+R1,R2,R3,R4 := R1(R2,R3)
+behaviorDes := R4
+keyDes := R3
+key2 := R2
+key1 := R1
+R1 := GetOriginalHotKeyListSize
+R2 := tabNum
+R1 := R1(R2)
+tableLen := R1
+PC := 96
+R1 := behaviorDes
+if R1 == "" then PC := 85
+ 49 [538]: JMP       85
+R1 := saveFile
+R1 := R1["write"]
+R3 := string
+R3 := R3["format"]
+R4 := "\t[%d] = { EXE = \"%s\""
+R5 := idx
+R6 := behaviorDes
+R3,... := R3(R4,R5,R6)
+R1(R2,...)
+R1 := key1
+if R1 == 0 then PC := 70
+ 61 [541]: JMP       70
+R1 := saveFile
+R1 := R1["write"]
+R3 := string
+R3 := R3["format"]
+R4 := ", KEY1 = %d"
+R5 := key1
+R3,... := R3(R4,R5)
+R1(R2,...)
+R1 := key2
+if R1 == 0 then PC := 81
+ 72 [545]: JMP       81
+R1 := saveFile
+R1 := R1["write"]
+R3 := string
+R3 := R3["format"]
+R4 := ", KEY2 = %d"
+R5 := key2
+R3,... := R3(R4,R5)
+R1(R2,...)
+R1 := saveFile
+R1 := R1["write"]
+R3 := " },\n"
+R1(R2,R3)
+R1 := idx
+R1 := R1 + 1
+idx := R1
+R1 := GetUserHotKeyInfo
+R2 := tabNum
+R3 := idx
+R1,R2,R3,R4 := R1(R2,R3)
+behaviorDes := R4
+keyDes := R3
+key2 := R2
+key1 := R1
+R1 := idx
+R2 := tableLen
+if R1 < R2 then PC := 47
+ 99 [537]: JMP       47
+R1 := saveFile
+R1 := R1["write"]
+R3 := "}\n\n"
+R1(R2,R3)
+R1 := tabNum
+R1 := R1 + 1
+tabNum := R1
+R1 := tabNum
+if R1 <= 3 then PC := 13
+109 [526]: JMP       13
+R1 := io
+R1 := R1["close"]
+R2 := saveFile
+R1(R2)
+return 

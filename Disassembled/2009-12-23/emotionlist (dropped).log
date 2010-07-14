@@ -1,0 +1,1660 @@
+R0 := 0
+ET_SURPRISE := R0
+R0 := 1
+ET_QUESTION := R0
+R0 := 2
+ET_DELIGHT := R0
+R0 := 3
+ET_THROB := R0
+R0 := 4
+ET_SWEAT := R0
+R0 := 5
+ET_AHA := R0
+R0 := 6
+ET_FRET := R0
+R0 := 7
+ET_ANGER := R0
+R0 := 8
+ET_MONEY := R0
+R0 := 9
+ET_THINK := R0
+R0 := 10
+ET_SCISSOR := R0
+R0 := 11
+ET_ROCK := R0
+R0 := 12
+ET_WRAP := R0
+R0 := 13
+ET_FLAG := R0
+R0 := 14
+ET_BIGTHROB := R0
+R0 := 15
+ET_THANKS := R0
+R0 := 16
+ET_KEK := R0
+R0 := 17
+ET_SORRY := R0
+R0 := 18
+ET_SMILE := R0
+R0 := 19
+ET_PROFUSELY_SWEAT := R0
+R0 := 20
+ET_SCRATCH := R0
+R0 := 21
+ET_BEST := R0
+R0 := 22
+ET_STARE_ABOUT := R0
+R0 := 23
+ET_HUK := R0
+R0 := 24
+ET_O := R0
+R0 := 25
+ET_X := R0
+R0 := 26
+ET_HELP := R0
+R0 := 27
+ET_GO := R0
+R0 := 28
+ET_CRY := R0
+R0 := 29
+ET_KIK := R0
+R0 := 30
+ET_CHUP := R0
+R0 := 31
+ET_CHUPCHUP := R0
+R0 := 32
+ET_HNG := R0
+R0 := 33
+ET_OK := R0
+R0 := 34
+ET_CHAT_PROHIBIT := R0
+R0 := 35
+ET_INDONESIA_FLAG := R0
+R0 := 36
+ET_STARE := R0
+R0 := 37
+ET_HUNGRY := R0
+R0 := 38
+ET_COOL := R0
+R0 := 39
+ET_MERONG := R0
+R0 := 40
+ET_SHY := R0
+R0 := 41
+ET_GOODBOY := R0
+R0 := 42
+ET_SPTIME := R0
+R0 := 43
+ET_SEXY := R0
+R0 := 44
+ET_COMEON := R0
+R0 := 45
+ET_SLEEPY := R0
+R0 := 46
+ET_CONGRATULATION := R0
+R0 := 47
+ET_HPTIME := R0
+R0 := 48
+ET_PH_FLAG := R0
+R0 := 49
+ET_MY_FLAG := R0
+R0 := 50
+ET_SI_FLAG := R0
+R0 := 51
+ET_BR_FLAG := R0
+R0 := 52
+ET_SPARK := R0
+R0 := 53
+ET_CONFUSE := R0
+R0 := 54
+ET_OHNO := R0
+R0 := 55
+ET_HUM := R0
+R0 := 56
+ET_BLABLA := R0
+R0 := 57
+ET_OTL := R0
+R0 := 58
+ET_DICE1 := R0
+R0 := 59
+ET_DICE2 := R0
+R0 := 60
+ET_DICE3 := R0
+R0 := 61
+ET_DICE4 := R0
+R0 := 62
+ET_DICE5 := R0
+R0 := 63
+ET_DICE6 := R0
+R0 := 64
+ET_INDIA_FLAG := R0
+R0 := 65
+ET_LUV := R0
+R0 := 66
+ET_FLAG8 := R0
+R0 := 67
+ET_FLAG9 := R0
+R0 := 68
+ET_MOBILE := R0
+R0 := 69
+ET_MAIL := R0
+R0 := 70
+ET_ANTENNA0 := R0
+R0 := 71
+ET_ANTENNA1 := R0
+R0 := 72
+ET_ANTENNA2 := R0
+R0 := 73
+ET_ANTENNA3 := R0
+R0 := 74
+ET_HUM2 := R0
+R0 := 75
+ET_ABS := R0
+R0 := 76
+ET_OOPS := R0
+R0 := 77
+ET_SPIT := R0
+R0 := 78
+ET_ENE := R0
+R0 := 79
+ET_PANIC := R0
+R0 := 80
+ET_WHISP := R0
+R0 := 544
+MSI_EMOTION_SURPRISE := R0
+R0 := 545
+MSI_EMOTION_QUESTION := R0
+R0 := 546
+MSI_EMOTION_DELIGHT := R0
+R0 := 547
+MSI_EMOTION_THROB := R0
+R0 := 548
+MSI_EMOTION_BIGTHROB := R0
+R0 := 549
+MSI_EMOTION_SWEAT := R0
+R0 := 550
+MSI_EMOTION_AHA := R0
+R0 := 551
+MSI_EMOTION_FRET := R0
+R0 := 552
+MSI_EMOTION_ANGER := R0
+R0 := 553
+MSI_EMOTION_MONEY := R0
+R0 := 554
+MSI_EMOTION_THINK := R0
+R0 := 555
+MSI_EMOTION_THANKS := R0
+R0 := 556
+MSI_EMOTION_KEK := R0
+R0 := 557
+MSI_EMOTION_SORRY := R0
+R0 := 558
+MSI_EMOTION_SMILE := R0
+R0 := 559
+MSI_EMOTION_PROFUSELY_SWEAT := R0
+R0 := 560
+MSI_EMOTION_SCRATCH := R0
+R0 := 561
+MSI_EMOTION_BEST := R0
+R0 := 562
+MSI_EMOTION_STARE_ABOUT := R0
+R0 := 563
+MSI_EMOTION_HUK := R0
+R0 := 564
+MSI_EMOTION_O := R0
+R0 := 565
+MSI_EMOTION_X := R0
+R0 := 566
+MSI_EMOTION_HELP := R0
+R0 := 567
+MSI_EMOTION_GO := R0
+R0 := 568
+MSI_EMOTION_CRY := R0
+R0 := 569
+MSI_EMOTION_KIK := R0
+R0 := 570
+MSI_EMOTION_CHUP := R0
+R0 := 571
+MSI_EMOTION_CHUPCHUP := R0
+R0 := 572
+MSI_EMOTION_HNG := R0
+R0 := 573
+MSI_EMOTION_OK := R0
+R0 := 772
+MSI_EMOTION_STARE := R0
+R0 := 773
+MSI_EMOTION_HUNGRY := R0
+R0 := 774
+MSI_EMOTION_COOL := R0
+R0 := 775
+MSI_EMOTION_MERONG := R0
+R0 := 776
+MSI_EMOTION_SHY := R0
+R0 := 777
+MSI_EMOTION_GOODBOY := R0
+R0 := 778
+MSI_EMOTION_SPTIME := R0
+R0 := 779
+MSI_EMOTION_SEXY := R0
+R0 := 780
+MSI_EMOTION_COMEON := R0
+R0 := 781
+MSI_EMOTION_SLEEPY := R0
+R0 := 782
+MSI_EMOTION_CONGRATULATION := R0
+R0 := 783
+MSI_EMOTION_HPTIME := R0
+R0 := 945
+MSI_EMOTION_SPARK := R0
+R0 := 946
+MSI_EMOTION_CONFUSE := R0
+R0 := 947
+MSI_EMOTION_OHNO := R0
+R0 := 948
+MSI_EMOTION_HUM := R0
+R0 := 949
+MSI_EMOTION_BLABLA := R0
+R0 := 950
+MSI_EMOTION_OTL := R0
+R0 := 1501
+MSI_EMOTION_ROCK := R0
+R0 := 1502
+MSI_EMOTION_SCISSOR := R0
+R0 := 1503
+MSI_EMOTION_WRAP := R0
+R0 := 1504
+MSI_EMOTION_LUV := R0
+R0 := 1505
+MSI_EMOTION_MOBILE := R0
+R0 := 1506
+MSI_EMOTION_MAIL := R0
+R0 := 1508
+MSI_EMOTION_ANTENNA1 := R0
+R0 := 1509
+MSI_EMOTION_ANTENNA2 := R0
+R0 := 1510
+MSI_EMOTION_ANTENNA3 := R0
+R0 := 1511
+MSI_EMOTION_HUM2 := R0
+R0 := 1512
+MSI_EMOTION_ABS := R0
+R0 := 1513
+MSI_EMOTION_OOPS := R0
+R0 := 1514
+MSI_EMOTION_SPIT := R0
+R0 := 1515
+MSI_EMOTION_ENE := R0
+R0 := 1516
+MSI_EMOTION_PANIC := R0
+R0 := 1517
+MSI_EMOTION_WHISP := R0
+R0 := {}
+R1 := ET_SURPRISE
+R0[R1] := 0
+R1 := ET_QUESTION
+R0[R1] := 1
+R1 := ET_DELIGHT
+R0[R1] := 2
+R1 := ET_THROB
+R0[R1] := 3
+R1 := ET_SWEAT
+R0[R1] := 5
+R1 := ET_AHA
+R0[R1] := 6
+R1 := ET_FRET
+R0[R1] := 7
+R1 := ET_ANGER
+R0[R1] := 8
+R1 := ET_MONEY
+R0[R1] := 9
+R1 := ET_THINK
+R0[R1] := 10
+R1 := ET_SCISSOR
+R0[R1] := 12
+R1 := ET_ROCK
+R0[R1] := 11
+R1 := ET_WRAP
+R0[R1] := 13
+R1 := ET_FLAG
+R0[R1] := 14
+R1 := ET_BIGTHROB
+R0[R1] := 4
+R1 := ET_THANKS
+R0[R1] := 15
+R1 := ET_KEK
+R0[R1] := 16
+R1 := ET_SORRY
+R0[R1] := 17
+R1 := ET_SMILE
+R0[R1] := 18
+R1 := ET_PROFUSELY_SWEAT
+R0[R1] := 19
+R1 := ET_SCRATCH
+R0[R1] := 20
+R1 := ET_BEST
+R0[R1] := 21
+R1 := ET_STARE_ABOUT
+R0[R1] := 22
+R1 := ET_HUK
+R0[R1] := 23
+R1 := ET_O
+R0[R1] := 24
+R1 := ET_X
+R0[R1] := 25
+R1 := ET_HELP
+R0[R1] := 26
+R1 := ET_GO
+R0[R1] := 27
+R1 := ET_CRY
+R0[R1] := 28
+R1 := ET_KIK
+R0[R1] := 29
+R1 := ET_CHUP
+R0[R1] := 30
+R1 := ET_CHUPCHUP
+R0[R1] := 31
+R1 := ET_HNG
+R0[R1] := 32
+R1 := ET_OK
+R0[R1] := 33
+R1 := ET_CHAT_PROHIBIT
+R2 := 1000
+R0[R1] := R2
+R1 := ET_INDONESIA_FLAG
+R0[R1] := 34
+R1 := ET_STARE
+R0[R1] := 35
+R1 := ET_HUNGRY
+R0[R1] := 36
+R1 := ET_COOL
+R0[R1] := 37
+R1 := ET_MERONG
+R0[R1] := 38
+R1 := ET_SHY
+R0[R1] := 39
+R1 := ET_GOODBOY
+R0[R1] := 40
+R1 := ET_SPTIME
+R0[R1] := 41
+R1 := ET_SEXY
+R0[R1] := 42
+R1 := ET_COMEON
+R0[R1] := 43
+R1 := ET_SLEEPY
+R0[R1] := 44
+R1 := ET_CONGRATULATION
+R0[R1] := 45
+R1 := ET_HPTIME
+R0[R1] := 46
+R1 := ET_PH_FLAG
+R0[R1] := 47
+R1 := ET_MY_FLAG
+R0[R1] := 48
+R1 := ET_SI_FLAG
+R0[R1] := 49
+R1 := ET_BR_FLAG
+R0[R1] := 50
+R1 := ET_SPARK
+R0[R1] := 51
+R1 := ET_CONFUSE
+R0[R1] := 52
+R1 := ET_OHNO
+R0[R1] := 53
+R1 := ET_HUM
+R0[R1] := 54
+R1 := ET_BLABLA
+R0[R1] := 55
+R1 := ET_OTL
+R0[R1] := 56
+R1 := ET_DICE1
+R0[R1] := 57
+R1 := ET_DICE2
+R0[R1] := 58
+R1 := ET_DICE3
+R0[R1] := 59
+R1 := ET_DICE4
+R0[R1] := 60
+R1 := ET_DICE5
+R0[R1] := 61
+R1 := ET_DICE6
+R0[R1] := 62
+R1 := ET_INDIA_FLAG
+R0[R1] := 63
+R1 := ET_LUV
+R0[R1] := 64
+R1 := ET_FLAG8
+R0[R1] := 65
+R1 := ET_FLAG9
+R0[R1] := 66
+R1 := ET_MOBILE
+R0[R1] := 67
+R1 := ET_MAIL
+R0[R1] := 68
+R1 := ET_ANTENNA0
+R0[R1] := 69
+R1 := ET_ANTENNA1
+R0[R1] := 70
+R1 := ET_ANTENNA2
+R0[R1] := 71
+R1 := ET_ANTENNA3
+R0[R1] := 72
+R1 := ET_HUM2
+R0[R1] := 73
+R1 := ET_ABS
+R0[R1] := 74
+R1 := ET_OOPS
+R0[R1] := 75
+R1 := ET_SPIT
+R0[R1] := 76
+R1 := ET_ENE
+R0[R1] := 77
+R1 := ET_PANIC
+R0[R1] := 78
+R1 := ET_WHISP
+R0[R1] := 79
+EMOTION_ACTION := R0
+R0 := {}
+R1 := ET_SURPRISE
+R2 := GetMsgString
+R3 := MSI_EMOTION_SURPRISE
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_QUESTION
+R2 := GetMsgString
+R3 := MSI_EMOTION_QUESTION
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_DELIGHT
+R2 := GetMsgString
+R3 := MSI_EMOTION_DELIGHT
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_THROB
+R2 := GetMsgString
+R3 := MSI_EMOTION_THROB
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_BIGTHROB
+R2 := GetMsgString
+R3 := MSI_EMOTION_BIGTHROB
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_SWEAT
+R2 := GetMsgString
+R3 := MSI_EMOTION_SWEAT
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_AHA
+R2 := GetMsgString
+R3 := MSI_EMOTION_AHA
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_FRET
+R2 := GetMsgString
+R3 := MSI_EMOTION_FRET
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_ANGER
+R2 := GetMsgString
+R3 := MSI_EMOTION_ANGER
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_MONEY
+R2 := GetMsgString
+R3 := MSI_EMOTION_MONEY
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_THINK
+R2 := GetMsgString
+R3 := MSI_EMOTION_THINK
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_THANKS
+R2 := GetMsgString
+R3 := MSI_EMOTION_THANKS
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_KEK
+R2 := GetMsgString
+R3 := MSI_EMOTION_KEK
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_SORRY
+R2 := GetMsgString
+R3 := MSI_EMOTION_SORRY
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_SMILE
+R2 := GetMsgString
+R3 := MSI_EMOTION_SMILE
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_PROFUSELY_SWEAT
+R2 := GetMsgString
+R3 := MSI_EMOTION_SWEAT
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_SCRATCH
+R2 := GetMsgString
+R3 := MSI_EMOTION_SCRATCH
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_BEST
+R2 := GetMsgString
+R3 := MSI_EMOTION_BEST
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_STARE_ABOUT
+R2 := GetMsgString
+R3 := MSI_EMOTION_STARE_ABOUT
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_HUK
+R2 := GetMsgString
+R3 := MSI_EMOTION_HUK
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_O
+R2 := GetMsgString
+R3 := MSI_EMOTION_O
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_X
+R2 := GetMsgString
+R3 := MSI_EMOTION_X
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_HELP
+R2 := GetMsgString
+R3 := MSI_EMOTION_HELP
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_GO
+R2 := GetMsgString
+R3 := MSI_EMOTION_GO
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_CRY
+R2 := GetMsgString
+R3 := MSI_EMOTION_CRY
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_KIK
+R2 := GetMsgString
+R3 := MSI_EMOTION_KIK
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_CHUP
+R2 := GetMsgString
+R3 := MSI_EMOTION_CHUP
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_CHUPCHUP
+R2 := GetMsgString
+R3 := MSI_EMOTION_CHUPCHUP
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_HNG
+R2 := GetMsgString
+R3 := MSI_EMOTION_HNG
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_OK
+R2 := GetMsgString
+R3 := MSI_EMOTION_OK
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_STARE
+R2 := GetMsgString
+R3 := MSI_EMOTION_STARE
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_HUNGRY
+R2 := GetMsgString
+R3 := MSI_EMOTION_HUNGRY
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_COOL
+R2 := GetMsgString
+R3 := MSI_EMOTION_COOL
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_MERONG
+R2 := GetMsgString
+R3 := MSI_EMOTION_MERONG
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_SHY
+R2 := GetMsgString
+R3 := MSI_EMOTION_SHY
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_GOODBOY
+R2 := GetMsgString
+R3 := MSI_EMOTION_GOODBOY
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_SPTIME
+R2 := GetMsgString
+R3 := MSI_EMOTION_SPTIME
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_SEXY
+R2 := GetMsgString
+R3 := MSI_EMOTION_SEXY
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_COMEON
+R2 := GetMsgString
+R3 := MSI_EMOTION_COMEON
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_SLEEPY
+R2 := GetMsgString
+R3 := MSI_EMOTION_SLEEPY
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_CONGRATULATION
+R2 := GetMsgString
+R3 := MSI_EMOTION_CONGRATULATION
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_HPTIME
+R2 := GetMsgString
+R3 := MSI_EMOTION_HPTIME
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_SPARK
+R2 := GetMsgString
+R3 := MSI_EMOTION_SPARK
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_CONFUSE
+R2 := GetMsgString
+R3 := MSI_EMOTION_CONFUSE
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_OHNO
+R2 := GetMsgString
+R3 := MSI_EMOTION_OHNO
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_HUM
+R2 := GetMsgString
+R3 := MSI_EMOTION_HUM
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_BLABLA
+R2 := GetMsgString
+R3 := MSI_EMOTION_BLABLA
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_OTL
+R2 := GetMsgString
+R3 := MSI_EMOTION_OTL
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_ROCK
+R2 := GetMsgString
+R3 := MSI_EMOTION_ROCK
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_SCISSOR
+R2 := GetMsgString
+R3 := MSI_EMOTION_SCISSOR
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_WRAP
+R2 := GetMsgString
+R3 := MSI_EMOTION_WRAP
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_LUV
+R2 := GetMsgString
+R3 := MSI_EMOTION_LUV
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_MOBILE
+R2 := GetMsgString
+R3 := MSI_EMOTION_MOBILE
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_MAIL
+R2 := GetMsgString
+R3 := MSI_EMOTION_MAIL
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_ANTENNA1
+R2 := GetMsgString
+R3 := MSI_EMOTION_ANTENNA1
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_ANTENNA2
+R2 := GetMsgString
+R3 := MSI_EMOTION_ANTENNA2
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_ANTENNA3
+R2 := GetMsgString
+R3 := MSI_EMOTION_ANTENNA3
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_HUM2
+R2 := GetMsgString
+R3 := MSI_EMOTION_HUM2
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_ABS
+R2 := GetMsgString
+R3 := MSI_EMOTION_ABS
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_OOPS
+R2 := GetMsgString
+R3 := MSI_EMOTION_OOPS
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_SPIT
+R2 := GetMsgString
+R3 := MSI_EMOTION_SPIT
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_ENE
+R2 := GetMsgString
+R3 := MSI_EMOTION_ENE
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_PANIC
+R2 := GetMsgString
+R3 := MSI_EMOTION_PANIC
+R2 := R2(R3)
+R0[R1] := R2
+R1 := ET_WHISP
+R2 := GetMsgString
+R3 := MSI_EMOTION_WHISP
+R2 := R2(R3)
+R0[R1] := R2
+EMOTION_MSGLIST := R0
+R0 := {}
+R1 := ET_SURPRISE
+R2 := ET_QUESTION
+R3 := ET_DELIGHT
+R4 := ET_THROB
+R5 := ET_BIGTHROB
+R6 := ET_SWEAT
+R7 := ET_AHA
+R8 := ET_FRET
+R9 := ET_ANGER
+R10 := ET_MONEY
+R11 := ET_THINK
+R12 := ET_ROCK
+R13 := ET_SCISSOR
+R14 := ET_WRAP
+R15 := ET_THANKS
+R16 := ET_KEK
+R17 := ET_SORRY
+R18 := ET_SMILE
+R19 := ET_PROFUSELY_SWEAT
+R20 := ET_SCRATCH
+R21 := ET_BEST
+R22 := ET_STARE_ABOUT
+R23 := ET_HUK
+R24 := ET_O
+R25 := ET_X
+R26 := ET_HELP
+R27 := ET_GO
+R28 := ET_CRY
+R29 := ET_KIK
+R30 := ET_CHUP
+R31 := ET_CHUPCHUP
+R32 := ET_HNG
+R0[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32] := R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32
+R1 := ET_OK
+R2 := ET_STARE
+R3 := ET_HUNGRY
+R4 := ET_COOL
+R5 := ET_MERONG
+R6 := ET_SHY
+R7 := ET_GOODBOY
+R8 := ET_SPTIME
+R9 := ET_SEXY
+R10 := ET_COMEON
+R11 := ET_SLEEPY
+R12 := ET_CONGRATULATION
+R13 := ET_HPTIME
+R14 := ET_SPARK
+R15 := ET_CONFUSE
+R16 := ET_OHNO
+R17 := ET_HUM
+R18 := ET_BLABLA
+R19 := ET_OTL
+R20 := ET_LUV
+R21 := ET_MOBILE
+R22 := ET_MAIL
+R23 := ET_ANTENNA1
+R24 := ET_ANTENNA2
+R25 := ET_ANTENNA3
+R26 := ET_HUM2
+R27 := ET_ABS
+R28 := ET_OOPS
+R29 := ET_SPIT
+R30 := ET_ENE
+R31 := ET_PANIC
+R32 := ET_WHISP
+R0[33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64] := R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32
+EMOTION_ORDERLIST := R0
+R0 := {}
+R1 := "/e28"
+R2 := ET_ABS
+R0[R1] := R2
+R1 := "/¸Û"
+R2 := ET_ABS
+R0[R1] := R2
+R1 := "/abs"
+R2 := ET_ABS
+R0[R1] := R2
+R1 := "/aha"
+R2 := ET_AHA
+R0[R1] := R2
+R1 := "/dkgk"
+R2 := ET_AHA
+R0[R1] := R2
+R1 := "/ghk"
+R2 := ET_ANGER
+R0[R1] := R2
+R1 := "/anger"
+R2 := ET_ANGER
+R0[R1] := R2
+R1 := "/e23"
+R2 := ET_ANTENNA0
+R0[R1] := R2
+R1 := "/antenna0"
+R2 := ET_ANTENNA0
+R0[R1] := R2
+R1 := "/e24"
+R2 := ET_ANTENNA1
+R0[R1] := R2
+R1 := "/antenna1"
+R2 := ET_ANTENNA1
+R0[R1] := R2
+R1 := "/e25"
+R2 := ET_ANTENNA2
+R0[R1] := R2
+R1 := "/antenna2"
+R2 := ET_ANTENNA2
+R0[R1] := R2
+R1 := "/e26"
+R2 := ET_ANTENNA3
+R0[R1] := R2
+R1 := "/antenna3"
+R2 := ET_ANTENNA3
+R0[R1] := R2
+R1 := "/¿øÃò"
+R2 := ET_BEST
+R0[R1] := R2
+R1 := "/¤º"
+R2 := ET_BEST
+R0[R1] := R2
+R1 := "/½Ã²ø½Ã²ø"
+R2 := ET_BLABLA
+R0[R1] := R2
+R1 := "/e17"
+R2 := ET_BLABLA
+R0[R1] := R2
+R1 := "/e9"
+R2 := ET_COMEON
+R0[R1] := R2
+R1 := "/e14"
+R2 := ET_CONFUSE
+R0[R1] := R2
+R1 := "/¤º¤»"
+R2 := ET_CONGRATULATION
+R0[R1] := R2
+R1 := "/e11"
+R2 := ET_CONGRATULATION
+R0[R1] := R2
+R1 := "/e3"
+R2 := ET_COOL
+R0[R1] := R2
+R1 := "/delight"
+R2 := ET_DELIGHT
+R0[R1] := R2
+R1 := "/rlQma"
+R2 := ET_DELIGHT
+R0[R1] := R2
+R1 := "/¤¡"
+R2 := ET_DELIGHT
+R0[R1] := R2
+R1 := "/dice"
+R2 := ET_DICE
+R0[R1] := R2
+R1 := "/e19"
+R2 := ET_DICE
+R0[R1] := R2
+R1 := "/e31"
+R2 := ET_ENE
+R0[R1] := R2
+R1 := "/Å»·Â"
+R2 := ET_ENE
+R0[R1] := R2
+R1 := "/ene"
+R2 := ET_ENE
+R0[R1] := R2
+R1 := "/fret"
+R2 := ET_FRET
+R0[R1] := R2
+R1 := "/Wkwmd"
+R2 := ET_FRET
+R0[R1] := R2
+R1 := "/e6"
+R2 := ET_GOODBOY
+R0[R1] := R2
+R1 := "/¤º¤º"
+R2 := ET_HELP
+R0[R1] := R2
+R1 := "/help"
+R2 := ET_HELP
+R0[R1] := R2
+R1 := "/ÇÇ"
+R2 := ET_HPTIME
+R0[R1] := R2
+R1 := "/e12"
+R2 := ET_HPTIME
+R0[R1] := R2
+R1 := "/¤¾"
+R2 := ET_HUK
+R0[R1] := R2
+R1 := "/e16"
+R2 := ET_HUM
+R0[R1] := R2
+R1 := "/e27"
+R2 := ET_HUM2
+R0[R1] := R2
+R1 := "/Èì"
+R2 := ET_HUM2
+R0[R1] := R2
+R1 := "/hum"
+R2 := ET_HUM2
+R0[R1] := R2
+R1 := "/e2"
+R2 := ET_HUNGRY
+R0[R1] := R2
+R1 := "/Å±"
+R2 := ET_KIK
+R0[R1] := R2
+R1 := "/¤»"
+R2 := ET_KIK
+R0[R1] := R2
+R1 := "/ÄÉÄÉ"
+R2 := ET_KIK
+R0[R1] := R2
+R1 := "/·¯ºê"
+R2 := ET_LUV
+R0[R1] := R2
+R1 := "/e20"
+R2 := ET_LUV
+R0[R1] := R2
+R1 := "/e22"
+R2 := ET_MAIL
+R0[R1] := R2
+R1 := "/mail"
+R2 := ET_MAIL
+R0[R1] := R2
+R1 := "/e4"
+R2 := ET_MERONG
+R0[R1] := R2
+R1 := "/e21"
+R2 := ET_MOBILE
+R0[R1] := R2
+R1 := "/mobile"
+R2 := ET_MOBILE
+R0[R1] := R2
+R1 := "/money"
+R2 := ET_MONEY
+R0[R1] := R2
+R1 := "/ehs"
+R2 := ET_MONEY
+R0[R1] := R2
+R1 := "/o"
+R2 := ET_O
+R0[R1] := R2
+R1 := "/ÇÑ¼û"
+R2 := ET_OHNO
+R0[R1] := R2
+R1 := "/e15"
+R2 := ET_OHNO
+R0[R1] := R2
+R1 := "/²ô´ö"
+R2 := ET_OK
+R0[R1] := R2
+R1 := "/e29"
+R2 := ET_OOPS
+R0[R1] := R2
+R1 := "/¿ó"
+R2 := ET_OOPS
+R0[R1] := R2
+R1 := "/oops"
+R2 := ET_OOPS
+R0[R1] := R2
+R1 := "/e18"
+R2 := ET_OTL
+R0[R1] := R2
+R1 := "/otl"
+R2 := ET_OTL
+R0[R1] := R2
+R1 := "/e32"
+R2 := ET_PANIC
+R0[R1] := R2
+R1 := "/°øÈ²"
+R2 := ET_PANIC
+R0[R1] := R2
+R1 := "/panic"
+R2 := ET_PANIC
+R0[R1] := R2
+R1 := "/wnajr"
+R2 := ET_ROCK
+R0[R1] := R2
+R1 := "/bawi"
+R2 := ET_ROCK
+R0[R1] := R2
+R1 := "/qkdnl"
+R2 := ET_ROCK
+R0[R1] := R2
+R1 := "/ÁÖ¸Ô"
+R2 := ET_ROCK
+R0[R1] := R2
+R1 := "/¹ÙÀ§"
+R2 := ET_ROCK
+R0[R1] := R2
+R1 := "/rkdnl"
+R2 := ET_SCISSOR
+R0[R1] := R2
+R1 := "/gawi"
+R2 := ET_SCISSOR
+R0[R1] := R2
+R1 := "/°¡À§"
+R2 := ET_SCISSOR
+R0[R1] := R2
+R1 := "/e8"
+R2 := ET_SEXY
+R0[R1] := R2
+R1 := "/ºÎ"
+R2 := ET_SHY
+R0[R1] := R2
+R1 := "/e5"
+R2 := ET_SHY
+R0[R1] := R2
+R1 := "/¤¸"
+R2 := ET_SLEEPY
+R0[R1] := R2
+R1 := "/e10"
+R2 := ET_SLEEPY
+R0[R1] := R2
+R1 := "/ÇÏÇÏ"
+R2 := ET_SMILE
+R0[R1] := R2
+R1 := "/¤·"
+R2 := ET_SMILE
+R0[R1] := R2
+R1 := "/smile"
+R2 := ET_SMILE
+R0[R1] := R2
+R1 := "/sorry"
+R2 := ET_SORRY
+R0[R1] := R2
+R1 := "/e13"
+R2 := ET_SPARK
+R0[R1] := R2
+R1 := "/e30"
+R2 := ET_SPIT
+R0[R1] := R2
+R1 := "/À¡"
+R2 := ET_SPIT
+R0[R1] := R2
+R1 := "/spit"
+R2 := ET_SPIT
+R0[R1] := R2
+R1 := "/¿¥"
+R2 := ET_SPTIME
+R0[R1] := R2
+R1 := "/e7"
+R2 := ET_SPTIME
+R0[R1] := R2
+R1 := "/¤¹"
+R2 := ET_STARE
+R0[R1] := R2
+R1 := "/e1"
+R2 := ET_STARE
+R0[R1] := R2
+R1 := "/sweat"
+R2 := ET_SWEAT
+R0[R1] := R2
+R1 := "/Eka"
+R2 := ET_SWEAT
+R0[R1] := R2
+R1 := "/¤£"
+R2 := ET_THANKS
+R0[R1] := R2
+R1 := "/heart"
+R2 := ET_THROB
+R0[R1] := R2
+R1 := "/gkxm"
+R2 := ET_THROB
+R0[R1] := R2
+R1 := "/e33"
+R2 := ET_WHISP
+R0[R1] := R2
+R1 := "/À§½ºÆÛ"
+R2 := ET_WHISP
+R0[R1] := R2
+R1 := "/whisp"
+R2 := ET_WHISP
+R0[R1] := R2
+R1 := "/qh"
+R2 := ET_WRAP
+R0[R1] := R2
+R1 := "/bo"
+R2 := ET_WRAP
+R0[R1] := R2
+R1 := "/º¸"
+R2 := ET_WRAP
+R0[R1] := R2
+R1 := "/x"
+R2 := ET_X
+R0[R1] := R2
+EMOTION_MSGLIST2 := R0
+R0 := closure(Function #0)
+InsertEmotMsgToList2 := R0
+R0 := closure(Function #1)
+InitEmotionMsgList2 := R0
+R0 := closure(Function #2)
+GetEmotionTypeByMsgStr := R0
+R0 := closure(Function #3)
+GetEmotionMsg := R0
+R0 := closure(Function #4)
+GetEmotionType := R0
+R0 := closure(Function #5)
+GetEmotionActionByWndIdx := R0
+R0 := closure(Function #6)
+GetEmotionAction := R0
+return 
+
+
+Function #0:
+;
+Name:            
+Defined at line: 484
+#Upvalues:       0
+#Parameters:     2 (R0, R1)
+Is_vararg:       0
+Max Stack Size:  3
+;
+Locals:
+Start PC |  End PC  | Name
+00000000 | 00000004 | msgStr
+00000000 | 00000004 | emotionType
+;
+No upvalues
+
+if R0 == nil then PC := 5
+  2 [485]: JMP       5
+R2 := EMOTION_MSGLIST2
+R2[R0] := R1
+return 
+
+
+Function #1:
+;
+Name:            
+Defined at line: 490
+#Upvalues:       0
+#Parameters:     0
+Is_vararg:       0
+Max Stack Size:  3
+;
+No locals information
+No upvalues
+
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_SURPRISE
+R1 := R1(R2)
+R2 := ET_SURPRISE
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_QUESTION
+R1 := R1(R2)
+R2 := ET_QUESTION
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_DELIGHT
+R1 := R1(R2)
+R2 := ET_DELIGHT
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_THROB
+R1 := R1(R2)
+R2 := ET_THROB
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_BIGTHROB
+R1 := R1(R2)
+R2 := ET_BIGTHROB
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_SWEAT
+R1 := R1(R2)
+R2 := ET_SWEAT
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_AHA
+R1 := R1(R2)
+R2 := ET_AHA
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_FRET
+R1 := R1(R2)
+R2 := ET_FRET
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_ANGER
+R1 := R1(R2)
+R2 := ET_ANGER
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_MONEY
+R1 := R1(R2)
+R2 := ET_MONEY
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_THINK
+R1 := R1(R2)
+R2 := ET_THINK
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_THANKS
+R1 := R1(R2)
+R2 := ET_THANKS
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_KEK
+R1 := R1(R2)
+R2 := ET_KEK
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_SORRY
+R1 := R1(R2)
+R2 := ET_SORRY
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_SMILE
+R1 := R1(R2)
+R2 := ET_SMILE
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_PROFUSELY_SWEAT
+R1 := R1(R2)
+R2 := ET_PROFUSELY_SWEAT
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_SCRATCH
+R1 := R1(R2)
+R2 := ET_SCRATCH
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_BEST
+R1 := R1(R2)
+R2 := ET_BEST
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_STARE_ABOUT
+R1 := R1(R2)
+R2 := ET_STARE_ABOUT
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_HUK
+R1 := R1(R2)
+R2 := ET_HUK
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_O
+R1 := R1(R2)
+R2 := ET_O
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_X
+R1 := R1(R2)
+R2 := ET_X
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_HELP
+R1 := R1(R2)
+R2 := ET_HELP
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_GO
+R1 := R1(R2)
+R2 := ET_GO
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_CRY
+R1 := R1(R2)
+R2 := ET_CRY
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_KIK
+R1 := R1(R2)
+R2 := ET_KIK
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_CHUP
+R1 := R1(R2)
+R2 := ET_CHUP
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_CHUPCHUP
+R1 := R1(R2)
+R2 := ET_CHUPCHUP
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_HNG
+R1 := R1(R2)
+R2 := ET_HNG
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_OK
+R1 := R1(R2)
+R2 := ET_OK
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_STARE
+R1 := R1(R2)
+R2 := ET_STARE
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_HUNGRY
+R1 := R1(R2)
+R2 := ET_HUNGRY
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_COOL
+R1 := R1(R2)
+R2 := ET_COOL
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_MERONG
+R1 := R1(R2)
+R2 := ET_MERONG
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_SHY
+R1 := R1(R2)
+R2 := ET_SHY
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_GOODBOY
+R1 := R1(R2)
+R2 := ET_GOODBOY
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_SPTIME
+R1 := R1(R2)
+R2 := ET_SPTIME
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_SEXY
+R1 := R1(R2)
+R2 := ET_SEXY
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_COMEON
+R1 := R1(R2)
+R2 := ET_COMEON
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_SLEEPY
+R1 := R1(R2)
+R2 := ET_SLEEPY
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_CONGRATULATION
+R1 := R1(R2)
+R2 := ET_CONGRATULATION
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_HPTIME
+R1 := R1(R2)
+R2 := ET_HPTIME
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_SPARK
+R1 := R1(R2)
+R2 := ET_SPARK
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_CONFUSE
+R1 := R1(R2)
+R2 := ET_CONFUSE
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_OHNO
+R1 := R1(R2)
+R2 := ET_OHNO
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_HUM
+R1 := R1(R2)
+R2 := ET_HUM
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_BLABLA
+R1 := R1(R2)
+R2 := ET_BLABLA
+R0(R1,R2)
+R0 := InsertEmotMsgToList2
+R1 := GetMsgString
+R2 := MSI_EMOTION_OTL
+R1 := R1(R2)
+R2 := ET_OTL
+R0(R1,R2)
+return 
+
+
+Function #2:
+;
+Name:            
+Defined at line: 541
+#Upvalues:       0
+#Parameters:     1 (R0)
+Is_vararg:       0
+Max Stack Size:  3
+;
+Locals:
+Start PC |  End PC  | Name
+00000000 | 00000008 | msgStr
+00000002 | 00000008 | emotionType
+;
+No upvalues
+
+R1 := EMOTION_MSGLIST2
+R1 := R1[R0]
+if R1 == nil then PC := 7
+  4 [544]: JMP       7
+return R1
+PC := 9
+R2 := -1
+return R2
+return 
+
+
+Function #3:
+;
+Name:            
+Defined at line: 551
+#Upvalues:       0
+#Parameters:     1 (R0)
+Is_vararg:       0
+Max Stack Size:  4
+;
+Locals:
+Start PC |  End PC  | Name
+00000000 | 00000010 | indexInWnd
+00000003 | 00000010 | emotionType
+00000007 | 0000000d | emotionMsg
+;
+No upvalues
+
+R1 := EMOTION_ORDERLIST
+R2 := R0 + 1
+R1 := R1[R2]
+if R1 == nil then PC := 15
+  5 [554]: JMP       15
+R2 := EMOTION_MSGLIST
+R2 := R2[R1]
+if R2 == nil then PC := 12
+  9 [557]: JMP       12
+return R2
+PC := 17
+R3 := ""
+return R3
+PC := 17
+R2 := ""
+return R2
+return 
+
+
+Function #4:
+;
+Name:            
+Defined at line: 567
+#Upvalues:       0
+#Parameters:     1 (R0)
+Is_vararg:       0
+Max Stack Size:  3
+;
+Locals:
+Start PC |  End PC  | Name
+00000000 | 00000009 | indexInWnd
+00000003 | 00000009 | emotionType
+;
+No upvalues
+
+R1 := EMOTION_ORDERLIST
+R2 := R0 + 1
+R1 := R1[R2]
+if R1 == nil then PC := 8
+  5 [570]: JMP       8
+return R1
+PC := 10
+R2 := -1
+return R2
+return 
+
+
+Function #5:
+;
+Name:            
+Defined at line: 577
+#Upvalues:       0
+#Parameters:     1 (R0)
+Is_vararg:       0
+Max Stack Size:  4
+;
+Locals:
+Start PC |  End PC  | Name
+00000000 | 00000010 | indexInWnd
+00000003 | 00000010 | emotionType
+00000007 | 0000000d | emotionAction
+;
+No upvalues
+
+R1 := EMOTION_ORDERLIST
+R2 := R0 + 1
+R1 := R1[R2]
+if R1 == nil then PC := 15
+  5 [580]: JMP       15
+R2 := EMOTION_ACTION
+R2 := R2[R1]
+if R2 == nil then PC := 12
+  9 [583]: JMP       12
+return R2
+PC := 17
+R3 := -1
+return R3
+PC := 17
+R2 := -1
+return R2
+return 
+
+
+Function #6:
+;
+Name:            
+Defined at line: 593
+#Upvalues:       0
+#Parameters:     1 (R0)
+Is_vararg:       0
+Max Stack Size:  3
+;
+Locals:
+Start PC |  End PC  | Name
+00000000 | 00000008 | emotionType
+00000002 | 00000008 | emotionAction
+;
+No upvalues
+
+R1 := EMOTION_ACTION
+R1 := R1[R0]
+if R1 == nil then PC := 7
+  4 [596]: JMP       7
+return R1
+PC := 9
+R2 := -1
+return R2
+return 

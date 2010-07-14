@@ -1,0 +1,138 @@
+R0 := closure(Function #0)
+GetInheritJob := R0
+R0 := closure(Function #1)
+GetNeedSkillPosInLua := R0
+R0 := closure(Function #2)
+InitSkillTreeView := R0
+return 
+
+
+Function #0:
+;
+Name:            
+Defined at line: 1
+#Upvalues:       0
+#Parameters:     1 (R0)
+Is_vararg:       0
+Max Stack Size:  3
+;
+Locals:
+Start PC |  End PC  | Name
+00000000 | 00000010 | job
+00000007 | 00000010 | i
+;
+No upvalues
+
+R1 := {}
+JobInheritTable := R1
+if R0 != nil then PC := 7
+  4 [ 5]: JMP       7
+R1 := nil
+return R1
+R1 := 0
+PC := 14
+R1 := R1 + 1
+R2 := JobInheritTable
+R2[R1] := R0
+R2 := JOB_INHERIT_LIST
+R0 := R2[R0]
+if R0 != nil then PC := 9
+ 15 [10]: JMP       9
+return R1
+return 
+
+
+Function #1:
+;
+Name:            
+Defined at line: 20
+#Upvalues:       0
+#Parameters:     3 (R0, R1, R2)
+Is_vararg:       0
+Max Stack Size:  5
+;
+Locals:
+Start PC |  End PC  | Name
+00000000 | 0000001e | jobID
+00000000 | 0000001e | index
+00000000 | 0000001e | indx
+00000002 | 0000001e | needSkillInfo
+;
+No upvalues
+
+R3 := NEED_SKILLLIST_FOR_JOB
+R3 := R3[R0]
+if R3 == nil then PC := 9
+  4 [23]: JMP       9
+R4 := NEED_SKILLLIST_FOR_JOB
+R4 := R4[R0]
+R3 := R4[R1]
+PC := 11
+R4 := -1
+return R4
+if R3 == nil then PC := 18
+ 12 [29]: JMP       18
+R4 := NEED_SKILLLIST_FOR_JOB
+R4 := R4[R0]
+R4 := R4[R1]
+R3 := R4["NeedSkillList"]
+PC := 20
+R4 := -1
+return R4
+if R3 != nil then PC := 24
+ 21 [35]: JMP       24
+R4 := -1
+return R4
+R4 := R3[R2]
+if R4 == nil then PC := 29
+ 26 [39]: JMP       29
+R4 := R3[R2]
+return R4
+R4 := -1
+return R4
+return 
+
+
+Function #2:
+;
+Name:            
+Defined at line: 46
+#Upvalues:       0
+#Parameters:     2 (R0, R1)
+Is_vararg:       0
+Max Stack Size:  16
+;
+Locals:
+Start PC |  End PC  | Name
+00000000 | 00000015 | jobID
+00000000 | 00000015 | arrayNum
+00000002 | 00000015 | skillList
+00000008 | 00000015 | (for generator)
+00000008 | 00000015 | (for state)
+00000008 | 00000015 | idx
+00000008 | 00000015 | skillInfo
+;
+No upvalues
+
+R2 := NEED_SKILLLIST_FOR_JOB
+R2 := R2[R0]
+if R2 == nil then PC := 22
+  4 [49]: JMP       22
+R3 := pairs
+R4 := R2
+R3,R4,R5,R6 := R3(R4)
+end
+R7 := c_AddSkillList
+R8 := R0
+R9 := R1
+R10 := R5
+R11 := R6[1]
+R12 := R6["Pos"]
+R13 := R6["MaxLv"]
+R14 := getTableSize
+R15 := R6["NeedSkillList"]
+R14,... := R14(R15)
+R7(R8,...)
+if R5 ~= nil then PC = 9
+ 21 [51]: JMP       9
+return 
