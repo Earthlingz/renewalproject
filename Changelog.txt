@@ -1,3 +1,6 @@
+rev17 - [2010-11-17]
+ - Added disassembled kRO files from 2010-09-29 to 2010-11-10
+
 rev15 - [2010-07-17]
  - Added updates from http://svn6.assembla.com/svn/ClientSide/
  - Added disassembled lub files (by date)
