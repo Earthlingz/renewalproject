@@ -1,0 +1,781 @@
+R0 := {}
+HeadSprEditInfo := R0
+R0 := {}
+BodySprEditInfo := R0
+R0 := closure(Function #0)
+GetHeadSprEditInfo := R0
+R0 := closure(Function #1)
+GetBodySprEditInfo := R0
+R0 := closure(Function #2)
+GetRidingSprEditInfo := R0
+R0 := closure(Function #3)
+SetHeadSprEditInfo := R0
+R0 := closure(Function #4)
+SetBodySprEditInfo := R0
+R0 := closure(Function #5)
+SetRidingSprEditInfo := R0
+R0 := closure(Function #6)
+GetHeadOow := R0
+R0 := closure(Function #7)
+GetBodyOow := R0
+R0 := closure(Function #8)
+SetBodySprEditInfo_THIEFS := R0
+R0 := closure(Function #9)
+SetBodySprEditInfo_SETA := R0
+R0 := closure(Function #10)
+SetBodySprEditInfo_ACOLYTES := R0
+R0 := closure(Function #11)
+SetBodySprEditInfo_SETB := R0
+return 
+
+
+; Function #0:
+;
+; Name:            
+; Defined at line: 4
+; #Upvalues:       0
+; #Parameters:     3 (R0, R1, R2)
+; Is_vararg:       0
+; Max Stack Size:  8
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000007 | jobID
+; 00000000 | 00000007 | curAction
+; 00000000 | 00000007 | curMotion
+;
+; No upvalues
+
+R3 := GetRidingSprEditInfo
+R4 := HeadSprEditInfo
+R5 := R0
+R6 := R1
+R7 := R2
+return R3(R4,R5,R6,R7)
+return R3,...
+return 
+
+
+; Function #1:
+;
+; Name:            
+; Defined at line: 8
+; #Upvalues:       0
+; #Parameters:     3 (R0, R1, R2)
+; Is_vararg:       0
+; Max Stack Size:  8
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000007 | jobID
+; 00000000 | 00000007 | curAction
+; 00000000 | 00000007 | curMotion
+;
+; No upvalues
+
+R3 := GetRidingSprEditInfo
+R4 := BodySprEditInfo
+R5 := R0
+R6 := R1
+R7 := R2
+return R3(R4,R5,R6,R7)
+return R3,...
+return 
+
+
+; Function #2:
+;
+; Name:            
+; Defined at line: 12
+; #Upvalues:       0
+; #Parameters:     4 (R0, R1, R2, R3)
+; Is_vararg:       0
+; Max Stack Size:  8
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000025 | RidingSprEditInfoTable
+; 00000000 | 00000025 | jobID
+; 00000000 | 00000025 | curAction
+; 00000000 | 00000025 | curMotion
+; 00000001 | 00000025 | xGap
+; 00000002 | 00000025 | yGap
+;
+; No upvalues
+
+R4 := 0
+R5 := 0
+R6 := R0[R1]
+if R6 == nil then PC := 35
+  5 [16]: JMP       35
+R6 := R0[R1]
+R6 := R6[R2]
+if R6 == nil then PC := 35
+  9 [18]: JMP       35
+R6 := R0[R1]
+R6 := R6[R2]
+R6 := R6[R3]
+if R6 == nil then PC := 35
+ 14 [20]: JMP       35
+R6 := R0[R1]
+R6 := R6[R2]
+R6 := R6[R3]
+R6 := R6["xGap"]
+if R6 == nil then PC := 25
+ 20 [22]: JMP       25
+R6 := R0[R1]
+R6 := R6[R2]
+R6 := R6[R3]
+R4 := R6["xGap"]
+R6 := R0[R1]
+R6 := R6[R2]
+R6 := R6[R3]
+R6 := R6["yGap"]
+if R6 == nil then PC := 35
+ 30 [26]: JMP       35
+R6 := R0[R1]
+R6 := R6[R2]
+R6 := R6[R3]
+R5 := R6["yGap"]
+R6 := R4
+R7 := R5
+return R6,R7
+return 
+
+
+; Function #3:
+;
+; Name:            
+; Defined at line: 36
+; #Upvalues:       0
+; #Parameters:     7 (R0, R1, R2, R3, R4, R5, R6)
+; Is_vararg:       0
+; Max Stack Size:  16
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000a | jobID
+; 00000000 | 0000000a | nStartAction
+; 00000000 | 0000000a | nFinishAction
+; 00000000 | 0000000a | nStartMotion
+; 00000000 | 0000000a | nFinishMotion
+; 00000000 | 0000000a | xGap
+; 00000000 | 0000000a | yGap
+;
+; No upvalues
+
+R7 := SetRidingSprEditInfo
+R8 := HeadSprEditInfo
+R9 := R0
+R10 := R1
+R11 := R2
+R12 := R3
+R13 := R4
+R14 := R5
+R15 := R6
+R7(R8,R9,R10,R11,R12,R13,R14,R15)
+return 
+
+
+; Function #4:
+;
+; Name:            
+; Defined at line: 40
+; #Upvalues:       0
+; #Parameters:     7 (R0, R1, R2, R3, R4, R5, R6)
+; Is_vararg:       0
+; Max Stack Size:  16
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000a | jobID
+; 00000000 | 0000000a | nStartAction
+; 00000000 | 0000000a | nFinishAction
+; 00000000 | 0000000a | nStartMotion
+; 00000000 | 0000000a | nFinishMotion
+; 00000000 | 0000000a | xGap
+; 00000000 | 0000000a | yGap
+;
+; No upvalues
+
+R7 := SetRidingSprEditInfo
+R8 := BodySprEditInfo
+R9 := R0
+R10 := R1
+R11 := R2
+R12 := R3
+R13 := R4
+R14 := R5
+R15 := R6
+R7(R8,R9,R10,R11,R12,R13,R14,R15)
+return 
+
+
+; Function #5:
+;
+; Name:            
+; Defined at line: 44
+; #Upvalues:       0
+; #Parameters:     8 (R0, R1, R2, R3, R4, R5, R6, R7)
+; Is_vararg:       0
+; Max Stack Size:  12
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000002f | RidingSprEditInfoTable
+; 00000000 | 0000002f | jobID
+; 00000000 | 0000002f | nStartAction
+; 00000000 | 0000002f | nFinishAction
+; 00000000 | 0000002f | nStartMotion
+; 00000000 | 0000002f | nFinishMotion
+; 00000000 | 0000002f | xGap
+; 00000000 | 0000002f | yGap
+; 00000006 | 0000002f | curAction
+; 0000000f | 0000002d | curMotion
+;
+; No upvalues
+
+R8 := R0[R1]
+if R8 != nil then PC := 6
+  3 [45]: JMP       6
+R8 := {}
+R0[R1] := R8
+R8 := R2
+PC := 46
+R9 := R0[R1]
+R9 := R9[R8]
+if R9 != nil then PC := 15
+ 11 [51]: JMP       15
+R9 := R0[R1]
+R10 := {}
+R9[R8] := R10
+R9 := R4
+PC := 43
+R10 := R0[R1]
+R10 := R10[R8]
+R10 := R10[R9]
+if R10 != nil then PC := 26
+ 21 [57]: JMP       26
+R10 := R0[R1]
+R10 := R10[R8]
+R11 := {}
+R10[R9] := R11
+if R6 == nil then PC := 34
+ 27 [61]: JMP       34
+if R6 == 0 then PC := 34
+ 29 [61]: JMP       34
+R10 := R0[R1]
+R10 := R10[R8]
+R10 := R10[R9]
+R10["xGap"] := R6
+if R7 == nil then PC := 42
+ 35 [65]: JMP       42
+if R7 == 0 then PC := 42
+ 37 [65]: JMP       42
+R10 := R0[R1]
+R10 := R10[R8]
+R10 := R10[R9]
+R10["yGap"] := R7
+R9 := R9 + 1
+if R9 <= R5 then PC := 17
+ 44 [56]: JMP       17
+R8 := R8 + 1
+if R8 <= R3 then PC := 8
+ 47 [50]: JMP       8
+return 
+
+
+; Function #6:
+;
+; Name:            
+; Defined at line: 76
+; #Upvalues:       0
+; #Parameters:     3 (R0, R1, R2)
+; Is_vararg:       0
+; Max Stack Size:  4
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000002 | jobID
+; 00000000 | 00000002 | curAction
+; 00000000 | 00000002 | curMotion
+;
+; No upvalues
+
+R3 := 0
+return R3
+return 
+
+
+; Function #7:
+;
+; Name:            
+; Defined at line: 80
+; #Upvalues:       0
+; #Parameters:     3 (R0, R1, R2)
+; Is_vararg:       0
+; Max Stack Size:  4
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000002 | jobID
+; 00000000 | 00000002 | curAction
+; 00000000 | 00000002 | curMotion
+;
+; No upvalues
+
+R3 := 0
+return R3
+return 
+
+
+; Function #8:
+;
+; Name:            
+; Defined at line: 84
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := SetBodySprEditInfo_SETA
+R1 := pcJobTbl
+R1 := R1["JT_SORCERER"]
+R0(R1)
+R0 := SetBodySprEditInfo_SETA
+R1 := pcJobTbl
+R1 := R1["JT_SORCERER_B"]
+R0(R1)
+R0 := SetBodySprEditInfo_SETA
+R1 := pcJobTbl
+R1 := R1["JT_SORCERER_H"]
+R0(R1)
+R0 := SetBodySprEditInfo_SETA
+R1 := 4132
+R0(R1)
+R0 := SetBodySprEditInfo_SETA
+R1 := 4176
+R0(R1)
+R0 := SetBodySprEditInfo_SETA
+R1 := pcJobTbl
+R1 := R1["JT_SHADOW_CHASER"]
+R0(R1)
+R0 := SetBodySprEditInfo_SETA
+R1 := pcJobTbl
+R1 := R1["JT_SHADOW_CHASER_B"]
+R0(R1)
+R0 := SetBodySprEditInfo_SETA
+R1 := pcJobTbl
+R1 := R1["JT_SHADOW_CHASER_H"]
+R0(R1)
+R0 := SetBodySprEditInfo_SETA
+R1 := 4143
+R0(R1)
+R0 := SetBodySprEditInfo_SETA
+R1 := 4182
+R0(R1)
+R0 := SetBodySprEditInfo_SETA
+R1 := pcJobTbl
+R1 := R1["JT_ROGUE"]
+R0(R1)
+R0 := SetBodySprEditInfo_SETA
+R1 := pcJobTbl
+R1 := R1["JT_ROGUE_B"]
+R0(R1)
+R0 := SetBodySprEditInfo_SETA
+R1 := pcJobTbl
+R1 := R1["JT_ROGUE_H"]
+R0(R1)
+R0 := SetBodySprEditInfo_SETA
+R1 := pcJobTbl
+R1 := R1["JT_ASSASSIN_H"]
+R0(R1)
+R0 := SetBodySprEditInfo_SETA
+R1 := 4142
+R0(R1)
+R0 := SetBodySprEditInfo_SETA
+R1 := 4168
+R0(R1)
+R0 := SetBodySprEditInfo_SETA
+R1 := 4144
+R0(R1)
+R0 := SetBodySprEditInfo_SETA
+R1 := 4146
+R0(R1)
+R0 := SetBodySprEditInfo_SETA
+R1 := pcJobTbl
+R1 := R1["JT_THIEF"]
+R0(R1)
+R0 := SetBodySprEditInfo_SETA
+R1 := pcJobTbl
+R1 := R1["JT_THIEF_B"]
+R0(R1)
+R0 := SetBodySprEditInfo_SETA
+R1 := pcJobTbl
+R1 := R1["JT_THIEF_H"]
+R0(R1)
+R0 := SetBodySprEditInfo_SETA
+R1 := 4141
+R0(R1)
+R0 := SetBodySprEditInfo_SETA
+R1 := 4189
+R0(R1)
+R0 := SetBodySprEditInfo_SETA
+R1 := 4181
+R0(R1)
+R0 := SetBodySprEditInfo_SETA
+R1 := pcJobTbl
+R1 := R1["JT_GUILLOTINE_CROSS"]
+R0(R1)
+R0 := SetBodySprEditInfo_SETA
+R1 := pcJobTbl
+R1 := R1["JT_GUILLOTINE_CROSS_B"]
+R0(R1)
+R0 := SetBodySprEditInfo_SETA
+R1 := pcJobTbl
+R1 := R1["JT_GUILLOTINE_CROSS_H"]
+R0(R1)
+R0 := SetBodySprEditInfo_SETA
+R1 := 4140
+R0(R1)
+R0 := SetBodySprEditInfo_SETA
+R1 := 4175
+R0(R1)
+R0 := SetBodySprEditInfo_SETA
+R1 := pcJobTbl
+R1 := R1["JT_MAGICIAN_H"]
+R0(R1)
+R0 := SetBodySprEditInfo_SETA
+R1 := 4185
+R0(R1)
+return 
+
+
+; Function #9:
+;
+; Name:            
+; Defined at line: 123
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  9
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000006c | jobID
+;
+; No upvalues
+
+R1 := SetBodySprEditInfo
+R2 := R0
+R3 := 0
+R4 := 7
+R5 := 0
+R6 := 2
+R7 := 0
+R8 := 15
+R1(R2,R3,R4,R5,R6,R7,R8)
+R1 := SetBodySprEditInfo
+R2 := R0
+R3 := 8
+R4 := 15
+R5 := 0
+R6 := 7
+R7 := 0
+R8 := 15
+R1(R2,R3,R4,R5,R6,R7,R8)
+R1 := SetBodySprEditInfo
+R2 := R0
+R3 := 17
+R4 := 23
+R5 := 0
+R6 := 2
+R7 := 0
+R8 := 20
+R1(R2,R3,R4,R5,R6,R7,R8)
+R1 := SetBodySprEditInfo
+R2 := R0
+R3 := 24
+R4 := 31
+R5 := 0
+R6 := 2
+R7 := 0
+R8 := 15
+R1(R2,R3,R4,R5,R6,R7,R8)
+R1 := SetBodySprEditInfo
+R2 := R0
+R3 := 32
+R4 := 39
+R5 := 0
+R6 := 5
+R7 := 0
+R8 := 15
+R1(R2,R3,R4,R5,R6,R7,R8)
+R1 := SetBodySprEditInfo
+R2 := R0
+R3 := 40
+R4 := 47
+R5 := 0
+R6 := 4
+R7 := 0
+R8 := 15
+R1(R2,R3,R4,R5,R6,R7,R8)
+R1 := SetBodySprEditInfo
+R2 := R0
+R3 := 48
+R4 := 55
+R5 := 0
+R6 := 2
+R7 := 0
+R8 := 15
+R1(R2,R3,R4,R5,R6,R7,R8)
+R1 := SetBodySprEditInfo
+R2 := R0
+R3 := 56
+R4 := 63
+R5 := 0
+R6 := 0
+R7 := 0
+R8 := 15
+R1(R2,R3,R4,R5,R6,R7,R8)
+R1 := SetBodySprEditInfo
+R2 := R0
+R3 := 72
+R4 := 79
+R5 := 0
+R6 := 0
+R7 := 0
+R8 := 15
+R1(R2,R3,R4,R5,R6,R7,R8)
+R1 := SetBodySprEditInfo
+R2 := R0
+R3 := 80
+R4 := 87
+R5 := 0
+R6 := 8
+R7 := 0
+R8 := 15
+R1(R2,R3,R4,R5,R6,R7,R8)
+R1 := SetBodySprEditInfo
+R2 := R0
+R3 := 88
+R4 := 95
+R5 := 0
+R6 := 7
+R7 := 0
+R8 := 15
+R1(R2,R3,R4,R5,R6,R7,R8)
+R1 := SetBodySprEditInfo
+R2 := R0
+R3 := 96
+R4 := 103
+R5 := 0
+R6 := 5
+R7 := 0
+R8 := 15
+R1(R2,R3,R4,R5,R6,R7,R8)
+return 
+
+
+; Function #10:
+;
+; Name:            
+; Defined at line: 138
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := SetBodySprEditInfo_SETB
+R1 := pcJobTbl
+R1 := R1["JT_ACOLYTE"]
+R0(R1)
+R0 := SetBodySprEditInfo_SETB
+R1 := pcJobTbl
+R1 := R1["JT_ACOLYTE_B"]
+R0(R1)
+R0 := SetBodySprEditInfo_SETB
+R1 := pcJobTbl
+R1 := R1["JT_ACOLYTE_H"]
+R0(R1)
+R0 := SetBodySprEditInfo_SETB
+R1 := 4126
+R0(R1)
+R0 := SetBodySprEditInfo_SETB
+R1 := 4162
+R0(R1)
+R0 := SetBodySprEditInfo_SETB
+R1 := 4187
+R0(R1)
+R0 := SetBodySprEditInfo_SETB
+R1 := pcJobTbl
+R1 := R1["JT_PRIEST"]
+R0(R1)
+R0 := SetBodySprEditInfo_SETB
+R1 := pcJobTbl
+R1 := R1["JT_PRIEST_B"]
+R0(R1)
+R0 := SetBodySprEditInfo_SETB
+R1 := pcJobTbl
+R1 := R1["JT_PRIEST_H"]
+R0(R1)
+R0 := SetBodySprEditInfo_SETB
+R1 := 4156
+R0(R1)
+R0 := SetBodySprEditInfo_SETB
+R1 := 4157
+R0(R1)
+R0 := SetBodySprEditInfo_SETB
+R1 := pcJobTbl
+R1 := R1["JT_SURA"]
+R0(R1)
+R0 := SetBodySprEditInfo_SETB
+R1 := pcJobTbl
+R1 := R1["JT_SURA_B"]
+R0(R1)
+R0 := SetBodySprEditInfo_SETB
+R1 := pcJobTbl
+R1 := R1["JT_SURA_H"]
+R0(R1)
+R0 := SetBodySprEditInfo_SETB
+R1 := 4127
+R0(R1)
+R0 := SetBodySprEditInfo_SETB
+R1 := 4179
+R0(R1)
+R0 := SetBodySprEditInfo_SETB
+R1 := pcJobTbl
+R1 := R1["JT_ARCHBISHOP"]
+R0(R1)
+R0 := SetBodySprEditInfo_SETB
+R1 := pcJobTbl
+R1 := R1["JT_ARCHBISHOP_B"]
+R0(R1)
+R0 := SetBodySprEditInfo_SETB
+R1 := pcJobTbl
+R1 := R1["JT_ARCHBISHOP_H"]
+R0(R1)
+R0 := SetBodySprEditInfo_SETB
+R1 := 4129
+R0(R1)
+R0 := SetBodySprEditInfo_SETB
+R1 := 4174
+R0(R1)
+R0 := SetBodySprEditInfo_SETB
+R1 := pcJobTbl
+R1 := R1["JT_MONK"]
+R0(R1)
+R0 := SetBodySprEditInfo_SETB
+R1 := pcJobTbl
+R1 := R1["JT_MONK_B"]
+R0(R1)
+R0 := SetBodySprEditInfo_SETB
+R1 := pcJobTbl
+R1 := R1["JT_MONK_H"]
+R0(R1)
+R0 := SetBodySprEditInfo_SETB
+R1 := 4125
+R0(R1)
+R0 := SetBodySprEditInfo_SETB
+R1 := 4166
+R0(R1)
+R0 := SetBodySprEditInfo_SETB
+R1 := 4139
+R0(R1)
+return 
+
+
+; Function #11:
+;
+; Name:            
+; Defined at line: 172
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  9
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000048 | jobID
+;
+; No upvalues
+
+R1 := SetBodySprEditInfo
+R2 := R0
+R3 := 0
+R4 := 7
+R5 := 0
+R6 := 2
+R7 := 0
+R8 := 10
+R1(R2,R3,R4,R5,R6,R7,R8)
+R1 := SetBodySprEditInfo
+R2 := R0
+R3 := 8
+R4 := 15
+R5 := 0
+R6 := 7
+R7 := 0
+R8 := 15
+R1(R2,R3,R4,R5,R6,R7,R8)
+R1 := SetBodySprEditInfo
+R2 := R0
+R3 := 32
+R4 := 39
+R5 := 0
+R6 := 5
+R7 := 0
+R8 := 5
+R1(R2,R3,R4,R5,R6,R7,R8)
+R1 := SetBodySprEditInfo
+R2 := R0
+R3 := 40
+R4 := 47
+R5 := 0
+R6 := 4
+R7 := 0
+R8 := 5
+R1(R2,R3,R4,R5,R6,R7,R8)
+R1 := SetBodySprEditInfo
+R2 := R0
+R3 := 72
+R4 := 79
+R5 := 0
+R6 := 0
+R7 := 0
+R8 := 5
+R1(R2,R3,R4,R5,R6,R7,R8)
+R1 := SetBodySprEditInfo
+R2 := R0
+R3 := 80
+R4 := 87
+R5 := 0
+R6 := 8
+R7 := 0
+R8 := 5
+R1(R2,R3,R4,R5,R6,R7,R8)
+R1 := SetBodySprEditInfo
+R2 := R0
+R3 := 88
+R4 := 95
+R5 := 0
+R6 := 7
+R7 := 0
+R8 := 5
+R1(R2,R3,R4,R5,R6,R7,R8)
+R1 := SetBodySprEditInfo
+R2 := R0
+R3 := 96
+R4 := 103
+R5 := 0
+R6 := 5
+R7 := 0
+R8 := 5
+R1(R2,R3,R4,R5,R6,R7,R8)
+return 

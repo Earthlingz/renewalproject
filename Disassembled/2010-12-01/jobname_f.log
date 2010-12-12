@@ -1,0 +1,155 @@
+R0 := closure(Function #0)
+ReqJobName := R0
+R0 := closure(Function #1)
+GetJobString := R0
+R0 := closure(Function #2)
+GetPetIllustName := R0
+R0 := closure(Function #3)
+GetPetAccActName := R0
+R0 := closure(Function #4)
+IsPetAccessory := R0
+return 
+
+
+; Function #0:
+;
+; Name:            
+; Defined at line: 16
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000009 | jobID
+;
+; No upvalues
+
+R1 := JobNameTable
+R1 := R1[R0]
+if R1 == nil then PC := 8
+  4 [17]: JMP       8
+R1 := JobNameTable
+R1 := R1[R0]
+return R1
+R1 := ""
+return R1
+return 
+
+
+; Function #1:
+;
+; Name:            
+; Defined at line: 30
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  8
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000b | jobID
+; 00000004 | 00000009 | (for generator)
+; 00000004 | 00000009 | (for state)
+; 00000004 | 00000009 | k
+; 00000004 | 00000009 | v
+;
+; No upvalues
+
+R1 := pairs
+R2 := jobtbl
+R1,R2,R3,R4 := R1(R2)
+if type(R1) == table then begin R2 := R1; R1 := next; PC := 8; end
+if R4 != R0 then PC := 8
+  6 [32]: JMP       8
+return R3
+R3 := R1(R2,R3); if R3 ~= nil then PC = 5
+  9 [35]: JMP       5
+R1 := ""
+return R1
+return 
+
+
+; Function #2:
+;
+; Name:            
+; Defined at line: 44
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000009 | jobID
+;
+; No upvalues
+
+R1 := PetIllustNameTable
+R1 := R1[R0]
+if R1 == nil then PC := 8
+  4 [45]: JMP       8
+R1 := PetIllustNameTable
+R1 := R1[R0]
+return R1
+R1 := "유저인터페이스\\illust\\펫_포링.bmp"
+return R1
+return 
+
+
+; Function #3:
+;
+; Name:            
+; Defined at line: 56
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000009 | accID
+;
+; No upvalues
+
+R1 := PetAccActNameTable
+R1 := R1[R0]
+if R1 == nil then PC := 8
+  4 [57]: JMP       8
+R1 := PetAccActNameTable
+R1 := R1[R0]
+return R1
+R1 := "몬스터\\chocho_방독면.act"
+return R1
+return 
+
+
+; Function #4:
+;
+; Name:            
+; Defined at line: 68
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000c | accID
+;
+; No upvalues
+
+R1 := PetAccIDs
+R1 := R1["ACC_FIRST"]
+if R1 >= R0 then PC := 11
+  4 [69]: JMP       11
+R1 := PetAccIDs
+R1 := R1["ACC_LAST"]
+if R0 >= R1 then PC := 11
+  8 [69]: JMP       11
+R1 := true
+return R1
+R1 := false
+return R1
+return 
