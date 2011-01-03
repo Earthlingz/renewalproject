@@ -1,3 +1,6 @@
+rev21 - [2011-01-03]
+ - Added disassembled kRO files from 2010-12-15 to 2010-12-29
+
 rev17 - [2010-11-17]
  - Added disassembled kRO files from 2010-09-29 to 2010-11-10
 
