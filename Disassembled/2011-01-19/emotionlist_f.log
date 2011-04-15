@@ -1,0 +1,269 @@
+R0 := closure(Function #0)
+InsertEmotionListTable := R0
+R0 := closure(Function #1)
+InsertEmotionMsgListTable := R0
+R0 := closure(Function #2)
+GetEmotionMsg := R0
+R0 := closure(Function #3)
+GetEmotionActionByWndIdx := R0
+R0 := closure(Function #4)
+GetEmotionAction := R0
+R0 := closure(Function #5)
+ReqEmotionByIndex := R0
+R0 := closure(Function #6)
+ReqEmotionByMsgStr := R0
+R0 := closure(Function #7)
+GetEmotionOrderListSize := R0
+return 
+
+
+; Function #0:
+;
+; Name:            
+; Defined at line: 16
+; #Upvalues:       0
+; #Parameters:     3 (R0, R1, R2)
+; Is_vararg:       0
+; Max Stack Size:  5
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000016 | emotionType
+; 00000000 | 00000016 | MsgStrID
+; 00000000 | 00000016 | actionNum
+;
+; No upvalues
+
+R3 := EmotionList
+R4 := {}
+R3[R0] := R4
+R3 := EmotionList
+R3 := R3[R0]
+R3["actionNum"] := R2
+if R1 == -1 then PC := 23
+  8 [20]: JMP       23
+R3 := c_GetMsgString
+R4 := R1
+R3 := R3(R4)
+msgStr := R3
+R3 := msgStr
+if R3 == nil then PC := 23
+ 15 [23]: JMP       23
+R3 := msgStr
+if R3 == "" then PC := 23
+ 18 [23]: JMP       23
+R3 := EmotionList
+R3 := R3[R0]
+R4 := msgStr
+R3["msgStr"] := R4
+return 
+
+
+; Function #1:
+;
+; Name:            
+; Defined at line: 35
+; #Upvalues:       0
+; #Parameters:     2 (R0, R1)
+; Is_vararg:       0
+; Max Stack Size:  4
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000009 | emotionType
+; 00000000 | 00000009 | MsgStr
+;
+; No upvalues
+
+if R1 == nil then PC := 10
+  2 [36]: JMP       10
+if R1 == "" then PC := 10
+  4 [36]: JMP       10
+R2 := EmotionMsgList
+R3 := {}
+R2[R1] := R3
+R2 := EmotionMsgList
+R2[R1] := R0
+return 
+
+
+; Function #2:
+;
+; Name:            
+; Defined at line: 47
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  4
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000011 | index
+; 00000003 | 00000011 | emotionType
+; 00000008 | 0000000e | emotionMsg
+;
+; No upvalues
+
+R1 := EMOTION_ORDERLIST
+R2 := R0 + 1
+R1 := R1[R2]
+if R1 == nil then PC := 16
+  5 [50]: JMP       16
+R2 := EmotionList
+R2 := R2[R1]
+R2 := R2["msgStr"]
+if R2 == nil then PC := 13
+ 10 [53]: JMP       13
+return R2
+PC := 18
+R3 := ""
+return R3
+PC := 18
+R2 := ""
+return R2
+return 
+
+
+; Function #3:
+;
+; Name:            
+; Defined at line: 69
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  4
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000011 | index
+; 00000003 | 00000011 | emotionType
+; 00000008 | 0000000e | emotionAction
+;
+; No upvalues
+
+R1 := EMOTION_ORDERLIST
+R2 := R0 + 1
+R1 := R1[R2]
+if R1 == nil then PC := 16
+  5 [72]: JMP       16
+R2 := EmotionList
+R2 := R2[R1]
+R2 := R2["actionNum"]
+if R2 == nil then PC := 13
+ 10 [75]: JMP       13
+return R2
+PC := 18
+R3 := -1
+return R3
+PC := 18
+R2 := -1
+return R2
+return 
+
+
+; Function #4:
+;
+; Name:            
+; Defined at line: 91
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000009 | emotionType
+; 00000003 | 00000009 | emotionAction
+;
+; No upvalues
+
+R1 := EmotionList
+R1 := R1[R0]
+R1 := R1["actionNum"]
+if R1 == nil then PC := 8
+  5 [94]: JMP       8
+return R1
+PC := 10
+R2 := -1
+return R2
+return 
+
+
+; Function #5:
+;
+; Name:            
+; Defined at line: 105
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  4
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000a | index
+; 00000003 | 0000000a | emotionType
+;
+; No upvalues
+
+R1 := EMOTION_ORDERLIST
+R2 := R0 + 1
+R1 := R1[R2]
+if R1 == nil then PC := 11
+  5 [108]: JMP       11
+if 0 > R1 then PC := 11
+  7 [108]: JMP       11
+R2 := c_ReqEmotion
+R3 := R1
+R2(R3)
+return 
+
+
+; Function #6:
+;
+; Name:            
+; Defined at line: 117
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  4
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000d | msgStr
+; 00000002 | 0000000d | emotionType
+;
+; No upvalues
+
+R1 := EmotionMsgList
+R1 := R1[R0]
+if R1 == nil then PC := 12
+  4 [120]: JMP       12
+if 0 > R1 then PC := 12
+  6 [120]: JMP       12
+R2 := c_ReqEmotion
+R3 := R1
+R2(R3)
+return R1
+PC := 14
+R2 := -1
+return R2
+return 
+
+
+; Function #7:
+;
+; Name:            
+; Defined at line: 133
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := getTableSize
+R1 := EMOTION_ORDERLIST
+return R0(R1)
+return R0,...
+return 
