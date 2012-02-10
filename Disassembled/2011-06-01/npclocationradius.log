@@ -1,0 +1,15 @@
+R0 := {}
+R1 := jobtbl
+R1 := R1["JT_E_VADON_X"]
+R0[R1] := 4
+R1 := jobtbl
+R1 := R1["JT_E_RANDGRIS"]
+R0[R1] := 3
+R1 := jobtbl
+R1 := R1["JT_EVENT_BAPHO"]
+R0[R1] := 2
+R1 := jobtbl
+R1 := R1["JT_E_GIANT_OCTOPUS"]
+R0[R1] := 1
+NpcLocationRadius := R0
+return 
