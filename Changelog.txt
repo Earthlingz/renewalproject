@@ -1,3 +1,7 @@
+rev28 - [2012-02-12]
+ - Added disassembled kRO files from 2011-06-15 to 2011-06-22 
+ - added efstids.lub to kRO RAW Lua Files folder since it was not compiled by kRO.
+
 rev27 - [2012-02-11]
  - Added disassembled kRO files from 2011-06-08
 
