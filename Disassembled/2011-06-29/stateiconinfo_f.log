@@ -1,0 +1,46 @@
+R0 := {}
+R1 := setmetatable
+R2 := R0
+R3 := {}
+R3["__mode"] := "v"
+R1(R2,R3)
+R1 := closure(Function #0,R1)
+R0 := R0
+GetTimeLimitInfo := R1
+R1 := closure(Function #1)
+SetDefaultDesInfo := R1
+R1 := SetDefaultDesInfo
+R2 := closure(Function #2,R2,R3)
+R0 := R0
+R0 := R1
+GetStateIconDescript := R2
+R2 := closure(Function #3)
+MakeBuffIconInfoFile := R2
+R2 := closure(Function #4)
+GetStrEFSTID := R2
+R2 := closure(Function #5)
+GetEFSTID := R2
+R2 := closure(Function #6)
+GetEFSTImgFileName := R2
+return 
+
+
+Function #0:
+;
+Name:            
+Defined at line: 22
+#Upvalues:       1
+#Parameters:     1 (R0)
+Is_vararg:       0
+Max Stack Size:  6
+;
+Locals:
+Start PC |  End PC  | Name
+00000000 | 0000002f | EFST_ID
+00000003 | 0000002f | key
+00000005 | 0000002f | timeInfo
+;
+Upvalues:
+resultDesInfos
+
+------- ERROR: Unable to continue ------- 
