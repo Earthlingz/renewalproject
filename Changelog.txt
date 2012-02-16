@@ -1,11 +1,14 @@
+rev34 - [2012-02-16]
+ - Added disassembled kRO files from Patch 2011-09-14
+
 rev32 - [2012-02-16]
- - Added Patcher system files from kRO Patch 2011-09-06
+ - Added Patcher system files from kRO Patch 2011-09-07
 
 rev31 - [2012-02-16]
- - Added missing 2011-09-06 files
+ - Added missing 2011-09-07 files
 
 rev30 - [2012-02-16]
- - Added disassembled kRO files from 2011-06-29 to 2011-09-06 
+ - Added disassembled kRO files from 2011-06-29 to 2011-09-07
 
 rev28 - [2012-02-12]
  - Added disassembled kRO files from 2011-06-15 to 2011-06-22 
