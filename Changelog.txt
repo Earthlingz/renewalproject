@@ -2,7 +2,7 @@ rev35 - [2012-02-16]
  - restored mistakenly deleted 2011-09-06 folder instead of renaming it to 2011-09-07
 
 rev34 - [2012-02-16]
- - Added disassembled kRO files from Patch 2011-09-14
+ - Added disassembled kRO files from Patch 2011-09-21
 
 rev32 - [2012-02-16]
  - Added Patcher system files from kRO Patch 2011-09-07
