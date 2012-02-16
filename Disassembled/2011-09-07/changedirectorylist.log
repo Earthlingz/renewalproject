@@ -1,0 +1,134 @@
+R0 := {}
+R1 := {}
+R2 := "RixSquirrel_12.eot"
+R3 := "data"
+R4 := "System\\Font"
+R1[1,2,3] := R2,R3,R4
+R2 := {}
+R3 := "RixMiniHeart_10.eot"
+R4 := "data"
+R5 := "System\\Font"
+R2[1,2,3] := R3,R4,R5
+R3 := {}
+R4 := "RixNHCgogo_10.eot"
+R5 := "data"
+R6 := "System\\Font"
+R3[1,2,3] := R4,R5,R6
+R4 := {}
+R5 := "RixSquirrel_10.eot"
+R6 := "data"
+R7 := "System\\Font"
+R4[1,2,3] := R5,R6,R7
+R5 := {}
+R6 := "RixMagic_10.eot"
+R7 := "data"
+R8 := "System\\Font"
+R5[1,2,3] := R6,R7,R8
+R6 := {}
+R7 := "RixLoveangel_10.eot"
+R8 := "data"
+R9 := "System\\Font"
+R6[1,2,3] := R7,R8,R9
+R7 := {}
+R8 := "RixLoveangel_12.eot"
+R9 := "data"
+R10 := "System\\Font"
+R7[1,2,3] := R8,R9,R10
+R8 := {}
+R9 := "RixJJangu_10.eot"
+R10 := "data"
+R11 := "System\\Font"
+R8[1,2,3] := R9,R10,R11
+R9 := {}
+R10 := "RixKid_10.eot"
+R11 := "data"
+R12 := "System\\Font"
+R9[1,2,3] := R10,R11,R12
+R10 := {}
+R11 := "RixFreshman_10.eot"
+R12 := "data"
+R13 := "System\\Font"
+R10[1,2,3] := R11,R12,R13
+R11 := {}
+R12 := "NHCgogo_10.eot"
+R13 := "data"
+R14 := "System\\Font"
+R11[1,2,3] := R12,R13,R14
+R12 := {}
+R13 := "NHCgogo_12.eot"
+R14 := "data"
+R15 := "System\\Font"
+R12[1,2,3] := R13,R14,R15
+R13 := {}
+R14 := "RixDiary_10.eot"
+R15 := "data"
+R16 := "System\\Font"
+R13[1,2,3] := R14,R15,R16
+R14 := {}
+R15 := "OptionInfo.lua"
+R16 := "data"
+R17 := "SaveData"
+R14[1,2,3] := R15,R16,R17
+R15 := {}
+R16 := "ChatWndInfo_U.lua"
+R17 := "data"
+R18 := "SaveData"
+R15[1,2,3] := R16,R17,R18
+R16 := {}
+R17 := "UserKeys.lua"
+R18 := "data"
+R19 := "SaveData"
+R16[1,2,3] := R17,R18,R19
+R17 := {}
+R18 := "UserKeys_s.lua"
+R19 := "data"
+R20 := "SaveData"
+R17[1,2,3] := R18,R19,R20
+R0[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17] := R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17
+ChangeDirectoryList := R0
+R0 := closure(Function #0)
+ChangeDirectoryOfFiles := R0
+R0 := ChangeDirectoryOfFiles
+R0()
+return 
+
+
+Function #0:
+;
+Name:            
+Defined at line: 24
+#Upvalues:       0
+#Parameters:     0
+Is_vararg:       0
+Max Stack Size:  5
+;
+Locals:
+Start PC |  End PC  | Name
+00000004 | 00000017 | idx
+;
+No upvalues
+
+R0 := ChangeDirectoryList
+if R0 == nil then PC := 24
+  3 [25]: JMP       24
+R0 := 1
+R1 := ChangeDirectoryList
+R1 := R1[R0]
+fileInfo := R1
+PC := 21
+R1 := c_ChangeDirectoryOfDatas
+R2 := fileInfo
+R2 := R2[1]
+R3 := fileInfo
+R3 := R3[2]
+R4 := fileInfo
+R4 := R4[3]
+R1(R2,R3,R4)
+R0 := R0 + 1
+R1 := ChangeDirectoryList
+R1 := R1[R0]
+fileInfo := R1
+R1 := fileInfo
+if not R1 then PC := 9
+ 23 [29]: JMP       9
+return 
