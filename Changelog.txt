@@ -1,3 +1,6 @@
+rev38 - [2012-02-17]
+ - Added disassembled kRO files from patch 2011-10-05
+
 rev37 - [2012-02-16]
  - Added disassembled kRO files from patch 2011-09-28
  - renamed the folder 2011-09-14 to 2011-09-21
