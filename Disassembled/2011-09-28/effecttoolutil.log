@@ -1,0 +1,220 @@
+R0 := 0
+MSG_SET_INIT := R0
+R0 := 1
+MSG_SET_SPAWNDIR1 := R0
+R0 := 2
+MSG_SET_SPAWNDIR2 := R0
+R0 := 3
+MSG_SET_GRAVITY := R0
+R0 := 4
+MSG_SET_POS := R0
+R0 := 5
+MSG_SET_EMITRADIUS := R0
+R0 := 6
+MSG_SET_COLOR := R0
+R0 := 7
+MSG_SET_EMITRATE := R0
+R0 := 8
+MSG_SET_SIZE := R0
+R0 := 9
+MSG_SET_LIFETIME := R0
+R0 := 10
+MSG_SET_TEXTURE := R0
+R0 := 11
+MSG_SET_SPEED := R0
+R0 := 12
+MSG_SET_SRCMODE := R0
+R0 := 13
+MSG_SET_DESTMODE := R0
+R0 := 14
+MSG_SET_MAXPARTICLE := R0
+R0 := closure(Function #0)
+IsOpenedEmitterInfoFiles := R0
+R0 := closure(Function #1)
+ReadEmitterInfoz := R0
+return 
+
+
+Function #0:
+;
+Name:            
+Defined at line: 17
+#Upvalues:       0
+#Parameters:     1 (R0)
+Is_vararg:       0
+Max Stack Size:  3
+;
+Locals:
+Start PC |  End PC  | Name
+00000000 | 00000008 | InfoTableName
+00000002 | 00000008 | EmitterInfoTable
+;
+No upvalues
+
+R1 := _G
+R1 := R1[R0]
+if R1 == nil then PC := 7
+  4 [20]: JMP       7
+R2 := true
+return R2
+R2 := false
+return R2
+return 
+
+
+Function #1:
+;
+Name:            
+Defined at line: 27
+#Upvalues:       0
+#Parameters:     1 (R0)
+Is_vararg:       0
+Max Stack Size:  13
+;
+Locals:
+Start PC |  End PC  | Name
+00000000 | 00000087 | InfoTableName
+00000002 | 00000087 | EmitterInfoTable
+00000008 | 00000087 | (for generator)
+00000008 | 00000087 | (for state)
+00000008 | 00000087 | k
+00000008 | 00000087 | v
+;
+No upvalues
+
+R1 := _G
+R1 := R1[R0]
+if R1 == nil then PC := 136
+  4 [30]: JMP       136
+R2 := pairs
+R3 := R1
+R2,R3,R4,R5 := R2(R3)
+end
+R6 := SetEffectInfo
+R7 := R4
+R8 := MSG_SET_MAXPARTICLE
+R9 := R5["maxcount"]
+R9 := R9[1]
+R6(R7,R8,R9)
+R6 := SetEffectInfo
+R7 := R4
+R8 := MSG_SET_SPAWNDIR1
+R9 := R5["dir1"]
+R9 := R9[1]
+R10 := R5["dir1"]
+R10 := R10[2]
+R11 := R5["dir1"]
+R11 := R11[3]
+R6(R7,R8,R9,R10,R11)
+R6 := SetEffectInfo
+R7 := R4
+R8 := MSG_SET_SPAWNDIR2
+R9 := R5["dir2"]
+R9 := R9[1]
+R10 := R5["dir2"]
+R10 := R10[2]
+R11 := R5["dir2"]
+R11 := R11[3]
+R6(R7,R8,R9,R10,R11)
+R6 := SetEffectInfo
+R7 := R4
+R8 := MSG_SET_GRAVITY
+R9 := R5["gravity"]
+R9 := R9[1]
+R10 := R5["gravity"]
+R10 := R10[2]
+R11 := R5["gravity"]
+R11 := R11[3]
+R6(R7,R8,R9,R10,R11)
+R6 := SetEffectInfo
+R7 := R4
+R8 := MSG_SET_POS
+R9 := R5["pos"]
+R9 := R9[1]
+R10 := R5["pos"]
+R10 := R10[2]
+R11 := R5["pos"]
+R11 := R11[3]
+R6(R7,R8,R9,R10,R11)
+R6 := SetEffectInfo
+R7 := R4
+R8 := MSG_SET_EMITRADIUS
+R9 := R5["radius"]
+R9 := R9[1]
+R10 := R5["radius"]
+R10 := R10[2]
+R11 := R5["radius"]
+R11 := R11[3]
+R6(R7,R8,R9,R10,R11)
+R6 := SetEffectInfo
+R7 := R4
+R8 := MSG_SET_COLOR
+R9 := R5["color"]
+R9 := R9[1]
+R10 := R5["color"]
+R10 := R10[2]
+R11 := R5["color"]
+R11 := R11[3]
+R12 := R5["color"]
+R12 := R12[4]
+R6(R7,R8,R9,R10,R11,R12)
+R6 := SetEffectInfo
+R7 := R4
+R8 := MSG_SET_EMITRATE
+R9 := R5["rate"]
+R9 := R9[1]
+R10 := R5["rate"]
+R10 := R10[2]
+R11 := R5["rate"]
+R11 := R11[3]
+R6(R7,R8,R9,R10,R11)
+R6 := SetEffectInfo
+R7 := R4
+R8 := MSG_SET_SIZE
+R9 := R5["size"]
+R9 := R9[1]
+R10 := R5["size"]
+R10 := R10[2]
+R11 := R5["size"]
+R11 := R11[3]
+R6(R7,R8,R9,R10,R11)
+R6 := SetEffectInfo
+R7 := R4
+R8 := MSG_SET_LIFETIME
+R9 := R5["life"]
+R9 := R9[1]
+R10 := R5["life"]
+R10 := R10[2]
+R11 := R5["life"]
+R11 := R11[3]
+R6(R7,R8,R9,R10,R11)
+R6 := SetEffectInfo
+R7 := R4
+R8 := MSG_SET_TEXTURE
+R9 := R5["texture"]
+R6(R7,R8,R9)
+R6 := SetEffectInfo
+R7 := R4
+R8 := MSG_SET_SPEED
+R9 := R5["speed"]
+R9 := R9[1]
+R6(R7,R8,R9)
+R6 := SetEffectInfo
+R7 := R4
+R8 := MSG_SET_SRCMODE
+R9 := R5["srcmode"]
+R9 := R9[1]
+R6(R7,R8,R9)
+R6 := SetEffectInfo
+R7 := R4
+R8 := MSG_SET_DESTMODE
+R9 := R5["destmode"]
+R9 := R9[1]
+R6(R7,R8,R9)
+R6 := SetEffectInfo
+R7 := R4
+R8 := MSG_SET_INIT
+R6(R7,R8)
+if R4 ~= nil then PC = 9
+135 [46]: JMP       9
+return 
