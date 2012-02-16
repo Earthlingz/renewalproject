@@ -1,0 +1,252 @@
+R0 := closure(Function #0)
+ReqJobName := R0
+R0 := closure(Function #1)
+GetJobString := R0
+R0 := closure(Function #2)
+GetPetIllustName := R0
+R0 := closure(Function #3)
+GetPetIllustName_V2 := R0
+R0 := closure(Function #4)
+GetPetAccActName := R0
+R0 := closure(Function #5)
+GetPetAccActName_V2 := R0
+R0 := closure(Function #6)
+IsPetAccessory := R0
+return 
+
+
+; Function #0:
+;
+; Name:            
+; Defined at line: 16
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000009 | jobID
+;
+; No upvalues
+
+R1 := JobNameTable
+R1 := R1[R0]
+if R1 == nil then PC := 8
+  4 [17]: JMP       8
+R1 := JobNameTable
+R1 := R1[R0]
+return R1
+R1 := ""
+return R1
+return 
+
+
+; Function #1:
+;
+; Name:            
+; Defined at line: 30
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  8
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000b | jobID
+; 00000004 | 00000009 | (for generator)
+; 00000004 | 00000009 | (for state)
+; 00000004 | 00000009 | k
+; 00000004 | 00000009 | v
+;
+; No upvalues
+
+R1 := pairs
+R2 := jobtbl
+R1,R2,R3,R4 := R1(R2)
+if type(R1) == table then begin R2 := R1; R1 := next; PC := 8; end
+if R4 != R0 then PC := 8
+  6 [32]: JMP       8
+return R3
+R3 := R1(R2,R3); if R3 ~= nil then PC = 5
+  9 [35]: JMP       5
+R1 := ""
+return R1
+return 
+
+
+; Function #2:
+;
+; Name:            
+; Defined at line: 44
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000f | jobID
+;
+; No upvalues
+
+R1 := "유저인터페이스\\illust\\"
+filePath := R1
+R1 := "펫_포링.bmp"
+fileName := R1
+R1 := PetIllustNameTable
+R1 := R1[R0]
+if R1 == nil then PC := 12
+  8 [48]: JMP       12
+R1 := PetIllustNameTable
+R1 := R1[R0]
+fileName := R1
+R1 := filePath
+R2 := fileName
+R1 := R1 .. R2
+return R1
+return 
+
+
+; Function #3:
+;
+; Name:            
+; Defined at line: 59
+; #Upvalues:       0
+; #Parameters:     2 (R0, R1)
+; Is_vararg:       0
+; Max Stack Size:  6
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000014 | jobID
+; 00000000 | 00000014 | in_bResEnglishName
+; 00000001 | 00000014 | filePath
+; 00000002 | 00000014 | fileName
+;
+; No upvalues
+
+R2 := "UserInterface\\illust\\"
+R3 := "PET_PORING.bmp"
+R4 := true
+if R1 != R4 then PC := 13
+  5 [63]: JMP       13
+R4 := PetIllustNameTable_Eng
+R4 := R4[R0]
+if R4 == nil then PC := 17
+  9 [64]: JMP       17
+R4 := PetIllustNameTable_Eng
+R3 := R4[R0]
+PC := 17
+R4 := GetPetIllustName
+R5 := R0
+return R4(R5)
+return R4,...
+R4 := R2
+R5 := R3
+R4 := R4 .. R5
+return R4
+return 
+
+
+; Function #4:
+;
+; Name:            
+; Defined at line: 78
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  5
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000c | accID
+; 00000001 | 0000000c | filePath
+; 00000002 | 0000000c | fileName
+;
+; No upvalues
+
+R1 := "몬스터\\"
+R2 := "chocho_방독면.act"
+R3 := PetAccActNameTable
+R3 := R3[R0]
+if R3 == nil then PC := 9
+  6 [82]: JMP       9
+R3 := PetAccActNameTable
+R2 := R3[R0]
+R3 := R1
+R4 := R2
+R3 := R3 .. R4
+return R3
+return 
+
+
+; Function #5:
+;
+; Name:            
+; Defined at line: 93
+; #Upvalues:       0
+; #Parameters:     2 (R0, R1)
+; Is_vararg:       0
+; Max Stack Size:  6
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000014 | accID
+; 00000000 | 00000014 | in_bResEnglishName
+; 00000001 | 00000014 | filePath
+; 00000002 | 00000014 | fileName
+;
+; No upvalues
+
+R2 := "Monster\\"
+R3 := "ACC_CHOCHO.act"
+R4 := true
+if R1 != R4 then PC := 13
+  5 [ 97]: JMP       13
+R4 := PetAccActNameTable_Eng
+R4 := R4[R0]
+if R4 == nil then PC := 17
+  9 [ 98]: JMP       17
+R4 := PetAccActNameTable_Eng
+R3 := R4[R0]
+PC := 17
+R4 := GetPetAccActName
+R5 := R0
+return R4(R5)
+return R4,...
+R4 := R2
+R5 := R3
+R4 := R4 .. R5
+return R4
+return 
+
+
+; Function #6:
+;
+; Name:            
+; Defined at line: 112
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000c | accID
+;
+; No upvalues
+
+R1 := PetAccIDs
+R1 := R1["ACC_FIRST"]
+if R1 >= R0 then PC := 11
+  4 [113]: JMP       11
+R1 := PetAccIDs
+R1 := R1["ACC_LAST"]
+if R0 >= R1 then PC := 11
+  8 [113]: JMP       11
+R1 := true
+return R1
+R1 := false
+return R1
+return 
