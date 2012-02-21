@@ -1,0 +1,5 @@
+R0 := {}
+R0["ROBE_WINGS"] := 1
+R0["ROBE_BAG_OF_ADVENTURER"] := 2
+SPRITE_ROBE_IDs := R0
+return 

@@ -1,0 +1,36 @@
+R0 := closure(Function #0)
+ReqRobSprName := R0
+return 
+
+
+Function #0:
+;
+Name:            
+Defined at line: 14
+#Upvalues:       0
+#Parameters:     1 (R0)
+Is_vararg:       0
+Max Stack Size:  3
+;
+Locals:
+Start PC |  End PC  | Name
+00000000 | 0000000e | index
+00000008 | 0000000e | NameMsg
+;
+No upvalues
+
+R1 := RobeNameTable
+R1 := R1[R0]
+if R1 != nil then PC := 7
+  4 [15]: JMP       7
+R1 := ""
+return R1
+R1 := RobeNameTable
+R1 := R1[R0]
+if R1 == nil then PC := 13
+ 10 [21]: JMP       13
+return R1
+PC := 15
+R2 := ""
+return R2
+return 

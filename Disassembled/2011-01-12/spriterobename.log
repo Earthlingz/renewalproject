@@ -1,0 +1,9 @@
+R0 := {}
+R1 := SPRITE_ROBE_IDs
+R1 := R1["ROBE_WINGS"]
+R0[R1] := "천사날개"
+R1 := SPRITE_ROBE_IDs
+R1 := R1["ROBE_BAG_OF_ADVENTURER"]
+R0[R1] := "모험가배낭"
+RobeNameTable := R0
+return 

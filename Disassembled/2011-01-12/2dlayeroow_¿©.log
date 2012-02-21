@@ -1,0 +1,17 @@
+R0 := {}
+R1 := JOBID
+R1 := R1["JT_MERCHANT"]
+R2 := {}
+R2[58] := 1e-005
+R2[59] := 1e-005
+R2[60] := 1e-005
+R2[61] := 1e-005
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_MAGICIAN"]
+R2 := {}
+R2[81] := -1e-005
+R2[86] := -1e-005
+R0[R1] := R2
+LayerOow_F := R0
+return 

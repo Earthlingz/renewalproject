@@ -1,0 +1,868 @@
+R0 := 0
+SEX_FEMAL := R0
+R0 := 1
+SEX_MALE := R0
+R0 := {}
+R1 := JOBID
+R1 := R1["JT_NOVICE_H"]
+R2 := JOBID
+R2 := R2["JT_NOVICE"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_SWORDMAN_H"]
+R2 := JOBID
+R2 := R2["JT_SWORDMAN"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_MAGICIAN_H"]
+R2 := JOBID
+R2 := R2["JT_MAGICIAN"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_MERCHANT_H"]
+R2 := JOBID
+R2 := R2["JT_MERCHANT"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_ARCHER_H"]
+R2 := JOBID
+R2 := R2["JT_ARCHER"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_ACOLYTE_H"]
+R2 := JOBID
+R2 := R2["JT_ACOLYTE"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_THIEF_H"]
+R2 := JOBID
+R2 := R2["JT_THIEF"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_SUPERNOVICE2"]
+R2 := JOBID
+R2 := R2["JT_SUPERNOVICE"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_NOVICE_B"]
+R2 := JOBID
+R2 := R2["JT_NOVICE"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_SWORDMAN_B"]
+R2 := JOBID
+R2 := R2["JT_SWORDMAN"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_MAGICIAN_B"]
+R2 := JOBID
+R2 := R2["JT_MAGICIAN"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_ARCHER_B"]
+R2 := JOBID
+R2 := R2["JT_ARCHER"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_ACOLYTE_B"]
+R2 := JOBID
+R2 := R2["JT_ACOLYTE"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_MERCHANT_B"]
+R2 := JOBID
+R2 := R2["JT_MERCHANT"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_THIEF_B"]
+R2 := JOBID
+R2 := R2["JT_THIEF"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_KNIGHT_B"]
+R2 := JOBID
+R2 := R2["JT_KNIGHT"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_PRIEST_B"]
+R2 := JOBID
+R2 := R2["JT_PRIEST"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_WIZARD_B"]
+R2 := JOBID
+R2 := R2["JT_WIZARD"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_BLACKSMITH_B"]
+R2 := JOBID
+R2 := R2["JT_BLACKSMITH"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_HUNTER_B"]
+R2 := JOBID
+R2 := R2["JT_HUNTER"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_ASSASSIN_B"]
+R2 := JOBID
+R2 := R2["JT_ASSASSIN"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_CRUSADER_B"]
+R2 := JOBID
+R2 := R2["JT_CRUSADER"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_MONK_B"]
+R2 := JOBID
+R2 := R2["JT_MONK"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_SAGE_B"]
+R2 := JOBID
+R2 := R2["JT_SAGE"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_ROGUE_B"]
+R2 := JOBID
+R2 := R2["JT_ROGUE"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_ALCHEMIST_B"]
+R2 := JOBID
+R2 := R2["JT_ALCHEMIST"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_BARD_B"]
+R2 := JOBID
+R2 := R2["JT_BARD"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_DANCER_B"]
+R2 := JOBID
+R2 := R2["JT_DANCER"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_SUPERNOVICE_B"]
+R2 := JOBID
+R2 := R2["JT_SUPERNOVICE"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_RUNE_KNIGHT_B"]
+R2 := JOBID
+R2 := R2["JT_RUNE_KNIGHT"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_WARLOCK_B"]
+R2 := JOBID
+R2 := R2["JT_WARLOCK"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_RANGER_B"]
+R2 := JOBID
+R2 := R2["JT_RANGER"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_ARCHBISHOP_B"]
+R2 := JOBID
+R2 := R2["JT_ARCHBISHOP"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_MECHANIC_B"]
+R2 := JOBID
+R2 := R2["JT_MECHANIC"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_GUILLOTINE_CROSS_B"]
+R2 := JOBID
+R2 := R2["JT_GUILLOTINE_CROSS"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_ROYAL_GUARD_B"]
+R2 := JOBID
+R2 := R2["JT_ROYAL_GUARD"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_SORCERER_B"]
+R2 := JOBID
+R2 := R2["JT_SORCERER"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_MINSTREL_B"]
+R2 := JOBID
+R2 := R2["JT_MINSTREL"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_WANDERER_B"]
+R2 := JOBID
+R2 := R2["JT_WANDERER"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_SURA_B"]
+R2 := JOBID
+R2 := R2["JT_SURA"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_GENETIC_B"]
+R2 := JOBID
+R2 := R2["JT_GENETIC"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_SHADOW_CHASER_B"]
+R2 := JOBID
+R2 := R2["JT_SHADOW_CHASER"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_SUPERNOVICE2_B"]
+R2 := JOBID
+R2 := R2["JT_SUPERNOVICE2"]
+R0[R1] := R2
+SPRITE_INHERIT_LIST := R0
+R0 := {}
+R1 := JOBID
+R1 := R1["JT_ASSASSIN_H"]
+R2 := JOBID
+R2 := R2["JT_ASSASSIN"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_GUILLOTINE_CROSS"]
+R2 := JOBID
+R2 := R2["JT_ASSASSIN"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_ALCHEMIST_H"]
+R2 := JOBID
+R2 := R2["JT_ALCHEMIST"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_GENETIC"]
+R2 := JOBID
+R2 := R2["JT_ALCHEMIST"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_DANCER_H"]
+R2 := JOBID
+R2 := R2["JT_DANCER"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_WANDERER"]
+R2 := JOBID
+R2 := R2["JT_DANCER"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_BARD_H"]
+R2 := JOBID
+R2 := R2["JT_BARD"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_MINSTREL"]
+R2 := JOBID
+R2 := R2["JT_BARD"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_MONK_H"]
+R2 := JOBID
+R2 := R2["JT_MONK"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_SURA"]
+R2 := JOBID
+R2 := R2["JT_MONK"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_ROGUE_H"]
+R2 := JOBID
+R2 := R2["JT_ROGUE"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_SHADOW_CHASER"]
+R2 := JOBID
+R2 := R2["JT_ROGUE"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_KNIGHT_H"]
+R2 := JOBID
+R2 := R2["JT_KNIGHT"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_HUNTER_H"]
+R2 := JOBID
+R2 := R2["JT_HUNTER"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_RANGER"]
+R2 := JOBID
+R2 := R2["JT_HUNTER"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_PRIEST_H"]
+R2 := JOBID
+R2 := R2["JT_PRIEST"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_ARCHBISHOP"]
+R2 := JOBID
+R2 := R2["JT_PRIEST"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_PECO_GUNNER"]
+R2 := JOBID
+R2 := R2["JT_PECO_SWORD"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_CRUSADER_H"]
+R2 := JOBID
+R2 := R2["JT_CRUSADER"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_ROYAL_GUARD"]
+R2 := JOBID
+R2 := R2["JT_CRUSADER"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_BLACKSMITH_H"]
+R2 := JOBID
+R2 := R2["JT_BLACKSMITH"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_MECHANIC"]
+R2 := JOBID
+R2 := R2["JT_BLACKSMITH"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_WIZARD_H"]
+R2 := JOBID
+R2 := R2["JT_WIZARD"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_WARLOCK"]
+R2 := JOBID
+R2 := R2["JT_WIZARD"]
+R0[R1] := R2
+EXCEPTION_SPRITE_INHERIT_LIST := R0
+R0 := {}
+R1 := JOBID
+R1 := R1["JT_PIG_WHITESMITH"]
+R2 := JOBID
+R2 := R2["JT_PIG_MERCHANT"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_PIG_GENETIC"]
+R2 := JOBID
+R2 := R2["JT_PIG_MERCHANT"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_PIG_CREATOR"]
+R2 := JOBID
+R2 := R2["JT_PIG_MERCHANT"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_PIG_ALCHE"]
+R2 := JOBID
+R2 := R2["JT_PIG_MERCHANT"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_PIG_BLACKSMITH"]
+R2 := JOBID
+R2 := R2["JT_PIG_MERCHANT"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_PIG_MERCHANT_B"]
+R2 := JOBID
+R2 := R2["JT_PIG_MERCHANT"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_PIG_GENETIC_B"]
+R2 := JOBID
+R2 := R2["JT_PIG_MERCHANT"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_PIG_ALCHE_B"]
+R2 := JOBID
+R2 := R2["JT_PIG_MERCHANT"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_PIG_MERCHANT_H"]
+R2 := JOBID
+R2 := R2["JT_PIG_MERCHANT"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_SHEEP_ACO"]
+R2 := JOBID
+R2 := R2["JT_SHEEP_MONK"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_SHEEP_SURA"]
+R2 := JOBID
+R2 := R2["JT_SHEEP_MONK"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_SHEEP_ARCB"]
+R2 := JOBID
+R2 := R2["JT_SHEEP_MONK"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_SHEEP_CHAMP"]
+R2 := JOBID
+R2 := R2["JT_SHEEP_MONK"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_SHEEP_PRIEST"]
+R2 := JOBID
+R2 := R2["JT_SHEEP_MONK"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_SHEEP_HPRIEST"]
+R2 := JOBID
+R2 := R2["JT_SHEEP_MONK"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_SHEEP_ACO_B"]
+R2 := JOBID
+R2 := R2["JT_SHEEP_MONK"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_SHEEP_MONK_B"]
+R2 := JOBID
+R2 := R2["JT_SHEEP_MONK"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_SHEEP_ARCB_B"]
+R2 := JOBID
+R2 := R2["JT_SHEEP_MONK"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_SHEEP_SURA_B"]
+R2 := JOBID
+R2 := R2["JT_SHEEP_MONK"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_SHEEP_ACO_H"]
+R2 := JOBID
+R2 := R2["JT_SHEEP_MONK"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_DOG_G_CROSS"]
+R2 := JOBID
+R2 := R2["JT_DOG_THIEF"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_DOG_ROGUE"]
+R2 := JOBID
+R2 := R2["JT_DOG_THIEF"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_DOG_CHASER"]
+R2 := JOBID
+R2 := R2["JT_DOG_THIEF"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_DOG_STALKER"]
+R2 := JOBID
+R2 := R2["JT_DOG_THIEF"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_DOG_ASSASSIN"]
+R2 := JOBID
+R2 := R2["JT_DOG_THIEF"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_DOG_ASSA_X"]
+R2 := JOBID
+R2 := R2["JT_DOG_THIEF"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_DOG_ASSASSIN_B"]
+R2 := JOBID
+R2 := R2["JT_DOG_THIEF"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_DOG_ROGUE_B"]
+R2 := JOBID
+R2 := R2["JT_DOG_THIEF"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_DOG_G_CROSS_B"]
+R2 := JOBID
+R2 := R2["JT_DOG_THIEF"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_DOG_CHASER_B"]
+R2 := JOBID
+R2 := R2["JT_DOG_THIEF"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_DOG_THIEF_H"]
+R2 := JOBID
+R2 := R2["JT_DOG_THIEF"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_DOG_THIEF_B"]
+R2 := JOBID
+R2 := R2["JT_DOG_THIEF"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_OSTRICH_DANCER"]
+R2 := JOBID
+R2 := R2["JT_OSTRICH_ARCHER"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_OSTRICH_MINSTREL"]
+R2 := JOBID
+R2 := R2["JT_OSTRICH_ARCHER"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_OSTRICH_BARD"]
+R2 := JOBID
+R2 := R2["JT_OSTRICH_ARCHER"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_OSTRICH_SNIPER"]
+R2 := JOBID
+R2 := R2["JT_OSTRICH_ARCHER"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_OSTRICH_WANDER"]
+R2 := JOBID
+R2 := R2["JT_OSTRICH_ARCHER"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_OSTRICH_ZIPSI"]
+R2 := JOBID
+R2 := R2["JT_OSTRICH_ARCHER"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_OSTRICH_CROWN"]
+R2 := JOBID
+R2 := R2["JT_OSTRICH_ARCHER"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_OSTRICH_HUNTER"]
+R2 := JOBID
+R2 := R2["JT_OSTRICH_ARCHER"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_OSTRICH_ARCHER_B"]
+R2 := JOBID
+R2 := R2["JT_OSTRICH_ARCHER"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_OSTRICH_HUNTER_B"]
+R2 := JOBID
+R2 := R2["JT_OSTRICH_ARCHER"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_OSTRICH_BARD_B"]
+R2 := JOBID
+R2 := R2["JT_OSTRICH_ARCHER"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_OSTRICH_DANCER_B"]
+R2 := JOBID
+R2 := R2["JT_OSTRICH_ARCHER"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_OSTRICH_MINSTREL_B"]
+R2 := JOBID
+R2 := R2["JT_OSTRICH_ARCHER"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_OSTRICH_WANDER_B"]
+R2 := JOBID
+R2 := R2["JT_OSTRICH_ARCHER"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_OSTRICH_ARCHER_H"]
+R2 := JOBID
+R2 := R2["JT_OSTRICH_ARCHER"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_FOX_SAGE"]
+R2 := JOBID
+R2 := R2["JT_FOX_MAGICIAN"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_FOX_SORCERER"]
+R2 := JOBID
+R2 := R2["JT_FOX_MAGICIAN"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_FOX_WARLOCK"]
+R2 := JOBID
+R2 := R2["JT_FOX_MAGICIAN"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_FOX_WIZ"]
+R2 := JOBID
+R2 := R2["JT_FOX_MAGICIAN"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_FOX_HWIZ"]
+R2 := JOBID
+R2 := R2["JT_FOX_MAGICIAN"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_FOX_MAGICIAN_B"]
+R2 := JOBID
+R2 := R2["JT_FOX_MAGICIAN"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_FOX_SAGE_B"]
+R2 := JOBID
+R2 := R2["JT_FOX_MAGICIAN"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_FOX_WARLOCK_B"]
+R2 := JOBID
+R2 := R2["JT_FOX_MAGICIAN"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_FOX_SORCERER_B"]
+R2 := JOBID
+R2 := R2["JT_FOX_MAGICIAN"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_FOX_MAGICIAN_H"]
+R2 := JOBID
+R2 := R2["JT_FOX_MAGICIAN"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_PORING_STAR"]
+R2 := JOBID
+R2 := R2["JT_PORING_NOVICE"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_PORING_SNOVICE"]
+R2 := JOBID
+R2 := R2["JT_PORING_NOVICE"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_PORING_TAEKWON"]
+R2 := JOBID
+R2 := R2["JT_PORING_NOVICE"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_PORING_NOVICE_B"]
+R2 := JOBID
+R2 := R2["JT_PORING_NOVICE"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_PORING_SNOVICE_B"]
+R2 := JOBID
+R2 := R2["JT_PORING_NOVICE"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_PORING_NOVICE_H"]
+R2 := JOBID
+R2 := R2["JT_PORING_NOVICE"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_PORING_SNOVICE2"]
+R2 := JOBID
+R2 := R2["JT_PORING_NOVICE"]
+R0[R1] := R2
+R1 := JOBID
+R1 := R1["JT_PORING_SNOVICE2_B"]
+R2 := JOBID
+R2 := R2["JT_PORING_NOVICE"]
+R0[R1] := R2
+RIDING_SPRITE_INHERIT_LIST := R0
+R0 := closure(Function #0)
+GetLayerDirTbl := R0
+R0 := closure(Function #1)
+GetSpriteInheriteJob := R0
+R0 := closure(Function #2)
+MyDirIsTheFront := R0
+R0 := closure(Function #3)
+GetSprEditOow := R0
+return 
+
+
+Function #0:
+;
+Name:            
+Defined at line: 185
+#Upvalues:       0
+#Parameters:     1 (R0)
+Is_vararg:       0
+Max Stack Size:  2
+;
+Locals:
+Start PC |  End PC  | Name
+00000000 | 00000008 | sex
+;
+No upvalues
+
+R1 := SEX_FEMAL
+if R0 != R1 then PC := 7
+  3 [186]: JMP       7
+R1 := LayerDir_F
+return R1
+PC := 9
+R1 := LayerDir_M
+return R1
+return 
+
+
+Function #1:
+;
+Name:            
+Defined at line: 193
+#Upvalues:       0
+#Parameters:     1 (R0)
+Is_vararg:       0
+Max Stack Size:  2
+;
+Locals:
+Start PC |  End PC  | Name
+00000000 | 00000025 | jobID
+;
+No upvalues
+
+R1 := RIDING_SPRITE_INHERIT_LIST
+if R1 == nil then PC := 10
+  3 [194]: JMP       10
+R1 := RIDING_SPRITE_INHERIT_LIST
+R1 := R1[R0]
+if R1 == nil then PC := 10
+  7 [195]: JMP       10
+R1 := RIDING_SPRITE_INHERIT_LIST
+R0 := R1[R0]
+R1 := JOB_INHERIT_LIST2
+if R1 == nil then PC := 19
+ 12 [200]: JMP       19
+R1 := JOB_INHERIT_LIST2
+R1 := R1[R0]
+if R1 == nil then PC := 19
+ 16 [201]: JMP       19
+R1 := JOB_INHERIT_LIST2
+R0 := R1[R0]
+R1 := SPRITE_INHERIT_LIST
+if R1 == nil then PC := 28
+ 21 [206]: JMP       28
+R1 := SPRITE_INHERIT_LIST
+R1 := R1[R0]
+if R1 == nil then PC := 28
+ 25 [207]: JMP       28
+R1 := SPRITE_INHERIT_LIST
+R0 := R1[R0]
+R1 := EXCEPTION_SPRITE_INHERIT_LIST
+if R1 == nil then PC := 37
+ 30 [212]: JMP       37
+R1 := EXCEPTION_SPRITE_INHERIT_LIST
+R1 := R1[R0]
+if R1 == nil then PC := 37
+ 34 [213]: JMP       37
+R1 := EXCEPTION_SPRITE_INHERIT_LIST
+R0 := R1[R0]
+return R0
+return 
+
+
+Function #2:
+;
+Name:            
+Defined at line: 221
+#Upvalues:       0
+#Parameters:     4 (R0, R1, R2, R3)
+Is_vararg:       0
+Max Stack Size:  7
+;
+Locals:
+Start PC |  End PC  | Name
+00000000 | 00000027 | sex
+00000000 | 00000027 | jobID
+00000000 | 00000027 | actNum
+00000000 | 00000027 | motNum
+00000003 | 00000027 | LayerDirTbl
+00000013 | 00000027 | idx
+;
+No upvalues
+
+R4 := GetLayerDirTbl
+R5 := R0
+R4 := R4(R5)
+R5 := GetSpriteInheriteJob
+R6 := R1
+R5 := R5(R6)
+R1 := R5
+R5 := R4[R1]
+if R5 != nil then PC := 13
+ 10 [226]: JMP       13
+R5 := false
+return R5
+R5 := R4[R1]
+R5 := R5[R2]
+if R5 != nil then PC := 19
+ 16 [230]: JMP       19
+R5 := false
+return R5
+R5 := 1
+R6 := R4[R1]
+R6 := R6[R2]
+R6 := R6[R5]
+motInfo := R6
+PC := 35
+R6 := motInfo
+if R6 != R3 then PC := 30
+ 27 [238]: JMP       30
+R6 := true
+return R6
+R5 := R5 + 1
+R6 := R4[R1]
+R6 := R6[R2]
+R6 := R6[R5]
+motInfo := R6
+R6 := motInfo
+if R6 != nil then PC := 25
+ 37 [237]: JMP       25
+R6 := false
+return R6
+return 
+
+
+Function #3:
+;
+Name:            
+Defined at line: 249
+#Upvalues:       0
+#Parameters:     3 (R0, R1, R2)
+Is_vararg:       0
+Max Stack Size:  6
+;
+Locals:
+Start PC |  End PC  | Name
+00000000 | 00000019 | sex
+00000000 | 00000019 | jobID
+00000000 | 00000019 | actNum
+00000001 | 00000019 | LayerOowTbl
+;
+No upvalues
+
+R3 := nil
+R4 := SEX_FEMAL
+if R0 != R4 then PC := 7
+  4 [252]: JMP       7
+R3 := LayerOow_F
+PC := 8
+R3 := LayerOow_M
+R4 := GetSpriteInheriteJob
+R5 := R1
+R4 := R4(R5)
+R1 := R4
+R4 := R3[R1]
+if R4 != nil then PC := 17
+ 14 [260]: JMP       17
+R4 := false
+return R4
+R4 := R3[R1]
+R4 := R4[R2]
+if R4 == nil then PC := 24
+ 20 [264]: JMP       24
+R4 := R3[R1]
+R4 := R4[R2]
+return R4
+R4 := 0
+return R4
+return 
