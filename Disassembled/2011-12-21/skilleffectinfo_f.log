@@ -1,0 +1,400 @@
+R0 := closure(Function #0)
+HaveSkillEffectInfo := R0
+R0 := closure(Function #1)
+GetEffectWaveFileName := R0
+R0 := closure(Function #2)
+GetEffectNum := R0
+R0 := closure(Function #3)
+GetEffectID := R0
+R0 := closure(Function #4)
+IsOnTarget := R0
+R0 := closure(Function #5)
+GetTargetEffectWaveFileName := R0
+R0 := closure(Function #6)
+GetTargetEffectNum := R0
+R0 := closure(Function #7)
+GetTargetEffectID := R0
+R0 := closure(Function #8)
+GetGroundEffectNum := R0
+R0 := closure(Function #9)
+GetGroundEffectID := R0
+R0 := closure(Function #10)
+GetBeginEffectID := R0
+R0 := closure(Function #11)
+GetBeginMotionType := R0
+return 
+
+
+; Function #0:
+;
+; Name:            
+; Defined at line: 1
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000008 | SKID
+; 00000002 | 00000008 | effectInfo
+;
+; No upvalues
+
+R1 := SKILL_EFFECT_INFO_LIST
+R1 := R1[R0]
+if R1 == nil then PC := 7
+  4 [4]: JMP       7
+R2 := true
+return R2
+R2 := false
+return R2
+return 
+
+
+; Function #1:
+;
+; Name:            
+; Defined at line: 11
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  4
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000a | SKID
+; 00000002 | 0000000a | effectInfo
+; 00000003 | 0000000a | fileName
+;
+; No upvalues
+
+R1 := SKILL_EFFECT_INFO_LIST
+R1 := R1[R0]
+R2 := ""
+if R1 == nil then PC := 10
+  5 [16]: JMP       10
+R3 := R1["waveFileName"]
+if R3 == nil then PC := 10
+  8 [17]: JMP       10
+R2 := R1["waveFileName"]
+return R2
+return 
+
+
+; Function #2:
+;
+; Name:            
+; Defined at line: 25
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  4
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000a | SKID
+; 00000002 | 0000000a | effectInfo
+; 00000003 | 0000000a | effectNum
+;
+; No upvalues
+
+R1 := SKILL_EFFECT_INFO_LIST
+R1 := R1[R0]
+R2 := 0
+if R1 == nil then PC := 10
+  5 [30]: JMP       10
+R3 := R1["effectNum"]
+if R3 == nil then PC := 10
+  8 [31]: JMP       10
+R2 := R1["effectNum"]
+return R2
+return 
+
+
+; Function #3:
+;
+; Name:            
+; Defined at line: 39
+; #Upvalues:       0
+; #Parameters:     2 (R0, R1)
+; Is_vararg:       0
+; Max Stack Size:  5
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000f | SKID
+; 00000000 | 0000000f | idx
+; 00000002 | 0000000f | effectInfo
+; 00000003 | 0000000f | effectID
+;
+; No upvalues
+
+R2 := SKILL_EFFECT_INFO_LIST
+R2 := R2[R0]
+R3 := -1
+if R2 == nil then PC := 15
+  5 [44]: JMP       15
+R4 := R2["effectID"]
+if R4 == nil then PC := 15
+  8 [45]: JMP       15
+R4 := R2["effectID"]
+R4 := R4[R1]
+if R4 == nil then PC := 15
+ 12 [46]: JMP       15
+R4 := R2["effectID"]
+R3 := R4[R1]
+return R3
+return 
+
+
+; Function #4:
+;
+; Name:            
+; Defined at line: 55
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  4
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000a | SKID
+; 00000002 | 0000000a | effectInfo
+; 00000003 | 0000000a | bIsOnTarget
+;
+; No upvalues
+
+R1 := SKILL_EFFECT_INFO_LIST
+R1 := R1[R0]
+R2 := false
+if R1 == nil then PC := 10
+  5 [60]: JMP       10
+R3 := R1["onTarget"]
+if R3 == nil then PC := 10
+  8 [61]: JMP       10
+R2 := R1["onTarget"]
+return R2
+return 
+
+
+; Function #5:
+;
+; Name:            
+; Defined at line: 69
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  4
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000a | SKID
+; 00000002 | 0000000a | effectInfo
+; 00000003 | 0000000a | fileName
+;
+; No upvalues
+
+R1 := SKILL_EFFECT_INFO_LIST
+R1 := R1[R0]
+R2 := ""
+if R1 == nil then PC := 10
+  5 [74]: JMP       10
+R3 := R1["targetWaveFileName"]
+if R3 == nil then PC := 10
+  8 [75]: JMP       10
+R2 := R1["targetWaveFileName"]
+return R2
+return 
+
+
+; Function #6:
+;
+; Name:            
+; Defined at line: 83
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  4
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000a | SKID
+; 00000002 | 0000000a | effectInfo
+; 00000003 | 0000000a | targetEffectNum
+;
+; No upvalues
+
+R1 := SKILL_EFFECT_INFO_LIST
+R1 := R1[R0]
+R2 := 0
+if R1 == nil then PC := 10
+  5 [88]: JMP       10
+R3 := R1["targetEffectNum"]
+if R3 == nil then PC := 10
+  8 [89]: JMP       10
+R2 := R1["targetEffectNum"]
+return R2
+return 
+
+
+; Function #7:
+;
+; Name:            
+; Defined at line: 97
+; #Upvalues:       0
+; #Parameters:     2 (R0, R1)
+; Is_vararg:       0
+; Max Stack Size:  5
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000f | SKID
+; 00000000 | 0000000f | idx
+; 00000002 | 0000000f | effectInfo
+; 00000003 | 0000000f | targetEffectID
+;
+; No upvalues
+
+R2 := SKILL_EFFECT_INFO_LIST
+R2 := R2[R0]
+R3 := -1
+if R2 == nil then PC := 15
+  5 [102]: JMP       15
+R4 := R2["targetEffectID"]
+if R4 == nil then PC := 15
+  8 [103]: JMP       15
+R4 := R2["targetEffectID"]
+R4 := R4[R1]
+if R4 == nil then PC := 15
+ 12 [104]: JMP       15
+R4 := R2["targetEffectID"]
+R3 := R4[R1]
+return R3
+return 
+
+
+; Function #8:
+;
+; Name:            
+; Defined at line: 113
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  4
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000a | SKID
+; 00000002 | 0000000a | effectInfo
+; 00000003 | 0000000a | groundEffectNum
+;
+; No upvalues
+
+R1 := SKILL_EFFECT_INFO_LIST
+R1 := R1[R0]
+R2 := 0
+if R1 == nil then PC := 10
+  5 [118]: JMP       10
+R3 := R1["groundEffectNum"]
+if R3 == nil then PC := 10
+  8 [119]: JMP       10
+R2 := R1["groundEffectNum"]
+return R2
+return 
+
+
+; Function #9:
+;
+; Name:            
+; Defined at line: 127
+; #Upvalues:       0
+; #Parameters:     2 (R0, R1)
+; Is_vararg:       0
+; Max Stack Size:  5
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000f | SKID
+; 00000000 | 0000000f | idx
+; 00000002 | 0000000f | effectInfo
+; 00000003 | 0000000f | groundEffectID
+;
+; No upvalues
+
+R2 := SKILL_EFFECT_INFO_LIST
+R2 := R2[R0]
+R3 := -1
+if R2 == nil then PC := 15
+  5 [132]: JMP       15
+R4 := R2["groundEffectID"]
+if R4 == nil then PC := 15
+  8 [133]: JMP       15
+R4 := R2["groundEffectID"]
+R4 := R4[R1]
+if R4 == nil then PC := 15
+ 12 [134]: JMP       15
+R4 := R2["groundEffectID"]
+R3 := R4[R1]
+return R3
+return 
+
+
+; Function #10:
+;
+; Name:            
+; Defined at line: 143
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  4
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000a | SKID
+; 00000002 | 0000000a | effectInfo
+; 00000003 | 0000000a | beginEffectID
+;
+; No upvalues
+
+R1 := SKILL_EFFECT_INFO_LIST
+R1 := R1[R0]
+R2 := -1
+if R1 == nil then PC := 10
+  5 [148]: JMP       10
+R3 := R1["beginEffectID"]
+if R3 == nil then PC := 10
+  8 [149]: JMP       10
+R2 := R1["beginEffectID"]
+return R2
+return 
+
+
+; Function #11:
+;
+; Name:            
+; Defined at line: 157
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  4
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000a | SKID
+; 00000002 | 0000000a | effectInfo
+; 00000003 | 0000000a | beginMotionType
+;
+; No upvalues
+
+R1 := SKILL_EFFECT_INFO_LIST
+R1 := R1[R0]
+R2 := -1
+if R1 == nil then PC := 10
+  5 [162]: JMP       10
+R3 := R1["beginMotionType"]
+if R3 == nil then PC := 10
+  8 [163]: JMP       10
+R2 := R1["beginMotionType"]
+return R2
+return 

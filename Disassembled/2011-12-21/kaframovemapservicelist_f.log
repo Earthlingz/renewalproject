@@ -1,0 +1,81 @@
+R0 := closure(Function #0)
+ReadKafraMoveMapServiceInfo := R0
+R0 := closure(Function #1)
+ReadKafraMiniMapPosInfo := R0
+return 
+
+
+; Function #0:
+;
+; Name:            
+; Defined at line: 6
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  13
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000003 | 00000010 | (for generator)
+; 00000003 | 00000010 | (for state)
+; 00000003 | 00000010 | (for control)
+; 00000004 | 0000000e | startMapName
+; 00000004 | 0000000e | table
+; 00000007 | 0000000e | (for generator)
+; 00000007 | 0000000e | (for state)
+; 00000007 | 0000000e | (for control)
+; 00000008 | 0000000c | key
+; 00000008 | 0000000c | destMapName
+;
+; No upvalues
+
+R0 := pairs
+R1 := KafraMoveMapServiceList
+R0,R1,R2 := R0(R1)
+PC := 15
+R5 := pairs
+R6 := R4
+R5,R6,R7 := R5(R6)
+PC := 13
+R10 := AddItmeTokafraServiceMapList
+R11 := R3
+R12 := R9
+R10(R11,R12)
+R8,R9 := R5(R6,R7); if R8 ~= nil then begin PC = 9; R7 := R8 end
+ 14 [ 9]: JMP       9
+R3,R4 := R0(R1,R2); if R3 ~= nil then begin PC = 5; R2 := R3 end
+ 16 [10]: JMP       5
+return 
+
+
+; Function #1:
+;
+; Name:            
+; Defined at line: 20
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  9
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000003 | 0000000b | (for generator)
+; 00000003 | 0000000b | (for state)
+; 00000003 | 0000000b | (for control)
+; 00000004 | 00000009 | k
+; 00000004 | 00000009 | v
+;
+; No upvalues
+
+R0 := pairs
+R1 := KafraMiniMapPos
+R0,R1,R2 := R0(R1)
+PC := 10
+R5 := AddItmeToExceptionMiniMapPosList
+R6 := R3
+R7 := R4[1]
+R8 := R4[2]
+R5(R6,R7,R8)
+R3,R4 := R0(R1,R2); if R3 ~= nil then begin PC = 5; R2 := R3 end
+ 11 [22]: JMP       5
+return 

@@ -1,0 +1,7 @@
+R0 := {}
+R1 := "System\\SetupInfo.lua"
+R2 := "System\\MsgString.lua"
+R3 := "System\\CmdInfo.lub"
+R0[1,2,3] := R1,R2,R3
+DELETE_FILES := R0
+return 

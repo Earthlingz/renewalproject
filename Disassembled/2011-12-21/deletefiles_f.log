@@ -1,0 +1,51 @@
+R0 := closure(Function #0)
+GetDeleteFileName := R0
+R0 := closure(Function #1)
+GetDeleteFileListSize := R0
+return 
+
+
+Function #0:
+;
+Name:            
+Defined at line: 5
+#Upvalues:       0
+#Parameters:     1 (R0)
+Is_vararg:       0
+Max Stack Size:  2
+;
+Locals:
+Start PC |  End PC  | Name
+00000000 | 00000008 | idx
+00000005 | 00000008 | file
+;
+No upvalues
+
+R1 := DELETE_FILES
+if R1 == nil then PC := 9
+  3 [ 6]: JMP       9
+R1 := DELETE_FILES
+R1 := R1[R0]
+if R1 == nil then PC := 9
+  7 [ 8]: JMP       9
+return R1
+return 
+
+
+Function #1:
+;
+Name:            
+Defined at line: 14
+#Upvalues:       0
+#Parameters:     0
+Is_vararg:       0
+Max Stack Size:  2
+;
+No locals information
+No upvalues
+
+R0 := getTableSize
+R1 := DELETE_FILES
+return R0(R1)
+return R0,...
+return 

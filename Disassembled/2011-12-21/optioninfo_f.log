@@ -1,0 +1,258 @@
+R0 := closure(Function #0)
+SetCmdOnOffList := R0
+R0 := closure(Function #1)
+l_GetOptionValue := R0
+R0 := closure(Function #2)
+SaveToFileCmdOnOffValue := R0
+R0 := closure(Function #3)
+l_GetCmdHelpMsg := R0
+R0 := closure(Function #4)
+SaveToFileCmdOnOffValueEx := R0
+return 
+
+
+; Function #0:
+;
+; Name:            
+; Defined at line: 14
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  9
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000007 | 00000014 | (for generator)
+; 00000007 | 00000014 | (for state)
+; 00000007 | 00000014 | (for control)
+; 00000008 | 00000012 | k
+; 00000008 | 00000012 | v
+; 0000000a | 00000012 | cmdInfo
+;
+; No upvalues
+
+R0 := CmdOnOffList
+if R0 != nil then PC := 5
+  3 [15]: JMP       5
+return 
+R0 := pairs
+R1 := CmdOnOffOderList
+R0,R1,R2 := R0(R1)
+PC := 19
+R5 := CmdOnOffList
+R5 := R5[R4]
+if R5 == nil then PC := 19
+ 12 [22]: JMP       19
+if R5 == nil then PC := 19
+ 14 [23]: JMP       19
+R6 := c_SetCmdOnOffList
+R7 := R4
+R8 := R5
+R6(R7,R8)
+R3,R4 := R0(R1,R2); if R3 ~= nil then begin PC = 9; R2 := R3 end
+ 20 [26]: JMP       9
+return 
+
+
+; Function #1:
+;
+; Name:            
+; Defined at line: 36
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000c | keyName
+; 00000007 | 0000000c | optionInfo
+;
+; No upvalues
+
+R1 := OptionInfoList
+if R1 != nil then PC := 6
+  3 [37]: JMP       6
+R1 := -1
+return R1
+R1 := OptionInfoList
+R1 := R1[R0]
+if R1 == nil then PC := 11
+  9 [43]: JMP       11
+return R1
+R2 := -1
+return R2
+return 
+
+
+; Function #2:
+;
+; Name:            
+; Defined at line: 56
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  12
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 0000000c | 0000001d | (for generator)
+; 0000000c | 0000001d | (for state)
+; 0000000c | 0000001d | (for control)
+; 0000000d | 0000001b | k
+; 0000000d | 0000001b | v
+; 00000010 | 0000001b | value
+;
+; No upvalues
+
+R0 := io
+R0 := R0["open"]
+R1 := "SaveData\\OptionInfo.lua"
+R2 := "w"
+R0 := R0(R1,R2)
+saveFile := R0
+R0 := saveFile
+if R0 == nil then PC := 38
+  9 [59]: JMP       38
+R0 := pairs
+R1 := CmdOnOffOderList
+R0,R1,R2 := R0(R1)
+PC := 28
+R5 := c_GetCmdOnOffValue
+R6 := R4
+R5 := R5(R6)
+if R5 == -1 then PC := 28
+ 18 [63]: JMP       28
+R6 := saveFile
+R7 := R6; R6 := R6["write"]
+R8 := string
+R8 := R8["format"]
+R9 := "CmdOnOffList[\"%s\"] = %d\n"
+R10 := R4
+R11 := R5
+R8,... := R8(R9,R10,R11)
+R6(R7,...)
+R3,R4 := R0(R1,R2); if R3 ~= nil then begin PC = 14; R2 := R3 end
+ 29 [65]: JMP       14
+R0 := saveFile
+R1 := R0; R0 := R0["write"]
+R2 := "\n"
+R0(R1,R2)
+R0 := io
+R0 := R0["close"]
+R1 := saveFile
+R0(R1)
+return 
+
+
+; Function #3:
+;
+; Name:            
+; Defined at line: 79
+; #Upvalues:       0
+; #Parameters:     2 (R0, R1)
+; Is_vararg:       0
+; Max Stack Size:  4
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000017 | keyName
+; 00000000 | 00000017 | bIsOn
+; 00000012 | 00000017 | cmdHelp
+;
+; No upvalues
+
+R2 := CmdHelpList
+if R2 != nil then PC := 6
+  3 [80]: JMP       6
+R2 := ""
+return R2
+if R1 != 1 then PC := 12
+  7 [84]: JMP       12
+R2 := R0
+R3 := "_on"
+R0 := R2 .. R3
+PC := 17
+if R1 != 0 then PC := 17
+ 13 [86]: JMP       17
+R2 := R0
+R3 := "_off"
+R0 := R2 .. R3
+R2 := CmdHelpList
+R2 := R2[R0]
+if R2 == nil then PC := 22
+ 20 [92]: JMP       22
+return R2
+R3 := ""
+return R3
+return 
+
+
+; Function #4:
+;
+; Name:            
+; Defined at line: 105
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  13
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000002e | nID
+; 00000015 | 00000026 | (for generator)
+; 00000015 | 00000026 | (for state)
+; 00000015 | 00000026 | (for control)
+; 00000016 | 00000024 | k
+; 00000016 | 00000024 | v
+; 00000019 | 00000024 | value
+;
+; No upvalues
+
+if R0 != 0 then PC := 10
+  2 [106]: JMP       10
+R1 := io
+R1 := R1["open"]
+R2 := "SaveData\\OptionInfo.lua"
+R3 := "w"
+R1 := R1(R2,R3)
+saveFile := R1
+PC := 16
+R1 := io
+R1 := R1["open"]
+R2 := "data\\OptionInfo.lua"
+R3 := "w"
+R1 := R1(R2,R3)
+saveFile := R1
+R1 := saveFile
+if R1 == nil then PC := 47
+ 18 [112]: JMP       47
+R1 := pairs
+R2 := CmdOnOffOderList
+R1,R2,R3 := R1(R2)
+PC := 37
+R6 := c_GetCmdOnOffValue
+R7 := R5
+R6 := R6(R7)
+if R6 == -1 then PC := 37
+ 27 [116]: JMP       37
+R7 := saveFile
+R8 := R7; R7 := R7["write"]
+R9 := string
+R9 := R9["format"]
+R10 := "CmdOnOffList[\"%s\"] = %d\n"
+R11 := R5
+R12 := R6
+R9,... := R9(R10,R11,R12)
+R7(R8,...)
+R4,R5 := R1(R2,R3); if R4 ~= nil then begin PC = 23; R3 := R4 end
+ 38 [118]: JMP       23
+R1 := saveFile
+R2 := R1; R1 := R1["write"]
+R3 := "\n"
+R1(R2,R3)
+R1 := io
+R1 := R1["close"]
+R2 := saveFile
+R1(R2)
+return 

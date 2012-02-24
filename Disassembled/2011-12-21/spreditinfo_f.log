@@ -1,0 +1,315 @@
+R0 := {}
+SprEditInfoList := R0
+R0 := closure(Function #0)
+GetSprEditInfo := R0
+R0 := closure(Function #1)
+GetRecommendList := R0
+R0 := closure(Function #2)
+IsExistTable := R0
+R0 := closure(Function #3)
+GetSavedActionNum := R0
+R0 := closure(Function #4)
+SetSavedActionNum := R0
+R0 := closure(Function #5)
+SetSprEditInfo := R0
+return 
+
+
+; Function #0:
+;
+; Name:            
+; Defined at line: 3
+; #Upvalues:       0
+; #Parameters:     3 (R0, R1, R2)
+; Is_vararg:       0
+; Max Stack Size:  13
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000003b | strJobIDnSprName
+; 00000000 | 0000003b | nCurAction
+; 00000000 | 0000003b | nCurMotion
+; 00000004 | 0000003b | x
+; 00000005 | 0000003b | y
+; 00000006 | 0000003b | oow
+; 00000007 | 0000003b | bFlip
+; 00000008 | 0000003b | bHide
+;
+; No upvalues
+
+R3 := SprEditInfoList
+R3 := R3[R0]
+obj := R3
+R3 := 0
+R4 := 0
+R5 := 0
+R6 := false
+R7 := false
+R8 := obj
+if R8 == nil then PC := 54
+ 11 [12]: JMP       54
+R8 := obj
+R8 := R8[R1]
+obj := R8
+R8 := obj
+if R8 == nil then PC := 54
+ 17 [15]: JMP       54
+R8 := obj
+R8 := R8[R2]
+obj := R8
+R8 := obj
+if R8 == nil then PC := 54
+ 23 [18]: JMP       54
+R8 := obj
+R8 := R8["x"]
+if R8 == nil then PC := 30
+ 27 [19]: JMP       30
+R8 := obj
+R3 := R8["x"]
+R8 := obj
+R8 := R8["y"]
+if R8 == nil then PC := 36
+ 33 [23]: JMP       36
+R8 := obj
+R4 := R8["y"]
+R8 := obj
+R8 := R8["oow"]
+if R8 == nil then PC := 42
+ 39 [27]: JMP       42
+R8 := obj
+R5 := R8["oow"]
+R8 := obj
+R8 := R8["bFlip"]
+if R8 == nil then PC := 48
+ 45 [31]: JMP       48
+R8 := obj
+R6 := R8["bFlip"]
+R8 := obj
+R8 := R8["bHide"]
+if R8 == nil then PC := 54
+ 51 [35]: JMP       54
+R8 := obj
+R7 := R8["bHide"]
+R8 := R3
+R9 := R4
+R10 := R5
+R11 := R6
+R12 := R7
+return R8,R9,R10,R11,R12
+return 
+
+
+; Function #1:
+;
+; Name:            
+; Defined at line: 45
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000012 | nIdx
+;
+; No upvalues
+
+R1 := SprRecommendList
+obj := R1
+R1 := obj
+if R1 == nil then PC := 17
+  5 [48]: JMP       17
+R1 := obj
+R1 := R1[R0]
+obj := R1
+R1 := obj
+if R1 == nil then PC := 15
+ 11 [51]: JMP       15
+R1 := true
+return R1
+PC := 17
+R1 := false
+return R1
+R1 := false
+return R1
+return 
+
+
+; Function #2:
+;
+; Name:            
+; Defined at line: 61
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000a | strJobIDnSprName
+;
+; No upvalues
+
+R1 := SprEditInfoList
+R1 := R1[R0]
+obj := R1
+R1 := obj
+if R1 == nil then PC := 9
+  6 [64]: JMP       9
+R1 := true
+return R1
+R1 := false
+return R1
+return 
+
+
+; Function #3:
+;
+; Name:            
+; Defined at line: 71
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000010 | strJobIDnSprName
+;
+; No upvalues
+
+R1 := SprEditInfoList
+R1 := R1[R0]
+obj := R1
+R1 := obj
+if R1 == nil then PC := 15
+  6 [74]: JMP       15
+R1 := obj
+R1 := R1["savedActionNum"]
+obj := R1
+R1 := obj
+if R1 == nil then PC := 15
+ 12 [77]: JMP       15
+R1 := obj
+return R1
+R1 := 0
+return R1
+return 
+
+
+; Function #4:
+;
+; Name:            
+; Defined at line: 85
+; #Upvalues:       0
+; #Parameters:     2 (R0, R1)
+; Is_vararg:       0
+; Max Stack Size:  4
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000a | strJobIDnSprName
+; 00000000 | 0000000a | savedActionNum
+;
+; No upvalues
+
+R2 := SprEditInfoList
+R2 := R2[R0]
+if R2 != nil then PC := 8
+  4 [86]: JMP       8
+R2 := SprEditInfoList
+R3 := {}
+R2[R0] := R3
+R2 := SprEditInfoList
+R2 := R2[R0]
+R2["savedActionNum"] := R1
+return 
+
+
+; Function #5:
+;
+; Name:            
+; Defined at line: 93
+; #Upvalues:       0
+; #Parameters:     8 (R0, R1, R2, R3, R4, R5, R6, R7)
+; Is_vararg:       0
+; Max Stack Size:  10
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000040 | strJobIDnSprName
+; 00000000 | 00000040 | nActionNum
+; 00000000 | 00000040 | nMotionNum
+; 00000000 | 00000040 | xGap
+; 00000000 | 00000040 | yGap
+; 00000000 | 00000040 | oowGap
+; 00000000 | 00000040 | bFlip
+; 00000000 | 00000040 | bHide
+;
+; No upvalues
+
+R8 := SprEditInfoList
+R8 := R8[R0]
+objTable := R8
+R8 := objTable
+if R8 != nil then PC := 9
+  6 [ 96]: JMP       9
+R8 := {}
+objTable := R8
+R8 := objTable
+R8 := R8[R1]
+if R8 != nil then PC := 16
+ 12 [100]: JMP       16
+R8 := objTable
+R9 := {}
+R8[R1] := R9
+R8 := objTable
+R8 := R8[R1]
+R8 := R8[R2]
+if R8 != nil then PC := 25
+ 20 [104]: JMP       25
+R8 := objTable
+R8 := R8[R1]
+R9 := {}
+R8[R2] := R9
+if R3 == nil then PC := 33
+ 26 [108]: JMP       33
+if R3 == 0 then PC := 33
+ 28 [108]: JMP       33
+R8 := objTable
+R8 := R8[R1]
+R8 := R8[R2]
+R8["x"] := R3
+if R4 == nil then PC := 41
+ 34 [112]: JMP       41
+if R4 == 0 then PC := 41
+ 36 [112]: JMP       41
+R8 := objTable
+R8 := R8[R1]
+R8 := R8[R2]
+R8["y"] := R4
+if R5 == nil then PC := 49
+ 42 [116]: JMP       49
+if R5 == 0 then PC := 49
+ 44 [116]: JMP       49
+R8 := objTable
+R8 := R8[R1]
+R8 := R8[R2]
+R8["oow"] := R5
+if R6 == nil then PC := 57
+ 50 [120]: JMP       57
+if R6 != 1 then PC := 57
+ 52 [120]: JMP       57
+R8 := objTable
+R8 := R8[R1]
+R8 := R8[R2]
+R8["bFlip"] := R6
+if R7 == nil then PC := 65
+ 58 [124]: JMP       65
+if R7 != 1 then PC := 65
+ 60 [124]: JMP       65
+R8 := objTable
+R8 := R8[R1]
+R8 := R8[R2]
+R8["bHide"] := R7
+return 
