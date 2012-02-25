@@ -1,0 +1,234 @@
+R0 := SetHeadSprEditInfo
+R1 := pcJobTbl
+R1 := R1["JT_NOVICE"]
+R2 := 4
+R3 := 4
+R4 := 0
+R5 := 2
+R6 := 0
+R7 := 35
+R0(R1,R2,R3,R4,R5,R6,R7)
+R0 := SetHeadSprEditInfo
+R1 := pcJobTbl
+R1 := R1["JT_NOVICE_B"]
+R2 := 4
+R3 := 4
+R4 := 0
+R5 := 2
+R6 := 0
+R7 := 35
+R0(R1,R2,R3,R4,R5,R6,R7)
+R0 := SetHeadSprEditInfo
+R1 := 4124
+R2 := 4
+R3 := 4
+R4 := 0
+R5 := 2
+R6 := 0
+R7 := 35
+R0(R1,R2,R3,R4,R5,R6,R7)
+R0 := SetHeadSprEditInfo
+R1 := 4158
+R2 := 4
+R3 := 4
+R4 := 0
+R5 := 2
+R6 := 0
+R7 := 35
+R0(R1,R2,R3,R4,R5,R6,R7)
+R0 := SetHeadSprEditInfo
+R1 := pcJobTbl
+R1 := R1["JT_TAEKWON"]
+R2 := 4
+R3 := 4
+R4 := 0
+R5 := 2
+R6 := 0
+R7 := 35
+R0(R1,R2,R3,R4,R5,R6,R7)
+R0 := SetHeadSprEditInfo
+R1 := pcJobTbl
+R1 := R1["JT_TAEKWON"]
+R2 := 90
+R3 := 90
+R4 := 0
+R5 := 7
+R6 := 0
+R7 := 35
+R0(R1,R2,R3,R4,R5,R6,R7)
+R0 := SetHeadSprEditInfo
+R1 := 4155
+R2 := 4
+R3 := 4
+R4 := 0
+R5 := 2
+R6 := 0
+R7 := 35
+R0(R1,R2,R3,R4,R5,R6,R7)
+R0 := SetHeadSprEditInfo
+R1 := 4155
+R2 := 90
+R3 := 90
+R4 := 0
+R5 := 7
+R6 := 0
+R7 := 35
+R0(R1,R2,R3,R4,R5,R6,R7)
+R0 := SetHeadSprEditInfo
+R1 := pcJobTbl
+R1 := R1["JT_STAR"]
+R2 := 4
+R3 := 4
+R4 := 0
+R5 := 2
+R6 := 0
+R7 := 35
+R0(R1,R2,R3,R4,R5,R6,R7)
+R0 := SetHeadSprEditInfo
+R1 := pcJobTbl
+R1 := R1["JT_STAR"]
+R2 := 99
+R3 := 99
+R4 := 1
+R5 := 1
+R6 := -6
+R7 := 15
+R0(R1,R2,R3,R4,R5,R6,R7)
+R0 := SetHeadSprEditInfo
+R1 := pcJobTbl
+R1 := R1["JT_STAR"]
+R2 := 100
+R3 := 101
+R4 := 1
+R5 := 1
+R6 := 22
+R7 := -1
+R0(R1,R2,R3,R4,R5,R6,R7)
+R0 := SetHeadSprEditInfo
+R1 := 4123
+R2 := 4
+R3 := 4
+R4 := 0
+R5 := 2
+R6 := 0
+R7 := 35
+R0(R1,R2,R3,R4,R5,R6,R7)
+R0 := SetHeadSprEditInfo
+R1 := 4123
+R2 := 99
+R3 := 99
+R4 := 1
+R5 := 1
+R6 := -6
+R7 := 15
+R0(R1,R2,R3,R4,R5,R6,R7)
+R0 := SetHeadSprEditInfo
+R1 := 4123
+R2 := 100
+R3 := 101
+R4 := 1
+R5 := 1
+R6 := 22
+R7 := -1
+R0(R1,R2,R3,R4,R5,R6,R7)
+R0 := SetHeadSprEditInfo
+R1 := pcJobTbl
+R1 := R1["JT_SUPERNOVICE"]
+R2 := 4
+R3 := 4
+R4 := 0
+R5 := 2
+R6 := 0
+R7 := 35
+R0(R1,R2,R3,R4,R5,R6,R7)
+R0 := SetHeadSprEditInfo
+R1 := pcJobTbl
+R1 := R1["JT_SUPERNOVICE_B"]
+R2 := 4
+R3 := 4
+R4 := 0
+R5 := 2
+R6 := 0
+R7 := 35
+R0(R1,R2,R3,R4,R5,R6,R7)
+R0 := SetHeadSprEditInfo
+R1 := 4128
+R2 := 4
+R3 := 4
+R4 := 0
+R5 := 2
+R6 := 0
+R7 := 35
+R0(R1,R2,R3,R4,R5,R6,R7)
+R0 := SetHeadSprEditInfo
+R1 := 4172
+R2 := 4
+R3 := 4
+R4 := 0
+R5 := 2
+R6 := 0
+R7 := 35
+R0(R1,R2,R3,R4,R5,R6,R7)
+R0 := SetHeadSprEditInfo
+R1 := pcJobTbl
+R1 := R1["JT_SUPERNOVICE2"]
+R2 := 4
+R3 := 4
+R4 := 0
+R5 := 2
+R6 := 0
+R7 := 35
+R0(R1,R2,R3,R4,R5,R6,R7)
+R0 := SetHeadSprEditInfo
+R1 := pcJobTbl
+R1 := R1["JT_SUPERNOVICE2_B"]
+R2 := 4
+R3 := 4
+R4 := 0
+R5 := 2
+R6 := 0
+R7 := 35
+R0(R1,R2,R3,R4,R5,R6,R7)
+R0 := SetBodySprEditInfo_THIEFS
+R0()
+R0 := SetBodySprEditInfo_ACOLYTES
+R0()
+R0 := SetBodySprEditInfo
+R1 := pcJobTbl
+R1 := R1["JT_ARCHER_H"]
+R2 := 4
+R3 := 4
+R4 := 0
+R5 := 2
+R6 := 0
+R7 := 5
+R0(R1,R2,R3,R4,R5,R6,R7)
+R0 := SetBodySprEditInfo
+R1 := pcJobTbl
+R1 := R1["JT_ARCHER_H"]
+R2 := 12
+R3 := 12
+R4 := 0
+R5 := 7
+R6 := 0
+R7 := 5
+R0(R1,R2,R3,R4,R5,R6,R7)
+R0 := SetBodySprEditInfo
+R1 := 4186
+R2 := 4
+R3 := 4
+R4 := 0
+R5 := 2
+R6 := 0
+R7 := 5
+R0(R1,R2,R3,R4,R5,R6,R7)
+R0 := SetBodySprEditInfo
+R1 := 4186
+R2 := 12
+R3 := 12
+R4 := 0
+R5 := 7
+R6 := 0
+R7 := 5
+R0(R1,R2,R3,R4,R5,R6,R7)
+return 

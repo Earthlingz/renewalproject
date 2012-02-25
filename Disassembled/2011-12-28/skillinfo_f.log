@@ -1,0 +1,805 @@
+R0 := closure(Function #0)
+GetInheritJob := R0
+R0 := {}
+All_NeedSkillList := R0
+R0 := closure(Function #1)
+CheckNeedSkillList := R0
+R0 := closure(Function #2)
+SetNeedSkillList := R0
+R0 := closure(Function #3)
+GetSkillInfo := R0
+R0 := closure(Function #4)
+AddNeedSkillList := R0
+R0 := closure(Function #5)
+InitSkillTreeView := R0
+R0 := closure(Function #6)
+GetSkillIdName := R0
+R0 := closure(Function #7)
+GetSkillName := R0
+R0 := closure(Function #8)
+IsLevelUseSkill := R0
+R0 := closure(Function #9)
+GetLevelUseSpAmount := R0
+R0 := closure(Function #10)
+GetSkillDescript := R0
+R0 := closure(Function #11)
+TestFile := R0
+R0 := closure(Function #12)
+GetSkillAttackRange := R0
+return 
+
+
+; Function #0:
+;
+; Name:            
+; Defined at line: 1
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000011 | job
+; 00000008 | 00000011 | i
+;
+; No upvalues
+
+JobInheritTable := R1
+R1 := {}
+JobInheritTable := R1
+if R0 != nil then PC := 8
+  5 [ 6]: JMP       8
+R1 := nil
+return R1
+R1 := 0
+if R0 == nil then PC := 17
+ 10 [11]: JMP       17
+R1 := R1 + 1
+R2 := JobInheritTable
+R2[R1] := R0
+R2 := JOB_INHERIT_LIST
+R0 := R2[R0]
+PC := 9
+return R1
+return 
+
+
+; Function #1:
+;
+; Name:            
+; Defined at line: 24
+; #Upvalues:       0
+; #Parameters:     2 (R0, R1)
+; Is_vararg:       0
+; Max Stack Size:  6
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000002f | skillInfo
+; 00000000 | 0000002f | skillDepth
+; 00000006 | 0000002d | depth
+; 0000000b | 0000002c | idx
+;
+; No upvalues
+
+R2 := All_NeedSkillList
+if R2 == nil then PC := 46
+  3 [25]: JMP       46
+if R0 == nil then PC := 46
+  5 [25]: JMP       46
+R2 := 0
+R3 := All_NeedSkillList
+R3 := R3[R2]
+if not R3 then PC := 46
+ 10 [28]: JMP       46
+R3 := 1
+R4 := All_NeedSkillList
+R4 := R4[R2]
+R4 := R4[R3]
+t_skillInfo := R4
+R4 := t_skillInfo
+if not R4 then PC := 44
+ 18 [33]: JMP       44
+R4 := t_skillInfo
+R4 := R4[1]
+R5 := R0[1]
+if R4 != R5 then PC := 38
+ 23 [34]: JMP       38
+if R2 >= R1 then PC := 28
+ 25 [35]: JMP       28
+R4 := false
+return R4
+R4 := t_skillInfo
+R4 := R4[2]
+R5 := R0[2]
+if R4 >= R5 then PC := 36
+ 32 [39]: JMP       36
+R4 := All_NeedSkillList
+R4 := R4[R2]
+R4[R3] := R0
+R4 := true
+return R4
+R3 := R3 + 1
+R4 := All_NeedSkillList
+R4 := R4[R2]
+R4 := R4[R3]
+t_skillInfo := R4
+PC := 16
+R2 := R2 + 1
+PC := 7
+R2 := false
+return R2
+return 
+
+
+; Function #2:
+;
+; Name:            
+; Defined at line: 58
+; #Upvalues:       0
+; #Parameters:     2 (R0, R1)
+; Is_vararg:       0
+; Max Stack Size:  14
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000043 | SKID
+; 00000000 | 00000043 | depth
+; 00000002 | 00000043 | skillInfo
+; 00000006 | 00000043 | bIsNeedSkillList
+; 00000007 | 00000043 | needSkillList
+; 0000000c | 0000001c | (for generator)
+; 0000000c | 0000001c | (for state)
+; 0000000c | 0000001c | (for control)
+; 0000000d | 0000001a | j
+; 0000000d | 0000001a | k
+; 0000000f | 0000001a | jobID
+; 00000024 | 00000043 | (for generator)
+; 00000024 | 00000043 | (for state)
+; 00000024 | 00000043 | (for control)
+; 00000025 | 00000041 | idx
+; 00000025 | 00000041 | skill
+; 0000002c | 00000041 | listSize
+;
+; No upvalues
+
+R2 := SKILL_INFO_LIST
+R2 := R2[R0]
+R3 := nill
+if R2 == R3 then PC := 68
+  5 [ 61]: JMP       68
+R3 := false
+R4 := R2["NeedSkillList"]
+if R4 == nil then PC := 29
+  9 [ 66]: JMP       29
+R5 := pairs
+R6 := JobInheritTable
+R5,R6,R7 := R5(R6)
+PC := 27
+R10 := JOB_INHERIT_LIST2
+R10 := R10[R9]
+if R10 == -1 then PC := 21
+ 17 [ 69]: JMP       21
+if R10 == nil then PC := 21
+ 19 [ 69]: JMP       21
+R9 := R10
+R11 := R4[R9]
+if R11 == nil then PC := 27
+ 23 [ 73]: JMP       27
+R4 := R4[R9]
+R3 := true
+PC := 29
+R8,R9 := R5(R6,R7); if R8 ~= nil then begin PC = 14; R7 := R8 end
+ 28 [ 77]: JMP       14
+if R3 != 0 then PC := 32
+ 30 [ 81]: JMP       32
+R4 := R2["_NeedSkillList"]
+if R4 == nil then PC := 68
+ 33 [ 85]: JMP       68
+R5 := pairs
+R6 := R4
+R5,R6,R7 := R5(R6)
+PC := 66
+R10 := CheckNeedSkillList
+R11 := R9
+R12 := R1
+R10 := R10(R11,R12)
+if R10 != 0 then PC := 66
+ 43 [ 87]: JMP       66
+R10 := 0
+R11 := All_NeedSkillList
+R11 := R11[R1]
+if R11 != nil then PC := 53
+ 48 [ 90]: JMP       53
+R11 := All_NeedSkillList
+R12 := {}
+R11[R1] := R12
+PC := 58
+R11 := getTableSize
+R12 := All_NeedSkillList
+R12 := R12[R1]
+R11 := R11(R12)
+R10 := R11
+R11 := All_NeedSkillList
+R11 := R11[R1]
+R12 := R10 + 1
+R11[R12] := R9
+R11 := SetNeedSkillList
+R12 := R9[1]
+R13 := R1 + 1
+R11(R12,R13)
+R8,R9 := R5(R6,R7); if R8 ~= nil then begin PC = 38; R7 := R8 end
+ 67 [ 99]: JMP       38
+return 
+
+
+; Function #3:
+;
+; Name:            
+; Defined at line: 106
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  10
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000021 | SKID
+; 00000005 | 00000021 | skillInfo
+; 00000009 | 0000001c | strSkillID
+; 0000000a | 0000001c | strSkillName
+; 0000000b | 0000001c | MaxLv
+; 0000000c | 0000001c | UserUpgradable
+;
+; No upvalues
+
+All_NeedSkillList := R1
+R1 := {}
+All_NeedSkillList := R1
+R1 := SKILL_INFO_LIST
+R1 := R1[R0]
+R2 := nill
+if R1 == R2 then PC := 29
+  8 [112]: JMP       29
+R2 := R1[1]
+R3 := R1["SkillName"]
+R4 := R1["MaxLv"]
+R5 := 1
+R6 := R1["Type"]
+if R6 == "Quest" then PC := 19
+ 15 [118]: JMP       19
+R6 := R1["Type"]
+if R6 != "Soul" then PC := 20
+ 18 [118]: JMP       20
+R5 := 0
+R6 := SetNeedSkillList
+R7 := R0
+R8 := 0
+R6(R7,R8)
+R6 := R2
+R7 := R3
+R8 := R4
+R9 := R5
+return R6,R7,R8,R9
+R2 := ""
+R3 := ""
+R4 := -1
+R5 := -1
+return R2,R3,R4,R5
+return 
+
+
+; Function #4:
+;
+; Name:            
+; Defined at line: 131
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  7
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000025 | SKID
+; 00000004 | 00000025 | depth
+; 00000009 | 00000024 | idx
+;
+; No upvalues
+
+R1 := All_NeedSkillList
+if R1 == nil then PC := 38
+  3 [132]: JMP       38
+R1 := 0
+R2 := All_NeedSkillList
+R2 := R2[R1]
+if not R2 then PC := 38
+  8 [135]: JMP       38
+R2 := 1
+R3 := All_NeedSkillList
+R3 := R3[R1]
+R3 := R3[R2]
+skillInfo := R3
+R3 := skillInfo
+if not R3 then PC := 36
+ 16 [140]: JMP       36
+R3 := skillInfo
+R3 := R3[2]
+if R3 != nil then PC := 23
+ 20 [141]: JMP       23
+R3 := skillInfo
+R3[2] := 0
+R3 := c_AddNeedSkillList
+R4 := R0
+R5 := skillInfo
+R5 := R5[1]
+R6 := skillInfo
+R6 := R6[2]
+R3(R4,R5,R6)
+R2 := R2 + 1
+R3 := All_NeedSkillList
+R3 := R3[R1]
+R3 := R3[R2]
+skillInfo := R3
+PC := 14
+R1 := R1 + 1
+PC := 5
+return 
+
+
+; Function #5:
+;
+; Name:            
+; Defined at line: 157
+; #Upvalues:       0
+; #Parameters:     2 (R0, R1)
+; Is_vararg:       0
+; Max Stack Size:  17
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000022 | jobID
+; 00000000 | 00000022 | arrayNum
+; 00000002 | 00000022 | skillList
+; 00000005 | 00000022 | skillPos
+; 00000008 | 00000022 | listSize
+; 0000000b | 00000021 | skillID
+; 00000010 | 00000020 | strSkillID
+; 00000010 | 00000020 | strSkillName
+; 00000010 | 00000020 | MaxLv
+; 00000010 | 00000020 | UserUpgradable
+;
+; No upvalues
+
+R2 := SKILL_TREEVIEW_FOR_JOB
+R2 := R2[R0]
+if R2 == nil then PC := 35
+  4 [160]: JMP       35
+R3 := 0
+R4 := getTableSize
+R5 := R2
+R4 := R4(R5)
+if 0 >= R4 then PC := 35
+ 10 [164]: JMP       35
+R5 := R2[R3]
+if R5 == nil then PC := 33
+ 13 [167]: JMP       33
+R6 := GetSkillInfo
+R7 := R5
+R6,R7,R8,R9 := R6(R7)
+if R6 == nil then PC := 32
+ 18 [170]: JMP       32
+if R6 == "" then PC := 32
+ 20 [170]: JMP       32
+R10 := c_AddSkillList
+R11 := R1
+R12 := R5
+R13 := R6
+R14 := R3
+R15 := R8
+R16 := R9
+R10(R11,R12,R13,R14,R15,R16)
+R10 := AddNeedSkillList
+R11 := R5
+R10(R11)
+R4 := R4 - 1
+R3 := R3 + 1
+PC := 9
+return 
+
+
+; Function #6:
+;
+; Name:            
+; Defined at line: 184
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000c | SkillID
+; 00000002 | 0000000c | obj
+;
+; No upvalues
+
+R1 := SKILL_INFO_LIST
+R1 := R1[R0]
+if R1 == nil then PC := 8
+  4 [187]: JMP       8
+R2 := SKILL_INFO_LIST
+R2 := R2[R0]
+R1 := R2[1]
+if R1 == nil then PC := 11
+  9 [191]: JMP       11
+return R1
+R2 := ""
+return R2
+return 
+
+
+; Function #7:
+;
+; Name:            
+; Defined at line: 199
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000c | SkillID
+; 00000002 | 0000000c | obj
+;
+; No upvalues
+
+R1 := SKILL_INFO_LIST
+R1 := R1[R0]
+if R1 == nil then PC := 8
+  4 [202]: JMP       8
+R2 := SKILL_INFO_LIST
+R2 := R2[R0]
+R1 := R2["SkillName"]
+if R1 == nil then PC := 11
+  9 [206]: JMP       11
+return R1
+R2 := ""
+return R2
+return 
+
+
+; Function #8:
+;
+; Name:            
+; Defined at line: 214
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  5
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000010 | SkillID
+; 00000002 | 00000010 | skillInfo
+; 00000003 | 00000010 | rst
+; 0000000a | 0000000e | spAmount
+;
+; No upvalues
+
+R1 := SKILL_INFO_LIST
+R1 := R1[R0]
+R2 := nil
+if R1 == nil then PC := 15
+  5 [218]: JMP       15
+R2 := R1["bSeperateLv"]
+if R2 == nil then PC := 10
+  8 [220]: JMP       10
+return R2
+R3 := R1["SpAmount"]
+if R3 == nil then PC := 15
+ 12 [225]: JMP       15
+R4 := true
+return R4
+R3 := false
+return R3
+return 
+
+
+; Function #9:
+;
+; Name:            
+; Defined at line: 234
+; #Upvalues:       0
+; #Parameters:     2 (R0, R1)
+; Is_vararg:       0
+; Max Stack Size:  4
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000012 | SkillID
+; 00000000 | 00000012 | idx
+; 00000002 | 00000012 | obj
+;
+; No upvalues
+
+R2 := SKILL_INFO_LIST
+R2 := R2[R0]
+if R2 == nil then PC := 8
+  4 [237]: JMP       8
+R3 := SKILL_INFO_LIST
+R3 := R3[R0]
+R2 := R3["SpAmount"]
+if R2 == nil then PC := 14
+  9 [241]: JMP       14
+R3 := SKILL_INFO_LIST
+R3 := R3[R0]
+R3 := R3["SpAmount"]
+R2 := R3[R1]
+if R2 == nil then PC := 17
+ 15 [245]: JMP       17
+return R2
+R3 := 0
+return R3
+return 
+
+
+; Function #10:
+;
+; Name:            
+; Defined at line: 252
+; #Upvalues:       0
+; #Parameters:     3 (R0, R1, R2)
+; Is_vararg:       0
+; Max Stack Size:  20
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000005d | JobID
+; 00000000 | 0000005d | SKID
+; 00000000 | 0000005d | bChangeColor
+; 00000001 | 0000005d | descript
+; 00000003 | 0000005d | obj
+; 00000008 | 0000005c | (for generator)
+; 00000008 | 0000005c | (for state)
+; 00000008 | 0000005c | (for control)
+; 00000009 | 0000005a | i
+; 00000009 | 0000005a | v
+; 0000002d | 0000002e | temp
+; 00000034 | 0000004b | (for generator)
+; 00000034 | 0000004b | (for state)
+; 00000034 | 0000004b | (for control)
+; 00000035 | 00000049 | j
+; 00000035 | 00000049 | k
+;
+; No upvalues
+
+R3 := ""
+R4 := SKILL_DESCRIPT
+R4 := R4[R1]
+if R4 == nil then PC := 93
+  5 [257]: JMP       93
+R5 := pairs
+R6 := R4
+R5,R6,R7 := R5(R6)
+PC := 91
+R10 := string
+R10 := R10["find"]
+R11 := R9
+R12 := MsgStrID
+R12 := R12["MSI_SKILL_REQUIREMENTS"]
+R10,R11 := R10(R11,R12)
+f_pos := R11
+s_pos := R10
+R10 := false
+bCopyText := R10
+R10 := s_pos
+if R10 == nil then PC := 80
+ 22 [265]: JMP       80
+R10 := s_pos
+R10 := R10 - 1
+s_pos := R10
+R10 := string
+R10 := R10["sub"]
+R11 := R9
+R12 := 1
+R13 := s_pos
+R13 := R13 - 1
+R10 := R10(R11,R12,R13)
+subStr := R10
+if R2 != 1 then PC := 47
+ 35 [269]: JMP       47
+R10 := subStr
+R11 := "^FF1493"
+R12 := string
+R12 := R12["sub"]
+R13 := R9
+R14 := s_pos
+R14 := R14 + 7
+R15 := -1
+R12 := R12(R13,R14,R15)
+R10 := R10 .. R11 .. R12
+R9 := R10
+R10 := s_pos
+if 1 >= R10 then PC := 77
+ 49 [275]: JMP       77
+R10 := pairs
+R11 := JobInheritTable
+R10,R11,R12 := R10(R11)
+PC := 74
+R15 := subStr
+R16 := string
+R16 := R16["format"]
+R17 := "%d"
+R18 := R14
+R16 := R16(R17,R18)
+if R15 != R16 then PC := 74
+ 61 [277]: JMP       74
+R15 := R3
+R16 := string
+R16 := R16["sub"]
+R17 := R9
+R18 := s_pos
+R19 := -1
+R16 := R16(R17,R18,R19)
+R3 := R15 .. R16
+R15 := R3
+R16 := "\r\n"
+R3 := R15 .. R16
+PC := 82
+R13,R14 := R10(R11,R12); if R13 ~= nil then begin PC = 54; R12 := R13 end
+ 75 [281]: JMP       54
+PC := 82
+R10 := true
+bCopyText := R10
+PC := 82
+R10 := true
+bCopyText := R10
+R10 := bCopyText
+if R10 != 1 then PC := 91
+ 84 [290]: JMP       91
+R10 := R3
+R11 := R9
+R3 := R10 .. R11
+R10 := R3
+R11 := "\r\n"
+R3 := R10 .. R11
+R8,R9 := R5(R6,R7); if R8 ~= nil then begin PC = 10; R7 := R8 end
+ 92 [293]: JMP       10
+return R3
+return 
+
+
+; Function #11:
+;
+; Name:            
+; Defined at line: 301
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  9
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000030 | saveFileName
+; 0000000d | 0000002c | depth
+; 00000012 | 0000002b | idx
+;
+; No upvalues
+
+R1 := io
+R1 := R1["open"]
+R2 := R0
+R3 := "w"
+R1 := R1(R2,R3)
+saveFile := R1
+R1 := saveFile
+if R1 == nil then PC := 45
+  9 [304]: JMP       45
+R1 := All_NeedSkillList
+if R1 == nil then PC := 45
+ 12 [306]: JMP       45
+R1 := 0
+R2 := All_NeedSkillList
+R2 := R2[R1]
+if not R2 then PC := 45
+ 17 [309]: JMP       45
+R2 := 1
+R3 := All_NeedSkillList
+R3 := R3[R1]
+R3 := R3[R2]
+skillInfo := R3
+R3 := skillInfo
+if not R3 then PC := 43
+ 25 [313]: JMP       43
+R3 := saveFile
+R4 := R3; R3 := R3["write"]
+R5 := string
+R5 := R5["format"]
+R6 := "[%d,%d]\n"
+R7 := skillInfo
+R7 := R7[1]
+R8 := skillInfo
+R8 := R8[2]
+R5,... := R5(R6,R7,R8)
+R3(R4,...)
+R2 := R2 + 1
+R3 := All_NeedSkillList
+R3 := R3[R1]
+R3 := R3[R2]
+skillInfo := R3
+PC := 23
+R1 := R1 + 1
+PC := 14
+R1 := io
+R1 := R1["close"]
+R2 := saveFile
+R1(R2)
+return 
+
+
+; Function #12:
+;
+; Name:            
+; Defined at line: 332
+; #Upvalues:       0
+; #Parameters:     3 (R0, R1, R2)
+; Is_vararg:       0
+; Max Stack Size:  9
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000002a | in_SKID
+; 00000000 | 0000002a | in_Level
+; 00000000 | 0000002a | in_curMaxLv
+; 00000001 | 0000002a | attackRange
+; 00000002 | 0000002a | attackRangeOfMaxLv
+; 00000003 | 0000002a | maxLv
+; 00000005 | 0000002a | obj
+;
+; No upvalues
+
+R3 := 1
+R4 := 0
+R5 := 0
+R6 := SKILL_INFO_LIST
+R6 := R6[R0]
+if R6 == nil then PC := 14
+  7 [338]: JMP       14
+R7 := SKILL_INFO_LIST
+R7 := R7[R0]
+R6 := R7["AttackRange"]
+R7 := SKILL_INFO_LIST
+R7 := R7[R0]
+R5 := R7["MaxLv"]
+if R6 == nil then PC := 20
+ 15 [343]: JMP       20
+R7 := SKILL_INFO_LIST
+R7 := R7[R0]
+R7 := R7["AttackRange"]
+R3 := R7[R1]
+if R2 != nil then PC := 23
+ 21 [347]: JMP       23
+R2 := R5
+if R5 == nil then PC := 28
+ 24 [351]: JMP       28
+if R5 >= R2 then PC := 28
+ 26 [352]: JMP       28
+R2 := R5
+R7 := SKILL_INFO_LIST
+R7 := R7[R0]
+R7 := R7["AttackRange"]
+R4 := R7[R2]
+if R4 != nil then PC := 35
+ 33 [359]: JMP       35
+R4 := 0
+if R3 == nil then PC := 40
+ 36 [363]: JMP       40
+R7 := R3
+R8 := R4
+return R7,R8
+R7 := 1
+R8 := R4
+return R7,R8
+return 

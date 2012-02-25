@@ -1,0 +1,1166 @@
+R0 := {}
+R1 := setmetatable
+R2 := R0
+R3 := {}
+R3["__mode"] := "v"
+R1(R2,R3)
+R1 := closure(Function #1)
+R0 := R0
+GetTimeLimitInfo := R1
+R1 := closure(Function #2)
+SetDefaultDesInfo := R1
+R1 := SetDefaultDesInfo
+R2 := closure(Function #3)
+R0 := R0
+R0 := R1
+GetStateIconDescript := R2
+R2 := closure(Function #4)
+MakeBuffIconInfoFile := R2
+R2 := closure(Function #5)
+GetStrEFSTID := R2
+R2 := closure(Function #6)
+GetEFSTID := R2
+R2 := closure(Function #7)
+GetEFSTImgFileName := R2
+R2 := {}
+R3 := EFST_IDs
+R3 := R3["EFST_ADORAMUS"]
+R4 := EFST_IDs
+R4 := R4["EFST_DEC_AGI"]
+R5 := EFST_IDs
+R5 := R5["EFST_BROKENARMOR"]
+R6 := EFST_IDs
+R6 := R6["EFST_ILLUSION"]
+R7 := EFST_IDs
+R7 := R7["EFST_QUAGMIRE"]
+R8 := EFST_IDs
+R8 := R8["EFST_BROKENWEAPON"]
+R9 := EFST_IDs
+R9 := R9["EFST_WEIGHTOVER50"]
+R10 := EFST_IDs
+R10 := R10["EFST_WEIGHTOVER90"]
+R11 := EFST_IDs
+R11 := R11["EFST_NOEQUIPWEAPON"]
+R12 := EFST_IDs
+R12 := R12["EFST_NOEQUIPSHIELD"]
+R13 := EFST_IDs
+R13 := R13["EFST_NOEQUIPARMOR"]
+R14 := EFST_IDs
+R14 := R14["EFST_NOEQUIPHELM"]
+R15 := EFST_IDs
+R15 := R15["EFST_PROPERTYFIRE"]
+R16 := EFST_IDs
+R16 := R16["EFST_STATUSONE"]
+R17 := EFST_IDs
+R17 := R17["EFST_PARTYFLEE"]
+R18 := EFST_IDs
+R18 := R18["EFST_TARGET_ASPD"]
+R19 := EFST_IDs
+R19 := R19["EFST_FOOD_INT"]
+R20 := EFST_IDs
+R20 := R20["EFST_FOOD_INT_CASH"]
+R21 := EFST_IDs
+R21 := R21["EFST_COCKTAIL_WARG_BLOOD"]
+R22 := EFST_IDs
+R22 := R22["EFST_FOOD_STR"]
+R23 := EFST_IDs
+R23 := R23["EFST_FOOD_STR_CASH"]
+R24 := EFST_IDs
+R24 := R24["EFST_SAVAGE_STEAK"]
+R25 := EFST_IDs
+R25 := R25["EFST_FOOD_AGI"]
+R26 := EFST_IDs
+R26 := R26["EFST_FOOD_AGI_CASH"]
+R27 := EFST_IDs
+R27 := R27["EFST_DROCERA_HERB_STEAMED"]
+R28 := EFST_IDs
+R28 := R28["EFST_FOOD_VIT"]
+R29 := EFST_IDs
+R29 := R29["EFST_FOOD_VIT_CASH"]
+R30 := EFST_IDs
+R30 := R30["EFST_MINOR_BBQ"]
+R31 := EFST_IDs
+R31 := R31["EFST_FOOD_DEX"]
+R32 := EFST_IDs
+R32 := R32["EFST_FOOD_DEX_CASH"]
+R33 := EFST_IDs
+R33 := R33["EFST_SIROMA_ICE_TEA"]
+R34 := EFST_IDs
+R34 := R34["EFST_FOOD_LUK"]
+R35 := EFST_IDs
+R35 := R35["EFST_FOOD_LUK_CASH"]
+R36 := EFST_IDs
+R36 := R36["EFST_PUTTI_TAILS_NOODLES"]
+R37 := EFST_IDs
+R37 := R37["EFST_FOOD_BASICAVOIDANCE"]
+R38 := EFST_IDs
+R38 := R38["EFST_FOOD_BASICHIT"]
+R39 := EFST_IDs
+R39 := R39["EFST_FOOD_CRITICALSUCCESSVALUE"]
+R40 := EFST_IDs
+R40 := R40["EFST_STOMACHACHE"]
+R41 := EFST_IDs
+R41 := R41["EFST_CASH_PLUSEXP"]
+R42 := EFST_IDs
+R42 := R42["EFST_CASH_DEATHPENALTY"]
+R43 := EFST_IDs
+R43 := R43["EFST_CASH_RECEIVEITEM"]
+R44 := EFST_IDs
+R44 := R44["EFST_CASH_PLUSONLYJOBEXP"]
+R45 := EFST_IDs
+R45 := R45["EFST_REWARD_PLUSONLYJOBEXP"]
+R46 := EFST_IDs
+R46 := R46["EFST_MACRO_POSTDELAY"]
+R47 := EFST_IDs
+R47 := R47["EFST_MONSTER_TRANSFORM"]
+R48 := EFST_IDs
+R48 := R48["EFST_HANDICAPSTATE_NORECOVER"]
+R49 := EFST_IDs
+R49 := R49["EFST_ENDURE"]
+R50 := EFST_IDs
+R50 := R50["EFST_ENCHANTPOISON"]
+R51 := EFST_IDs
+R51 := R51["EFST_CLOAKING"]
+R52 := EFST_IDs
+R52 := R52["EFST_TWOHANDQUICKEN"]
+R2[(1-1)*FPF+i] := R(2+i), 1 <= i <= 50
+R3 := EFST_IDs
+R3 := R3["EFST_MAXIMIZE"]
+R4 := EFST_IDs
+R4 := R4["EFST_ADRENALINE"]
+R5 := EFST_IDs
+R5 := R5["EFST_ADRENALINE2"]
+R6 := EFST_IDs
+R6 := R6["EFST_POISONREACT"]
+R7 := EFST_IDs
+R7 := R7["EFST_AUTOGUARD"]
+R8 := EFST_IDs
+R8 := R8["EFST_AUTOSPELL"]
+R9 := EFST_IDs
+R9 := R9["EFST_PROVOKE"]
+R10 := EFST_IDs
+R10 := R10["EFST_OVERTHRUST"]
+R11 := EFST_IDs
+R11 := R11["EFST_WEAPONPERFECT"]
+R12 := EFST_IDs
+R12 := R12["EFST_HIDING"]
+R13 := EFST_IDs
+R13 := R13["EFST_SPEARQUICKEN"]
+R14 := EFST_IDs
+R14 := R14["EFST_DEFENDER"]
+R15 := EFST_IDs
+R15 := R15["EFST_REFLECTSHIELD"]
+R16 := EFST_IDs
+R16 := R16["EFST_PROPERTYWATER"]
+R17 := EFST_IDs
+R17 := R17["EFST_PROPERTYWIND"]
+R18 := EFST_IDs
+R18 := R18["EFST_BLOODING"]
+R19 := EFST_IDs
+R19 := R19["EFST_JOINTBEAT"]
+R20 := EFST_IDs
+R20 := R20["EFST_PROTECTEXP"]
+R21 := EFST_IDs
+R21 := R21["EFST_ANGEL_PROTECT"]
+R22 := EFST_IDs
+R22 := R22["EFST_PARRYING"]
+R23 := EFST_IDs
+R23 := R23["EFST_TENSIONRELAX"]
+R24 := EFST_IDs
+R24 := R24["EFST_SKF_CAST"]
+R25 := EFST_IDs
+R25 := R25["EFST_SKF_ASPD"]
+R26 := EFST_IDs
+R26 := R26["EFST_SKF_ATK"]
+R27 := EFST_IDs
+R27 := R27["EFST_SKF_MATK"]
+R28 := EFST_IDs
+R28 := R28["EFST_ASSUMPTIO"]
+R29 := EFST_IDs
+R29 := R29["EFST_ASSUMPTIO2"]
+R30 := EFST_IDs
+R30 := R30["EFST_POPECOOKIE"]
+R31 := EFST_IDs
+R31 := R31["EFST_VITALIZE_POTION"]
+R32 := EFST_IDs
+R32 := R32["EFST_TRUESIGHT"]
+R33 := EFST_IDs
+R33 := R33["EFST_WINDWALK"]
+R34 := EFST_IDs
+R34 := R34["EFST_CARTBOOST"]
+R35 := EFST_IDs
+R35 := R35["EFST_MELTDOWN"]
+R36 := EFST_IDs
+R36 := R36["EFST_SWORDREJECT"]
+R37 := EFST_IDs
+R37 := R37["EFST_MARIONETTE_MASTER"]
+R38 := EFST_IDs
+R38 := R38["EFST_MARIONETTE"]
+R39 := EFST_IDs
+R39 := R39["EFST_AUTOBERSERK"]
+R40 := EFST_IDs
+R40 := R40["EFST_STORMKICK_ON"]
+R41 := EFST_IDs
+R41 := R41["EFST_DOWNKICK_ON"]
+R42 := EFST_IDs
+R42 := R42["EFST_TURNKICK_ON"]
+R43 := EFST_IDs
+R43 := R43["EFST_COUNTER_ON"]
+R44 := EFST_IDs
+R44 := R44["EFST_DODGE_ON"]
+R45 := EFST_IDs
+R45 := R45["EFST_STRUP"]
+R46 := EFST_IDs
+R46 := R46["EFST_PROPERTYDARK"]
+R47 := EFST_IDs
+R47 := R47["EFST_PROPERTYTELEKINESIS"]
+R48 := EFST_IDs
+R48 := R48["EFST_EDP"]
+R49 := EFST_IDs
+R49 := R49["EFST_PRESERVE"]
+R50 := EFST_IDs
+R50 := R50["EFST_CHASEWALK2"]
+R51 := EFST_IDs
+R51 := R51["EFST_GROUNDMAGIC"]
+R52 := EFST_IDs
+R52 := R52["EFST_DOUBLECASTING"]
+R2[(2-1)*FPF+i] := R(2+i), 1 <= i <= 50
+R3 := EFST_IDs
+R3 := R3["EFST_MAGIC_CANDY"]
+R4 := EFST_IDs
+R4 := R4["EFST_OVERTHRUSTMAX"]
+R5 := EFST_IDs
+R5 := R5["EFST_TAROTCARD"]
+R6 := EFST_IDs
+R6 := R6["EFST_MORA_BUFF"]
+R7 := EFST_IDs
+R7 := R7["EFST_ODINS_POWER"]
+R8 := EFST_IDs
+R8 := R8["EFST_MOON_COMFORT"]
+R9 := EFST_IDs
+R9 := R9["EFST_STAR_COMFORT"]
+R10 := EFST_IDs
+R10 := R10["EFST_KAIZEL"]
+R11 := EFST_IDs
+R11 := R11["EFST_KAAHI"]
+R12 := EFST_IDs
+R12 := R12["EFST_KAUPE"]
+R13 := EFST_IDs
+R13 := R13["EFST_ONEHANDQUICKEN"]
+R14 := EFST_IDs
+R14 := R14["EFST_CR_SHRINK"]
+R15 := EFST_IDs
+R15 := R15["EFST_WZ_SIGHTBLASTER"]
+R16 := EFST_IDs
+R16 := R16["EFST_RG_CCONFINE_M"]
+R17 := EFST_IDs
+R17 := R17["EFST_EARTHSCROLL"]
+R18 := EFST_IDs
+R18 := R18["EFST_NJ_BUNSINJYUTSU"]
+R19 := EFST_IDs
+R19 := R19["EFST_NJ_UTSUSEMI"]
+R20 := EFST_IDs
+R20 := R20["EFST_NJ_NEN"]
+R21 := EFST_IDs
+R21 := R21["EFST_GS_ADJUSTMENT"]
+R22 := EFST_IDs
+R22 := R22["EFST_GS_ACCURACY"]
+R23 := EFST_IDs
+R23 := R23["EFST_GS_MADNESSCANCEL"]
+R24 := EFST_IDs
+R24 := R24["EFST_GS_GATLINGFEVER"]
+R25 := EFST_IDs
+R25 := R25["EFST_ATKER_BLOOD"]
+R26 := EFST_IDs
+R26 := R26["EFST_TARGET_BLOOD"]
+R27 := EFST_IDs
+R27 := R27["EFST_PET"]
+R28 := EFST_IDs
+R28 := R28["EFST_MENTAL"]
+R29 := EFST_IDs
+R29 := R29["EFST_EXPMEMORY"]
+R30 := EFST_IDs
+R30 := R30["EFST_PERFORMANCE"]
+R31 := EFST_IDs
+R31 := R31["EFST_GAIN"]
+R32 := EFST_IDs
+R32 := R32["EFST_GRIFFON"]
+R33 := EFST_IDs
+R33 := R33["EFST_DRIFT"]
+R34 := EFST_IDs
+R34 := R34["EFST_PROPERTYUNDEAD"]
+R35 := EFST_IDs
+R35 := R35["EFST_WALLSHIFT"]
+R36 := EFST_IDs
+R36 := R36["EFST_REINCARNATION"]
+R37 := EFST_IDs
+R37 := R37["EFST_PATTACK"]
+R38 := EFST_IDs
+R38 := R38["EFST_PSPEED"]
+R39 := EFST_IDs
+R39 := R39["EFST_PDEFENSE"]
+R40 := EFST_IDs
+R40 := R40["EFST_PCRITICAL"]
+R41 := EFST_IDs
+R41 := R41["EFST_RANKING"]
+R42 := EFST_IDs
+R42 := R42["EFST_PTRIPLE"]
+R43 := EFST_IDs
+R43 := R43["EFST_DENERGY"]
+R44 := EFST_IDs
+R44 := R44["EFST_WAVE1"]
+R45 := EFST_IDs
+R45 := R45["EFST_WAVE2"]
+R46 := EFST_IDs
+R46 := R46["EFST_WAVE3"]
+R47 := EFST_IDs
+R47 := R47["EFST_WAVE4"]
+R48 := EFST_IDs
+R48 := R48["EFST_DAURA"]
+R49 := EFST_IDs
+R49 := R49["EFST_DFREEZER"]
+R50 := EFST_IDs
+R50 := R50["EFST_DPUNISH"]
+R51 := EFST_IDs
+R51 := R51["EFST_DBARRIER"]
+R52 := EFST_IDs
+R52 := R52["EFST_DWARNING"]
+R2[(3-1)*FPF+i] := R(2+i), 1 <= i <= 50
+R3 := EFST_IDs
+R3 := R3["EFST_DACCEL"]
+R4 := EFST_IDs
+R4 := R4["EFST_DBLOCK"]
+R5 := EFST_IDs
+R5 := R5["EFST_DA_ENERGY"]
+R6 := EFST_IDs
+R6 := R6["EFST_DA_BLACK"]
+R7 := EFST_IDs
+R7 := R7["EFST_DA_MAGICCART"]
+R8 := EFST_IDs
+R8 := R8["EFST_CRYSTAL"]
+R9 := EFST_IDs
+R9 := R9["EFST_DA_FIRSTSLOT"]
+R10 := EFST_IDs
+R10 := R10["EFST_DA_HEADDEF"]
+R11 := EFST_IDs
+R11 := R11["EFST_DA_SPACE"]
+R12 := EFST_IDs
+R12 := R12["EFST_DA_TRANSFORM"]
+R13 := EFST_IDs
+R13 := R13["EFST_DA_ITEMREBUILD"]
+R14 := EFST_IDs
+R14 := R14["EFST_DA_ILLUSION"]
+R15 := EFST_IDs
+R15 := R15["EFST_DA_DARKPOWER"]
+R16 := EFST_IDs
+R16 := R16["EFST_DA_EARPLUG"]
+R17 := EFST_IDs
+R17 := R17["EFST_DA_REBUILD"]
+R18 := EFST_IDs
+R18 := R18["EFST_DA_EDARKNESS"]
+R19 := EFST_IDs
+R19 := R19["EFST_DA_EGUARDIAN"]
+R20 := EFST_IDs
+R20 := R20["EFST_DA_TIMEOUT"]
+R21 := EFST_IDs
+R21 := R21["EFST_NEUTRALBARRIER"]
+R22 := EFST_IDs
+R22 := R22["EFST_SHAPESHIFT"]
+R23 := EFST_IDs
+R23 := R23["EFST_STEALTHFIELD"]
+R24 := EFST_IDs
+R24 := R24["EFST_ANALYZE"]
+R25 := EFST_IDs
+R25 := R25["EFST_ACCELERATION"]
+R26 := EFST_IDs
+R26 := R26["EFST_RENOVATIO"]
+R27 := EFST_IDs
+R27 := R27["EFST_AB_SECRAMENT"]
+R28 := EFST_IDs
+R28 := R28["EFST_DEADLYINFECT"]
+R29 := EFST_IDs
+R29 := R29["EFST_REPRODUCE"]
+R30 := EFST_IDs
+R30 := R30["EFST_ENERVATION"]
+R31 := EFST_IDs
+R31 := R31["EFST_GROOMY"]
+R32 := EFST_IDs
+R32 := R32["EFST_IGNORANCE"]
+R33 := EFST_IDs
+R33 := R33["EFST_LAZINESS"]
+R34 := EFST_IDs
+R34 := R34["EFST_UNLUCKY"]
+R35 := EFST_IDs
+R35 := R35["EFST_WEAKNESS"]
+R36 := EFST_IDs
+R36 := R36["EFST_BODYPAINT"]
+R37 := EFST_IDs
+R37 := R37["EFST_SHADOWFORM"]
+R38 := EFST_IDs
+R38 := R38["EFST_STRIPACCESSARY"]
+R39 := EFST_IDs
+R39 := R39["EFST_AUTOSHADOWSPELL"]
+R40 := EFST_IDs
+R40 := R40["EFST_INVISIBILITY"]
+R41 := EFST_IDs
+R41 := R41["EFST_OVERHEAT"]
+R42 := EFST_IDs
+R42 := R42["EFST_INFRAREDSCAN"]
+R43 := EFST_IDs
+R43 := R43["EFST_COLD"]
+R44 := EFST_IDs
+R44 := R44["EFST_HOVERING"]
+R45 := EFST_IDs
+R45 := R45["EFST_DA_CONTRACT"]
+R46 := EFST_IDs
+R46 := R46["EFST_SLOWCAST"]
+R47 := EFST_IDs
+R47 := R47["EFST_CRITICALWOUND"]
+R48 := EFST_IDs
+R48 := R48["EFST_HELLPOWER"]
+R49 := EFST_IDs
+R49 := R49["EFST_CRITICALPERCENT"]
+R50 := EFST_IDs
+R50 := R50["EFST_HEALPLUS"]
+R51 := EFST_IDs
+R51 := R51["EFST_S_LIFEPOTION"]
+R52 := EFST_IDs
+R52 := R52["EFST_L_LIFEPOTION"]
+R2[(4-1)*FPF+i] := R(2+i), 1 <= i <= 50
+R3 := EFST_IDs
+R3 := R3["EFST_G_LIFEPOTION"]
+R4 := EFST_IDs
+R4 := R4["EFST_PLUSAVOIDVALUE"]
+R5 := EFST_IDs
+R5 := R5["EFST_PROTECT_DEF"]
+R6 := EFST_IDs
+R6 := R6["EFST_PROTECT_MDEF"]
+R7 := EFST_IDs
+R7 := R7["EFST_ARMOR_PROPERTY"]
+R8 := EFST_IDs
+R8 := R8["EFST_MANU_ATK"]
+R9 := EFST_IDs
+R9 := R9["EFST_ENCHANTBLADE"]
+R10 := EFST_IDs
+R10 := R10["EFST_MANU_DEF"]
+R11 := EFST_IDs
+R11 := R11["EFST_SPL_ATK"]
+R12 := EFST_IDs
+R12 := R12["EFST_SPL_DEF"]
+R13 := EFST_IDs
+R13 := R13["EFST_REFRESH"]
+R14 := EFST_IDs
+R14 := R14["EFST_VITALITYACTIVATION"]
+R15 := EFST_IDs
+R15 := R15["EFST_FIGHTINGSPIRIT"]
+R16 := EFST_IDs
+R16 := R16["EFST_ABUNDANCE"]
+R17 := EFST_IDs
+R17 := R17["EFST_GIANTGROWTH"]
+R18 := EFST_IDs
+R18 := R18["EFST_STONEHARDSKIN"]
+R19 := EFST_IDs
+R19 := R19["EFST_MANU_MATK"]
+R20 := EFST_IDs
+R20 := R20["EFST_SPL_MATK"]
+R21 := EFST_IDs
+R21 := R21["EFST_STR_SCROLL"]
+R22 := EFST_IDs
+R22 := R22["EFST_INT_SCROLL"]
+R23 := EFST_IDs
+R23 := R23["EFST_ACARAJE"]
+R24 := EFST_IDs
+R24 := R24["EFST_MARSHOFABYSS"]
+R25 := EFST_IDs
+R25 := R25["EFST_FROSTMISTY"]
+R26 := EFST_IDs
+R26 := R26["EFST_RECOGNIZEDSPELL"]
+R27 := EFST_IDs
+R27 := R27["EFST_FEARBREEZE"]
+R28 := EFST_IDs
+R28 := R28["EFST_PARALYSE"]
+R29 := EFST_IDs
+R29 := R29["EFST_LEECHESEND"]
+R30 := EFST_IDs
+R30 := R30["EFST_OBLIVIONCURSE"]
+R31 := EFST_IDs
+R31 := R31["EFST_DEATHHURT"]
+R32 := EFST_IDs
+R32 := R32["EFST_VENOMBLEED"]
+R33 := EFST_IDs
+R33 := R33["EFST_TOXIN"]
+R34 := EFST_IDs
+R34 := R34["EFST_PYREXIA"]
+R35 := EFST_IDs
+R35 := R35["EFST_MAGICMUSHROOM"]
+R36 := EFST_IDs
+R36 := R36["EFST_WEAPONBLOCKING"]
+R37 := EFST_IDs
+R37 := R37["EFST_CLOAKINGEXCEED"]
+R38 := EFST_IDs
+R38 := R38["EFST_POISONINGWEAPON"]
+R39 := EFST_IDs
+R39 := R39["EFST_HALLUCINATIONWALK"]
+R40 := EFST_IDs
+R40 := R40["EFST_MOONLIT_SERENADE"]
+R41 := EFST_IDs
+R41 := R41["EFST_LERADS_DEW"]
+R42 := EFST_IDs
+R42 := R42["EFST_SONG_OF_MANA"]
+R43 := EFST_IDs
+R43 := R43["EFST_ECHOSONG"]
+R44 := EFST_IDs
+R44 := R44["EFST_MELODYOFSINK"]
+R45 := EFST_IDs
+R45 := R45["EFST_BEYOND_OF_WARCRY"]
+R46 := EFST_IDs
+R46 := R46["EFST_SATURDAY_NIGHT_FEVER"]
+R47 := EFST_IDs
+R48 := "EFST_GLOOMYDAY"
+R47 := R47[R48]
+R48 := EFST_IDs
+R49 := "EFST_SIRCLEOFNATURE"
+R48 := R48[R49]
+R49 := EFST_IDs
+R50 := "EFST_SWING"
+R49 := R49[R50]
+R50 := EFST_IDs
+R51 := "EFST_HANDICAPSTATE_DEEP_SLEEP"
+R50 := R50[R51]
+R51 := EFST_IDs
+R52 := "EFST_DEEP_SLEEP"
+R51 := R51[R52]
+R52 := EFST_IDs
+R53 := "EFST_UNLIMITED_HUMMING_VOICE"
+R52 := R52[R53]
+R2[(5-1)*FPF+i] := R(2+i), 1 <= i <= 50
+R3 := EFST_IDs
+R4 := "EFST_SYMPHONY_LOVE"
+R3 := R3[R4]
+R4 := EFST_IDs
+R5 := "EFST_DANCE_WITH_WUG"
+R4 := R4[R5]
+R5 := EFST_IDs
+R6 := "EFST_RUSH_WINDMILL"
+R5 := R5[R6]
+R6 := EFST_IDs
+R7 := "EFST_HARMONIZE"
+R6 := R6[R7]
+R7 := EFST_IDs
+R8 := "EFST_CLOUD_KILL"
+R7 := R7[R8]
+R8 := EFST_IDs
+R9 := "EFST_WARMER"
+R8 := R8[R9]
+R9 := EFST_IDs
+R10 := "EFST_STRIKING"
+R9 := R9[R10]
+R10 := EFST_IDs
+R11 := "EFST_CRESCENTELBOW"
+R10 := R10[R11]
+R11 := EFST_IDs
+R12 := "EFST_LIGHTNINGWALK"
+R11 := R11[R12]
+R12 := EFST_IDs
+R13 := "EFST_RAISINGDRAGON"
+R12 := R12[R13]
+R13 := EFST_IDs
+R14 := "EFST_GENTLETOUCH_ENERGYGAIN"
+R13 := R13[R14]
+R14 := EFST_IDs
+R15 := "EFST_GENTLETOUCH_CHANGE"
+R14 := R14[R15]
+R15 := EFST_IDs
+R16 := "EFST_GENTLETOUCH_REVITALIZE"
+R15 := R15[R16]
+R16 := EFST_IDs
+R17 := "EFST_LG_REFLECTDAMAGE"
+R16 := R16[R17]
+R17 := EFST_IDs
+R18 := "EFST_SHIELDSPELL_DEF"
+R17 := R17[R18]
+R18 := EFST_IDs
+R19 := "EFST_SHIELDSPELL_MDEF"
+R18 := R18[R19]
+R19 := EFST_IDs
+R20 := "EFST_SHIELDSPELL_REF"
+R19 := R19[R20]
+R20 := EFST_IDs
+R21 := "EFST_PRESTIGE"
+R20 := R20[R21]
+R21 := EFST_IDs
+R22 := "EFST_BANDING"
+R21 := R21[R22]
+R22 := EFST_IDs
+R23 := "EFST_INSPIRATION"
+R22 := R22[R23]
+R23 := EFST_IDs
+R24 := "EFST_THORNS_TRAP"
+R23 := R23[R24]
+R24 := EFST_IDs
+R25 := "EFST_GN_CARTBOOST"
+R24 := R24[R25]
+R25 := EFST_IDs
+R26 := "EFST_FORCEOFVANGUARD"
+R25 := R25[R26]
+R26 := EFST_IDs
+R27 := "EFST_MACRO"
+R26 := R26[R27]
+R27 := EFST_IDs
+R28 := "EFST_MACRO_PERMIT"
+R27 := R27[R28]
+R28 := EFST_IDs
+R29 := "EFST_ATKER_ASPD"
+R28 := R28[R29]
+R29 := EFST_IDs
+R30 := "EFST_ATKER_MOVESPEED"
+R29 := R29[R30]
+R30 := EFST_IDs
+R31 := "EFST_PLUSATTACKPOWER"
+R30 := R30[R31]
+R31 := EFST_IDs
+R32 := "EFST_SIT"
+R31 := R31[R32]
+R32 := EFST_IDs
+R33 := "EFST_MVPCARD_ORCHERO"
+R32 := R32[R33]
+R33 := EFST_IDs
+R34 := "EFST_MVPCARD_ORCLORD"
+R33 := R33[R34]
+R34 := EFST_IDs
+R35 := "EFST_MVPCARD_TAOGUNKA"
+R34 := R34[R35]
+R35 := EFST_IDs
+R36 := "EFST_MVPCARD_MISTRESS"
+R35 := R35[R36]
+R36 := EFST_IDs
+R37 := "EFST_SET_NUM_DEF"
+R36 := R36[R37]
+R37 := EFST_IDs
+R38 := "EFST_SET_PER_DEF"
+R37 := R37[R38]
+R38 := EFST_IDs
+R39 := "EFST_CONCENTRATION"
+R38 := R38[R39]
+R39 := EFST_IDs
+R40 := "EFST_TRICKDEAD"
+R39 := R39[R40]
+R40 := EFST_IDs
+R41 := "EFST_FALCON"
+R40 := R40[R41]
+R41 := EFST_IDs
+R42 := "EFST_RIDING"
+R41 := R41[R42]
+R42 := EFST_IDs
+R43 := "EFST_SHOUT"
+R42 := R42[R43]
+R43 := EFST_IDs
+R44 := "EFST_ENERGYCOAT"
+R43 := R43[R44]
+R44 := EFST_IDs
+R45 := "EFST_ATTHASTE_INFINITY"
+R44 := R44[R45]
+R45 := EFST_IDs
+R46 := "EFST_ATTHASTE_POTION1"
+R45 := R45[R46]
+R46 := EFST_IDs
+R47 := "EFST_ATTHASTE_POTION2"
+R46 := R46[R47]
+R47 := EFST_IDs
+R48 := "EFST_ATTHASTE_POTION3"
+R47 := R47[R48]
+R48 := EFST_IDs
+R49 := "EFST_PROTECTWEAPON"
+R48 := R48[R49]
+R49 := EFST_IDs
+R50 := "EFST_PROTECTSHIELD"
+R49 := R49[R50]
+R50 := EFST_IDs
+R51 := "EFST_PROTECTARMOR"
+R50 := R50[R51]
+R51 := EFST_IDs
+R52 := "EFST_PROTECTHELM"
+R51 := R51[R52]
+R52 := EFST_IDs
+R53 := "EFST_PROPERTYGROUND"
+R52 := R52[R53]
+R2[(6-1)*FPF+i] := R(2+i), 1 <= i <= 50
+R3 := EFST_IDs
+R4 := "EFST_WUGRIDER"
+R3 := R3[R4]
+R4 := EFST_IDs
+R5 := "EFST_PLUSMAGICPOWER"
+R4 := R4[R5]
+R5 := EFST_IDs
+R6 := "EFST_ALL_RIDING"
+R5 := R5[R6]
+R6 := EFST_IDs
+R7 := "EFST_SET_NUM_MDEF"
+R6 := R6[R7]
+R7 := EFST_IDs
+R8 := "EFST_SET_PER_MDEF"
+R7 := R7[R8]
+R8 := EFST_IDs
+R9 := "EFST_ATTHASTE_CASH"
+R8 := R8[R9]
+R9 := EFST_IDs
+R10 := "EFST_2011RWC"
+R9 := R9[R10]
+R10 := EFST_IDs
+R11 := "EFST_GLORIA"
+R10 := R10[R11]
+R11 := EFST_IDs
+R12 := "EFST_KYRIE"
+R11 := R11[R12]
+R12 := EFST_IDs
+R13 := "EFST_LEXAETERNA"
+R12 := R12[R13]
+R13 := EFST_IDs
+R14 := "EFST_CRUCIS"
+R13 := R13[R14]
+R14 := EFST_IDs
+R15 := "EFST_MAGNIFICAT"
+R14 := R14[R15]
+R15 := EFST_IDs
+R16 := "EFST_MOVHASTE_INFINITY"
+R15 := R15[R16]
+R16 := EFST_IDs
+R17 := "EFST_MOVHASTE_POTION"
+R16 := R16[R17]
+R17 := EFST_IDs
+R18 := "EFST_INC_AGI"
+R17 := R17[R18]
+R18 := EFST_IDs
+R19 := "EFST_MOVHASTE_HORSE"
+R18 := R18[R19]
+R19 := EFST_IDs
+R20 := "EFST_BLESSING"
+R19 := R19[R20]
+R20 := EFST_IDs
+R21 := "EFST_PAIN_KILLER"
+R20 := R20[R21]
+R21 := EFST_IDs
+R22 := "EFST_LIGHT_OF_REGENE"
+R21 := R21[R22]
+R22 := EFST_IDs
+R23 := "EFST_OVERED_BOOST"
+R22 := R22[R23]
+R23 := EFST_IDs
+R24 := "EFST_STYLE_CHANGE"
+R23 := R23[R24]
+R24 := EFST_IDs
+R25 := "EFST_MAGMA_FLOW"
+R24 := R24[R25]
+R25 := EFST_IDs
+R26 := "EFST_GRANITIC_ARMOR"
+R25 := R25[R26]
+R26 := EFST_IDs
+R27 := "EFST_PYROCLASTIC"
+R26 := R26[R27]
+R27 := EFST_IDs
+R28 := "EFST_VOLCANIC_ASH"
+R27 := R27[R28]
+R28 := EFST_IDs
+R29 := "EFST_BENEDICTIO"
+R28 := R28[R29]
+R29 := EFST_IDs
+R30 := "EFST_SUFFRAGIUM"
+R29 := R29[R30]
+R30 := EFST_IDs
+R31 := "EFST_SLOWPOISON"
+R30 := R30[R31]
+R31 := EFST_IDs
+R32 := "EFST_ASPERSIO"
+R31 := R31[R32]
+R32 := EFST_IDs
+R33 := "EFST_WEAPONPROPERTY"
+R32 := R32[R33]
+R33 := EFST_IDs
+R34 := "EFST_ANGELUS"
+R33 := R33[R34]
+R34 := EFST_IDs
+R35 := "EFST_IMPOSITIO"
+R34 := R34[R35]
+R35 := EFST_IDs
+R36 := "EFST_PROVIDENCE"
+R35 := R35[R36]
+R36 := EFST_IDs
+R37 := "EFST_OVERLAPEXPUP"
+R36 := R36[R37]
+R37 := EFST_IDs
+R38 := "EFST_STEELBODY"
+R37 := R37[R38]
+R38 := EFST_IDs
+R39 := "EFST_GM_BATTLE"
+R38 := R38[R39]
+R39 := EFST_IDs
+R40 := "EFST_GM_BATTLE2"
+R39 := R39[R40]
+R2[(7-1)*FPF+i] := R(2+i), 1 <= i <= 37
+HaveEfstImgTable := R2
+R2 := closure(Function #8)
+HaveEfstImg := R2
+return 
+ 
+ 
+; Function #1:
+;
+; Name:            
+; Defined at line: 22
+; #Upvalues:       1
+; #Parameters:     1
+; Is_vararg:       0
+; Max Stack Size:  6
+
+R1 := R0
+R2 := "-haveTimeLimit"
+R1 := R1 .. R2
+R2 := U0
+R2 := R2[R1]
+if R2 ~= nil then PC := 44
+PC := 44
+R3 := {}
+R4 := 0
+R5 := 0
+R3[(1-1)*FPF+i] := R(3+i), 1 <= i <= 2
+R2 := R3
+R3 := StateIconList
+if R3 == nil then PC := 44
+PC := 44
+R3 := StateIconList
+R3 := R3[R0]
+obj := R3
+R3 := obj
+if R3 == nil then PC := 44
+PC := 44
+R3 := obj
+R3 := R3["haveTimeLimit"]
+haveTimeLimit := R3
+R3 := haveTimeLimit
+if R3 ~= nil then PC := 29
+PC := 29
+R3 := 0
+haveTimeLimit := R3
+R3 := obj
+R3 := R3["posTimeLimitStr"]
+posTimeLimitStr := R3
+R3 := posTimeLimitStr
+if R3 ~= nil then PC := 37
+PC := 37
+R3 := 0
+posTimeLimitStr := R3
+R3 := {}
+R4 := haveTimeLimit
+R5 := posTimeLimitStr
+R3[(1-1)*FPF+i] := R(3+i), 1 <= i <= 2
+R2 := R3
+R3 := U0
+R3[R1] := R2
+R3 := R2[1]
+R4 := R2[2]
+return R3,R4
+return 
+ 
+
+; Function #2:
+;
+; Name:            
+; Defined at line: 59
+; #Upvalues:       0
+; #Parameters:     4
+; Is_vararg:       0
+; Max Stack Size:  9
+
+if R0 ~= nil then PC := 3
+PC := 3
+R0 := ""
+if R1 ~= nil then PC := 6
+PC := 6
+R1 := 255
+if R2 ~= nil then PC := 9
+PC := 9
+R2 := 255
+if R3 ~= nil then PC := 12
+PC := 12
+R3 := 255
+R4 := {}
+R5 := R0
+R6 := R1
+R7 := R2
+R8 := R3
+R4[(1-1)*FPF+i] := R(4+i), 1 <= i <= 4
+return R4
+return 
+ 
+
+; Function #3:
+;
+; Name:            
+; Defined at line: 86
+; #Upvalues:       2
+; #Parameters:     2
+; Is_vararg:       0
+; Max Stack Size:  9
+
+R2 := R0
+R3 := "-"
+R4 := R1
+R2 := R2 .. R3 .. R4
+R3 := U0
+R3 := R3[R2]
+if R3 ~= nil then PC := 66
+PC := 66
+R4 := {}
+R5 := ""
+R6 := 255
+R7 := 255
+R8 := 255
+R4[(1-1)*FPF+i] := R(4+i), 1 <= i <= 4
+R3 := R4
+R4 := StateIconList
+if R4 == nil then PC := 66
+PC := 66
+R4 := StateIconList
+R4 := R4[R0]
+if R4 == nil then PC := 66
+PC := 66
+R4 := StateIconList
+R4 := R4[R0]
+R4 := R4["descript"]
+v := R4
+R4 := v
+if R4 == nil then PC := 66
+PC := 66
+R4 := v
+R4 := R4[R1]
+if R4 == nil then PC := 66
+PC := 66
+R4 := v
+R4 := R4[R1]
+R4 := R4[2]
+if R4 == nil then PC := 57
+PC := 57
+R4 := U1
+R5 := v
+R5 := R5[R1]
+R5 := R5[1]
+R6 := v
+R6 := R6[R1]
+R6 := R6[2]
+R6 := R6[1]
+R7 := v
+R7 := R7[R1]
+R7 := R7[2]
+R7 := R7[2]
+R8 := v
+R8 := R8[R1]
+R8 := R8[2]
+R8 := R8[3]
+R4 := R4(R5,R6,R7,R8)
+R3 := R4
+PC := 64
+R4 := U1
+R5 := v
+R5 := R5[R1]
+R5 := R5[1]
+R6 := R7 := R8 := nil
+R4 := R4(R5,R6,R7,R8)
+R3 := R4
+R4 := U0
+R4[R2] := R3
+R4 := R3[1]
+R5 := R3[2]
+R6 := R3[3]
+R7 := R3[4]
+return R4,R5,R6,R7
+return 
+ 
+
+; Function #4:
+;
+; Name:            
+; Defined at line: 121
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  11
+
+R0 := io
+R0 := R0["open"]
+R1 := "data\\StateIconInfo_n.lua"
+R2 := "w"
+R0 := R0(R1,R2)
+makeFile := R0
+R0 := makeFile
+if R0 == nil then PC := 81
+PC := 81
+R0 := makeFile
+R1 := R0; R0 := R0["write"]
+R2 := "StateIconList = {}\n\n"
+R0(R1,R2)
+R0 := pairs
+R1 := EFST_IDs
+R0,R1,R2 := R0(R1)
+PC := 79
+R5 := c_GetEFSTMsg
+R6 := R4
+R5,R6 := R5(R6)
+msg := R6
+filename := R5
+R5 := filename
+if R5 == "" then PC := 79
+PC := 79
+R5 := filename
+if R5 == nil then PC := 79
+PC := 79
+R5 := makeFile
+R6 := R5; R5 := R5["write"]
+R7 := string
+R7 := R7["format"]
+R8 := "-- %d, %s\n"
+R9 := R4
+R10 := filename
+R7,... := R7(R8,R9,R10)
+R5(R6,...)
+R5 := makeFile
+R6 := R5; R5 := R5["write"]
+R7 := string
+R7 := R7["format"]
+R8 := "StateIconList[EFST_IDs.%s] =\n"
+R9 := R3
+R7,... := R7(R8,R9)
+R5(R6,...)
+R5 := makeFile
+R6 := R5; R5 := R5["write"]
+R7 := "{\n"
+R5(R6,R7)
+R5 := makeFile
+R6 := R5; R5 := R5["write"]
+R7 := "\tdescript = \n"
+R5(R6,R7)
+R5 := makeFile
+R6 := R5; R5 := R5["write"]
+R7 := "\t{\n"
+R5(R6,R7)
+R5 := msg
+if R5 == "" then PC := 71
+PC := 71
+R5 := msg
+if R5 == nil then PC := 71
+PC := 71
+R5 := makeFile
+R6 := R5; R5 := R5["write"]
+R7 := string
+R7 := R7["format"]
+R8 := "\t\t{ \"%s\", },\n"
+R9 := msg
+R7,... := R7(R8,R9)
+R5(R6,...)
+R5 := makeFile
+R6 := R5; R5 := R5["write"]
+R7 := "\t}\n"
+R5(R6,R7)
+R5 := makeFile
+R6 := R5; R5 := R5["write"]
+R7 := "}\n\n"
+R5(R6,R7)
+R3,R4 :=  R0(R1,R2); if R3 ~= nil then begin PC := 17; R2 := R3 end
+PC := 17
+R0 := io
+R0 := R0["close"]
+R1 := makeFile
+R0(R1)
+return 
+ 
+
+; Function #5:
+;
+; Name:            
+; Defined at line: 162
+; #Upvalues:       0
+; #Parameters:     1
+; Is_vararg:       0
+; Max Stack Size:  7
+
+R1 := pairs
+R2 := EFST_IDs
+R1,R2,R3 := R1(R2)
+PC := 7
+if R5 ~= R0 then PC := 7
+PC := 7
+return R4
+R4,R5 :=  R1(R2,R3); if R4 ~= nil then begin PC := 4; R3 := R4 end
+PC := 4
+R1 := ""
+return R1
+return 
+ 
+
+; Function #6:
+;
+; Name:            
+; Defined at line: 178
+; #Upvalues:       0
+; #Parameters:     1
+; Is_vararg:       0
+; Max Stack Size:  2
+
+if R0 == 0 then PC := 7
+PC := 7
+R1 := EFST_IDs
+R1 := R1[R0]
+if R1 == nil then PC := 7
+PC := 7
+return R1
+R1 := 0
+return R1
+return 
+ 
+
+; Function #7:
+;
+; Name:            
+; Defined at line: 196
+; #Upvalues:       0
+; #Parameters:     2
+; Is_vararg:       0
+; Max Stack Size:  6
+
+R2 := StateIconImgList
+if R2 == nil then PC := 14
+PC := 14
+R2 := StateIconImgList
+R2 := R2[R1]
+if R2 == nil then PC := 14
+PC := 14
+R3 := R2[R0]
+if R3 == nil then PC := 14
+PC := 14
+R4 := "effect\\"
+R5 := R3
+R4 := R4 .. R5
+return R4
+R2 := ""
+return R2
+return 
+ 
+
+; Function #8:
+;
+; Name:            
+; Defined at line: 558
+; #Upvalues:       0
+; #Parameters:     1
+; Is_vararg:       0
+; Max Stack Size:  2
+
+R1 := HaveEfstImgTable
+R1 := R1[R0]
+if R1 == nil then PC := 6
+PC := 6
+R1 := true
+return R1
+R1 := false
+return R1
+return 
+ 

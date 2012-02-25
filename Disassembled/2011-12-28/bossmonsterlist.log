@@ -1,0 +1,220 @@
+R0 := {}
+R1 := jobtbl
+R1 := R1["JT_BAPHOMET"]
+R2 := jobtbl
+R2 := R2["JT_DARK_LORD"]
+R3 := jobtbl
+R3 := R3["JT_DOPPELGANGER"]
+R4 := jobtbl
+R4 := R4["JT_DRAKE"]
+R5 := jobtbl
+R5 := R5["JT_EDDGA"]
+R6 := jobtbl
+R6 := R6["JT_GARM"]
+R7 := jobtbl
+R7 := R7["JT_GOLDEN_BUG"]
+R8 := jobtbl
+R8 := R8["JT_KNIGHT_OF_WINDSTORM"]
+R9 := jobtbl
+R9 := R9["JT_MAYA"]
+R10 := jobtbl
+R10 := R10["JT_MISTRESS"]
+R11 := jobtbl
+R11 := R11["JT_MOONLIGHT"]
+R12 := jobtbl
+R12 := R12["JT_ORC_LORD"]
+R13 := jobtbl
+R13 := R13["JT_ORK_HERO"]
+R14 := jobtbl
+R14 := R14["JT_OSIRIS"]
+R15 := jobtbl
+R15 := R15["JT_PHREEONI"]
+R16 := jobtbl
+R16 := R16["JT_TURTLE_GENERAL"]
+R17 := jobtbl
+R17 := R17["JT_DRACULA"]
+R18 := jobtbl
+R18 := R18["JT_LORD_OF_DEATH"]
+R19 := jobtbl
+R19 := R19["JT_PHARAOH"]
+R20 := jobtbl
+R20 := R20["JT_EVENT_BAPHO"]
+R21 := jobtbl
+R21 := R21["JT_DARK_SNAKE_LORD"]
+R22 := jobtbl
+R22 := R22["JT_INCANTATION_SAMURAI"]
+R23 := jobtbl
+R23 := R23["JT_PORING_V"]
+R24 := jobtbl
+R24 := R24["JT_AMON_RA"]
+R25 := jobtbl
+R25 := R25["JT_TAO_GUNKA"]
+R26 := jobtbl
+R26 := R26["JT_RSX_0806"]
+R27 := jobtbl
+R27 := R27["JT_BACSOJIN_"]
+R28 := jobtbl
+R28 := R28["JT_B_SEYREN"]
+R29 := jobtbl
+R29 := R29["JT_B_EREMES"]
+R30 := jobtbl
+R30 := R30["JT_B_HARWORD"]
+R31 := jobtbl
+R31 := R31["JT_B_MAGALETA"]
+R32 := jobtbl
+R32 := R32["JT_B_SHECIL"]
+R33 := jobtbl
+R33 := R33["JT_B_KATRINN"]
+R34 := jobtbl
+R34 := R34["JT_B_YGNIZEM"]
+R35 := jobtbl
+R35 := R35["JT_APOCALIPS_H"]
+R36 := jobtbl
+R36 := R36["JT_LADY_TANEE"]
+R37 := jobtbl
+R37 := R37["JT_THANATOS"]
+R38 := jobtbl
+R38 := R38["JT_DETALE"]
+R39 := jobtbl
+R39 := R39["JT_KIEL_"]
+R40 := jobtbl
+R40 := R40["JT_RANDGRIS"]
+R41 := jobtbl
+R41 := R41["JT_EM_ANGELING"]
+R42 := jobtbl
+R42 := R42["JT_EM_DEVILING"]
+R43 := jobtbl
+R43 := R43["JT_GLOOMUNDERNIGHT"]
+R44 := jobtbl
+R44 := R44["JT_KTULLANUX"]
+R45 := jobtbl
+R45 := R45["JT_ATROCE"]
+R46 := jobtbl
+R46 := R46["JT_EVENT_HYDRO"]
+R47 := jobtbl
+R47 := R47["JT_EVENT_GOURD"]
+R48 := jobtbl
+R48 := R48["JT_EVENT_DETALE"]
+R49 := jobtbl
+R49 := R49["JT_IFRIT"]
+R50 := jobtbl
+R50 := R50["JT_FALLINGBISHOP"]
+R0[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50] := R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R34,R35,R36,R37,R38,R39,R40,R41,R42,R43,R44,R45,R46,R47,R48,R49,R50
+R1 := jobtbl
+R1 := R1["JT_BEELZEBUB_"]
+R2 := jobtbl
+R2 := R2["JT_E_LORD_OF_DEATH"]
+R3 := jobtbl
+R3 := R3["JT_GOPINICH"]
+R4 := jobtbl
+R4 := R4["JT_MOROCC_"]
+R5 := jobtbl
+R5 := R5["JT_KUBLIN"]
+R6 := jobtbl
+R6 := R6["JT_S_NYDHOG"]
+R7 := jobtbl
+R7 := R7["JT_E_ANOPHELES"]
+R8 := jobtbl
+R8 := R8["JT_BOITATA"]
+R9 := jobtbl
+R9 := R9["JT_QUEEN_SCARABA"]
+R10 := jobtbl
+R10 := R10["JT_E_ORK_HERO2"]
+R11 := jobtbl
+R11 := R11["JT_E_EDDGA"]
+R12 := jobtbl
+R12 := R12["JT_E_OSIRIS2"]
+R13 := jobtbl
+R13 := R13["JT_E_DRACULA"]
+R14 := jobtbl
+R14 := R14["JT_E_DOPPELGANGER"]
+R15 := jobtbl
+R15 := R15["JT_E_MISTRESS"]
+R16 := jobtbl
+R16 := R16["JT_E_BAPHOMET2"]
+R17 := jobtbl
+R17 := R17["JT_E_LORD_OF_DEATH2"]
+R18 := jobtbl
+R18 := R18["JT_E_DARK_LORD"]
+R19 := jobtbl
+R19 := R19["JT_E_KTULLANUX"]
+R20 := jobtbl
+R20 := R20["JT_E_DARK_SNAKE_LORD"]
+R21 := jobtbl
+R21 := R21["JT_E_TURTLE_GENERAL"]
+R22 := jobtbl
+R22 := R22["JT_E_APOCALIPS_H"]
+R23 := jobtbl
+R23 := R23["JT_E_FALLINGBISHOP"]
+R24 := jobtbl
+R24 := R24["JT_E_GLOOMUNDERNIGHT"]
+R25 := jobtbl
+R25 := R25["JT_E_RANDGRIS"]
+R26 := jobtbl
+R26 := R26["JT_E_IFRIT"]
+R27 := jobtbl
+R27 := R27["JT_E_B_HARWORD"]
+R28 := jobtbl
+R28 := R28["JT_E_B_SEYREN"]
+R29 := jobtbl
+R29 := R29["JT_E_B_EREMES"]
+R30 := jobtbl
+R30 := R30["JT_LOST_DRAGON"]
+R31 := jobtbl
+R31 := R31["JT_E_VADON_X"]
+R32 := jobtbl
+R32 := R32["JT_I_QUEEN_SCARABA"]
+R33 := jobtbl
+R33 := R33["JT_LORD_OF_DEATH"]
+R34 := jobtbl
+R34 := R34["JT_B_EREMES"]
+R35 := jobtbl
+R35 := R35["JT_B_HARWORD"]
+R36 := jobtbl
+R36 := R36["JT_B_KATRINN"]
+R37 := jobtbl
+R37 := R37["JT_B_MAGALETA"]
+R38 := jobtbl
+R38 := R38["JT_B_SEYREN"]
+R39 := jobtbl
+R39 := R39["JT_B_SHECIL"]
+R0[51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89] := R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R34,R35,R36,R37,R38,R39
+BossMonsterTable := R0
+R0 := closure(Function #0)
+IsBossMonster := R0
+R0 := false
+return R0
+return 
+
+
+; Function #0:
+;
+; Name:            
+; Defined at line: 94
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  7
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000a | enemyID
+; 00000003 | 0000000a | (for generator)
+; 00000003 | 0000000a | (for state)
+; 00000003 | 0000000a | (for control)
+; 00000004 | 00000008 | k
+; 00000004 | 00000008 | v
+;
+; No upvalues
+
+R1 := pairs
+R2 := BossMonsterTable
+R1,R2,R3 := R1(R2)
+PC := 9
+if R5 != R0 then PC := 9
+  6 [ 96]: JMP       9
+R6 := true
+return R6
+R4,R5 := R1(R2,R3); if R4 ~= nil then begin PC = 5; R3 := R4 end
+ 10 [ 98]: JMP       5
+return 

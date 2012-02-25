@@ -1,0 +1,229 @@
+R0 := {}
+R0["JT_NOVICE"] := 0
+R0["JT_SWORDMAN"] := 1
+R0["JT_MAGICIAN"] := 2
+R0["JT_ARCHER"] := 3
+R0["JT_ACOLYTE"] := 4
+R0["JT_MERCHANT"] := 5
+R0["JT_THIEF"] := 6
+R0["JT_KNIGHT"] := 7
+R0["JT_PRIEST"] := 8
+R0["JT_WIZARD"] := 9
+R0["JT_BLACKSMITH"] := 10
+R0["JT_HUNTER"] := 11
+R0["JT_ASSASSIN"] := 12
+R0["JT_CHICKEN"] := 13
+R0["JT_CRUSADER"] := 14
+R0["JT_MONK"] := 15
+R0["JT_SAGE"] := 16
+R0["JT_ROGUE"] := 17
+R0["JT_ALCHEMIST"] := 18
+R0["JT_BARD"] := 19
+R0["JT_DANCER"] := 20
+R0["JT_CHICKEN2"] := 21
+R0["JT_MARRIED"] := 22
+R0["JT_SUPERNOVICE"] := 23
+R0["JT_GUNSLINGER"] := 24
+R0["JT_NINJA"] := 25
+R0["JT_SANTA"] := 26
+R0["JT_SUMMER"] := 27
+R0["JT_NOVICE_H"] := 4001
+R0["JT_SWORDMAN_H"] := 4002
+R0["JT_MAGICIAN_H"] := 4003
+R0["JT_ARCHER_H"] := 4004
+R0["JT_ACOLYTE_H"] := 4005
+R0["JT_MERCHANT_H"] := 4006
+R0["JT_THIEF_H"] := 4007
+R0["JT_KNIGHT_H"] := 4008
+R0["JT_PRIEST_H"] := 4009
+R0["JT_WIZARD_H"] := 4010
+R0["JT_BLACKSMITH_H"] := 4011
+R0["JT_HUNTER_H"] := 4012
+R0["JT_ASSASSIN_H"] := 4013
+R0["JT_CHICKEN_H"] := 4014
+R0["JT_CRUSADER_H"] := 4015
+R0["JT_MONK_H"] := 4016
+R0["JT_SAGE_H"] := 4017
+R0["JT_ROGUE_H"] := 4018
+R0["JT_ALCHEMIST_H"] := 4019
+R0["JT_BARD_H"] := 4020
+R0["JT_DANCER_H"] := 4021
+R0["JT_CHICKEN2_H"] := 4022
+R0["JT_NOVICE_B"] := 4023
+R0["JT_SWORDMAN_B"] := 4024
+R0["JT_MAGICIAN_B"] := 4025
+R0["JT_ARCHER_B"] := 4026
+R0["JT_ACOLYTE_B"] := 4027
+R0["JT_MERCHANT_B"] := 4028
+R0["JT_THIEF_B"] := 4029
+R0["JT_KNIGHT_B"] := 4030
+R0["JT_PRIEST_B"] := 4031
+R0["JT_WIZARD_B"] := 4032
+R0["JT_BLACKSMITH_B"] := 4033
+R0["JT_HUNTER_B"] := 4034
+R0["JT_ASSASSIN_B"] := 4035
+R0["JT_CHICKEN_B"] := 4036
+R0["JT_CRUSADER_B"] := 4037
+R0["JT_MONK_B"] := 4038
+R0["JT_SAGE_B"] := 4039
+R0["JT_ROGUE_B"] := 4040
+R0["JT_ALCHEMIST_B"] := 4041
+R0["JT_BARD_B"] := 4042
+R0["JT_DANCER_B"] := 4043
+R0["JT_CHICKEN2_B"] := 4044
+R0["JT_SUPERNOVICE_B"] := 4045
+R0["JT_TAEKWON"] := 4046
+R0["JT_STAR"] := 4047
+R0["JT_STAR2"] := 4048
+R0["JT_LINKER"] := 4049
+R0["JT_GANGSI"] := 4050
+R0["JT_DEATHKNIGHT"] := 4051
+R0["JT_COLLECTOR"] := 4052
+R0["JT_RUNE_KNIGHT"] := 4054
+R0["JT_WARLOCK"] := 4055
+R0["JT_RANGER"] := 4056
+R0["JT_ARCHBISHOP"] := 4057
+R0["JT_MECHANIC"] := 4058
+R0["JT_GUILLOTINE_CROSS"] := 4059
+R0["JT_RUNE_KNIGHT_H"] := 4060
+R0["JT_WARLOCK_H"] := 4061
+R0["JT_RANGER_H"] := 4062
+R0["JT_ARCHBISHOP_H"] := 4063
+R0["JT_MECHANIC_H"] := 4064
+R0["JT_GUILLOTINE_CROSS_H"] := 4065
+R0["JT_ROYAL_GUARD"] := 4066
+R0["JT_SORCERER"] := 4067
+R0["JT_MINSTREL"] := 4068
+R0["JT_WANDERER"] := 4069
+R0["JT_SURA"] := 4070
+R0["JT_GENETIC"] := 4071
+R0["JT_SHADOW_CHASER"] := 4072
+R0["JT_ROYAL_GUARD_H"] := 4073
+R0["JT_SORCERER_H"] := 4074
+R0["JT_MINSTREL_H"] := 4075
+R0["JT_WANDERER_H"] := 4076
+R0["JT_SURA_H"] := 4077
+R0["JT_GENETIC_H"] := 4078
+R0["JT_SHADOW_CHASER_H"] := 4079
+R0["JT_RUNE_CHICKEN"] := 4080
+R0["JT_RUNE_CHICKEN_H"] := 4081
+R0["JT_ROYAL_CHICKEN"] := 4082
+R0["JT_ROYAL_CHICKEN_H"] := 4083
+R0["JT_WOLF_RANGER"] := 4084
+R0["JT_WOLF_RANGER_H"] := 4085
+R0["JT_MADOGEAR"] := 4086
+R0["JT_MADOGEAR_H"] := 4087
+R0["JT_RUNE_CHICKEN2"] := 4088
+R0["JT_RUNE_CHICKEN2_H"] := 4089
+R0["JT_RUNE_CHICKEN3"] := 4090
+R0["JT_RUNE_CHICKEN3_H"] := 4091
+R0["JT_RUNE_CHICKEN4"] := 4092
+R0["JT_RUNE_CHICKEN4_H"] := 4093
+R0["JT_RUNE_CHICKEN5"] := 4094
+R0["JT_RUNE_CHICKEN5_H"] := 4095
+R0["JT_RUNE_KNIGHT_B"] := 4096
+R0["JT_WARLOCK_B"] := 4097
+R0["JT_RANGER_B"] := 4098
+R0["JT_ARCHBISHOP_B"] := 4099
+R0["JT_MECHANIC_B"] := 4100
+R1 := 4101
+R0["JT_GUILLOTINE_CROSS_B"] := R1
+R1 := "JT_ROYAL_GUARD_B"
+R2 := 4102
+R0[R1] := R2
+R1 := "JT_SORCERER_B"
+R2 := 4103
+R0[R1] := R2
+R1 := "JT_MINSTREL_B"
+R2 := 4104
+R0[R1] := R2
+R1 := "JT_WANDERER_B"
+R2 := 4105
+R0[R1] := R2
+R1 := "JT_SURA_B"
+R2 := 4106
+R0[R1] := R2
+R1 := "JT_GENETIC_B"
+R2 := 4107
+R0[R1] := R2
+R1 := "JT_SHADOW_CHASER_B"
+R2 := 4108
+R0[R1] := R2
+R1 := "JT_RUNE_CHICKEN_B"
+R2 := 4109
+R0[R1] := R2
+R1 := "JT_ROYAL_CHICKEN_B"
+R2 := 4110
+R0[R1] := R2
+R1 := "JT_WOLF_RANGER_B"
+R2 := 4111
+R0[R1] := R2
+R1 := "JT_MADOGEAR_B"
+R2 := 4112
+R0[R1] := R2
+R1 := "JT_SUPERNOVICE2"
+R2 := 4190
+R0[R1] := R2
+R1 := "JT_SUPERNOVICE2_B"
+R2 := 4191
+R0[R1] := R2
+pcJobTbl2 := R0
+R0 := closure(Function #0)
+ReqPCJobNameMan := R0
+R0 := closure(Function #1)
+ReqPCJobNameWoman := R0
+return 
+
+
+; Function #0:
+;
+; Name:            
+; Defined at line: 159
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000009 | jobID
+;
+; No upvalues
+
+R1 := PCJobNameTableMan
+R1 := R1[R0]
+if R1 == nil then PC := 8
+  4 [160]: JMP       8
+R1 := PCJobNameTableMan
+R1 := R1[R0]
+return R1
+R1 := ""
+return R1
+return 
+
+
+; Function #1:
+;
+; Name:            
+; Defined at line: 172
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000009 | jobID
+;
+; No upvalues
+
+R1 := PCJobNameTableWoman
+R1 := R1[R0]
+if R1 == nil then PC := 8
+  4 [173]: JMP       8
+R1 := PCJobNameTableWoman
+R1 := R1[R0]
+return R1
+R1 := ""
+return R1
+return 

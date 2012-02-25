@@ -1,0 +1,292 @@
+R0 := 156
+WID_HOTKEYWND := R0
+R0 := 157
+WID_JOINTO_BATTLEFIELDWND := R0
+R0 := 158
+WID_RELOADLUASCRIPTWND := R0
+R0 := 159
+WID_QUIKSLOTWND := R0
+R0 := 165
+WID_BATTLEFIELD_DESCRIBEWND := R0
+R0 := 166
+WID_BATTLEFIELD_STATUSWND := R0
+R0 := 167
+WID_BATTLEFIELD_HELPWND := R0
+R0 := 181
+WID_SEARCH_STORE_INFO := R0
+R0 := 182
+WID_BUTTONS_OF_BASICWND := R0
+R0 := 183
+WID_SHOWINFO_TESTLAYER := R0
+R0 := 191
+WID_EXMACRO_SETUPWND := R0
+R0 := 193
+WID_DEBUGINGINTERFACEWND := R0
+R0 := 194
+WID_DEBUGINGINTERFACEWND_USERDEFINE := R0
+R0 := {}
+R0["width"] := 436
+R0["height"] := 432
+R0["x"] := 300
+R0["y"] := 100
+R1 := {}
+R2 := 255
+R3 := 255
+R4 := 255
+R1[1,2,3] := R2,R3,R4
+R0["bgColor"] := R1
+R0["baseButton"] := 1
+R0["closeButton"] := 1
+UIHotKeyWnd := R0
+R0 := {}
+R0["width"] := 280
+R0["height"] := 186
+R0["x"] := 300
+R0["y"] := 120
+R0["baseButton"] := 1
+R0["closeButton"] := 1
+UIJoinToBattleFieldWnd := R0
+R0 := {}
+R0["width"] := 36
+R0["height"] := 34
+R0["x"] := 400
+R0["y"] := 400
+R0["baseButton"] := 1
+R0["closeButton"] := 1
+UIReloadLuaScript := R0
+R0 := {}
+R0["width"] := 280
+R0["height"] := 360
+R0["x"] := 350
+R0["y"] := 150
+R0["baseButton"] := 1
+R0["closeButton"] := 1
+UIBattleFieldDescribeWnd := R0
+R0 := {}
+R0["width"] := 280
+R0["height"] := 186
+R0["x"] := 350
+R0["y"] := 150
+R0["baseButton"] := 1
+R0["closeButton"] := 1
+UIBattleFieldStatusWnd := R0
+R0 := {}
+R0["width"] := 280
+R0["height"] := 360
+R0["x"] := 350
+R0["y"] := 150
+R0["baseButton"] := 1
+R0["closeButton"] := 1
+UIBattleFieldHelpWnd := R0
+R0 := {}
+R0["width"] := 77
+R0["height"] := 34
+R0["x"] := 900
+R0["y"] := 0
+UIQuikSlotWnd := R0
+R0 := {}
+R0["width"] := 445
+R0["height"] := 380
+R0["x"] := 300
+R0["y"] := 100
+UISerachStoreInfoWnd := R0
+R0 := {}
+R0["width"] := 220
+R0["height"] := 80
+R0["x"] := 300
+R0["y"] := 100
+UIButtonsOfBasicWnd := R0
+R0 := {}
+R0["width"] := 205
+R0["height"] := 70
+R0["x"] := 200
+R0["y"] := 200
+UIShowInfoOfTestLayer := R0
+R0 := {}
+R0["width"] := 400
+R0["height"] := 530
+R0["x"] := 300
+R0["y"] := 100
+UIExMacroSetUpWnd := R0
+R0 := {}
+R0["width"] := 250
+R0["height"] := 260
+R0["x"] := 570
+R0["y"] := 95
+CUIDebugingInterfaceWnd := R0
+R0 := {}
+R0["width"] := 250
+R0["height"] := 260
+R0["x"] := 570
+R0["y"] := 260
+CUIDebugingInterfaceWnd_UserDefine := R0
+R0 := closure(Function #0)
+GetWindowString := R0
+R0 := closure(Function #1)
+GetWindowInfo := R0
+R0 := closure(Function #2)
+GetSysButtonInfo := R0
+return 
+
+
+Function #0:
+;
+Name:            
+Defined at line: 121
+#Upvalues:       0
+#Parameters:     1 (R0)
+Is_vararg:       0
+Max Stack Size:  2
+;
+Locals:
+Start PC |  End PC  | Name
+00000000 | 0000004f | windowID
+;
+No upvalues
+
+R1 := WID_HOTKEYWND
+if R0 != R1 then PC := 7
+  3 [122]: JMP       7
+R1 := "UIHotKeyWnd"
+return R1
+PC := 78
+R1 := WID_JOINTO_BATTLEFIELDWND
+if R0 != R1 then PC := 13
+  9 [124]: JMP       13
+R1 := "UIJoinToBattleFieldWnd"
+return R1
+PC := 78
+R1 := WID_RELOADLUASCRIPTWND
+if R0 != R1 then PC := 19
+ 15 [126]: JMP       19
+R1 := "UIReloadLuaScript"
+return R1
+PC := 78
+R1 := WID_QUIKSLOTWND
+if R0 != R1 then PC := 25
+ 21 [128]: JMP       25
+R1 := "UIQuikSlotWnd"
+return R1
+PC := 78
+R1 := WID_BATTLEFIELD_DESCRIBEWND
+if R0 != R1 then PC := 31
+ 27 [130]: JMP       31
+R1 := "UIBattleFieldDescribeWnd"
+return R1
+PC := 78
+R1 := WID_BATTLEFIELD_STATUSWND
+if R0 != R1 then PC := 37
+ 33 [132]: JMP       37
+R1 := "UIBattleFieldStatusWnd"
+return R1
+PC := 78
+R1 := WID_BATTLEFIELD_HELPWND
+if R0 != R1 then PC := 43
+ 39 [134]: JMP       43
+R1 := "UIBattleFieldHelpWnd"
+return R1
+PC := 78
+R1 := WID_SEARCH_STORE_INFO
+if R0 != R1 then PC := 49
+ 45 [136]: JMP       49
+R1 := "UISerachStoreInfoWnd"
+return R1
+PC := 78
+R1 := WID_BUTTONS_OF_BASICWND
+if R0 != R1 then PC := 55
+ 51 [138]: JMP       55
+R1 := "UIButtonsOfBasicWnd"
+return R1
+PC := 78
+R1 := WID_SHOWINFO_TESTLAYER
+if R0 != R1 then PC := 61
+ 57 [140]: JMP       61
+R1 := "UIShowInfoOfTestLayer"
+return R1
+PC := 78
+R1 := WID_EXMACRO_SETUPWND
+if R0 != R1 then PC := 67
+ 63 [142]: JMP       67
+R1 := "UIExMacroSetUpWnd"
+return R1
+PC := 78
+R1 := WID_DEBUGINGINTERFACEWND
+if R0 != R1 then PC := 73
+ 69 [144]: JMP       73
+R1 := "CUIDebugingInterfaceWnd"
+return R1
+PC := 78
+R1 := WID_DEBUGINGINTERFACEWND_USERDEFINE
+if R0 != R1 then PC := 78
+ 75 [146]: JMP       78
+R1 := "CUIDebugingInterfaceWnd_UserDefine"
+return R1
+R1 := nil
+return R1
+return 
+
+
+Function #1:
+;
+Name:            
+Defined at line: 153
+#Upvalues:       0
+#Parameters:     1 (R0)
+Is_vararg:       0
+Max Stack Size:  7
+;
+Locals:
+Start PC |  End PC  | Name
+00000000 | 0000000e | windowID
+00000000 | 0000000e | wnd
+00000003 | 0000000e | wndStr
+;
+No upvalues
+
+R2 := GetWindowString
+R3 := R0
+R2 := R2(R3)
+if R2 == nil then PC := 8
+  5 [157]: JMP       8
+R3 := _G
+R1 := R3[R2]
+if R1 == nil then PC := 15
+  9 [161]: JMP       15
+R3 := R1["width"]
+R4 := R1["height"]
+R5 := R1["x"]
+R6 := R1["y"]
+return R3,R4,R5,R6
+return 
+
+
+Function #2:
+;
+Name:            
+Defined at line: 166
+#Upvalues:       0
+#Parameters:     1 (R0)
+Is_vararg:       0
+Max Stack Size:  5
+;
+Locals:
+Start PC |  End PC  | Name
+00000000 | 0000000c | windowID
+00000000 | 0000000c | wnd
+00000003 | 0000000c | wndStr
+;
+No upvalues
+
+R2 := GetWindowString
+R3 := R0
+R2 := R2(R3)
+if R2 == nil then PC := 8
+  5 [170]: JMP       8
+R3 := _G
+R1 := R3[R2]
+if R1 == nil then PC := 13
+  9 [174]: JMP       13
+R3 := R1["baseButton"]
+R4 := R1["closeButton"]
+return R3,R4
+return 

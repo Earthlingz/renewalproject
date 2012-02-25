@@ -1,0 +1,18 @@
+R0 := closure(Function #0)
+DebugingInterface_UserDefine := R0
+return 
+
+
+; Function #0:
+;
+; Name:            
+; Defined at line: 81
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+return 

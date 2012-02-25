@@ -1,0 +1,443 @@
+R0 := {}
+R0["VIEW_NONE"] := 0
+R0["VIEW_EDITBOX"] := 1
+R0["VIEW_ITEMCTRL"] := 2
+R0["VIEW_SKILLCTRL"] := 3
+R0["VIEW_ITEM_EDIT"] := 4
+WHAT_CONTROL_TO_VIEW := R0
+R0 := {}
+R0["FOR_HP"] := 1
+R0["FOR_SP"] := 2
+FOR_WHAT_TYPE := R0
+R0 := {}
+R1 := {}
+R2 := MsgStrID
+R2 := R2["MSI_EX_MACRO_ITEM_1"]
+R1["strMsg"] := R2
+R2 := WHAT_CONTROL_TO_VIEW
+R2 := R2["VIEW_EDITBOX"]
+R1["whatToView"] := R2
+R2 := FOR_WHAT_TYPE
+R2 := R2["FOR_HP"]
+R1["forWhatType"] := R2
+R1["bViewPercentage"] := 1
+R0[1] := R1
+R1 := {}
+R2 := MsgStrID
+R2 := R2["MSI_EX_MACRO_ITEM_2"]
+R1["strMsg"] := R2
+R2 := WHAT_CONTROL_TO_VIEW
+R2 := R2["VIEW_EDITBOX"]
+R1["whatToView"] := R2
+R2 := FOR_WHAT_TYPE
+R2 := R2["FOR_SP"]
+R1["forWhatType"] := R2
+R1["bViewPercentage"] := 1
+R0[2] := R1
+ITEM_SELECT_LIST := R0
+R0 := closure(Function #0)
+GetItemSelectInfo := R0
+R0 := {}
+CombatItemList := R0
+R0 := {}
+NonCombatITemList := R0
+R0 := closure(Function #1)
+InsertNewCombatItemInfo := R0
+R0 := closure(Function #2)
+GetItemInfo := R0
+R0 := closure(Function #3)
+GetCombatItemInfo := R0
+R0 := closure(Function #4)
+GetNonCombatItemInfo := R0
+R0 := {}
+BuffItemList := R0
+R0 := closure(Function #5)
+GetBuffItemInfo := R0
+R0 := closure(Function #6)
+InsertNewBuffItemInfo := R0
+R0 := {}
+AutoEquipmentList := R0
+R0 := closure(Function #7)
+InsertNewAutoEquipmentInfo := R0
+R0 := closure(Function #8)
+InsertNewEquipmentInfo := R0
+R0 := closure(Function #9)
+GetAutoEquipmentInfo := R0
+R0 := closure(Function #10)
+GetEquipmentInfo := R0
+return 
+
+
+; Function #0:
+;
+; Name:            
+; Defined at line: 39
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  5
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000d | nIndex
+; 00000002 | 0000000d | obj
+;
+; No upvalues
+
+R1 := ITEM_SELECT_LIST
+R1 := R1[R0]
+if R1 == nil then PC := 9
+  4 [42]: JMP       9
+R2 := R1["strMsg"]
+R3 := R1["whatToView"]
+R4 := R1["bViewPercentage"]
+return R2,R3,R4
+R2 := ""
+R3 := WHAT_CONTROL_TO_VIEW
+R3 := R3["VIEW_NONE"]
+R4 := false
+return R2,R3,R4
+return 
+
+
+; Function #1:
+;
+; Name:            
+; Defined at line: 60
+; #Upvalues:       0
+; #Parameters:     5 (R0, R1, R2, R3, R4)
+; Is_vararg:       0
+; Max Stack Size:  8
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000012 | self
+; 00000000 | 00000012 | nForWhatType
+; 00000000 | 00000012 | nPercentage
+; 00000000 | 00000012 | nItemID1
+; 00000000 | 00000012 | nItemID2
+; 00000003 | 00000012 | nListSize
+;
+; No upvalues
+
+R5 := getTableSize
+R6 := R0
+R5 := R5(R6)
+R6 := R5 + 1
+R7 := {}
+R0[R6] := R7
+R6 := R5 + 1
+R6 := R0[R6]
+R6["nForWhatType"] := R1
+R6 := R5 + 1
+R6 := R0[R6]
+R6["nPercentage"] := R2
+R6 := R5 + 1
+R6 := R0[R6]
+R6["nItemID1"] := R3
+R6 := R5 + 1
+R6 := R0[R6]
+R6["nItemID2"] := R4
+return 
+
+
+; Function #2:
+;
+; Name:            
+; Defined at line: 70
+; #Upvalues:       0
+; #Parameters:     2 (R0, R1)
+; Is_vararg:       0
+; Max Stack Size:  7
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000d | self
+; 00000000 | 0000000d | nIndex
+; 00000001 | 0000000d | obj
+;
+; No upvalues
+
+R2 := R0[R1]
+if R2 == nil then PC := 9
+  3 [73]: JMP       9
+R3 := R2["nForWhatType"]
+R4 := R2["nPercentage"]
+R5 := R2["nItemID1"]
+R6 := R2["nItemID2"]
+return R3,R4,R5,R6
+R3 := 0
+R4 := -1
+R5 := -1
+R6 := -1
+return R3,R4,R5,R6
+return 
+
+
+; Function #3:
+;
+; Name:            
+; Defined at line: 80
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  4
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000005 | nIndex
+;
+; No upvalues
+
+R1 := GetItemInfo
+R2 := CombatItemList
+R3 := R0
+return R1(R2,R3)
+return R1,...
+return 
+
+
+; Function #4:
+;
+; Name:            
+; Defined at line: 84
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  4
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000005 | nIndex
+;
+; No upvalues
+
+R1 := GetItemInfo
+R2 := NonCombatITemList
+R3 := R0
+return R1(R2,R3)
+return R1,...
+return 
+
+
+; Function #5:
+;
+; Name:            
+; Defined at line: 96
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  5
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000c | nIndex
+; 00000002 | 0000000c | obj
+;
+; No upvalues
+
+R1 := BuffItemList
+R1 := R1[R0]
+if R1 == nil then PC := 9
+  4 [ 99]: JMP       9
+R2 := R1["nItemID"]
+R3 := R1["bReuseWhenDie"]
+R4 := R1["nReuseTime"]
+return R2,R3,R4
+R2 := -1
+R3 := false
+R4 := 0
+return R2,R3,R4
+return 
+
+
+; Function #6:
+;
+; Name:            
+; Defined at line: 106
+; #Upvalues:       0
+; #Parameters:     3 (R0, R1, R2)
+; Is_vararg:       0
+; Max Stack Size:  7
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000013 | itemID
+; 00000000 | 00000013 | nTime
+; 00000000 | 00000013 | bReuseWhenDie
+; 00000003 | 00000013 | nListSize
+;
+; No upvalues
+
+R3 := getTableSize
+R4 := BuffItemList
+R3 := R3(R4)
+R4 := BuffItemList
+R5 := R3 + 1
+R6 := {}
+R4[R5] := R6
+R4 := BuffItemList
+R5 := R3 + 1
+R4 := R4[R5]
+R4["nItemID"] := R0
+R4 := BuffItemList
+R5 := R3 + 1
+R4 := R4[R5]
+R4["nReuseTime"] := R1
+R4 := BuffItemList
+R5 := R3 + 1
+R4 := R4[R5]
+R4["bReuseWhenDie"] := R2
+return 
+
+
+; Function #7:
+;
+; Name:            
+; Defined at line: 125
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  5
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000010 | strEnemyName
+; 00000003 | 00000010 | nListSize
+;
+; No upvalues
+
+R1 := getTableSize
+R2 := AutoEquipmentList
+R1 := R1(R2)
+R2 := AutoEquipmentList
+R3 := R1 + 1
+R4 := {}
+R2[R3] := R4
+R2 := AutoEquipmentList
+R3 := R1 + 1
+R2 := R2[R3]
+R2["strEnemyName"] := R0
+R2 := AutoEquipmentList
+R3 := R1 + 1
+R2 := R2[R3]
+R3 := {}
+R2["equipmentInfo"] := R3
+return 
+
+
+; Function #8:
+;
+; Name:            
+; Defined at line: 133
+; #Upvalues:       0
+; #Parameters:     8 (R0, R1, R2, R3, R4, R5, R6, R7)
+; Is_vararg:       0
+; Max Stack Size:  14
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000012 | tableIdx
+; 00000000 | 00000012 | idx
+; 00000000 | 00000012 | itemID
+; 00000000 | 00000012 | refiningLevel
+; 00000000 | 00000012 | nSlot1
+; 00000000 | 00000012 | nSlot2
+; 00000000 | 00000012 | nSlot3
+; 00000000 | 00000012 | nSlot4
+; 00000002 | 00000012 | obj
+;
+; No upvalues
+
+R8 := AutoEquipmentList
+R8 := R8[R0]
+if R8 == nil then PC := 19
+  4 [136]: JMP       19
+R9 := R8["equipmentInfo"]
+R10 := {}
+R9[R1] := R10
+R9 := R8["equipmentInfo"]
+R8 := R9[R1]
+R8["nItemID"] := R2
+R8["nRefiningLevel"] := R3
+R9 := {}
+R10 := R4
+R11 := R5
+R12 := R6
+R13 := R7
+R9[1,2,3,4] := R10,R11,R12,R13
+R8["nSlot"] := R9
+return 
+
+
+; Function #9:
+;
+; Name:            
+; Defined at line: 146
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000008 | tableIdx
+; 00000002 | 00000008 | obj
+;
+; No upvalues
+
+R1 := AutoEquipmentList
+R1 := R1[R0]
+if R1 == nil then PC := 7
+  4 [149]: JMP       7
+R2 := R1["strEnemyName"]
+return R2
+R2 := ""
+return R2
+return 
+
+
+; Function #10:
+;
+; Name:            
+; Defined at line: 156
+; #Upvalues:       0
+; #Parameters:     2 (R0, R1)
+; Is_vararg:       0
+; Max Stack Size:  9
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000001a | tableIdx
+; 00000000 | 0000001a | idx
+; 00000002 | 0000001a | obj
+;
+; No upvalues
+
+R2 := AutoEquipmentList
+R2 := R2[R0]
+if R2 == nil then PC := 20
+  4 [159]: JMP       20
+R3 := R2["equipmentInfo"]
+R2 := R3[R1]
+if R2 == nil then PC := 20
+  8 [162]: JMP       20
+R3 := R2["nItemID"]
+R4 := R2["nRefiningLevel"]
+R5 := R2["nSlot"]
+R5 := R5[1]
+R6 := R2["nSlot"]
+R6 := R6[2]
+R7 := R2["nSlot"]
+R7 := R7[3]
+R8 := R2["nSlot"]
+R8 := R8[4]
+return R3,R4,R5,R6,R7,R8
+R3 := -1
+R4 := 0
+R5 := 0
+R6 := 0
+R7 := 0
+R8 := 0
+return R3,R4,R5,R6,R7,R8
+return 

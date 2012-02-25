@@ -1,0 +1,9029 @@
+R0 := 0
+SEX_FEMALE := R0
+R0 := 1
+SEX_MALE := R0
+R0 := {}
+eventReceiverTable := R0
+R0 := closure(Function #0)
+buttonEvent := R0
+R0 := closure(Function #1)
+AddString := R0
+R0 := closure(Function #2)
+AddMenu := R0
+R0 := closure(Function #3)
+Command := R0
+R0 := closure(Function #4)
+UseItem := R0
+R0 := closure(Function #5)
+BaseLevelUp := R0
+R0 := closure(Function #6)
+JobLevelUp := R0
+R0 := closure(Function #7)
+UpgradeSkill := R0
+R0 := closure(Function #8)
+MoveMap := R0
+R0 := closure(Function #9)
+ChangeJob := R0
+R0 := closure(Function #10)
+StatusUp_STR := R0
+R0 := closure(Function #11)
+StatusUp_AGI := R0
+R0 := closure(Function #12)
+StatusUp_VIT := R0
+R0 := closure(Function #13)
+StatusUp_INT := R0
+R0 := closure(Function #14)
+StatusUp_DEX := R0
+R0 := closure(Function #15)
+StatusUp_LUK := R0
+R0 := closure(Function #16)
+IdentifyItems := R0
+R0 := closure(Function #17)
+upgradeLevel_Novice := R0
+R0 := closure(Function #18)
+upgradeLevel_1stChangeJob := R0
+R0 := closure(Function #19)
+upgradeLevel_2ndChangeJob := R0
+R0 := closure(Function #20)
+upgradeLevel_2ndChangeJob_H := R0
+R0 := closure(Function #21)
+upgradeLevel_3rdChangeJob := R0
+R0 := closure(Function #22)
+upgradeSkill_Novice := R0
+R0 := closure(Function #23)
+upgradeSkill_Swordman := R0
+R0 := closure(Function #24)
+upgradeSkill_Knight := R0
+R0 := closure(Function #25)
+upgradeSkill_Crusader := R0
+R0 := closure(Function #26)
+upgradeSkill_MerChant := R0
+R0 := closure(Function #27)
+upgradeSkill_BlackSmith := R0
+R0 := closure(Function #28)
+upgradeSkill_Alchemist := R0
+R0 := closure(Function #29)
+upgradeSkill_Acolyte := R0
+R0 := closure(Function #30)
+upgradeSkill_Priest := R0
+R0 := closure(Function #31)
+upgradeSkill_Monk := R0
+R0 := closure(Function #32)
+upgradeSkill_Thief := R0
+R0 := closure(Function #33)
+upgradeSkill_Assassin := R0
+R0 := closure(Function #34)
+upgradeSkill_Rogue := R0
+R0 := closure(Function #35)
+upgradeSkill_Magician := R0
+R0 := closure(Function #36)
+upgradeSkill_Wizard := R0
+R0 := closure(Function #37)
+upgradeSkill_Sage := R0
+R0 := closure(Function #38)
+upgradeSkill_Archer := R0
+R0 := closure(Function #39)
+upgradeSkill_Hunter := R0
+R0 := closure(Function #40)
+upgradeSkill_Bard := R0
+R0 := closure(Function #41)
+upgradeSkill_Dancer := R0
+R0 := closure(Function #42)
+upgradeSkill_Taekwon := R0
+R0 := closure(Function #43)
+upgradeSkill_RuneKnight := R0
+R0 := closure(Function #44)
+upgradeSkill_RoyalGuard := R0
+R0 := closure(Function #45)
+upgradeSkill_LordKnight := R0
+R0 := closure(Function #46)
+upgradeSkill_Paladin := R0
+R0 := closure(Function #47)
+upgradeSkill_Mechanic := R0
+R0 := closure(Function #48)
+upgradeSkill_Genetic := R0
+R0 := closure(Function #49)
+upgradeSkill_WhiteSmith := R0
+R0 := closure(Function #50)
+upgradeSkill_Creater := R0
+R0 := closure(Function #51)
+upgradeSkill_ArchBishop := R0
+R0 := closure(Function #52)
+upgradeSkill_Sura := R0
+R0 := closure(Function #53)
+upgradeSkill_HighPriest := R0
+R0 := closure(Function #54)
+upgradeSkill_Champion := R0
+R0 := closure(Function #55)
+upgradeSkill_GuillotineCross := R0
+R0 := closure(Function #56)
+upgradeSkill_ShadowChaser := R0
+R0 := closure(Function #57)
+upgradeSkill_AssassinCross := R0
+R0 := closure(Function #58)
+upgradeSkill_Stalker := R0
+R0 := closure(Function #59)
+upgradeSkill_Warlock := R0
+R0 := closure(Function #60)
+upgradeSkill_Sorcerer := R0
+R0 := closure(Function #61)
+upgradeSkill_HighWizard := R0
+R0 := closure(Function #62)
+upgradeSkill_Professor := R0
+R0 := closure(Function #63)
+upgradeSkill_Ranger := R0
+R0 := closure(Function #64)
+upgradeSkill_Minstrel := R0
+R0 := closure(Function #65)
+upgradeSkill_Wanderer := R0
+R0 := closure(Function #66)
+upgradeSkill_Sniper := R0
+R0 := closure(Function #67)
+upgradeSkill_Crown := R0
+R0 := closure(Function #68)
+upgradeSkill_Gipsy := R0
+R0 := closure(Function #69)
+upgradeSkill_SuperNovice := R0
+R0 := closure(Function #70)
+upgradeSkill_Ninja := R0
+R0 := closure(Function #71)
+upgradeSkill_GunSlinger := R0
+R0 := closure(Function #72)
+upgradeSkill_Taekwon := R0
+R0 := closure(Function #73)
+upgradeSkill_Star := R0
+R0 := closure(Function #74)
+upgradeSkill_Linker := R0
+R0 := closure(Function #75)
+buttonEventReceiver_makeNovice := R0
+R0 := closure(Function #76)
+buttonEventReceiver_makeNovice_H := R0
+R0 := closure(Function #77)
+buttonEventReceiver_makeSwordman := R0
+R0 := closure(Function #78)
+buttonEventReceiver_makeKnight := R0
+R0 := closure(Function #79)
+buttonEventReceiver_makeCrusader := R0
+R0 := closure(Function #80)
+buttonEventReceiver_makeRuneKnight := R0
+R0 := closure(Function #81)
+buttonEventReceiver_makeRuneKnight_H := R0
+R0 := closure(Function #82)
+buttonEventReceiver_makeRoyalGuard := R0
+R0 := closure(Function #83)
+buttonEventReceiver_makeRoyalGuard_H := R0
+R0 := closure(Function #84)
+buttonEventReceiver_makeSwordman_H := R0
+R0 := closure(Function #85)
+buttonEventReceiver_makeLordKnight := R0
+R0 := closure(Function #86)
+buttonEventReceiver_makePaladin := R0
+R0 := closure(Function #87)
+buttonEventReceiver_makeSWORDMAN_B := R0
+R0 := closure(Function #88)
+buttonEventReceiver_makeKNIGHT_B := R0
+R0 := closure(Function #89)
+buttonEventReceiver_makeRUNEKNIGHT_B := R0
+R0 := closure(Function #90)
+buttonEventReceiver_makeCRUSADER_B := R0
+R0 := closure(Function #91)
+buttonEventReceiver_makeROYAL_GUARD_B := R0
+R0 := closure(Function #92)
+buttonEventReceiver_makeMerChant := R0
+R0 := closure(Function #93)
+buttonEventReceiver_makeBlackSmith := R0
+R0 := closure(Function #94)
+buttonEventReceiver_makeAlchemist := R0
+R0 := closure(Function #95)
+buttonEventReceiver_makeMechanic := R0
+R0 := closure(Function #96)
+buttonEventReceiver_makeMechanic_H := R0
+R0 := closure(Function #97)
+buttonEventReceiver_makeGenetic := R0
+R0 := closure(Function #98)
+buttonEventReceiver_makeGenetic_H := R0
+R0 := closure(Function #99)
+buttonEventReceiver_makeMerChant_H := R0
+R0 := closure(Function #100)
+buttonEventReceiver_makeWhiteSmith := R0
+R0 := closure(Function #101)
+buttonEventReceiver_makeCreater := R0
+R0 := closure(Function #102)
+buttonEventReceiver_makeMERCHANT_B := R0
+R0 := closure(Function #103)
+buttonEventReceiver_makeBLACKSMITH_B := R0
+R0 := closure(Function #104)
+buttonEventReceiver_makeMECHANIC_B := R0
+R0 := closure(Function #105)
+buttonEventReceiver_makeALCHEMIST_B := R0
+R0 := closure(Function #106)
+buttonEventReceiver_makeGENETIC_B := R0
+R0 := closure(Function #107)
+buttonEventReceiver_makeAcolyte := R0
+R0 := closure(Function #108)
+buttonEventReceiver_makePriest := R0
+R0 := closure(Function #109)
+buttonEventReceiver_makeMonk := R0
+R0 := closure(Function #110)
+buttonEventReceiver_makeArchBishop := R0
+R0 := closure(Function #111)
+buttonEventReceiver_makeArchBishop_H := R0
+R0 := closure(Function #112)
+buttonEventReceiver_makeSura := R0
+R0 := closure(Function #113)
+buttonEventReceiver_makeSura_H := R0
+R0 := closure(Function #114)
+buttonEventReceiver_makeAcolyte_H := R0
+R0 := closure(Function #115)
+buttonEventReceiver_makeHighPriest := R0
+R0 := closure(Function #116)
+buttonEventReceiver_makeChampion := R0
+R0 := closure(Function #117)
+buttonEventReceiver_makeACOLYTE_B := R0
+R0 := closure(Function #118)
+buttonEventReceiver_makePRIEST_B := R0
+R0 := closure(Function #119)
+buttonEventReceiver_makeARCHBISHOP_B := R0
+R0 := closure(Function #120)
+buttonEventReceiver_makeMONK_B := R0
+R0 := closure(Function #121)
+buttonEventReceiver_makeSURA_B := R0
+R0 := closure(Function #122)
+buttonEventReceiver_makeThief := R0
+R0 := closure(Function #123)
+buttonEventReceiver_makeAssassin := R0
+R0 := closure(Function #124)
+buttonEventReceiver_makeRogue := R0
+R0 := closure(Function #125)
+buttonEventReceiver_makeGuillotineCross := R0
+R0 := closure(Function #126)
+buttonEventReceiver_makeGuillotineCross_H := R0
+R0 := closure(Function #127)
+buttonEventReceiver_makeShadowChaser := R0
+R0 := closure(Function #128)
+buttonEventReceiver_makeShadowChaser_H := R0
+R0 := closure(Function #129)
+buttonEventReceiver_makeThief_H := R0
+R0 := closure(Function #130)
+buttonEventReceiver_makeAssassinCross := R0
+R0 := closure(Function #131)
+buttonEventReceiver_makeStalker := R0
+R0 := closure(Function #132)
+buttonEventReceiver_makeTHIEF_B := R0
+R0 := closure(Function #133)
+buttonEventReceiver_makeASSASSIN_B := R0
+R0 := closure(Function #134)
+buttonEventReceiver_makeGUILLOTINECROSS_B := R0
+R0 := closure(Function #135)
+buttonEventReceiver_makeROGUE_B := R0
+R0 := closure(Function #136)
+buttonEventReceiver_makeSHADOWCHASER_B := R0
+R0 := closure(Function #137)
+buttonEventReceiver_makeMagician := R0
+R0 := closure(Function #138)
+buttonEventReceiver_makeWizard := R0
+R0 := closure(Function #139)
+buttonEventReceiver_makeSage := R0
+R0 := closure(Function #140)
+buttonEventReceiver_makeWarlock := R0
+R0 := closure(Function #141)
+buttonEventReceiver_makeWarlock_H := R0
+R0 := closure(Function #142)
+buttonEventReceiver_makeSorcerer := R0
+R0 := closure(Function #143)
+buttonEventReceiver_makeSorcerer_H := R0
+R0 := closure(Function #144)
+buttonEventReceiver_makeMagician_H := R0
+R0 := closure(Function #145)
+buttonEventReceiver_makeHighWizard := R0
+R0 := closure(Function #146)
+buttonEventReceiver_makeProfessor := R0
+R0 := closure(Function #147)
+buttonEventReceiver_makeMAGICIAN_B := R0
+R0 := closure(Function #148)
+buttonEventReceiver_makeWIZARD_B := R0
+R0 := closure(Function #149)
+buttonEventReceiver_makeWARLOCK_B := R0
+R0 := closure(Function #150)
+buttonEventReceiver_makeSAGE_B := R0
+R0 := closure(Function #151)
+buttonEventReceiver_makeSORCERER_B := R0
+R0 := closure(Function #152)
+buttonEventReceiver_makeArcher := R0
+R0 := closure(Function #153)
+buttonEventReceiver_makeHunter := R0
+R0 := closure(Function #154)
+buttonEventReceiver_makeBard := R0
+R0 := closure(Function #155)
+buttonEventReceiver_makeDancer := R0
+R0 := closure(Function #156)
+buttonEventReceiver_makeRanger := R0
+R0 := closure(Function #157)
+buttonEventReceiver_makeRanger_H := R0
+R0 := closure(Function #158)
+buttonEventReceiver_makeMinstrel := R0
+R0 := closure(Function #159)
+buttonEventReceiver_makeMinstrel_H := R0
+R0 := closure(Function #160)
+buttonEventReceiver_makeWanderer := R0
+R0 := closure(Function #161)
+buttonEventReceiver_makeWanderer_H := R0
+R0 := closure(Function #162)
+buttonEventReceiver_makeArcher_H := R0
+R0 := closure(Function #163)
+buttonEventReceiver_makeSniper := R0
+R0 := closure(Function #164)
+buttonEventReceiver_makeCrown := R0
+R0 := closure(Function #165)
+buttonEventReceiver_makeGipsy := R0
+R0 := closure(Function #166)
+buttonEventReceiver_makeARCHER_B := R0
+R0 := closure(Function #167)
+buttonEventReceiver_makeHUNTER_B := R0
+R0 := closure(Function #168)
+buttonEventReceiver_makeRANGER_B := R0
+R0 := closure(Function #169)
+buttonEventReceiver_makeBARD_B := R0
+R0 := closure(Function #170)
+buttonEventReceiver_makeMINSTREL_B := R0
+R0 := closure(Function #171)
+buttonEventReceiver_makeDANCER_B := R0
+R0 := closure(Function #172)
+buttonEventReceiver_makeWANDERER_B := R0
+R0 := closure(Function #173)
+buttonEventReceiver_makeSuperNovice := R0
+R0 := closure(Function #174)
+buttonEventReceiver_makeNinja := R0
+R0 := closure(Function #175)
+buttonEventReceiver_makeGunSlinger := R0
+R0 := closure(Function #176)
+buttonEventReceiver_makeTaekwon := R0
+R0 := closure(Function #177)
+buttonEventReceiver_makeStar := R0
+R0 := closure(Function #178)
+buttonEventReceiver_makeLinker := R0
+R0 := closure(Function #179)
+DebugingInterface_ChangeJob := R0
+R0 := closure(Function #180)
+RegisterExcItemNameTable := R0
+R0 := closure(Function #181)
+ReadDebugWndTabInfo := R0
+return 
+
+
+; Function #0:
+;
+; Name:            
+; Defined at line: 29
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000008 | str
+;
+; No upvalues
+
+R1 := eventReceiverTable
+R1 := R1[R0]
+receiver := R1
+R1 := receiver
+if R1 == nil then PC := 9
+  6 [31]: JMP       9
+R1 := receiver
+R1()
+return 
+
+
+; Function #1:
+;
+; Name:            
+; Defined at line: 42
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000006 | title
+;
+; No upvalues
+
+if R0 != nil then PC := 4
+  2 [43]: JMP       4
+R0 := "untitled"
+R1 := SetAddItemToListBox
+R2 := R0
+R1(R2)
+return 
+
+
+; Function #2:
+;
+; Name:            
+; Defined at line: 55
+; #Upvalues:       0
+; #Parameters:     2 (R0, R1)
+; Is_vararg:       0
+; Max Stack Size:  4
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000005 | strMenuName
+; 00000000 | 00000005 | receiver
+;
+; No upvalues
+
+R2 := AddString
+R3 := R0
+R2(R3)
+R2 := eventReceiverTable
+R2[R0] := R1
+return 
+
+
+; Function #3:
+;
+; Name:            
+; Defined at line: 66
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000003 | str
+;
+; No upvalues
+
+R1 := SetAddOrderToList_Command
+R2 := R0
+R1(R2)
+return 
+
+
+; Function #4:
+;
+; Name:            
+; Defined at line: 76
+; #Upvalues:       0
+; #Parameters:     2 (R0, R1)
+; Is_vararg:       0
+; Max Stack Size:  5
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000008 | itemName
+; 00000000 | 00000008 | num
+;
+; No upvalues
+
+R2 := SetAddOrderToList_CreateItem
+R3 := R0
+R4 := R1
+R2(R3,R4)
+R2 := SetAddOrderToList_UseItem
+R3 := R0
+R4 := R1
+R2(R3,R4)
+return 
+
+
+; Function #5:
+;
+; Name:            
+; Defined at line: 87
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  4
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000004 | amount
+;
+; No upvalues
+
+R1 := UseItem
+R2 := "삼겹살"
+R3 := R0
+R1(R2,R3)
+return 
+
+
+; Function #6:
+;
+; Name:            
+; Defined at line: 97
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  4
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000004 | amount
+;
+; No upvalues
+
+R1 := UseItem
+R2 := "갈비살"
+R3 := R0
+R1(R2,R3)
+return 
+
+
+; Function #7:
+;
+; Name:            
+; Defined at line: 107
+; #Upvalues:       0
+; #Parameters:     2 (R0, R1)
+; Is_vararg:       0
+; Max Stack Size:  5
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000004 | skillid
+; 00000000 | 00000004 | amount
+;
+; No upvalues
+
+R2 := SetAddOrderToList_UpgradeSkill
+R3 := R0
+R4 := R1
+R2(R3,R4)
+return 
+
+
+; Function #8:
+;
+; Name:            
+; Defined at line: 117
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  5
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000006 | name
+;
+; No upvalues
+
+R1 := Command
+R2 := "/mm "
+R3 := R0
+R4 := ".gat"
+R2 := R2 .. R3 .. R4
+R1(R2)
+return 
+
+
+; Function #9:
+;
+; Name:            
+; Defined at line: 126
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000003 | jobName
+;
+; No upvalues
+
+R1 := SetAddOrderToList_ChangeJob
+R2 := R0
+R1(R2)
+return 
+
+
+; Function #10:
+;
+; Name:            
+; Defined at line: 135
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000003 | amount
+;
+; No upvalues
+
+R1 := SetAddOrderToList_StatusChange_STR
+R2 := R0
+R1(R2)
+return 
+
+
+; Function #11:
+;
+; Name:            
+; Defined at line: 139
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000003 | amount
+;
+; No upvalues
+
+R1 := SetAddOrderToList_StatusChange_AGI
+R2 := R0
+R1(R2)
+return 
+
+
+; Function #12:
+;
+; Name:            
+; Defined at line: 143
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000003 | amount
+;
+; No upvalues
+
+R1 := SetAddOrderToList_StatusChange_VIT
+R2 := R0
+R1(R2)
+return 
+
+
+; Function #13:
+;
+; Name:            
+; Defined at line: 147
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000003 | amount
+;
+; No upvalues
+
+R1 := SetAddOrderToList_StatusChange_INT
+R2 := R0
+R1(R2)
+return 
+
+
+; Function #14:
+;
+; Name:            
+; Defined at line: 151
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000003 | amount
+;
+; No upvalues
+
+R1 := SetAddOrderToList_StatusChange_DEX
+R2 := R0
+R1(R2)
+return 
+
+
+; Function #15:
+;
+; Name:            
+; Defined at line: 155
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000003 | amount
+;
+; No upvalues
+
+R1 := SetAddOrderToList_StatusChange_LUK
+R2 := R0
+R1(R2)
+return 
+
+
+; Function #16:
+;
+; Name:            
+; Defined at line: 164
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := SetAddOrderToList_ItemIdentify
+R0()
+return 
+
+
+; Function #17:
+;
+; Name:            
+; Defined at line: 186
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := BaseLevelUp
+R1 := 9
+R0(R1)
+R0 := JobLevelUp
+R1 := 9
+R0(R1)
+return 
+
+
+; Function #18:
+;
+; Name:            
+; Defined at line: 191
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := BaseLevelUp
+R1 := 90
+R0(R1)
+R0 := JobLevelUp
+R1 := 50
+R0(R1)
+return 
+
+
+; Function #19:
+;
+; Name:            
+; Defined at line: 196
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := JobLevelUp
+R1 := 50
+R0(R1)
+return 
+
+
+; Function #20:
+;
+; Name:            
+; Defined at line: 200
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := JobLevelUp
+R1 := 70
+R0(R1)
+return 
+
+
+; Function #21:
+;
+; Name:            
+; Defined at line: 204
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := BaseLevelUp
+R1 := 70
+R0(R1)
+R0 := JobLevelUp
+R1 := 70
+R0(R1)
+return 
+
+
+; Function #22:
+;
+; Name:            
+; Defined at line: 214
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NV_BASIC"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NV_FIRSTAID"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NV_TRICKDEAD"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #23:
+;
+; Name:            
+; Defined at line: 220
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SM_SWORD"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SM_RECOVERY"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SM_BASH"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SM_PROVOKE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SM_AUTOBERSERK"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SM_MOVINGRECOVERY"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SM_TWOHAND"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SM_MAGNUM"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SM_ENDURE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SM_FATALBLOW"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #24:
+;
+; Name:            
+; Defined at line: 233
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["KN_TWOHANDQUICKEN"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["KN_AUTOCOUNTER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["KN_RIDING"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["KN_SPEARMASTERY"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["KN_CHARGEATK"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["KN_BOWLINGBASH"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["KN_CAVALIERMASTERY"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["KN_PIERCE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["KN_ONEHAND"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["KN_SPEARBOOMERANG"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["KN_SPEARSTAB"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["KN_BRANDISHSPEAR"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #25:
+;
+; Name:            
+; Defined at line: 248
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["CR_TRUST"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["CR_AUTOGUARD"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["KN_SPEARMASTERY"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["KN_RIDING"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["CR_SHRINK"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AL_CURE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["CR_HOLYCROSS"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["CR_SHIELDCHARGE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["CR_SPEARQUICKEN"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["KN_CAVALIERMASTERY"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AL_DP"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["CR_GRANDCROSS"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["CR_SHIELDBOOMERANG"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AL_DEMONBANE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["CR_REFLECTSHIELD"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["CR_DEFENDER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AL_HEAL"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["CR_DEVOTION"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["CR_PROVIDENCE"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #26:
+;
+; Name:            
+; Defined at line: 270
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MC_INCCARRY"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MC_MAMMONITE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MC_IDENTIFY"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MC_LOUD"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MC_DISCOUNT"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MC_PUSHCART"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MC_CHANGECART"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MC_OVERCHARGE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MC_VENDING"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MC_CARTREVOLUTION"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #27:
+;
+; Name:            
+; Defined at line: 283
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BS_HILTBINDING"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BS_SKINTEMPER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BS_HAMMERFALL"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BS_DAGGER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BS_STEEL"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BS_ENCHANTEDSTONE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BS_WEAPONRESEARCH"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BS_ADRENALINE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BS_SPEAR"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BS_SWORD"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BS_KNUCKLE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BS_FINDINGORE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BS_ORIDEOCON"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BS_REPAIRWEAPON"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BS_WEAPONPERFECT"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BS_OVERTHRUST"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BS_TWOHANDSWORD"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BS_MACE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BS_MAXIMIZE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BS_AXE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BS_ADRENALINE2"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BS_GREED"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BS_UNFAIRLYTRICK"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #28:
+;
+; Name:            
+; Defined at line: 309
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AM_LEARNINGPOTION"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AM_SPHEREMINE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AM_AXEMASTERY"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AM_CP_HELM"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AM_BIOETHICS"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AM_TWILIGHT1"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AM_PHARMACY"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AM_POTIONPITCHER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AM_CP_SHIELD"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AM_REST"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AM_BERSERKPITCHER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AM_TWILIGHT2"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AM_DEMONSTRATION"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AM_CP_ARMOR"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AM_CALLHOMUN"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AM_TWILIGHT3"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AM_ACIDTERROR"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AM_CP_WEAPON"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AM_RESURRECTHOMUN"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AM_CANNIBALIZE"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #29:
+;
+; Name:            
+; Defined at line: 332
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AL_RUWACH"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AL_HEAL"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AL_HOLYWATER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AL_DP"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AL_TELEPORT"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AL_CURE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AL_INCAGI"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AL_BLESSING"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AL_WARP"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AL_PNEUMA"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AL_CRUCIS"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AL_DEMONBANE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AL_HOLYLIGHT"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AL_BLESSING"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AL_ANGELUS"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AL_DECAGI"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #30:
+;
+; Name:            
+; Defined at line: 351
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["PR_KYRIE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["PR_MAGNIFICAT"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["PR_STRECOVERY"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MG_SRECOVERY"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["PR_LEXDIVINA"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["PR_IMPOSITIO"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["PR_SANCTUARY"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["PR_GLORIA"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["PR_SLOWPOISON"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["ALL_RESURRECTION"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["PR_LEXAETERNA"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["PR_SUFFRAGIUM"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["PR_ASPERSIO"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["PR_BENEDICTIO"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["PR_MACEMASTERY"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["PR_TURNUNDEAD"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MG_SAFETYWALL"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["PR_MAGNUS"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["PR_REDEMPTIO"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #31:
+;
+; Name:            
+; Defined at line: 373
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MO_IRONHAND"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MO_CALLSPIRITS"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MO_DODGE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MO_TRIPLEATTACK"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MO_KITRANSLATION"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MO_ABSORBSPIRITS"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MO_INVESTIGATE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MO_BLADESTOP"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MO_CHAINCOMBO"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MO_BALKYOUNG"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MO_EXPLOSIONSPIRITS"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MO_FINGEROFFENSIVE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MO_SPIRITSRECOVERY"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MO_COMBOFINISH"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MO_EXTREMITYFIST"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MO_STEELBODY"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MO_BODYRELOCATION"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #32:
+;
+; Name:            
+; Defined at line: 393
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TF_DOUBLE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TF_STEAL"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TF_POISON"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TF_SPRINKLESAND"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TF_THROWSTONE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TF_MISS"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TF_HIDING"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TF_DETOXIFY"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TF_BACKSLIDING"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TF_PICKSTONE"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #33:
+;
+; Name:            
+; Defined at line: 406
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AS_RIGHT"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AS_KATAR"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AS_CLOAKING"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AS_ENCHANTPOISON"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AS_VENOMKNIFE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AS_LEFT"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AS_SONICBLOW"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AS_VENOMDUST"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AS_POISONREACT"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AS_SONICACCEL"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AS_GRIMTOOTH"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AS_SPLASHER"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #34:
+;
+; Name:            
+; Defined at line: 421
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AC_VULTURE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RG_TUNNELDRIVE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RG_SNATCHER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RG_STRIPHELM"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SM_SWORD"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RG_CLOSECONFINE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AC_DOUBLE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RG_STEALCOIN"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RG_STRIPSHIELD"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RG_GANGSTER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["HT_REMOVETRAP"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RG_BACKSTAP"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RG_STRIPARMOR"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RG_CLEANER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RG_COMPULSION"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RG_RAID"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RG_STRIPWEAPON"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RG_FLAGGRAFFITI"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RG_INTIMIDATE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RG_GRAFFITI"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RG_PLAGIARISM"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #35:
+;
+; Name:            
+; Defined at line: 445
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MG_STONECURSE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MG_COLDBOLT"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MG_LIGHTNINGBOLT"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MG_NAPALMBEAT"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MG_FIREBOLT"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MG_SIGHT"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MG_SRECOVERY"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MG_FROSTDIVER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MG_THUNDERSTORM"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MG_SOULSTRIKE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MG_FIREBALL"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MG_ENERGYCOAT"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MG_SAFETYWALL"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MG_FIREWALL"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #36:
+;
+; Name:            
+; Defined at line: 462
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WZ_ESTIMATION"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WZ_ICEWALL"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WZ_JUPITEL"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WZ_EARTHSPIKE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WZ_SIGHTRASHER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WZ_FIREPILLAR"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WZ_SIGHTBLASTER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WZ_FROSTNOVA"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WZ_VERMILION"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WZ_HEAVENDRIVE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WZ_METEOR"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WZ_WATERBALL"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WZ_QUAGMIRE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WZ_STORMGUST"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #37:
+;
+; Name:            
+; Defined at line: 479
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SA_ADVANCEDBOOK"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SA_ELEMENTWATER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SA_ELEMENTWIND"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SA_ELEMENTGROUND"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SA_ELEMENTFIRE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SA_CREATECON"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SA_DRAGONOLOGY"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SA_SEISMICWEAPON"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SA_CASTCANCEL"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SA_MAGICROD"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SA_FROSTWEAPON"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SA_LIGHTNINGLOADER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SA_FLAMELAUNCHER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SA_FREECAST"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SA_SPELLBREAKER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SA_DELUGE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SA_VIOLENTGALE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SA_VOLCANO"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SA_AUTOSPELL"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SA_DISPELL"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SA_LANDPROTECTOR"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SA_ABRACADABRA"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #38:
+;
+; Name:            
+; Defined at line: 504
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AC_DOUBLE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AC_OWL"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AC_CHARGEARROW"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AC_SHOWER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AC_VULTURE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AC_MAKINGARROW"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AC_CONCENTRATION"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #39:
+;
+; Name:            
+; Defined at line: 514
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["HT_BEASTBANE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["HT_SKIDTRAP"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["HT_LANDMINE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["HT_POWER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["HT_FALCON"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["HT_FLASHER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["HT_ANKLESNARE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["HT_REMOVETRAP"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["HT_PHANTASMIC"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["HT_BLITZBEAT"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["HT_SANDMAN"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["HT_FREEZINGTRAP"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["HT_SHOCKWAVE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["HT_SPRINGTRAP"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["HT_DETECTING"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["HT_STEELCROW"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["HT_BLASTMINE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["HT_TALKIEBOX"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["HT_CLAYMORETRAP"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #40:
+;
+; Name:            
+; Defined at line: 536
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BD_ADAPTATION"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BA_MUSICALLESSON"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BA_DISSONANCE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BA_PANGVOICE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BD_ENCORE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BA_MUSICALSTRIKE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BA_WHISTLE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BA_ASSASSINCROSS"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BA_POEMBRAGI"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BA_POEMBRAGI"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BA_APPLEIDUN"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BA_FROSTJOKE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BD_LULLABY"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BD_ROKISWEIL"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BD_SIEGFRIED"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BD_DRUMBATTLEFIELD"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BD_INTOABYSS"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BD_ETERNALCHAOS"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BD_RICHMANKIM"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BD_RINGNIBELUNGEN"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #41:
+;
+; Name:            
+; Defined at line: 559
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BD_ADAPTATION"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["DC_DANCINGLESSON"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["DC_UGLYDANCE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["DC_WINKCHARM"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BD_ENCORE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["DC_HUMMING"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["DC_DONTFORGETME"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["DC_FORTUNEKISS"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["DC_SERVICEFORYOU"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["DC_SCREAM"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BD_LULLABY"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BD_ROKISWEIL"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BD_SIEGFRIED"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BD_DRUMBATTLEFIELD"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BD_INTOABYSS"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BD_ETERNALCHAOS"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BD_RICHMANKIM"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["BD_RINGNIBELUNGEN"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #42:
+;
+; Name:            
+; Defined at line: 580
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TK_STORMKICK"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TK_DOWNKICK"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TK_TURNKICK"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TK_COUNTER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TK_JUMPKICK"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TK_HIGHJUMP"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TK_READYSTORM"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TK_READYDOWN"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TK_READYTURN"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TK_READYCOUNTER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TK_DODGE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TK_HPTIME"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TK_SPTIME"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TK_POWER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TK_SEVENWIND"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TK_MISSION"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #43:
+;
+; Name:            
+; Defined at line: 599
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RK_RUNEMASTERY"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RK_PHANTOMTHRUST"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RK_DRAGONTRAINING"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RK_ENCHANTBLADE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RK_HUNDREDSPEAR"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RK_DRAGONHOWLING"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RK_DRAGONBREATH"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RK_DEATHBOUND"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RK_SONICWAVE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RK_WINDCUTTER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RK_IGNITIONBREAK"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #44:
+;
+; Name:            
+; Defined at line: 613
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["LG_MOONSLASHER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["LG_BANISHINGPOINT"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["LG_FORCEOFVANGUARD"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["LG_TRAMPLE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["LG_PIETY"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["LG_REFLECTDAMAGE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["LG_SHIELDPRESS"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["LG_EXEEDBREAK"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["LG_PINPOINTATTACK"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["LG_RAGEBURST"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["LG_PRESTIGE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["LG_RAYOFGENESIS"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["LG_EARTHDRIVE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["LG_CANNONSPEAR"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["LG_OVERBRAND"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["LG_BANDING"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["LG_SHIELDSPELL"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["LG_HESPERUSLIT"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["LG_INSPIRATION"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TK_STORMKICK"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TK_STORMKICK"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #45:
+;
+; Name:            
+; Defined at line: 637
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["LK_BERSERK"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["LK_TENSIONRELAX"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["LK_PARRYING"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["LK_AURABLADE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["LK_CONCENTRATION"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["LK_HEADCRUSH"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["LK_SPIRALPIERCE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["LK_JOINTBEAT"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #46:
+;
+; Name:            
+; Defined at line: 648
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["PA_PRESSURE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["PA_SHIELDCHAIN"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["PA_GOSPEL"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["PA_SACRIFICE"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #47:
+;
+; Name:            
+; Defined at line: 655
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NC_MADOLICENCE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NC_TRAININGAXE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NC_RESEARCHFE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NC_REPAIR"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NC_BOOSTKNUCKLE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NC_ACCELERATION"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NC_MAINFRAME"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NC_AXETORNADO"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NC_AXEBOOMERANG"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NC_SILVERSNIPER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NC_PILEBUNKER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NC_VULCANARM"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NC_HOVERING"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NC_SHAPESHIFT"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NC_SELFDESTRUCTION"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NC_POWERSWING"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NC_FLAMELAUNCHER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NC_COLDSLOWER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NC_F_SIDESLIDE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NC_INFRAREDSCAN"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NC_EMERGENCYCOOL"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NC_DISJOINT"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NC_MAGICDECOY"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NC_ARMSCANNON"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NC_B_SIDESLIDE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NC_ANALYZE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NC_MAGNETICFIELD"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NC_NEUTRALBARRIER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NC_STEALTHFIELD"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #48:
+;
+; Name:            
+; Defined at line: 687
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GN_CHANGEMATERIAL"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GN_TRAINING_SWORD"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GN_S_PHARMACY"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GN_REMODELING_CART"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GN_SLINGITEM"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GN_MIX_COOKING"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GN_THORNS_TRAP"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GN_BLOOD_SUCKER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GN_SPORE_EXPLOSION"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GN_CART_TORNADO"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GN_MAKEBOMB"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GN_WALLOFTHORN"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GN_HELLS_PLANT"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GN_DEMONIC_FIRE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GN_CARTCANNON"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GN_CRAZYWEED"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GN_MANDRAGORA"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GN_FIRE_EXPANSION"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GN_CARTBOOST"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #49:
+;
+; Name:            
+; Defined at line: 709
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WS_CARTBOOST"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WS_CARTTERMINATION"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WS_MELTDOWN"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WS_OVERTHRUSTMAX"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WS_WEAPONREFINE"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #50:
+;
+; Name:            
+; Defined at line: 717
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["CR_CULTIVATION"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["CR_SLIMPITCHER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["CR_ACIDDEMONSTRATION"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["CR_FULLPROTECTION"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #51:
+;
+; Name:            
+; Defined at line: 724
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AB_JUDEX"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AB_CHEAL"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AB_CLEMENTIA"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AB_PRAEFATIO"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AB_DUPLELIGHT"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AB_LAUDAAGNUS"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AB_CANTO"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AB_RENOVATIO"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AB_ANCILLA"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AB_ORATIO"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AB_LAUDARAMUS"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AB_ADORAMUS"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AB_HIGHNESSHEAL"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AB_EXPIATIO"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AB_CLEARANCE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AB_EPICLESIS"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AB_SILENTIUM"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AB_EUCHARISTICA"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AB_SECRAMENT"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #52:
+;
+; Name:            
+; Defined at line: 746
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SR_POWERVELOCITY"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SR_RIDEINLIGHTNING"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SR_DRAGONCOMBO"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SR_ASSIMILATEPOWER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SR_SKYNETBLOW"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SR_FALLENEMPIRE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SR_GENTLETOUCH_QUIET"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SR_GENTLETOUCH_CURE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SR_HOWLINGOFLION"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SR_CRESCENTELBOW"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SR_TIGERCANNON"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SR_CURSEDCIRCLE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SR_GENTLETOUCH_ENERGYGAIN"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SR_GENTLETOUCH_CHANGE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SR_WINDMILL"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SR_EARTHSHAKER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SR_GENTLETOUCH_REVITALIZE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SR_LIGHTNINGWALK"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SR_RAMPAGEBLASTER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SR_KNUCKLEARROW"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SR_RAISINGDRAGON"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SR_GATEOFHELL"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #53:
+;
+; Name:            
+; Defined at line: 771
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["HP_ASSUMPTIO"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["HP_BASILICA"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["HP_MANARECHARGE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["HP_MEDITATIO"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #54:
+;
+; Name:            
+; Defined at line: 778
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["CH_PALMSTRIKE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["CH_SOULCOLLECT"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["CH_TIGERFIST"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["CH_CHAINCRUSH"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #55:
+;
+; Name:            
+; Defined at line: 785
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GC_CROSSIMPACT"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GC_CLOAKINGEXCEED"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GC_ROLLINGCUTTER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GC_WEAPONBLOCKING"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GC_RESEARCHNEWPOISON"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GC_DARKILLUSION"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GC_CROSSRIPPERSLASHER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TK_STORMKICK"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GC_WEAPONCRUSH"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GC_COUNTERSLASH"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GC_CREATENEWPOISON"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GC_ANTIDOTE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GC_PHANTOMMENACE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GC_POISONINGWEAPON"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GC_HALLUCINATIONWALK"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GC_VENOMPRESSURE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GC_POISONSMOKE"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #56:
+;
+; Name:            
+; Defined at line: 805
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SC_REPRODUCE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SC_SHADOWFORM"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SC_FATALMENACE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SC_BODYPAINT"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SC_TRIANGLESHOT"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SC_MANHOLE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SC_STRIPACCESSARY"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SC_AUTOSHADOWSPELL"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SC_ENERVATION"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SC_GROOMY"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SC_IGNORANCE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SC_CHAOSPANIC"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SC_DIMENSIONDOOR"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SC_DEADLYINFECT"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SC_LAZINESS"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SC_WEAKNESS"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SC_FEINTBOMB"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SC_BLOODYLUST"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SC_UNLUCKY"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SC_INVISIBILITY"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SC_MAELSTROM"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #57:
+;
+; Name:            
+; Defined at line: 829
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["ASC_BREAKER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["ASC_CDP"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["ASC_EDP"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["ASC_KATAR"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["ASC_METEORASSAULT"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #58:
+;
+; Name:            
+; Defined at line: 837
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["ST_CHASEWALK"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["ST_FULLSTRIP"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["ST_PRESERVE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["ST_REJECTSWORD"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #59:
+;
+; Name:            
+; Defined at line: 844
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WL_MARSHOFABYSS"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WL_RADIUS"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WL_RELEASE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WL_SUMMONFB"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WL_SUMMONWB"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WL_SUMMONBL"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WL_SUMMONSTONE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WL_FREEZE_SP"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WL_DRAINLIFE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WL_READING_SB"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WL_CRIMSONROCK"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WL_FROSTMISTY"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WL_CHAINLIGHTNING"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WL_SIENNAEXECRATE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WL_SOULEXPANSION"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WL_STASIS"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WL_HELLINFERNO"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WL_JACKFROST"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WL_EARTHSTRAIN"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WL_WHITEIMPRISON"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WL_COMET"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WL_RECOGNIZEDSPELL"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WL_TETRAVORTEX"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #60:
+;
+; Name:            
+; Defined at line: 870
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SO_VACUUM_EXTREME"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SO_STRIKING"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SO_ELECTRICWALK"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SO_EL_ANALYSIS"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SO_CLOUD_KILL"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SO_WARMER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SO_EARTHGRAVE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SO_SPELLFIST"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SO_DIAMONDDUST"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SO_VARETYR_SPEAR"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SO_EL_CONTROL"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SO_POISON_BUSTER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SO_FIREWALK"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SO_ARRULLO"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SO_PSYCHIC_WAVE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SO_SUMMON_AQUA"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SO_SUMMON_VENTUS"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SO_EL_SYMPATHY"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SO_EL_ACTION"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SO_SUMMON_AGNI"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SO_SUMMON_TERA"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SO_WATER_INSIGNIA"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SO_WIND_INSIGNIA"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SO_EL_CURE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SO_FIRE_INSIGNIA"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SO_EARTH_INSIGNIA"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #61:
+;
+; Name:            
+; Defined at line: 899
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["HW_GANBANTEIN"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["HW_MAGICCRASHER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["HW_SOULDRAIN"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["HW_NAPALMVULCAN"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["HW_MAGICPOWER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["HW_GRAVITATION"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #62:
+;
+; Name:            
+; Defined at line: 908
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["PF_SPIDERWEB"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["PF_SOULCHANGE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["PF_FOGWALL"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["PF_HPCONVERSION"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["PF_DOUBLECASTING"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["PF_MEMORIZE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["PF_SOULBURN"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["PF_MINDBREAKER"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #63:
+;
+; Name:            
+; Defined at line: 919
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RA_AIMEDBOLT"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RA_RESEARCHTRAP"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RA_RANGERMAIN"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RA_ELECTRICSHOCKER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RA_WUGMASTERY"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RA_ARROWSTORM"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RA_CLUSTERBOMB"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RA_DETONATOR"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RA_CAMOUFLAGE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RA_TOOTHOFWUG"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RA_WUGRIDER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RA_FEARBREEZE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RA_MAGENTATRAP"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RA_FIRINGTRAP"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RA_ICEBOUNDTRAP"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RA_SENSITIVEKEEN"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RA_WUGSTRIKE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RA_WUGDASH"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RA_COBALTTRAP"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RA_WUGBITE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RA_MAIZETRAP"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["RA_VERDURETRAP"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #64:
+;
+; Name:            
+; Defined at line: 944
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WM_SEVERE_RAINSTORM"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WM_REVERBERATION"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WM_LESSON"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WM_DOMINION_IMPULSE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WM_SIRCLEOFNATURE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WM_LULLABY_DEEPSLEEP"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WM_POEMOFNETHERWORLD"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WM_METALICSOUND"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WM_DEADHILLHERE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WM_VOICEOFSIREN"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WM_RANDOMIZESPELL"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WM_GREAT_ECHO"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MI_HARMONIZE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MI_RUSH_WINDMILL"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MI_ECHOSONG"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WM_GLOOMYDAY"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WM_DANCE_WITH_WUG"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WM_SONG_OF_MANA"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WM_LERADS_DEW"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WM_SATURDAY_NIGHT_FEVER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WM_MELODYOFSINK"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WM_BEYOND_OF_WARCRY"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WM_SOUND_OF_DESTRUCTION"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WM_UNLIMITED_HUMMING_VOICE"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #65:
+;
+; Name:            
+; Defined at line: 971
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WM_SEVERE_RAINSTORM"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WM_REVERBERATION"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WM_LESSON"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WM_DOMINION_IMPULSE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WM_SIRCLEOFNATURE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WM_LULLABY_DEEPSLEEP"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WM_POEMOFNETHERWORLD"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WM_METALICSOUND"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WM_DEADHILLHERE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WM_VOICEOFSIREN"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WM_RANDOMIZESPELL"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WM_GREAT_ECHO"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WA_SWING_DANCE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WA_SYMPHONY_OF_LOVER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WA_MOONLIT_SERENADE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WM_GLOOMYDAY"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WM_DANCE_WITH_WUG"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WM_SONG_OF_MANA"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WM_LERADS_DEW"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WM_SATURDAY_NIGHT_FEVER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WM_MELODYOFSINK"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WM_BEYOND_OF_WARCRY"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WM_SOUND_OF_DESTRUCTION"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["WM_UNLIMITED_HUMMING_VOICE"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #66:
+;
+; Name:            
+; Defined at line: 998
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SN_FALCONASSAULT"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SN_SHARPSHOOTING"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SN_SIGHT"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SN_WINDWALK"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #67:
+;
+; Name:            
+; Defined at line: 1005
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["CG_ARROWVULCAN"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["CG_MOONLIT"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["CG_MARIONETTE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["CG_HERMODE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["CG_LONGINGFREEDOM"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["CG_TAROTCARD"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #68:
+;
+; Name:            
+; Defined at line: 1014
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["CG_ARROWVULCAN"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["CG_MOONLIT"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["CG_MARIONETTE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["CG_HERMODE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["CG_LONGINGFREEDOM"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["CG_TAROTCARD"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #69:
+;
+; Name:            
+; Defined at line: 1024
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SM_SWORD"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SM_BASH"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SM_PROVOKE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TF_DOUBLE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TF_STEAL"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TF_POISON"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SM_RECOVERY"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SM_MAGNUM"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SM_ENDURE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TF_MISS"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TF_HIDING"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TF_DETOXIFY"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MG_STONECURSE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MG_COLDBOLT"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MG_LIGHTNINGBOLT"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MG_NAPALMBEAT"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MG_FIREBOLT"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MG_SIGHT"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MG_SRECOVERY"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MG_FROSTDIVER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MG_THUNDERSTORM"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MG_SOULSTRIKE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MG_FIREBALL"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AL_RUWACH"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AL_HEAL"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AL_HOLYWATER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AL_DP"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MG_SAFETYWALL"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MG_FIREWALL"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AC_OWL"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AL_TELEPORT"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AL_CURE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AL_INCAGI"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AL_BLESSING"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AL_DEMONBANE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AL_ANGELUS"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AC_VULTURE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AL_WARP"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MC_INCCARRY"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AL_DECAGI"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MC_IDENTIFY"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AL_CRUCIS"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MC_MAMMONITE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AC_CONCENTRATION"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["AL_PNEUMA"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MC_DISCOUNT"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MC_OVERCHARGE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MC_PUSHCART"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["MC_VENDING"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #70:
+;
+; Name:            
+; Defined at line: 1076
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NJ_TOBIDOUGU"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NJ_TATAMIGAESHI"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NJ_NINPOU"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NJ_SYURIKEN"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NJ_SHADOWJUMP"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NJ_NEN"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NJ_KOUENKA"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NJ_HYOUSENSOU"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NJ_HUUJIN"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NJ_KUNAI"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NJ_KASUMIKIRI"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NJ_UTSUSEMI"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NJ_KAENSIN"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NJ_SUITON"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NJ_RAIGEKISAI"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NJ_HUUMA"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NJ_KIRIKAGE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NJ_BAKUENRYU"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NJ_HYOUSYOURAKU"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NJ_KAMAITACHI"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NJ_ZENYNAGE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NJ_BUNSINJYUTSU"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["NJ_ISSEN"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #71:
+;
+; Name:            
+; Defined at line: 1102
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GS_GLITTERING"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GS_MAGICALBULLET"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GS_SINGLEACTION"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GS_SNAKEEYE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GS_FLING"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GS_CRACKER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GS_CHAINACTION"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GS_TRACKING"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GS_DUST"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GS_INCREASING"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GS_TRIPLEACTION"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GS_DISARM"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GS_RAPIDSHOWER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GS_PIERCINGSHOT"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GS_FULLBUSTER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GS_ADJUSTMENT"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GS_DESPERADO"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GS_BULLSEYE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GS_SPREADATTACK"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GS_GATLINGFEVER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GS_GROUNDDRIFT"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["GS_MADNESSCANCEL"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #72:
+;
+; Name:            
+; Defined at line: 1127
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TK_RUN"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TK_STORMKICK"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TK_DOWNKICK"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TK_TURNKICK"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TK_COUNTER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TK_JUMPKICK"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TK_HIGHJUMP"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TK_READYSTORM"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TK_READYDOWN"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TK_READYTURN"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TK_READYCOUNTER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TK_DODGE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TK_HPTIME"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TK_SPTIME"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TK_POWER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TK_SEVENWIND"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["TK_MISSION"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #73:
+;
+; Name:            
+; Defined at line: 1147
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SG_FEEL"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SG_HATE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SG_DEVIL"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SG_KNOWLEDGE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SG_SUN_WARM"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SG_SUN_COMFORT"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SG_SUN_ANGER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SG_SUN_BLESS"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SG_FRIEND"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SG_FUSION"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SG_MOON_WARM"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SG_MOON_COMFORT"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SG_MOON_ANGER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SG_MOON_BLESS"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SG_STAR_WARM"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SG_STAR_COMFORT"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SG_STAR_ANGER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SG_STAR_BLESS"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #74:
+;
+; Name:            
+; Defined at line: 1168
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SL_ALCHEMIST"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SL_STAR"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SL_ASSASIN"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SL_CRUSADER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SL_BARDDANCER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SL_SUPERNOVICE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SL_BLACKSMITH"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SL_SOULLINKER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SL_ROGUE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SL_KNIGHT"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SL_HUNTER"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SL_HIGH"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SL_MONK"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SL_KAUPE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SL_SKE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SL_SAGE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SL_KAINA"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SL_PRIEST"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SL_SKA"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SL_WIZARD"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SL_KAITE"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SL_KAAHI"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SL_KAIZEL"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SL_SWOO"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SL_STIN"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SL_STUN"]
+R2 := 10
+R0(R1,R2)
+R0 := UpgradeSkill
+R1 := SKID
+R1 := R1["SL_SMA"]
+R2 := 10
+R0(R1,R2)
+return 
+
+
+; Function #75:
+;
+; Name:            
+; Defined at line: 1203
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := ChangeJob
+R1 := "NOVICE_H"
+R0(R1)
+R0 := ChangeJob
+R1 := "NOVICE"
+R0(R1)
+R0 := upgradeLevel_Novice
+R0()
+R0 := upgradeSkill_Novice
+R0()
+return 
+
+
+; Function #76:
+;
+; Name:            
+; Defined at line: 1210
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := ChangeJob
+R1 := "NOVICE_H"
+R0(R1)
+R0 := upgradeLevel_Novice
+R0()
+R0 := upgradeSkill_Novice
+R0()
+return 
+
+
+; Function #77:
+;
+; Name:            
+; Defined at line: 1217
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeNovice
+R0()
+R0 := ChangeJob
+R1 := "SWORDMAN"
+R0(R1)
+R0 := upgradeLevel_1stChangeJob
+R0()
+R0 := upgradeSkill_Swordman
+R0()
+return 
+
+
+; Function #78:
+;
+; Name:            
+; Defined at line: 1224
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeSwordman
+R0()
+R0 := ChangeJob
+R1 := "KNIGHT"
+R0(R1)
+R0 := upgradeLevel_2ndChangeJob
+R0()
+R0 := upgradeSkill_Knight
+R0()
+return 
+
+
+; Function #79:
+;
+; Name:            
+; Defined at line: 1231
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeSwordman
+R0()
+R0 := ChangeJob
+R1 := "CRUSADER"
+R0(R1)
+R0 := upgradeLevel_2ndChangeJob
+R0()
+R0 := upgradeSkill_Crusader
+R0()
+return 
+
+
+; Function #80:
+;
+; Name:            
+; Defined at line: 1238
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeKnight
+R0()
+R0 := ChangeJob
+R1 := "RUNE_KNIGHT"
+R0(R1)
+R0 := upgradeLevel_3rdChangeJob
+R0()
+R0 := upgradeSkill_RuneKnight
+R0()
+R0 := upgradeSkill_Knight
+R0()
+R0 := upgradeSkill_Swordman
+R0()
+return 
+
+
+; Function #81:
+;
+; Name:            
+; Defined at line: 1247
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeLordKnight
+R0()
+R0 := ChangeJob
+R1 := "RUNE_KNIGHT_H"
+R0(R1)
+R0 := upgradeLevel_3rdChangeJob
+R0()
+R0 := upgradeSkill_RuneKnight
+R0()
+R0 := upgradeSkill_Knight
+R0()
+R0 := upgradeSkill_Swordman
+R0()
+return 
+
+
+; Function #82:
+;
+; Name:            
+; Defined at line: 1256
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeCrusader
+R0()
+R0 := ChangeJob
+R1 := "ROYAL_GUARD"
+R0(R1)
+R0 := upgradeLevel_3rdChangeJob
+R0()
+R0 := upgradeSkill_Swordman
+R0()
+R0 := upgradeSkill_Crusader
+R0()
+R0 := upgradeSkill_RoyalGuard
+R0()
+return 
+
+
+; Function #83:
+;
+; Name:            
+; Defined at line: 1265
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makePaladin
+R0()
+R0 := ChangeJob
+R1 := "ROYAL_GUARD_H"
+R0(R1)
+R0 := upgradeLevel_3rdChangeJob
+R0()
+R0 := upgradeSkill_Swordman
+R0()
+R0 := upgradeSkill_Crusader
+R0()
+R0 := upgradeSkill_RoyalGuard
+R0()
+return 
+
+
+; Function #84:
+;
+; Name:            
+; Defined at line: 1274
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeNovice_H
+R0()
+R0 := ChangeJob
+R1 := "SWORDMAN_H"
+R0(R1)
+R0 := upgradeLevel_1stChangeJob
+R0()
+R0 := upgradeSkill_Swordman
+R0()
+return 
+
+
+; Function #85:
+;
+; Name:            
+; Defined at line: 1281
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeSwordman_H
+R0()
+R0 := ChangeJob
+R1 := "KNIGHT_H"
+R0(R1)
+R0 := upgradeLevel_2ndChangeJob_H
+R0()
+R0 := upgradeSkill_Swordman
+R0()
+R0 := upgradeSkill_Knight
+R0()
+R0 := upgradeSkill_LordKnight
+R0()
+return 
+
+
+; Function #86:
+;
+; Name:            
+; Defined at line: 1290
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeSwordman_H
+R0()
+R0 := ChangeJob
+R1 := "CRUSADER_H"
+R0(R1)
+R0 := upgradeLevel_2ndChangeJob_H
+R0()
+R0 := upgradeSkill_Swordman
+R0()
+R0 := upgradeSkill_Crusader
+R0()
+R0 := upgradeSkill_Paladin
+R0()
+return 
+
+
+; Function #87:
+;
+; Name:            
+; Defined at line: 1299
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeNovice_H
+R0()
+R0 := ChangeJob
+R1 := "SWORDMAN_B"
+R0(R1)
+R0 := upgradeLevel_1stChangeJob
+R0()
+R0 := upgradeSkill_Swordman
+R0()
+return 
+
+
+; Function #88:
+;
+; Name:            
+; Defined at line: 1306
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeNovice_H
+R0()
+R0 := ChangeJob
+R1 := "KNIGHT_B"
+R0(R1)
+R0 := upgradeLevel_1stChangeJob
+R0()
+R0 := upgradeSkill_Swordman
+R0()
+R0 := upgradeSkill_Knight
+R0()
+return 
+
+
+; Function #89:
+;
+; Name:            
+; Defined at line: 1314
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeKNIGHT_B
+R0()
+R0 := ChangeJob
+R1 := "RUNE_KNIGHT_B"
+R0(R1)
+R0 := upgradeLevel_3rdChangeJob
+R0()
+R0 := upgradeSkill_Swordman
+R0()
+R0 := upgradeSkill_Knight
+R0()
+R0 := upgradeSkill_RuneKnight
+R0()
+return 
+
+
+; Function #90:
+;
+; Name:            
+; Defined at line: 1323
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeNovice_H
+R0()
+R0 := ChangeJob
+R1 := "CRUSADER_B"
+R0(R1)
+R0 := upgradeLevel_1stChangeJob
+R0()
+R0 := upgradeSkill_Swordman
+R0()
+R0 := upgradeSkill_Crusader
+R0()
+return 
+
+
+; Function #91:
+;
+; Name:            
+; Defined at line: 1331
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeCRUSADER_B
+R0()
+R0 := ChangeJob
+R1 := "ROYAL_GUARD_B"
+R0(R1)
+R0 := upgradeLevel_3rdChangeJob
+R0()
+R0 := upgradeSkill_Swordman
+R0()
+R0 := upgradeSkill_Crusader
+R0()
+R0 := upgradeSkill_RoyalGuard
+R0()
+return 
+
+
+; Function #92:
+;
+; Name:            
+; Defined at line: 1341
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeNovice
+R0()
+R0 := ChangeJob
+R1 := "MERCHANT"
+R0(R1)
+R0 := upgradeLevel_1stChangeJob
+R0()
+R0 := upgradeSkill_MerChant
+R0()
+return 
+
+
+; Function #93:
+;
+; Name:            
+; Defined at line: 1348
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeMerChant
+R0()
+R0 := ChangeJob
+R1 := "BLACKSMITH"
+R0(R1)
+R0 := upgradeLevel_2ndChangeJob
+R0()
+R0 := upgradeSkill_BlackSmith
+R0()
+return 
+
+
+; Function #94:
+;
+; Name:            
+; Defined at line: 1355
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeMerChant
+R0()
+R0 := ChangeJob
+R1 := "ALCHEMIST"
+R0(R1)
+R0 := upgradeLevel_2ndChangeJob
+R0()
+R0 := upgradeSkill_Alchemist
+R0()
+return 
+
+
+; Function #95:
+;
+; Name:            
+; Defined at line: 1362
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeBlackSmith
+R0()
+R0 := ChangeJob
+R1 := "MECHANIC"
+R0(R1)
+R0 := upgradeLevel_3rdChangeJob
+R0()
+R0 := upgradeSkill_Mechanic
+R0()
+return 
+
+
+; Function #96:
+;
+; Name:            
+; Defined at line: 1369
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeWhiteSmith
+R0()
+R0 := ChangeJob
+R1 := "MECHANIC_H"
+R0(R1)
+R0 := upgradeLevel_3rdChangeJob
+R0()
+R0 := upgradeSkill_Mechanic
+R0()
+return 
+
+
+; Function #97:
+;
+; Name:            
+; Defined at line: 1376
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeAlchemist
+R0()
+R0 := ChangeJob
+R1 := "GENETIC"
+R0(R1)
+R0 := upgradeLevel_3rdChangeJob
+R0()
+R0 := upgradeSkill_Genetic
+R0()
+return 
+
+
+; Function #98:
+;
+; Name:            
+; Defined at line: 1383
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeCreater
+R0()
+R0 := ChangeJob
+R1 := "GENETIC_H"
+R0(R1)
+R0 := upgradeLevel_3rdChangeJob
+R0()
+R0 := upgradeSkill_Genetic
+R0()
+return 
+
+
+; Function #99:
+;
+; Name:            
+; Defined at line: 1391
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeNovice_H
+R0()
+R0 := ChangeJob
+R1 := "MERCHANT_H"
+R0(R1)
+R0 := upgradeLevel_1stChangeJob
+R0()
+R0 := upgradeSkill_MerChant
+R0()
+return 
+
+
+; Function #100:
+;
+; Name:            
+; Defined at line: 1398
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeMerChant_H
+R0()
+R0 := ChangeJob
+R1 := "BLACKSMITH_H"
+R0(R1)
+R0 := upgradeLevel_2ndChangeJob_H
+R0()
+R0 := upgradeSkill_MerChant
+R0()
+R0 := upgradeSkill_BlackSmith
+R0()
+R0 := upgradeSkill_WhiteSmith
+R0()
+return 
+
+
+; Function #101:
+;
+; Name:            
+; Defined at line: 1407
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeMerChant_H
+R0()
+R0 := ChangeJob
+R1 := "ALCHEMIST_H"
+R0(R1)
+R0 := upgradeLevel_2ndChangeJob_H
+R0()
+R0 := upgradeSkill_MerChant
+R0()
+R0 := upgradeSkill_Alchemist
+R0()
+R0 := upgradeSkill_Creater
+R0()
+return 
+
+
+; Function #102:
+;
+; Name:            
+; Defined at line: 1416
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeNovice_H
+R0()
+R0 := ChangeJob
+R1 := "MERCHANT_B"
+R0(R1)
+R0 := upgradeLevel_1stChangeJob
+R0()
+R0 := upgradeSkill_MerChant
+R0()
+return 
+
+
+; Function #103:
+;
+; Name:            
+; Defined at line: 1423
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeNovice_H
+R0()
+R0 := ChangeJob
+R1 := "BLACKSMITH_B"
+R0(R1)
+R0 := upgradeLevel_1stChangeJob
+R0()
+R0 := upgradeSkill_MerChant
+R0()
+R0 := upgradeSkill_BlackSmith
+R0()
+return 
+
+
+; Function #104:
+;
+; Name:            
+; Defined at line: 1431
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeBLACKSMITH_B
+R0()
+R0 := ChangeJob
+R1 := "MECHANIC_B"
+R0(R1)
+R0 := upgradeLevel_3rdChangeJob
+R0()
+R0 := upgradeSkill_MerChant
+R0()
+R0 := upgradeSkill_BlackSmith
+R0()
+R0 := upgradeSkill_Mechanic
+R0()
+return 
+
+
+; Function #105:
+;
+; Name:            
+; Defined at line: 1440
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeNovice_H
+R0()
+R0 := ChangeJob
+R1 := "ALCHEMIST_B"
+R0(R1)
+R0 := upgradeLevel_1stChangeJob
+R0()
+R0 := upgradeSkill_MerChant
+R0()
+R0 := upgradeSkill_Alchemist
+R0()
+return 
+
+
+; Function #106:
+;
+; Name:            
+; Defined at line: 1448
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeALCHEMIST_B
+R0()
+R0 := ChangeJob
+R1 := "GENETIC_B"
+R0(R1)
+R0 := upgradeLevel_3rdChangeJob
+R0()
+R0 := upgradeSkill_MerChant
+R0()
+R0 := upgradeSkill_Alchemist
+R0()
+R0 := upgradeSkill_Genetic
+R0()
+return 
+
+
+; Function #107:
+;
+; Name:            
+; Defined at line: 1458
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeNovice
+R0()
+R0 := ChangeJob
+R1 := "ACOLYTE"
+R0(R1)
+R0 := upgradeLevel_1stChangeJob
+R0()
+R0 := upgradeSkill_Acolyte
+R0()
+return 
+
+
+; Function #108:
+;
+; Name:            
+; Defined at line: 1465
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeAcolyte
+R0()
+R0 := ChangeJob
+R1 := "PRIEST"
+R0(R1)
+R0 := upgradeLevel_2ndChangeJob
+R0()
+R0 := upgradeSkill_Priest
+R0()
+return 
+
+
+; Function #109:
+;
+; Name:            
+; Defined at line: 1472
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeAcolyte
+R0()
+R0 := ChangeJob
+R1 := "MONK"
+R0(R1)
+R0 := upgradeLevel_2ndChangeJob
+R0()
+R0 := upgradeSkill_Acolyte
+R0()
+R0 := upgradeSkill_Monk
+R0()
+return 
+
+
+; Function #110:
+;
+; Name:            
+; Defined at line: 1480
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makePriest
+R0()
+R0 := ChangeJob
+R1 := "ARCHBISHOP"
+R0(R1)
+R0 := upgradeLevel_3rdChangeJob
+R0()
+R0 := upgradeSkill_ArchBishop
+R0()
+R0 := upgradeSkill_Priest
+R0()
+return 
+
+
+; Function #111:
+;
+; Name:            
+; Defined at line: 1488
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeHighPriest
+R0()
+R0 := ChangeJob
+R1 := "ARCHBISHOP_H"
+R0(R1)
+R0 := upgradeLevel_3rdChangeJob
+R0()
+R0 := upgradeSkill_ArchBishop
+R0()
+R0 := upgradeSkill_Priest
+R0()
+return 
+
+
+; Function #112:
+;
+; Name:            
+; Defined at line: 1496
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeMonk
+R0()
+R0 := ChangeJob
+R1 := "SURA"
+R0(R1)
+R0 := upgradeLevel_3rdChangeJob
+R0()
+R0 := upgradeSkill_Sura
+R0()
+R0 := upgradeSkill_Monk
+R0()
+return 
+
+
+; Function #113:
+;
+; Name:            
+; Defined at line: 1504
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeChampion
+R0()
+R0 := ChangeJob
+R1 := "SURA_H"
+R0(R1)
+R0 := upgradeLevel_3rdChangeJob
+R0()
+R0 := upgradeSkill_Sura
+R0()
+R0 := upgradeSkill_Monk
+R0()
+return 
+
+
+; Function #114:
+;
+; Name:            
+; Defined at line: 1512
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeNovice_H
+R0()
+R0 := ChangeJob
+R1 := "ACOLYTE_H"
+R0(R1)
+R0 := upgradeLevel_1stChangeJob
+R0()
+R0 := upgradeSkill_Acolyte
+R0()
+return 
+
+
+; Function #115:
+;
+; Name:            
+; Defined at line: 1519
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeAcolyte_H
+R0()
+R0 := ChangeJob
+R1 := "PRIEST_H"
+R0(R1)
+R0 := upgradeLevel_2ndChangeJob_H
+R0()
+R0 := upgradeSkill_Acolyte
+R0()
+R0 := upgradeSkill_Priest
+R0()
+R0 := upgradeSkill_HighPriest
+R0()
+return 
+
+
+; Function #116:
+;
+; Name:            
+; Defined at line: 1528
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeAcolyte_H
+R0()
+R0 := ChangeJob
+R1 := "MONK_H"
+R0(R1)
+R0 := upgradeLevel_2ndChangeJob_H
+R0()
+R0 := upgradeSkill_Acolyte
+R0()
+R0 := upgradeSkill_Monk
+R0()
+R0 := upgradeSkill_Champion
+R0()
+return 
+
+
+; Function #117:
+;
+; Name:            
+; Defined at line: 1537
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeNovice_H
+R0()
+R0 := ChangeJob
+R1 := "ACOLYTE_B"
+R0(R1)
+R0 := upgradeLevel_1stChangeJob
+R0()
+R0 := upgradeSkill_Acolyte
+R0()
+return 
+
+
+; Function #118:
+;
+; Name:            
+; Defined at line: 1544
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeNovice_H
+R0()
+R0 := ChangeJob
+R1 := "PRIEST_B"
+R0(R1)
+R0 := upgradeLevel_1stChangeJob
+R0()
+R0 := upgradeSkill_Acolyte
+R0()
+R0 := upgradeSkill_Priest
+R0()
+return 
+
+
+; Function #119:
+;
+; Name:            
+; Defined at line: 1552
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makePRIEST_B
+R0()
+R0 := ChangeJob
+R1 := "ARCHBISHOP_B"
+R0(R1)
+R0 := upgradeLevel_3rdChangeJob
+R0()
+R0 := upgradeSkill_Acolyte
+R0()
+R0 := upgradeSkill_Priest
+R0()
+R0 := upgradeSkill_ArchBishop
+R0()
+return 
+
+
+; Function #120:
+;
+; Name:            
+; Defined at line: 1561
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeNovice_H
+R0()
+R0 := ChangeJob
+R1 := "MONK_B"
+R0(R1)
+R0 := upgradeLevel_1stChangeJob
+R0()
+R0 := upgradeSkill_Acolyte
+R0()
+R0 := upgradeSkill_Monk
+R0()
+return 
+
+
+; Function #121:
+;
+; Name:            
+; Defined at line: 1569
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeMONK_B
+R0()
+R0 := ChangeJob
+R1 := "SURA_B"
+R0(R1)
+R0 := upgradeLevel_3rdChangeJob
+R0()
+R0 := upgradeSkill_Acolyte
+R0()
+R0 := upgradeSkill_Monk
+R0()
+R0 := upgradeSkill_Sura
+R0()
+return 
+
+
+; Function #122:
+;
+; Name:            
+; Defined at line: 1579
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeNovice
+R0()
+R0 := ChangeJob
+R1 := "THIEF"
+R0(R1)
+R0 := upgradeLevel_1stChangeJob
+R0()
+R0 := upgradeSkill_Thief
+R0()
+return 
+
+
+; Function #123:
+;
+; Name:            
+; Defined at line: 1586
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeThief
+R0()
+R0 := ChangeJob
+R1 := "ASSASSIN"
+R0(R1)
+R0 := upgradeLevel_2ndChangeJob
+R0()
+R0 := upgradeSkill_Assassin
+R0()
+return 
+
+
+; Function #124:
+;
+; Name:            
+; Defined at line: 1593
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeThief
+R0()
+R0 := ChangeJob
+R1 := "ROGUE"
+R0(R1)
+R0 := upgradeLevel_2ndChangeJob
+R0()
+R0 := upgradeSkill_Rogue
+R0()
+return 
+
+
+; Function #125:
+;
+; Name:            
+; Defined at line: 1600
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeAssassin
+R0()
+R0 := ChangeJob
+R1 := "GUILLOTINE_CROSS"
+R0(R1)
+R0 := upgradeLevel_3rdChangeJob
+R0()
+R0 := upgradeSkill_GuillotineCross
+R0()
+R0 := upgradeSkill_Assassin
+R0()
+return 
+
+
+; Function #126:
+;
+; Name:            
+; Defined at line: 1608
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeAssassinCross
+R0()
+R0 := ChangeJob
+R1 := "GUILLOTINE_CROSS_H"
+R0(R1)
+R0 := upgradeLevel_3rdChangeJob
+R0()
+R0 := upgradeSkill_GuillotineCross
+R0()
+R0 := upgradeSkill_Assassin
+R0()
+return 
+
+
+; Function #127:
+;
+; Name:            
+; Defined at line: 1616
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeRogue
+R0()
+R0 := ChangeJob
+R1 := "SHADOW_CHASER"
+R0(R1)
+R0 := upgradeLevel_3rdChangeJob
+R0()
+R0 := upgradeSkill_ShadowChaser
+R0()
+R0 := upgradeSkill_Rogue
+R0()
+return 
+
+
+; Function #128:
+;
+; Name:            
+; Defined at line: 1624
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeStalker
+R0()
+R0 := ChangeJob
+R1 := "SHADOW_CHASER_H"
+R0(R1)
+R0 := upgradeLevel_3rdChangeJob
+R0()
+R0 := upgradeSkill_ShadowChaser
+R0()
+R0 := upgradeSkill_Rogue
+R0()
+return 
+
+
+; Function #129:
+;
+; Name:            
+; Defined at line: 1632
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeNovice_H
+R0()
+R0 := ChangeJob
+R1 := "THIEF_H"
+R0(R1)
+R0 := upgradeLevel_1stChangeJob
+R0()
+R0 := upgradeSkill_Thief
+R0()
+return 
+
+
+; Function #130:
+;
+; Name:            
+; Defined at line: 1639
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeThief_H
+R0()
+R0 := ChangeJob
+R1 := "ASSASSIN_H"
+R0(R1)
+R0 := upgradeLevel_2ndChangeJob_H
+R0()
+R0 := upgradeSkill_Thief
+R0()
+R0 := upgradeSkill_Assassin
+R0()
+R0 := upgradeSkill_AssassinCross
+R0()
+return 
+
+
+; Function #131:
+;
+; Name:            
+; Defined at line: 1648
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeThief_H
+R0()
+R0 := ChangeJob
+R1 := "ROGUE_H"
+R0(R1)
+R0 := upgradeLevel_2ndChangeJob_H
+R0()
+R0 := upgradeSkill_Thief
+R0()
+R0 := upgradeSkill_Rogue
+R0()
+R0 := upgradeSkill_Stalker
+R0()
+return 
+
+
+; Function #132:
+;
+; Name:            
+; Defined at line: 1657
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeNovice_H
+R0()
+R0 := ChangeJob
+R1 := "THIEF_B"
+R0(R1)
+R0 := upgradeLevel_1stChangeJob
+R0()
+R0 := upgradeSkill_Thief
+R0()
+return 
+
+
+; Function #133:
+;
+; Name:            
+; Defined at line: 1664
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeNovice_H
+R0()
+R0 := ChangeJob
+R1 := "ASSASSIN_B"
+R0(R1)
+R0 := upgradeLevel_1stChangeJob
+R0()
+R0 := upgradeSkill_Thief
+R0()
+R0 := upgradeSkill_Assassin
+R0()
+return 
+
+
+; Function #134:
+;
+; Name:            
+; Defined at line: 1672
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeASSASSIN_B
+R0()
+R0 := ChangeJob
+R1 := "GUILLOTINE_CROSS_B"
+R0(R1)
+R0 := upgradeLevel_3rdChangeJob
+R0()
+R0 := upgradeSkill_Thief
+R0()
+R0 := upgradeSkill_Assassin
+R0()
+R0 := upgradeSkill_GuillotineCross
+R0()
+return 
+
+
+; Function #135:
+;
+; Name:            
+; Defined at line: 1681
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeNovice_H
+R0()
+R0 := ChangeJob
+R1 := "ROGUE_B"
+R0(R1)
+R0 := upgradeLevel_1stChangeJob
+R0()
+R0 := upgradeSkill_Thief
+R0()
+R0 := upgradeSkill_Rogue
+R0()
+return 
+
+
+; Function #136:
+;
+; Name:            
+; Defined at line: 1689
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeROGUE_B
+R0()
+R0 := ChangeJob
+R1 := "SHADOW_CHASER_B"
+R0(R1)
+R0 := upgradeLevel_3rdChangeJob
+R0()
+R0 := upgradeSkill_Thief
+R0()
+R0 := upgradeSkill_Rogue
+R0()
+R0 := upgradeSkill_ShadowChaser
+R0()
+return 
+
+
+; Function #137:
+;
+; Name:            
+; Defined at line: 1699
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeNovice
+R0()
+R0 := ChangeJob
+R1 := "MAGICIAN"
+R0(R1)
+R0 := upgradeLevel_1stChangeJob
+R0()
+R0 := upgradeSkill_Magician
+R0()
+return 
+
+
+; Function #138:
+;
+; Name:            
+; Defined at line: 1706
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeMagician
+R0()
+R0 := ChangeJob
+R1 := "WIZARD"
+R0(R1)
+R0 := upgradeLevel_2ndChangeJob
+R0()
+R0 := upgradeSkill_Wizard
+R0()
+R0 := upgradeSkill_Magician
+R0()
+return 
+
+
+; Function #139:
+;
+; Name:            
+; Defined at line: 1714
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeMagician
+R0()
+R0 := ChangeJob
+R1 := "SAGE"
+R0(R1)
+R0 := upgradeLevel_2ndChangeJob
+R0()
+R0 := upgradeSkill_Sage
+R0()
+return 
+
+
+; Function #140:
+;
+; Name:            
+; Defined at line: 1721
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeWizard
+R0()
+R0 := ChangeJob
+R1 := "WARLOCK"
+R0(R1)
+R0 := upgradeLevel_3rdChangeJob
+R0()
+R0 := upgradeSkill_Wizard
+R0()
+R0 := upgradeSkill_Warlock
+R0()
+return 
+
+
+; Function #141:
+;
+; Name:            
+; Defined at line: 1729
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeHighWizard
+R0()
+R0 := ChangeJob
+R1 := "WARLOCK_H"
+R0(R1)
+R0 := upgradeLevel_3rdChangeJob
+R0()
+R0 := upgradeSkill_Wizard
+R0()
+R0 := upgradeSkill_Warlock
+R0()
+return 
+
+
+; Function #142:
+;
+; Name:            
+; Defined at line: 1737
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeSage
+R0()
+R0 := ChangeJob
+R1 := "SORCERER"
+R0(R1)
+R0 := upgradeLevel_3rdChangeJob
+R0()
+R0 := upgradeSkill_Sorcerer
+R0()
+R0 := upgradeSkill_Sage
+R0()
+return 
+
+
+; Function #143:
+;
+; Name:            
+; Defined at line: 1745
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeProfessor
+R0()
+R0 := ChangeJob
+R1 := "SORCERER_H"
+R0(R1)
+R0 := upgradeLevel_3rdChangeJob
+R0()
+R0 := upgradeSkill_Sorcerer
+R0()
+R0 := upgradeSkill_Sage
+R0()
+return 
+
+
+; Function #144:
+;
+; Name:            
+; Defined at line: 1753
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeNovice_H
+R0()
+R0 := ChangeJob
+R1 := "MAGICIAN_H"
+R0(R1)
+R0 := upgradeLevel_1stChangeJob
+R0()
+R0 := upgradeSkill_Magician
+R0()
+return 
+
+
+; Function #145:
+;
+; Name:            
+; Defined at line: 1760
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeMagician_H
+R0()
+R0 := ChangeJob
+R1 := "WIZARD_H"
+R0(R1)
+R0 := upgradeLevel_2ndChangeJob_H
+R0()
+R0 := upgradeSkill_Magician
+R0()
+R0 := upgradeSkill_Wizard
+R0()
+R0 := upgradeSkill_HighWizard
+R0()
+return 
+
+
+; Function #146:
+;
+; Name:            
+; Defined at line: 1769
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeMagician_H
+R0()
+R0 := ChangeJob
+R1 := "SAGE_H"
+R0(R1)
+R0 := upgradeLevel_2ndChangeJob_H
+R0()
+R0 := upgradeSkill_Magician
+R0()
+R0 := upgradeSkill_Sage
+R0()
+R0 := upgradeSkill_Professor
+R0()
+return 
+
+
+; Function #147:
+;
+; Name:            
+; Defined at line: 1778
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeNovice_H
+R0()
+R0 := ChangeJob
+R1 := "MAGICIAN_B"
+R0(R1)
+R0 := upgradeLevel_1stChangeJob
+R0()
+R0 := upgradeSkill_Magician
+R0()
+return 
+
+
+; Function #148:
+;
+; Name:            
+; Defined at line: 1785
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeNovice_H
+R0()
+R0 := ChangeJob
+R1 := "WIZARD_B"
+R0(R1)
+R0 := upgradeLevel_1stChangeJob
+R0()
+R0 := upgradeSkill_Magician
+R0()
+R0 := upgradeSkill_Wizard
+R0()
+return 
+
+
+; Function #149:
+;
+; Name:            
+; Defined at line: 1793
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeWIZARD_B
+R0()
+R0 := ChangeJob
+R1 := "WARLOCK_B"
+R0(R1)
+R0 := upgradeLevel_3rdChangeJob
+R0()
+R0 := upgradeSkill_Magician
+R0()
+R0 := upgradeSkill_Wizard
+R0()
+R0 := upgradeSkill_Warlock
+R0()
+return 
+
+
+; Function #150:
+;
+; Name:            
+; Defined at line: 1802
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeNovice_H
+R0()
+R0 := ChangeJob
+R1 := "SAGE_B"
+R0(R1)
+R0 := upgradeLevel_1stChangeJob
+R0()
+R0 := upgradeSkill_Magician
+R0()
+R0 := upgradeSkill_Sage
+R0()
+return 
+
+
+; Function #151:
+;
+; Name:            
+; Defined at line: 1810
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeSAGE_B
+R0()
+R0 := ChangeJob
+R1 := "SORCERER_B"
+R0(R1)
+R0 := upgradeLevel_3rdChangeJob
+R0()
+R0 := upgradeSkill_Magician
+R0()
+R0 := upgradeSkill_Sage
+R0()
+R0 := upgradeSkill_Sorcerer
+R0()
+return 
+
+
+; Function #152:
+;
+; Name:            
+; Defined at line: 1820
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeNovice
+R0()
+R0 := ChangeJob
+R1 := "ARCHER"
+R0(R1)
+R0 := upgradeLevel_1stChangeJob
+R0()
+R0 := upgradeSkill_Archer
+R0()
+return 
+
+
+; Function #153:
+;
+; Name:            
+; Defined at line: 1827
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeArcher
+R0()
+R0 := ChangeJob
+R1 := "HUNTER"
+R0(R1)
+R0 := upgradeLevel_2ndChangeJob
+R0()
+R0 := upgradeSkill_Hunter
+R0()
+return 
+
+
+; Function #154:
+;
+; Name:            
+; Defined at line: 1834
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeArcher
+R0()
+R0 := ChangeJob
+R1 := "BARD"
+R0(R1)
+R0 := upgradeLevel_2ndChangeJob
+R0()
+R0 := upgradeSkill_Bard
+R0()
+return 
+
+
+; Function #155:
+;
+; Name:            
+; Defined at line: 1841
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeArcher
+R0()
+R0 := ChangeJob
+R1 := "DANCER"
+R0(R1)
+R0 := upgradeLevel_2ndChangeJob
+R0()
+R0 := upgradeSkill_Dancer
+R0()
+return 
+
+
+; Function #156:
+;
+; Name:            
+; Defined at line: 1848
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeHunter
+R0()
+R0 := ChangeJob
+R1 := "RANGER"
+R0(R1)
+R0 := upgradeLevel_3rdChangeJob
+R0()
+R0 := upgradeSkill_Ranger
+R0()
+return 
+
+
+; Function #157:
+;
+; Name:            
+; Defined at line: 1855
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeSniper
+R0()
+R0 := ChangeJob
+R1 := "RANGER_H"
+R0(R1)
+R0 := upgradeLevel_3rdChangeJob
+R0()
+R0 := upgradeSkill_Ranger
+R0()
+return 
+
+
+; Function #158:
+;
+; Name:            
+; Defined at line: 1862
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeBard
+R0()
+R0 := ChangeJob
+R1 := "MINSTREL"
+R0(R1)
+R0 := upgradeLevel_3rdChangeJob
+R0()
+R0 := upgradeSkill_Minstrel
+R0()
+return 
+
+
+; Function #159:
+;
+; Name:            
+; Defined at line: 1869
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeCrown
+R0()
+R0 := ChangeJob
+R1 := "MINSTREL_H"
+R0(R1)
+R0 := upgradeLevel_3rdChangeJob
+R0()
+R0 := upgradeSkill_Minstrel
+R0()
+return 
+
+
+; Function #160:
+;
+; Name:            
+; Defined at line: 1876
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeDancer
+R0()
+R0 := ChangeJob
+R1 := "WANDERER"
+R0(R1)
+R0 := upgradeLevel_3rdChangeJob
+R0()
+R0 := upgradeSkill_Wanderer
+R0()
+return 
+
+
+; Function #161:
+;
+; Name:            
+; Defined at line: 1883
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeGipsy
+R0()
+R0 := ChangeJob
+R1 := "WANDERER_H"
+R0(R1)
+R0 := upgradeLevel_3rdChangeJob
+R0()
+R0 := upgradeSkill_Wanderer
+R0()
+return 
+
+
+; Function #162:
+;
+; Name:            
+; Defined at line: 1890
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeNovice_H
+R0()
+R0 := ChangeJob
+R1 := "ARCHER_H"
+R0(R1)
+R0 := upgradeLevel_1stChangeJob
+R0()
+R0 := upgradeSkill_Archer
+R0()
+return 
+
+
+; Function #163:
+;
+; Name:            
+; Defined at line: 1897
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeArcher_H
+R0()
+R0 := ChangeJob
+R1 := "HUNTER_H"
+R0(R1)
+R0 := upgradeLevel_2ndChangeJob_H
+R0()
+R0 := upgradeSkill_Archer
+R0()
+R0 := upgradeSkill_Hunter
+R0()
+R0 := upgradeSkill_Sniper
+R0()
+return 
+
+
+; Function #164:
+;
+; Name:            
+; Defined at line: 1906
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeArcher_H
+R0()
+R0 := ChangeJob
+R1 := "BARD_H"
+R0(R1)
+R0 := upgradeLevel_2ndChangeJob_H
+R0()
+R0 := upgradeSkill_Archer
+R0()
+R0 := upgradeSkill_Bard
+R0()
+R0 := upgradeSkill_Crown
+R0()
+return 
+
+
+; Function #165:
+;
+; Name:            
+; Defined at line: 1915
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeArcher_H
+R0()
+R0 := ChangeJob
+R1 := "DANCER_H"
+R0(R1)
+R0 := upgradeLevel_2ndChangeJob
+R0()
+R0 := upgradeSkill_Archer
+R0()
+R0 := upgradeSkill_Dancer
+R0()
+R0 := upgradeSkill_Gipsy
+R0()
+return 
+
+
+; Function #166:
+;
+; Name:            
+; Defined at line: 1924
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeNovice_H
+R0()
+R0 := ChangeJob
+R1 := "ARCHER_B"
+R0(R1)
+R0 := upgradeLevel_1stChangeJob
+R0()
+R0 := upgradeSkill_Archer
+R0()
+return 
+
+
+; Function #167:
+;
+; Name:            
+; Defined at line: 1931
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeNovice_H
+R0()
+R0 := ChangeJob
+R1 := "HUNTER_B"
+R0(R1)
+R0 := upgradeLevel_1stChangeJob
+R0()
+R0 := upgradeSkill_Archer
+R0()
+R0 := upgradeSkill_Hunter
+R0()
+return 
+
+
+; Function #168:
+;
+; Name:            
+; Defined at line: 1939
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeHUNTER_B
+R0()
+R0 := ChangeJob
+R1 := "RANGER_B"
+R0(R1)
+R0 := upgradeLevel_3rdChangeJob
+R0()
+R0 := upgradeSkill_Archer
+R0()
+R0 := upgradeSkill_Hunter
+R0()
+R0 := upgradeSkill_Ranger
+R0()
+return 
+
+
+; Function #169:
+;
+; Name:            
+; Defined at line: 1948
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeNovice_H
+R0()
+R0 := ChangeJob
+R1 := "BARD_B"
+R0(R1)
+R0 := upgradeLevel_1stChangeJob
+R0()
+R0 := upgradeSkill_Archer
+R0()
+R0 := upgradeSkill_Bard
+R0()
+return 
+
+
+; Function #170:
+;
+; Name:            
+; Defined at line: 1956
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeBARD_B
+R0()
+R0 := ChangeJob
+R1 := "MINSTREL_B"
+R0(R1)
+R0 := upgradeLevel_3rdChangeJob
+R0()
+R0 := upgradeSkill_Archer
+R0()
+R0 := upgradeSkill_Bard
+R0()
+R0 := upgradeSkill_Minstrel
+R0()
+return 
+
+
+; Function #171:
+;
+; Name:            
+; Defined at line: 1965
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeNovice_H
+R0()
+R0 := ChangeJob
+R1 := "DANCER_B"
+R0(R1)
+R0 := upgradeLevel_1stChangeJob
+R0()
+R0 := upgradeSkill_Archer
+R0()
+R0 := upgradeSkill_Dancer
+R0()
+return 
+
+
+; Function #172:
+;
+; Name:            
+; Defined at line: 1973
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeDANCER_B
+R0()
+R0 := ChangeJob
+R1 := "WANDERER_B"
+R0(R1)
+R0 := upgradeLevel_3rdChangeJob
+R0()
+R0 := upgradeSkill_Archer
+R0()
+R0 := upgradeSkill_Dancer
+R0()
+R0 := upgradeSkill_Wanderer
+R0()
+return 
+
+
+; Function #173:
+;
+; Name:            
+; Defined at line: 1983
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := ChangeJob
+R1 := "NOVICE_H"
+R0(R1)
+R0 := upgradeLevel_Novice
+R0()
+R0 := upgradeSkill_Novice
+R0()
+R0 := ChangeJob
+R1 := "SUPERNOVICE"
+R0(R1)
+R0 := upgradeLevel_1stChangeJob
+R0()
+R0 := JobLevelUp
+R1 := 19
+R0(R1)
+R0 := upgradeSkill_SuperNovice
+R0()
+return 
+
+
+; Function #174:
+;
+; Name:            
+; Defined at line: 1993
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeNovice
+R0()
+R0 := ChangeJob
+R1 := "NINJA"
+R0(R1)
+R0 := upgradeLevel_1stChangeJob
+R0()
+R0 := upgradeSkill_Ninja
+R0()
+return 
+
+
+; Function #175:
+;
+; Name:            
+; Defined at line: 2000
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeNovice
+R0()
+R0 := ChangeJob
+R1 := "GUNSLINGER"
+R0(R1)
+R0 := upgradeLevel_1stChangeJob
+R0()
+R0 := upgradeSkill_GunSlinger
+R0()
+return 
+
+
+; Function #176:
+;
+; Name:            
+; Defined at line: 2007
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeNovice
+R0()
+R0 := ChangeJob
+R1 := "TAEKWON"
+R0(R1)
+R0 := upgradeLevel_1stChangeJob
+R0()
+R0 := upgradeSkill_Taekwon
+R0()
+return 
+
+
+; Function #177:
+;
+; Name:            
+; Defined at line: 2015
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeTaekwon
+R0()
+R0 := ChangeJob
+R1 := "STAR"
+R0(R1)
+R0 := upgradeLevel_2ndChangeJob
+R0()
+R0 := upgradeSkill_Star
+R0()
+return 
+
+
+; Function #178:
+;
+; Name:            
+; Defined at line: 2022
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; No upvalues
+
+R0 := buttonEventReceiver_makeTaekwon
+R0()
+R0 := ChangeJob
+R1 := "LINKER"
+R0(R1)
+R0 := upgradeLevel_2ndChangeJob
+R0()
+R0 := upgradeSkill_Linker
+R0()
+return 
+
+
+; Function #179:
+;
+; Name:            
+; Defined at line: 2034
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+R0 := AddString
+R1 := "-- [ 1차 전직 캐릭터 만들기 ] --"
+R0(R1)
+R0 := AddMenu
+R1 := "검사"
+R2 := buttonEventReceiver_makeSwordman
+R0(R1,R2)
+R0 := AddMenu
+R1 := "검사_H"
+R2 := buttonEventReceiver_makeSwordman_H
+R0(R1,R2)
+R0 := AddMenu
+R1 := "검사_B"
+R2 := buttonEventReceiver_makeSWORDMAN_B
+R0(R1,R2)
+R0 := AddMenu
+R1 := "마법사"
+R2 := buttonEventReceiver_makeMagician
+R0(R1,R2)
+R0 := AddMenu
+R1 := "마법사_H"
+R2 := buttonEventReceiver_makeMagician_H
+R0(R1,R2)
+R0 := AddMenu
+R1 := "마법사_B"
+R2 := buttonEventReceiver_makeMAGICIAN_B
+R0(R1,R2)
+R0 := AddMenu
+R1 := "상인"
+R2 := buttonEventReceiver_makeMerChant
+R0(R1,R2)
+R0 := AddMenu
+R1 := "상인_H"
+R2 := buttonEventReceiver_makeMerChant_H
+R0(R1,R2)
+R0 := AddMenu
+R1 := "상인_B"
+R2 := buttonEventReceiver_makeMERCHANT_B
+R0(R1,R2)
+R0 := AddMenu
+R1 := "궁수"
+R2 := buttonEventReceiver_makeArcher
+R0(R1,R2)
+R0 := AddMenu
+R1 := "궁수_H"
+R2 := buttonEventReceiver_makeArcher_H
+R0(R1,R2)
+R0 := AddMenu
+R1 := "궁수_B"
+R2 := buttonEventReceiver_makeARCHER_B
+R0(R1,R2)
+R0 := AddMenu
+R1 := "복사"
+R2 := buttonEventReceiver_makeAcolyte
+R0(R1,R2)
+R0 := AddMenu
+R1 := "복사_H"
+R2 := buttonEventReceiver_makeAcolyte_H
+R0(R1,R2)
+R0 := AddMenu
+R1 := "복사_B"
+R2 := buttonEventReceiver_makeACOLYTE_B
+R0(R1,R2)
+R0 := AddMenu
+R1 := "도둑"
+R2 := buttonEventReceiver_makeThief
+R0(R1,R2)
+R0 := AddMenu
+R1 := "도둑_H"
+R2 := buttonEventReceiver_makeThief_H
+R0(R1,R2)
+R0 := AddMenu
+R1 := "도둑_B"
+R2 := buttonEventReceiver_makeTHIEF_B
+R0(R1,R2)
+R0 := AddString
+R1 := "-- [ 2-1차 전직 캐릭터 만들기 ] --"
+R0(R1)
+R0 := AddMenu
+R1 := "나이트"
+R2 := buttonEventReceiver_makeKnight
+R0(R1,R2)
+R0 := AddMenu
+R1 := "나이트_B"
+R2 := buttonEventReceiver_makeKNIGHT_B
+R0(R1,R2)
+R0 := AddMenu
+R1 := "위저드"
+R2 := buttonEventReceiver_makeWizard
+R0(R1,R2)
+R0 := AddMenu
+R1 := "위저드_B"
+R2 := buttonEventReceiver_makeWIZARD_B
+R0(R1,R2)
+R0 := AddMenu
+R1 := "블랙스미스"
+R2 := buttonEventReceiver_makeBlackSmith
+R0(R1,R2)
+R0 := AddMenu
+R1 := "블랙스미스_B"
+R2 := buttonEventReceiver_makeBLACKSMITH_B
+R0(R1,R2)
+R0 := AddMenu
+R1 := "헌터"
+R2 := buttonEventReceiver_makeHunter
+R0(R1,R2)
+R0 := AddMenu
+R1 := "헌터_B"
+R2 := buttonEventReceiver_makeHUNTER_B
+R0(R1,R2)
+R0 := AddMenu
+R1 := "프리스트"
+R2 := buttonEventReceiver_makePriest
+R0(R1,R2)
+R0 := AddMenu
+R1 := "프리스트_B"
+R2 := buttonEventReceiver_makePRIEST_B
+R0(R1,R2)
+R0 := AddMenu
+R1 := "어쌔신"
+R2 := buttonEventReceiver_makeAssassin
+R0(R1,R2)
+R0 := AddMenu
+R1 := "어쌔신_B"
+R2 := buttonEventReceiver_makeASSASSIN_B
+R0(R1,R2)
+R0 := AddString
+R1 := "-- [ 2-2차 전직 캐릭터 만들기 ] --"
+R0(R1)
+R0 := AddMenu
+R1 := "크루세이더"
+R2 := buttonEventReceiver_makeCrusader
+R0(R1,R2)
+R0 := AddMenu
+R1 := "크루세이더_B"
+R2 := buttonEventReceiver_makeCRUSADER_B
+R0(R1,R2)
+R0 := AddMenu
+R1 := "세이지"
+R2 := buttonEventReceiver_makeSage
+R0(R1,R2)
+R0 := AddMenu
+R1 := "세이지_B"
+R2 := buttonEventReceiver_makeSAGE_B
+R0(R1,R2)
+R0 := AddMenu
+R1 := "알케미스트"
+R2 := buttonEventReceiver_makeAlchemist
+R0(R1,R2)
+R0 := AddMenu
+R1 := "알케미스트_B"
+R2 := buttonEventReceiver_makeALCHEMIST_B
+R0(R1,R2)
+R0 := AddMenu
+R1 := "바드"
+R2 := buttonEventReceiver_makeBard
+R0(R1,R2)
+R0 := AddMenu
+R1 := "바드_B"
+R2 := buttonEventReceiver_makeBARD_B
+R0(R1,R2)
+R0 := AddMenu
+R1 := "댄서"
+R2 := buttonEventReceiver_makeDancer
+R0(R1,R2)
+R0 := AddMenu
+R1 := "댄서_B"
+R2 := buttonEventReceiver_makeDANCER_B
+R0(R1,R2)
+R0 := AddMenu
+R1 := "몽크"
+R2 := buttonEventReceiver_makeMonk
+R0(R1,R2)
+R0 := AddMenu
+R1 := "몽크_B"
+R2 := buttonEventReceiver_makeMONK_B
+R0(R1,R2)
+R0 := AddMenu
+R1 := "로그"
+R2 := buttonEventReceiver_makeRogue
+R0(R1,R2)
+R0 := AddMenu
+R1 := "로그_B"
+R2 := buttonEventReceiver_makeROGUE_B
+R0(R1,R2)
+R0 := AddString
+R1 := "-- [ 3-1차 전직 캐릭터 만들기 ] --"
+R0(R1)
+R0 := AddMenu
+R1 := "룬나이트"
+R2 := buttonEventReceiver_makeRuneKnight
+R0(R1,R2)
+R0 := AddMenu
+R1 := "룬나이트_H"
+R2 := buttonEventReceiver_makeRuneKnight_H
+R0(R1,R2)
+R0 := AddMenu
+R1 := "룬나이트_B"
+R2 := buttonEventReceiver_makeRUNEKNIGHT_B
+R0(R1,R2)
+R0 := AddMenu
+R1 := "워록"
+R2 := buttonEventReceiver_makeWarlock
+R0(R1,R2)
+R0 := AddMenu
+R1 := "워록_H"
+R2 := buttonEventReceiver_makeWarlock_H
+R0(R1,R2)
+R0 := AddMenu
+R1 := "워록_B"
+R2 := buttonEventReceiver_makeWARLOCK_B
+R0(R1,R2)
+R0 := AddMenu
+R1 := "미케닉"
+R2 := buttonEventReceiver_makeMechanic
+R0(R1,R2)
+R0 := AddMenu
+R1 := "미케닉_H"
+R2 := buttonEventReceiver_makeMechanic_H
+R0(R1,R2)
+R0 := AddMenu
+R1 := "미케닉_B"
+R2 := buttonEventReceiver_makeMECHANIC_B
+R0(R1,R2)
+R0 := AddMenu
+R1 := "아크비숍"
+R2 := buttonEventReceiver_makeArchBishop
+R0(R1,R2)
+R0 := AddMenu
+R1 := "아크비숍_H"
+R2 := buttonEventReceiver_makeArchBishop_H
+R0(R1,R2)
+R0 := AddMenu
+R1 := "아크비숍_B"
+R2 := buttonEventReceiver_makeARCHBISHOP_B
+R0(R1,R2)
+R0 := AddMenu
+R1 := "길로틴크로스"
+R2 := buttonEventReceiver_makeGuillotineCross
+R0(R1,R2)
+R0 := AddMenu
+R1 := "길로틴크로스_H"
+R2 := buttonEventReceiver_makeGuillotineCross_H
+R0(R1,R2)
+R0 := AddMenu
+R1 := "길로틴크로스_B"
+R2 := buttonEventReceiver_makeGUILLOTINECROSS_B
+R0(R1,R2)
+R0 := AddMenu
+R1 := "레인져"
+R2 := buttonEventReceiver_makeRanger
+R0(R1,R2)
+R0 := AddMenu
+R1 := "레인져_H"
+R2 := buttonEventReceiver_makeRanger_H
+R0(R1,R2)
+R0 := AddMenu
+R1 := "레인져_B"
+R2 := buttonEventReceiver_makeRANGER_B
+R0(R1,R2)
+R0 := AddString
+R1 := "-- [ 3-2차 전직 캐릭터 만들기 ] --"
+R0(R1)
+R0 := AddMenu
+R1 := "로얄가드"
+R2 := buttonEventReceiver_makeRoyalGuard
+R0(R1,R2)
+R0 := AddMenu
+R1 := "로얄가드_H"
+R2 := buttonEventReceiver_makeRoyalGuard_H
+R0(R1,R2)
+R0 := AddMenu
+R1 := "로얄가드_B"
+R2 := buttonEventReceiver_makeROYAL_GUARD_B
+R0(R1,R2)
+R0 := AddMenu
+R1 := "쉐도우 체이서"
+R2 := buttonEventReceiver_makeShadowChaser
+R0(R1,R2)
+R0 := AddMenu
+R1 := "쉐도우 체이서_H"
+R2 := buttonEventReceiver_makeShadowChaser_H
+R0(R1,R2)
+R0 := AddMenu
+R1 := "쉐도우 체이서_B"
+R2 := buttonEventReceiver_makeSHADOWCHASER_B
+R0(R1,R2)
+R0 := AddMenu
+R1 := "수라"
+R2 := buttonEventReceiver_makeSura
+R0(R1,R2)
+R0 := AddMenu
+R1 := "수라_H"
+R2 := buttonEventReceiver_makeSura_H
+R0(R1,R2)
+R0 := AddMenu
+R1 := "수라_B"
+R2 := buttonEventReceiver_makeSURA_B
+R0(R1,R2)
+R0 := AddMenu
+R1 := "민스트럴"
+R2 := buttonEventReceiver_makeMinstrel
+R0(R1,R2)
+R0 := AddMenu
+R1 := "민스트럴_H"
+R2 := buttonEventReceiver_makeMinstrel_H
+R0(R1,R2)
+R0 := AddMenu
+R1 := "민스트럴_B"
+R2 := buttonEventReceiver_makeMINSTREL_B
+R0(R1,R2)
+R0 := AddMenu
+R1 := "원더러"
+R2 := buttonEventReceiver_makeWanderer
+R0(R1,R2)
+R0 := AddMenu
+R1 := "원더러_H"
+R2 := buttonEventReceiver_makeWanderer_H
+R0(R1,R2)
+R0 := AddMenu
+R1 := "원더러_B"
+R2 := buttonEventReceiver_makeWANDERER_B
+R0(R1,R2)
+R0 := AddMenu
+R1 := "제네릭"
+R2 := buttonEventReceiver_makeGenetic
+R0(R1,R2)
+R0 := AddMenu
+R1 := "제네릭_H"
+R2 := buttonEventReceiver_makeGenetic_H
+R0(R1,R2)
+R0 := AddMenu
+R1 := "제네릭_B"
+R2 := buttonEventReceiver_makeGENETIC_B
+R0(R1,R2)
+R0 := AddMenu
+R1 := "소서러"
+R2 := buttonEventReceiver_makeSorcerer
+R0(R1,R2)
+R0 := AddMenu
+R1 := "소서러_H"
+R2 := buttonEventReceiver_makeSorcerer_H
+R0(R1,R2)
+R0 := AddMenu
+R1 := "소서러_B"
+R2 := buttonEventReceiver_makeSORCERER_B
+R0(R1,R2)
+R0 := AddString
+R1 := "-- [ 2-1차 전승 캐릭터 만들기 ] --"
+R0(R1)
+R0 := AddMenu
+R1 := "로드나이트"
+R2 := buttonEventReceiver_makeLordKnight
+R0(R1,R2)
+R0 := AddMenu
+R1 := "하이위저드"
+R2 := buttonEventReceiver_makeHighWizard
+R0(R1,R2)
+R0 := AddMenu
+R1 := "화이트스미스"
+R2 := buttonEventReceiver_makeWhiteSmith
+R0(R1,R2)
+R0 := AddMenu
+R1 := "스나이퍼"
+R2 := buttonEventReceiver_makeSniper
+R0(R1,R2)
+R0 := AddMenu
+R1 := "하이프리스트"
+R2 := buttonEventReceiver_makeHighPriest
+R0(R1,R2)
+R0 := AddMenu
+R1 := "어쌔신크로스"
+R2 := buttonEventReceiver_makeAssassinCross
+R0(R1,R2)
+R0 := AddString
+R1 := "-- [ 2-2차 전승 캐릭터 만들기 ] --"
+R0(R1)
+R0 := AddMenu
+R1 := "팔라딘"
+R2 := buttonEventReceiver_makePaladin
+R0(R1,R2)
+R0 := AddMenu
+R1 := "프로페셔 "
+R2 := buttonEventReceiver_makeProfessor
+R0(R1,R2)
+R0 := AddMenu
+R1 := "크리에이터"
+R2 := buttonEventReceiver_makeCreater
+R0(R1,R2)
+R0 := AddMenu
+R1 := "크로운"
+R2 := buttonEventReceiver_makeCrown
+R0(R1,R2)
+R0 := AddMenu
+R1 := "집시"
+R2 := buttonEventReceiver_makeGipsy
+R0(R1,R2)
+R0 := AddMenu
+R1 := "챔피언"
+R2 := buttonEventReceiver_makeChampion
+R0(R1,R2)
+R0 := AddMenu
+R1 := "스토커"
+R2 := buttonEventReceiver_makeStalker
+R0(R1,R2)
+R0 := AddString
+R1 := "-- [ 확장 1차 직업 캐릭터 만들기 ] --"
+R0(R1)
+R0 := AddMenu
+R1 := "노비스"
+R2 := buttonEventReceiver_makeNovice
+R0(R1,R2)
+R0 := AddMenu
+R1 := "노비스_H"
+R2 := buttonEventReceiver_makeNovice_H
+R0(R1,R2)
+R0 := AddMenu
+R1 := "슈퍼노비스 "
+R2 := buttonEventReceiver_makeSuperNovice
+R0(R1,R2)
+R0 := AddMenu
+R1 := "태권소년/소녀"
+R2 := buttonEventReceiver_makeTaekwon
+R0(R1,R2)
+R0 := AddMenu
+R1 := "닌자"
+R2 := buttonEventReceiver_makeNinja
+R0(R1,R2)
+R0 := AddMenu
+R1 := "건슬링거"
+R2 := buttonEventReceiver_makeGunSlinger
+R0(R1,R2)
+R0 := AddString
+R1 := "-- [ 확장 2차 직업 캐릭터 만들기 ] --"
+R0(R1)
+R0 := AddMenu
+R1 := "권성"
+R2 := buttonEventReceiver_makeStar
+R0(R1,R2)
+R0 := AddMenu
+R1 := "소울링커 "
+R2 := buttonEventReceiver_makeLinker
+R0(R1,R2)
+R0 := SetWorkingCondition
+R1 := "바드"
+R2 := SEX_MALE
+R0(R1,R2)
+R0 := SetWorkingCondition
+R1 := "바드_B"
+R2 := SEX_MALE
+R0(R1,R2)
+R0 := SetWorkingCondition
+R1 := "민스트럴"
+R2 := SEX_MALE
+R0(R1,R2)
+R0 := SetWorkingCondition
+R1 := "민스트럴_H"
+R2 := SEX_MALE
+R0(R1,R2)
+R0 := SetWorkingCondition
+R1 := "민스트럴_B"
+R2 := SEX_MALE
+R0(R1,R2)
+R0 := SetWorkingCondition
+R1 := "크로운"
+R2 := SEX_MALE
+R0(R1,R2)
+R0 := SetWorkingCondition
+R1 := "댄서"
+R2 := SEX_FEMALE
+R0(R1,R2)
+R0 := SetWorkingCondition
+R1 := "댄서_B"
+R2 := SEX_FEMALE
+R0(R1,R2)
+R0 := SetWorkingCondition
+R1 := "원더러"
+R2 := SEX_FEMALE
+R0(R1,R2)
+R0 := SetWorkingCondition
+R1 := "원더러_H"
+R2 := SEX_FEMALE
+R0(R1,R2)
+R0 := SetWorkingCondition
+R1 := "원더러_B"
+R2 := SEX_FEMALE
+R0(R1,R2)
+R0 := SetWorkingCondition
+R1 := "집시"
+R2 := SEX_FEMALE
+R0(R1,R2)
+return 
+
+
+; Function #180:
+;
+; Name:            
+; Defined at line: 2179
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  9
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000003 | 0000000b | (for generator)
+; 00000003 | 0000000b | (for state)
+; 00000003 | 0000000b | (for control)
+; 00000004 | 00000009 | k
+; 00000004 | 00000009 | v
+;
+; No upvalues
+
+R0 := pairs
+R1 := excItemNameTable
+R0,R1,R2 := R0(R1)
+PC := 10
+R5 := SetAddExceptionItemName
+R6 := R3
+R7 := R4["name"]
+R8 := R4["type"]
+R5(R6,R7,R8)
+R3,R4 := R0(R1,R2); if R3 ~= nil then begin PC = 5; R2 := R3 end
+ 11 [2181]: JMP       5
+return 
+
+
+; Function #181:
+;
+; Name:            
+; Defined at line: 2191
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  10
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000012 | 0000001e | (for index)
+; 00000012 | 0000001e | (for limit)
+; 00000012 | 0000001e | (for step)
+; 00000013 | 0000001d | i
+;
+; No upvalues
+
+R0 := SetDebugWndTabInfo
+R1 := DebugWndInfo
+R1 := R1["ShowWnd"]
+R2 := DebugWndInfo
+R2 := R2["AddedTabCount"]
+R3 := DebugWndInfo
+R3 := R3["ScrollOffset"]
+R4 := DebugWndInfo
+R4 := R4["CurTabNum"]
+R5 := DebugWndInfo
+R5 := R5["WidthSize"]
+R6 := DebugWndInfo
+R6 := R6["HeightSize"]
+R0(R1,R2,R3,R4,R5,R6)
+R0 := 0
+R1 := DebugWndInfo
+R1 := R1["AddedTabCount"]
+R2 := 1
+R0 -= R2; PC := 30
+R4 := SetDebugWndTabName
+R5 := _G
+R6 := string
+R6 := R6["format"]
+R7 := "%s_%d"
+R8 := "DebugWndTabName"
+R9 := R3
+R6 := R6(R7,R8,R9)
+R5 := R5[R6]
+R4(R5)
+R0 += R2; if (R0 <?= R1 then begin PC := 20; R3 = R0 end
+return 

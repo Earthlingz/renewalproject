@@ -1,0 +1,107 @@
+R0 := closure(Function #0)
+InitExMacroInfo := R0
+return 
+
+
+; Function #0:
+;
+; Name:            
+; Defined at line: 1
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; No locals information
+; No upvalues
+
+SaveData_ExMacro_FileNames := R0
+R0 := {}
+SaveData_ExMacro_FileNames := R0
+R0 := nil
+CombatItemList := R0
+R0 := {}
+CombatItemList := R0
+R0 := nil
+NonCombatITemList := R0
+R0 := {}
+NonCombatITemList := R0
+R0 := nil
+BuffItemList := R0
+R0 := {}
+BuffItemList := R0
+R0 := nil
+AutoEquipmentList := R0
+R0 := {}
+AutoEquipmentList := R0
+R0 := nil
+FirstAttackSkillList := R0
+R0 := {}
+FirstAttackSkillList := R0
+R0 := nil
+AttackSkillList := R0
+R0 := {}
+AttackSkillList := R0
+R0 := nil
+BuffSkillList := R0
+R0 := {}
+BuffSkillList := R0
+R0 := nil
+UserTacticInfoList := R0
+R0 := {}
+UserTacticInfoList := R0
+R0 := EtcSettingList
+R1 := ETC_ID_LIST
+R1 := R1["ACT_TYPE_WHEN_DIED"]
+R2 := ETC_ACT_TYPE
+R2 := R2["NONE"]
+R0[R1] := R2
+R0 := EtcSettingList
+R1 := ETC_ID_LIST
+R1 := R1["AUTO_ACCEPT_INVITED_PARTY"]
+R2 := INVITED_PARTY
+R2 := R2["NONE"]
+R0[R1] := R2
+R0 := EtcSettingList
+R1 := ETC_ID_LIST
+R1 := R1["PICKUP_CONSUME_ITEMTYPE"]
+R0[R1] := 1
+R0 := EtcSettingList
+R1 := ETC_ID_LIST
+R1 := R1["PICKUP_EQUIP_ITEMTYPE"]
+R0[R1] := 1
+R0 := EtcSettingList
+R1 := ETC_ID_LIST
+R1 := R1["PICKUP_CARD_ITEMTYPE"]
+R0[R1] := 1
+R0 := EtcSettingList
+R1 := ETC_ID_LIST
+R1 := R1["PICKUP_ETC_ITEMTYPE"]
+R0[R1] := 1
+R0 := EtcSettingList
+R1 := ETC_ID_LIST
+R1 := R1["ACT_TYPE_WHEN_OVER_WEIGHT"]
+R2 := ETC_ACT_TYPE
+R2 := R2["NONE"]
+R0[R1] := R2
+R0 := EtcSettingList
+R1 := ETC_ID_LIST
+R1 := R1["PREEMPTIVE_ATTACK"]
+R0[R1] := 0
+R0 := EtcSettingList
+R1 := ETC_ID_LIST
+R1 := R1["USE_SKILL_FOR_PARTY_MEMBER_HP"]
+R0[R1] := 0
+R0 := EtcSettingList
+R1 := ETC_ID_LIST
+R1 := R1["HP_FOR_PARTY_MEMBER"]
+R0[R1] := -1
+R0 := EtcSettingList
+R1 := ETC_ID_LIST
+R1 := R1["SKILLID_FOR_PARTY_MEMBER_HP"]
+R0[R1] := -1
+R0 := EtcSettingList
+R1 := ETC_ID_LIST
+R1 := R1["SKILLLV_FOR_PARTY_MEMBER_HP"]
+R0[R1] := -1
+return 

@@ -1,0 +1,537 @@
+R0 := {}
+R1 := {}
+R2 := MsgStrID
+R2 := R2["MSI_EX_MACRO_TACTIC_SUB_1"]
+R1["strMsg"] := R2
+R2 := WHAT_CONTROL_TO_VIEW
+R2 := R2["VIEW_ITEMCTRL"]
+R1["whatToView"] := R2
+R2 := {}
+R3 := MsgStrID
+R3 := R3["MSI_EX_MACRO_TACTIC_SUB_2"]
+R2["strMsg"] := R3
+R3 := WHAT_CONTROL_TO_VIEW
+R3 := R3["VIEW_SKILLCTRL"]
+R2["whatToView"] := R3
+R3 := {}
+R4 := MsgStrID
+R4 := R4["MSI_EX_MACRO_TACTIC_SUB_3"]
+R3["strMsg"] := R4
+R4 := WHAT_CONTROL_TO_VIEW
+R4 := R4["VIEW_NONE"]
+R3["whatToView"] := R4
+R4 := {}
+R5 := MsgStrID
+R5 := R5["MSI_EX_MACRO_TACTIC_SUB_4"]
+R4["strMsg"] := R5
+R5 := WHAT_CONTROL_TO_VIEW
+R5 := R5["VIEW_EDITBOX"]
+R4["whatToView"] := R5
+R0[1,2,3,4] := R1,R2,R3,R4
+TACTIC_SUB_SELECT_LIST := R0
+R0 := {}
+R1 := {}
+R2 := MsgStrID
+R2 := R2["MSI_EX_MACRO_TACTIC_MAIN_1"]
+R1["strMsg"] := R2
+R2 := WHAT_CONTROL_TO_VIEW
+R2 := R2["VIEW_EDITBOX"]
+R1["whatToView"] := R2
+R2 := {}
+R3 := 1
+R4 := 2
+R5 := 3
+R6 := 4
+R2[1,2,3,4] := R3,R4,R5,R6
+R1["nSubIdxList"] := R2
+R1["bViewPercentage"] := 1
+R1["bOnlyNumberType"] := 1
+R1["nLimitLength"] := 3
+R1["nLimitNumber"] := 100
+R0[1] := R1
+R1 := {}
+R2 := MsgStrID
+R2 := R2["MSI_EX_MACRO_TACTIC_MAIN_2"]
+R1["strMsg"] := R2
+R2 := WHAT_CONTROL_TO_VIEW
+R2 := R2["VIEW_EDITBOX"]
+R1["whatToView"] := R2
+R2 := {}
+R3 := 1
+R4 := 2
+R5 := 3
+R6 := 4
+R2[1,2,3,4] := R3,R4,R5,R6
+R1["nSubIdxList"] := R2
+R1["bViewPercentage"] := 1
+R1["bOnlyNumberType"] := 1
+R1["nLimitLength"] := 3
+R1["nLimitNumber"] := 100
+R0[2] := R1
+R1 := {}
+R2 := MsgStrID
+R2 := R2["MSI_EX_MACRO_TACTIC_MAIN_3"]
+R1["strMsg"] := R2
+R2 := WHAT_CONTROL_TO_VIEW
+R2 := R2["VIEW_EDITBOX"]
+R1["whatToView"] := R2
+R2 := {}
+R3 := 1
+R4 := 2
+R5 := 3
+R6 := 4
+R2[1,2,3,4] := R3,R4,R5,R6
+R1["nSubIdxList"] := R2
+R1["bViewPercentage"] := 0
+R1["bOnlyNumberType"] := 1
+R1["nLimitLength"] := 2
+R1["nLimitNumber"] := 99
+R0[3] := R1
+R1 := {}
+R2 := MsgStrID
+R2 := R2["MSI_EX_MACRO_TACTIC_MAIN_4"]
+R1["strMsg"] := R2
+R2 := WHAT_CONTROL_TO_VIEW
+R2 := R2["VIEW_EDITBOX"]
+R1["whatToView"] := R2
+R2 := {}
+R3 := 1
+R4 := 2
+R5 := 3
+R6 := 4
+R2[1,2,3,4] := R3,R4,R5,R6
+R1["nSubIdxList"] := R2
+R1["bViewPercentage"] := 0
+R1["bOnlyNumberType"] := 1
+R1["nLimitLength"] := 2
+R1["nLimitNumber"] := -1
+R0[4] := R1
+R1 := {}
+R2 := MsgStrID
+R2 := R2["MSI_EX_MACRO_TACTIC_MAIN_5"]
+R1["strMsg"] := R2
+R2 := WHAT_CONTROL_TO_VIEW
+R2 := R2["VIEW_EDITBOX"]
+R1["whatToView"] := R2
+R2 := {}
+R3 := 1
+R4 := 2
+R5 := 3
+R6 := 4
+R2[1,2,3,4] := R3,R4,R5,R6
+R1["nSubIdxList"] := R2
+R1["bViewPercentage"] := 0
+R1["bOnlyNumberType"] := 1
+R1["nLimitLength"] := 3
+R1["nLimitNumber"] := 150
+R0[5] := R1
+R1 := {}
+R2 := MsgStrID
+R2 := R2["MSI_EX_MACRO_TACTIC_MAIN_6"]
+R1["strMsg"] := R2
+R2 := WHAT_CONTROL_TO_VIEW
+R2 := R2["VIEW_EDITBOX"]
+R1["whatToView"] := R2
+R2 := {}
+R3 := 1
+R4 := 2
+R5 := 3
+R6 := 4
+R2[1,2,3,4] := R3,R4,R5,R6
+R1["nSubIdxList"] := R2
+R1["bViewPercentage"] := 0
+R1["bOnlyNumberType"] := 0
+R1["nLimitLength"] := 20
+R1["nLimitNumber"] := -1
+R0[6] := R1
+R1 := {}
+R2 := MsgStrID
+R2 := R2["MSI_EX_MACRO_TACTIC_MAIN_7"]
+R1["strMsg"] := R2
+R2 := WHAT_CONTROL_TO_VIEW
+R2 := R2["VIEW_NONE"]
+R1["whatToView"] := R2
+R2 := {}
+R3 := 1
+R4 := 2
+R5 := 3
+R6 := 4
+R2[1,2,3,4] := R3,R4,R5,R6
+R1["nSubIdxList"] := R2
+R1["bViewPercentage"] := 0
+R0[7] := R1
+R1 := {}
+R2 := MsgStrID
+R2 := R2["MSI_EX_MACRO_TACTIC_MAIN_8"]
+R1["strMsg"] := R2
+R2 := WHAT_CONTROL_TO_VIEW
+R2 := R2["VIEW_ITEM_EDIT"]
+R1["whatToView"] := R2
+R2 := {}
+R3 := 1
+R4 := 2
+R5 := 3
+R6 := 4
+R2[1,2,3,4] := R3,R4,R5,R6
+R1["nSubIdxList"] := R2
+R1["bViewPercentage"] := 0
+R1["bOnlyNumberType"] := 0
+R1["nLimitLength"] := 20
+R1["nLimitNumber"] := -1
+R0[8] := R1
+R1 := {}
+R2 := MsgStrID
+R2 := R2["MSI_EX_MACRO_TACTIC_MAIN_9"]
+R1["strMsg"] := R2
+R2 := WHAT_CONTROL_TO_VIEW
+R2 := R2["VIEW_EDITBOX"]
+R1["whatToView"] := R2
+R2 := {}
+R3 := 1
+R4 := 2
+R5 := 3
+R6 := 4
+R2[1,2,3,4] := R3,R4,R5,R6
+R1["nSubIdxList"] := R2
+R1["bViewPercentage"] := 0
+R1["bOnlyNumberType"] := 1
+R1["nLimitLength"] := 10
+R1["nLimitNumber"] := -1
+R0[9] := R1
+R1 := {}
+R2 := MsgStrID
+R2 := R2["MSI_EX_MACRO_TACTIC_MAIN_10"]
+R1["strMsg"] := R2
+R2 := WHAT_CONTROL_TO_VIEW
+R2 := R2["VIEW_NONE"]
+R1["whatToView"] := R2
+R2 := {}
+R3 := 1
+R4 := 2
+R5 := 3
+R6 := 4
+R2[1,2,3,4] := R3,R4,R5,R6
+R1["nSubIdxList"] := R2
+R1["bViewPercentage"] := 0
+R0[10] := R1
+R1 := {}
+R2 := MsgStrID
+R2 := R2["MSI_EX_MACRO_TACTIC_MAIN_11"]
+R1["strMsg"] := R2
+R2 := WHAT_CONTROL_TO_VIEW
+R2 := R2["VIEW_EDITBOX"]
+R1["whatToView"] := R2
+R2 := {}
+R3 := 1
+R4 := 2
+R5 := 3
+R6 := 4
+R2[1,2,3,4] := R3,R4,R5,R6
+R1["nSubIdxList"] := R2
+R1["bViewPercentage"] := 0
+R1["bOnlyNumberType"] := 1
+R1["nLimitLength"] := 3
+R1["nLimitNumber"] := 150
+R0[11] := R1
+R1 := {}
+R2 := MsgStrID
+R2 := R2["MSI_EX_MACRO_TACTIC_MAIN_12"]
+R1["strMsg"] := R2
+R2 := WHAT_CONTROL_TO_VIEW
+R2 := R2["VIEW_NONE"]
+R1["whatToView"] := R2
+R2 := {}
+R3 := 1
+R4 := 2
+R5 := 3
+R6 := 4
+R2[1,2,3,4] := R3,R4,R5,R6
+R1["nSubIdxList"] := R2
+R1["bViewPercentage"] := 0
+R0[12] := R1
+TACTIC_MAIN_SELECT_LIST := R0
+R0 := {}
+UserTacticInfoList := R0
+R0 := closure(Function #0)
+CreateTacticTable := R0
+R0 := closure(Function #1)
+GetMainTacticInfo := R0
+R0 := closure(Function #2)
+GetSelectMainEditBoxInfo := R0
+R0 := closure(Function #3)
+GetSubListSize := R0
+R0 := closure(Function #4)
+GetSubTacticInfo := R0
+R0 := closure(Function #5)
+GetTacticInfo := R0
+R0 := closure(Function #6)
+SetTacticInfo := R0
+return 
+
+
+; Function #0:
+;
+; Name:            
+; Defined at line: 139
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  4
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000020 | nMaxCountTacicList
+; 00000001 | 00000020 | idx
+;
+; No upvalues
+
+R1 := 1
+if R1 > R0 then PC := 33
+  3 [141]: JMP       33
+R2 := UserTacticInfoList
+R3 := {}
+R2[R1] := R3
+R2 := UserTacticInfoList
+R2 := R2[R1]
+R2["bUsing"] := 0
+R2 := UserTacticInfoList
+R2 := R2[R1]
+R2["nMainSelNum"] := 0
+R2 := UserTacticInfoList
+R2 := R2[R1]
+R2["nSubSelNum"] := 0
+R2 := UserTacticInfoList
+R2 := R2[R1]
+R2["strMainValue"] := ""
+R2 := UserTacticInfoList
+R2 := R2[R1]
+R2["nMainValue"] := -1
+R2 := UserTacticInfoList
+R2 := R2[R1]
+R2["strSubValue"] := ""
+R2 := UserTacticInfoList
+R2 := R2[R1]
+R2["nSubValue1"] := -1
+R2 := UserTacticInfoList
+R2 := R2[R1]
+R2["nSubValue2"] := -1
+R1 := R1 + 1
+PC := 2
+return 
+
+
+; Function #1:
+;
+; Name:            
+; Defined at line: 156
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  5
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000d | nIndex
+; 00000002 | 0000000d | mainObj
+;
+; No upvalues
+
+R1 := TACTIC_MAIN_SELECT_LIST
+R1 := R1[R0]
+if R1 == nil then PC := 9
+  4 [159]: JMP       9
+R2 := R1["strMsg"]
+R3 := R1["whatToView"]
+R4 := R1["bViewPercentage"]
+return R2,R3,R4
+R2 := ""
+R3 := WHAT_CONTROL_TO_VIEW
+R3 := R3["VIEW_NONE"]
+R4 := false
+return R2,R3,R4
+return 
+
+
+; Function #2:
+;
+; Name:            
+; Defined at line: 166
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  5
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000016 | nIndex
+; 00000002 | 00000016 | mainObj
+;
+; No upvalues
+
+R1 := TACTIC_MAIN_SELECT_LIST
+R1 := R1[R0]
+if R1 == nil then PC := 19
+  4 [169]: JMP       19
+R2 := R1["whatToView"]
+R3 := WHAT_CONTROL_TO_VIEW
+R3 := R3["VIEW_EDITBOX"]
+if R2 == R3 then PC := 15
+  9 [170]: JMP       15
+R2 := R1["whatToView"]
+R3 := WHAT_CONTROL_TO_VIEW
+R3 := R3["VIEW_ITEM_EDIT"]
+if R2 != R3 then PC := 19
+ 14 [170]: JMP       19
+R2 := R1["bOnlyNumberType"]
+R3 := R1["nLimitLength"]
+R4 := R1["nLimitNumber"]
+return R2,R3,R4
+R2 := false
+R3 := 0
+R4 := -1
+return R2,R3,R4
+return 
+
+
+; Function #3:
+;
+; Name:            
+; Defined at line: 178
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  4
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000a | nIndex
+; 00000002 | 0000000a | mainObj
+;
+; No upvalues
+
+R1 := TACTIC_MAIN_SELECT_LIST
+R1 := R1[R0]
+if R1 == nil then PC := 9
+  4 [181]: JMP       9
+R2 := getTableSize
+R3 := R1["nSubIdxList"]
+return R2(R3)
+return R2,...
+R2 := 0
+return R2
+return 
+
+
+; Function #4:
+;
+; Name:            
+; Defined at line: 188
+; #Upvalues:       0
+; #Parameters:     2 (R0, R1)
+; Is_vararg:       0
+; Max Stack Size:  7
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000015 | nMainIndex
+; 00000000 | 00000015 | nSubIndex
+; 00000002 | 00000015 | mainObj
+; 00000006 | 00000011 | nSubSelNum
+; 00000008 | 00000011 | subObj
+;
+; No upvalues
+
+R2 := TACTIC_MAIN_SELECT_LIST
+R2 := R2[R0]
+if R2 == nil then PC := 18
+  4 [191]: JMP       18
+R3 := R2["nSubIdxList"]
+R3 := R3[R1]
+R4 := TACTIC_SUB_SELECT_LIST
+R4 := R4[R3]
+if R4 == nil then PC := 14
+ 10 [196]: JMP       14
+R5 := R4["strMsg"]
+R6 := R4["whatToView"]
+return R5,R6
+R5 := ""
+R6 := WHAT_CONTROL_TO_VIEW
+R6 := R6["VIEW_NONE"]
+return R5,R6
+R3 := ""
+R4 := WHAT_CONTROL_TO_VIEW
+R4 := R4["VIEW_NONE"]
+return R3,R4
+return 
+
+
+; Function #5:
+;
+; Name:            
+; Defined at line: 206
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  10
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000e | nIndex
+; 00000002 | 0000000e | obj
+;
+; No upvalues
+
+R1 := UserTacticInfoList
+R1 := R1[R0]
+if R1 != nil then PC := 6
+  4 [209]: JMP       6
+R1 := TacticInfo
+R2 := R1["bUsing"]
+R3 := R1["nMainSelNum"]
+R4 := R1["nSubSelNum"]
+R5 := R1["strMainValue"]
+R6 := R1["nMainValue"]
+R7 := R1["strSubValue"]
+R8 := R1["nSubValue1"]
+R9 := R1["nSubValue2"]
+return R2,R3,R4,R5,R6,R7,R8,R9
+return 
+
+
+; Function #6:
+;
+; Name:            
+; Defined at line: 216
+; #Upvalues:       0
+; #Parameters:     9 (R0, R1, R2, R3, R4, R5, R6, R7, R8)
+; Is_vararg:       0
+; Max Stack Size:  10
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000c | nIndex
+; 00000000 | 0000000c | bUsing
+; 00000000 | 0000000c | nMainSelNum
+; 00000000 | 0000000c | nSubSelNum
+; 00000000 | 0000000c | strMainValue
+; 00000000 | 0000000c | nMainValue
+; 00000000 | 0000000c | strSubValue
+; 00000000 | 0000000c | nSubValue1
+; 00000000 | 0000000c | nSubValue2
+; 00000002 | 0000000c | obj
+;
+; No upvalues
+
+R9 := UserTacticInfoList
+R9 := R9[R0]
+if R9 == nil then PC := 13
+  4 [219]: JMP       13
+R9["bUsing"] := R1
+R9["nMainSelNum"] := R2
+R9["nSubSelNum"] := R3
+R9["strMainValue"] := R4
+R9["nMainValue"] := R5
+R9["strSubValue"] := R6
+R9["nSubValue1"] := R7
+R9["nSubValue2"] := R8
+return 

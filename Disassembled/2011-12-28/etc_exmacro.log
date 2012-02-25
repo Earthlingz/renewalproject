@@ -1,0 +1,114 @@
+R0 := {}
+R0["ACT_TYPE_WHEN_DIED"] := 1
+R0["AUTO_ACCEPT_INVITED_PARTY"] := 2
+R0["PICKUP_CONSUME_ITEMTYPE"] := 3
+R0["PICKUP_EQUIP_ITEMTYPE"] := 4
+R0["PICKUP_CARD_ITEMTYPE"] := 5
+R0["PICKUP_ETC_ITEMTYPE"] := 6
+R0["ACT_TYPE_WHEN_OVER_WEIGHT"] := 7
+R0["PREEMPTIVE_ATTACK"] := 8
+R0["USE_SKILL_FOR_PARTY_MEMBER_HP"] := 9
+R0["HP_FOR_PARTY_MEMBER"] := 10
+R0["SKILLID_FOR_PARTY_MEMBER_HP"] := 11
+R0["SKILLLV_FOR_PARTY_MEMBER_HP"] := 12
+ETC_ID_LIST := R0
+R0 := {}
+R1 := MsgStrID
+R1 := R1["MSI_EX_MACRO_ETC_1"]
+R2 := MsgStrID
+R2 := R2["MSI_EX_MACRO_ETC_2"]
+R3 := MsgStrID
+R3 := R3["MSI_EX_MACRO_ETC_3"]
+R4 := MsgStrID
+R4 := R4["MSI_EX_MACRO_ETC_4"]
+R5 := MsgStrID
+R5 := R5["MSI_EX_MACRO_ETC_5"]
+R6 := MsgStrID
+R6 := R6["MSI_EX_MACRO_ETC_6"]
+R7 := MsgStrID
+R7 := R7["MSI_EX_MACRO_ETC_7"]
+R8 := MsgStrID
+R8 := R8["MSI_EX_MACRO_ETC_8"]
+R9 := MsgStrID
+R9 := R9["MSI_EX_MACRO_ETC_9"]
+R10 := MsgStrID
+R10 := R10["MSI_EX_MACRO_ETC_10"]
+R11 := MsgStrID
+R11 := R11["MSI_EX_MACRO_ETC_3"]
+R12 := MsgStrID
+R12 := R12["MSI_EX_MACRO_ETC_11"]
+R13 := MsgStrID
+R13 := R13["MSI_EX_MACRO_ETC_12"]
+R0[1,2,3,4,5,6,7,8,9,10,11,12,13] := R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13
+EtcStrListForCheckBox := R0
+R0 := closure(Function #0)
+GetStringForCheckBox := R0
+R0 := {}
+R0["NONE"] := -1
+R0["USE_RESURRECTION_ITEM"] := 0
+R0["MOVE_TO_TOWN"] := 1
+R0["TERMINATE_THE_CONNECTION"] := 2
+R0["USE_BUTTERFLY_WINGS_ITEM"] := 3
+ETC_ACT_TYPE := R0
+R0 := {}
+R0["NONE"] := -1
+R0["AUTO_ACCEPT"] := 0
+R0["REJECT"] := 1
+INVITED_PARTY := R0
+R0 := {}
+EtcSettingList := R0
+R0 := closure(Function #1)
+GetSettingForCheckBox := R0
+return 
+
+
+; Function #0:
+;
+; Name:            
+; Defined at line: 34
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000007 | nIndex
+; 00000002 | 00000007 | strMsg
+;
+; No upvalues
+
+R1 := EtcStrListForCheckBox
+R1 := R1[R0]
+if R1 == nil then PC := 6
+  4 [37]: JMP       6
+return R1
+R2 := ""
+return R2
+return 
+
+
+; Function #1:
+;
+; Name:            
+; Defined at line: 65
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000007 | nIndex
+; 00000002 | 00000007 | value
+;
+; No upvalues
+
+R1 := EtcSettingList
+R1 := R1[R0]
+if R1 == nil then PC := 6
+  4 [68]: JMP       6
+return R1
+R2 := -1
+return R2
+return 

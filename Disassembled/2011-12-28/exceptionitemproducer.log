@@ -1,0 +1,88 @@
+R0 := {}
+R1 := MsgStrID
+R1 := R1["MSI_ITEM_PRODUCER_11539"]
+R0[11539] := R1
+R1 := MsgStrID
+R1 := R1["MSI_ITEM_PRODUCER_11540"]
+R0[11540] := R1
+R1 := MsgStrID
+R1 := R1["MSI_ITEM_PRODUCER_11541"]
+R0[11541] := R1
+R1 := MsgStrID
+R1 := R1["MSI_ITEM_PRODUCER_11542"]
+R0[11542] := R1
+R1 := MsgStrID
+R1 := R1["MSI_ITEM_PRODUCER_11543"]
+R0[11543] := R1
+R1 := MsgStrID
+R1 := R1["MSI_ITEM_PRODUCER_11544"]
+R0[11544] := R1
+R1 := MsgStrID
+R1 := R1["MSI_ITEM_PRODUCER_11545"]
+R0[11545] := R1
+R1 := MsgStrID
+R1 := R1["MSI_ITEM_PRODUCER_11546"]
+R0[11546] := R1
+EXCEPTION_ItemProducer := R0
+R0 := closure(Function #0)
+GetExceptionItemProducer := R0
+R0 := closure(Function #1)
+HaveExceptionItemProducer := R0
+return 
+
+
+; Function #0:
+;
+; Name:            
+; Defined at line: 13
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000a | ITID
+;
+; No upvalues
+
+R1 := HaveExceptionItemProducer
+R2 := R0
+R1 := R1(R2)
+if R1 != 1 then PC := 9
+  5 [14]: JMP       9
+R1 := EXCEPTION_ItemProducer
+R1 := R1[R0]
+return R1
+R1 := ""
+return R1
+return 
+
+
+; Function #1:
+;
+; Name:            
+; Defined at line: 21
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000b | ITID
+;
+; No upvalues
+
+R1 := EXCEPTION_ItemProducer
+if R1 == nil then PC := 10
+  3 [22]: JMP       10
+R1 := EXCEPTION_ItemProducer
+R1 := R1[R0]
+if R1 == nil then PC := 10
+  7 [23]: JMP       10
+R1 := true
+return R1
+R1 := false
+return R1
+return 

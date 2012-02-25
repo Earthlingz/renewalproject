@@ -1,0 +1,141 @@
+R0 := {}
+FirstAttackSkillList := R0
+R0 := {}
+AttackSkillList := R0
+R0 := {}
+BuffSkillList := R0
+R0 := closure(Function #0)
+InsertNewSkillInfo := R0
+R0 := closure(Function #1)
+GetFirstAttackSkillInfo := R0
+R0 := closure(Function #2)
+GetAttackSkillInfo := R0
+R0 := closure(Function #3)
+GetBuffSkillInfo := R0
+return 
+
+
+; Function #0:
+;
+; Name:            
+; Defined at line: 16
+; #Upvalues:       0
+; #Parameters:     4 (R0, R1, R2, R3)
+; Is_vararg:       0
+; Max Stack Size:  7
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000f | self
+; 00000000 | 0000000f | skillID
+; 00000000 | 0000000f | level
+; 00000000 | 0000000f | nTime
+; 00000003 | 0000000f | nListSize
+;
+; No upvalues
+
+R4 := getTableSize
+R5 := R0
+R4 := R4(R5)
+R5 := R4 + 1
+R6 := {}
+R0[R5] := R6
+R5 := R4 + 1
+R5 := R0[R5]
+R5["nSkillID"] := R1
+R5 := R4 + 1
+R5 := R0[R5]
+R5["nSkillLevel"] := R2
+R5 := R4 + 1
+R5 := R0[R5]
+R5["nReuseTime"] := R3
+return 
+
+
+; Function #1:
+;
+; Name:            
+; Defined at line: 25
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  4
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000a | nIndex
+; 00000002 | 0000000a | obj
+;
+; No upvalues
+
+R1 := FirstAttackSkillList
+R1 := R1[R0]
+if R1 == nil then PC := 8
+  4 [28]: JMP       8
+R2 := R1["nSkillID"]
+R3 := R1["nSkillLevel"]
+return R2,R3
+R2 := -1
+R3 := 1
+return R2,R3
+return 
+
+
+; Function #2:
+;
+; Name:            
+; Defined at line: 35
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  4
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000a | nIndex
+; 00000002 | 0000000a | obj
+;
+; No upvalues
+
+R1 := AttackSkillList
+R1 := R1[R0]
+if R1 == nil then PC := 8
+  4 [38]: JMP       8
+R2 := R1["nSkillID"]
+R3 := R1["nSkillLevel"]
+return R2,R3
+R2 := -1
+R3 := 1
+return R2,R3
+return 
+
+
+; Function #3:
+;
+; Name:            
+; Defined at line: 45
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  5
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000c | nIndex
+; 00000002 | 0000000c | obj
+;
+; No upvalues
+
+R1 := BuffSkillList
+R1 := R1[R0]
+if R1 == nil then PC := 9
+  4 [48]: JMP       9
+R2 := R1["nSkillID"]
+R3 := R1["nSkillLevel"]
+R4 := R1["nReuseTime"]
+return R2,R3,R4
+R2 := -1
+R3 := 1
+R4 := -1
+return R2,R3,R4
+return 
