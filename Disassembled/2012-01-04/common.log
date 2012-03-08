@@ -1,0 +1,164 @@
+R0 := closure(Function #0)
+toInt := R0
+R0 := closure(Function #1)
+toStr := R0
+R0 := closure(Function #2)
+getTableSize := R0
+R0 := closure(Function #3)
+GetTableSizeForC := R0
+R0 := closure(Function #4)
+getHelpMsg := R0
+return 
+
+
+; Function #0:
+;
+; Name:            
+; Defined at line: 13
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000007 | value
+;
+; No upvalues
+
+R1 := nill
+if R0 == R1 then PC := 6
+  3 [14]: JMP       6
+return R0
+PC := 8
+R1 := 0
+return R1
+return 
+
+
+; Function #1:
+;
+; Name:            
+; Defined at line: 26
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000007 | value
+;
+; No upvalues
+
+R1 := nill
+if R0 == R1 then PC := 6
+  3 [27]: JMP       6
+return R0
+PC := 8
+R1 := ""
+return R1
+return 
+
+
+; Function #2:
+;
+; Name:            
+; Defined at line: 39
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  8
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000009 | t
+; 00000001 | 00000009 | size
+; 00000004 | 00000008 | (for generator)
+; 00000004 | 00000008 | (for state)
+; 00000004 | 00000008 | (for control)
+; 00000005 | 00000006 | _
+; 00000005 | 00000006 | _
+;
+; No upvalues
+
+R1 := 0
+R2 := pairs
+R3 := R0
+R2,R3,R4 := R2(R3)
+PC := 7
+R1 := R1 + 1
+R5,R6 := R2(R3,R4); if R5 ~= nil then begin PC = 6; R4 := R5 end
+  8 [43]: JMP       6
+return R1
+return 
+
+
+; Function #3:
+;
+; Name:            
+; Defined at line: 49
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  9
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000d | tableName
+; 00000002 | 0000000d | t
+; 00000003 | 0000000d | size
+; 00000008 | 0000000c | (for generator)
+; 00000008 | 0000000c | (for state)
+; 00000008 | 0000000c | (for control)
+; 00000009 | 0000000a | _
+; 00000009 | 0000000a | _
+;
+; No upvalues
+
+R1 := _G
+R1 := R1[R0]
+R2 := 0
+if R1 == nil then PC := 13
+  5 [53]: JMP       13
+R3 := pairs
+R4 := R1
+R3,R4,R5 := R3(R4)
+PC := 11
+R2 := R2 + 1
+R6,R7 := R3(R4,R5); if R6 ~= nil then begin PC = 10; R5 := R6 end
+ 12 [55]: JMP       10
+return R2
+return 
+
+
+; Function #4:
+;
+; Name:            
+; Defined at line: 67
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000e | idx
+;
+; No upvalues
+
+R1 := HelpMsgStr
+if R1 != nil then PC := 6
+  3 [68]: JMP       6
+R1 := ""
+return R1
+R1 := HelpMsgStr
+R1 := R1[R0]
+if R1 != nil then PC := 12
+  9 [72]: JMP       12
+R1 := ""
+return R1
+R1 := HelpMsgStr
+R1 := R1[R0]
+return R1
+return 

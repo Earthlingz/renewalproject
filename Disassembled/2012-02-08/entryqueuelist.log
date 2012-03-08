@@ -1,0 +1,142 @@
+R0 := {}
+R1 := {}
+R1["BattleFieldName"] := "티에라 협곡"
+R1["DisplayBattleFieldName"] := "티에라 협곡"
+R1["AllianceNum"] := 10
+R1["EnemyNum"] := 10
+R1["PrivateApply"] := 1
+R1["PartyApply"] := 1
+R1["GuildApply"] := 1
+R1["JobGroup"] := 4
+R1["EnterCondType"] := 2
+R1["EnterCondValue1"] := 80
+R1["EnterCondValue2"] := 0
+R1["RewardWin"] := "용맹휘장 3개"
+R1["RewardDraw"] := "용맹휘장 1개"
+R1["RewardLose"] := "용맹휘장 1개"
+R1["VictoryCond"] := "상대 진영의 저장고 파괴"
+R1["MiniMapFile"] := "bat_a01.bmp"
+R0[1] := R1
+R1 := {}
+R1["BattleFieldName"] := "플라비우스"
+R1["DisplayBattleFieldName"] := "플라비우스"
+R1["AllianceNum"] := 10
+R1["EnemyNum"] := 10
+R1["PrivateApply"] := 1
+R1["PartyApply"] := 1
+R1["GuildApply"] := 1
+R1["JobGroup"] := 4
+R1["EnterCondType"] := 2
+R1["EnterCondValue1"] := 80
+R1["EnterCondValue2"] := 0
+R1["RewardWin"] := "특공휘장 9개"
+R1["RewardDraw"] := "특공휘장 3개"
+R1["RewardLose"] := "특공휘장 3개"
+R1["VictoryCond"] := "상대 진영의 크리스탈 파괴"
+R1["MiniMapFile"] := "bat_b01.bmp"
+R0[2] := R1
+R1 := {}
+R1["BattleFieldName"] := "KVM (Lv80이상)"
+R1["DisplayBattleFieldName"] := "KVM (Lv80이상)"
+R1["AllianceNum"] := 5
+R1["EnemyNum"] := 5
+R1["PrivateApply"] := 1
+R1["PartyApply"] := 1
+R1["GuildApply"] := 1
+R1["JobGroup"] := 0
+R1["EnterCondType"] := 2
+R1["EnterCondValue1"] := 80
+R1["EnterCondValue2"] := 0
+R1["RewardWin"] := "KVM포인트 5"
+R1["RewardDraw"] := "KVM포인트 1"
+R1["RewardLose"] := "KVM포인트 1"
+R1["VictoryCond"] := "상대 진영 전멸"
+R1["MiniMapFile"] := "bat_c01.bmp"
+R0[3] := R1
+R1 := {}
+R1["BattleFieldName"] := "KVM (Lv60~79)"
+R1["DisplayBattleFieldName"] := "KVM (Lv60~79)"
+R1["AllianceNum"] := 5
+R1["EnemyNum"] := 5
+R1["PrivateApply"] := 1
+R1["PartyApply"] := 1
+R1["GuildApply"] := 1
+R1["JobGroup"] := 0
+R1["EnterCondType"] := 3
+R1["EnterCondValue1"] := 60
+R1["EnterCondValue2"] := 79
+R1["RewardWin"] := "KVM포인트 2"
+R1["RewardDraw"] := "KVM포인트 1"
+R1["RewardLose"] := "KVM포인트 0"
+R1["VictoryCond"] := "상대 진영 전멸"
+R1["MiniMapFile"] := "bat_c01.bmp"
+R0[4] := R1
+R1 := {}
+R1["BattleFieldName"] := "KVM (Lv59이하)"
+R1["DisplayBattleFieldName"] := "KVM (Lv59이하)"
+R1["AllianceNum"] := 5
+R1["EnemyNum"] := 5
+R1["PrivateApply"] := 1
+R1["PartyApply"] := 1
+R1["GuildApply"] := 1
+R1["JobGroup"] := 0
+R1["EnterCondType"] := 1
+R1["EnterCondValue1"] := 59
+R1["EnterCondValue2"] := 0
+R1["RewardWin"] := "KVM포인트 1"
+R1["RewardDraw"] := "KVM포인트 0"
+R1["RewardLose"] := "KVM포인트 0"
+R1["VictoryCond"] := "상대 진영 전멸"
+R1["MiniMapFile"] := "bat_c01.bmp"
+R0[5] := R1
+EntryQueueList := R0
+R0 := closure(Function #0)
+ReadEntryQueueList := R0
+return 
+
+
+; Function #0:
+;
+; Name:            
+; Defined at line: 104
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  23
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000003 | 00000019 | (for generator)
+; 00000003 | 00000019 | (for state)
+; 00000003 | 00000019 | (for control)
+; 00000004 | 00000017 | id
+; 00000004 | 00000017 | table
+;
+; No upvalues
+
+R0 := pairs
+R1 := EntryQueueList
+R0,R1,R2 := R0(R1)
+PC := 24
+R5 := AddEntryQueue
+R6 := R3
+R7 := R4["BattleFieldName"]
+R8 := R4["DisplayBattleFieldName"]
+R9 := R4["AllianceNum"]
+R10 := R4["EnemyNum"]
+R11 := R4["PrivateApply"]
+R12 := R4["PartyApply"]
+R13 := R4["GuildApply"]
+R14 := R4["JobGroup"]
+R15 := R4["EnterCondType"]
+R16 := R4["EnterCondValue1"]
+R17 := R4["EnterCondValue2"]
+R18 := R4["RewardWin"]
+R19 := R4["RewardDraw"]
+R20 := R4["RewardLose"]
+R21 := R4["VictoryCond"]
+R22 := R4["MiniMapFile"]
+R5(R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22)
+R3,R4 := R0(R1,R2); if R3 ~= nil then begin PC = 5; R2 := R3 end
+ 25 [123]: JMP       5
+return 

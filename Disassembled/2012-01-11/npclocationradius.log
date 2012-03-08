@@ -1,0 +1,21 @@
+R0 := {}
+R1 := jobtbl
+R1 := R1["JT_GIOIA"]
+R0[R1] := 1
+R1 := jobtbl
+R1 := R1["JT_DAEHYON"]
+R0[R1] := 1
+R1 := jobtbl
+R1 := R1["JT_KADES"]
+R0[R1] := 1
+R1 := jobtbl
+R1 := R1["JT_E_VADON_X"]
+R0[R1] := 2
+R1 := jobtbl
+R1 := R1["JT_E_VADON_X_H"]
+R0[R1] := 2
+R1 := jobtbl
+R1 := R1["JT_E_RSX_0805"]
+R0[R1] := 2
+NpcLocationRadius := R0
+return 

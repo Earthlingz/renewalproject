@@ -1,3 +1,6 @@
+rev47 - [2012-03-09]
+ - Added disassembled kRO files from patch 2012-01-04 to 2012-02-29
+
 rev46 - [2012-02-25]
  - Added disassembled kRO files from patch 2011-12-28
  * kRo is now using 5.1.4 lua files in this patch

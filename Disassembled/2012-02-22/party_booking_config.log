@@ -1,0 +1,1252 @@
+R0 := {}
+R1 := {}
+R1["name"] := "모두 선택"
+R2 := {}
+R3 := {}
+R3["name"] := "모두 선택"
+R2[1] := R3
+R1["list"] := R2
+R1["ignore_recruit_window"] := 1
+R2 := {}
+R2["name"] := "프론테라"
+R3 := {}
+R4 := {}
+R4["name"] := "필드"
+R5 := {}
+R5["name"] := "지하 수로 1층"
+R6 := {}
+R6["name"] := "지하 수로 2층"
+R7 := {}
+R7["name"] := "지하 수로 3층"
+R8 := {}
+R8["name"] := "지하 수로 4층"
+R8["colorR"] := 255
+R8["colorG"] := 0
+R8["colorB"] := 0
+R9 := {}
+R9["name"] := "미궁 숲 1층"
+R10 := {}
+R10["name"] := "미궁 숲 2층"
+R11 := {}
+R11["name"] := "미궁 숲 3층"
+R11["colorR"] := 255
+R11["colorG"] := 0
+R11["colorB"] := 0
+R3[1,2,3,4,5,6,7,8] := R4,R5,R6,R7,R8,R9,R10,R11
+R2["list"] := R3
+R3 := {}
+R3["name"] := "게펜"
+R4 := {}
+R5 := {}
+R5["name"] := "필드"
+R6 := {}
+R6["name"] := "집시 마을"
+R7 := {}
+R7["name"] := "지하 던전 1층"
+R8 := {}
+R8["name"] := "지하 던전 2층"
+R8["colorR"] := 255
+R8["colorG"] := 0
+R8["colorB"] := 0
+R9 := {}
+R9["name"] := "지하 던전 3층"
+R9["colorR"] := 255
+R9["colorG"] := 0
+R9["colorB"] := 0
+R10 := {}
+R10["name"] := "게페니아"
+R11 := {}
+R11["name"] := "오크 마을"
+R11["colorR"] := 255
+R11["colorG"] := 0
+R11["colorB"] := 0
+R12 := {}
+R12["name"] := "오크 지하 동굴 1층"
+R13 := {}
+R13["name"] := "오크 지하 동굴 2층"
+R4[1,2,3,4,5,6,7,8,9] := R5,R6,R7,R8,R9,R10,R11,R12,R13
+R3["list"] := R4
+R4 := {}
+R4["name"] := "페이욘"
+R5 := {}
+R6 := {}
+R6["name"] := "숲 속"
+R6["colorR"] := 255
+R6["colorG"] := 0
+R6["colorB"] := 0
+R7 := {}
+R7["name"] := "동굴 1층"
+R8 := {}
+R8["name"] := "동굴 2층"
+R9 := {}
+R9["name"] := "동굴 3층"
+R10 := {}
+R10["name"] := "동굴 4층 (폐가촌)"
+R11 := {}
+R11["name"] := "동굴 5층 (폐가촌)"
+R11["colorR"] := 255
+R11["colorG"] := 0
+R11["colorB"] := 0
+R5[1,2,3,4,5,6] := R6,R7,R8,R9,R10,R11
+R4["list"] := R5
+R5 := {}
+R5["name"] := "알데바란"
+R6 := {}
+R7 := {}
+R7["name"] := "묘르닐 산맥 북쪽 지역"
+R7["colorR"] := 255
+R7["colorG"] := 0
+R7["colorB"] := 0
+R8 := {}
+R8["name"] := "묘르닐 산맥 북쪽 산기슭"
+R9 := {}
+R9["name"] := "묘르닐 산맥 남쪽 지역"
+R10 := {}
+R10["name"] := "묘르닐 산맥 남쪽 산기슭"
+R11 := {}
+R11["name"] := "묘르닐 폐광 1층"
+R12 := {}
+R12["name"] := "묘르닐 폐광 2층"
+R13 := {}
+R13["name"] := "묘르닐 폐광 3층"
+R14 := {}
+R14["name"] := "시계탑 지상 1층"
+R15 := {}
+R15["name"] := "시계탑 지상 2층"
+R16 := {}
+R16["name"] := "시계탑 지상 3층"
+R17 := {}
+R17["name"] := "시계탑 지상 4층"
+R18 := {}
+R18["name"] := "시계탑 지하 1층"
+R19 := {}
+R19["name"] := "시계탑 지하 2층"
+R20 := {}
+R20["name"] := "시계탑 지하 3층"
+R21 := {}
+R21["name"] := "시계탑 지하 4층"
+R6[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15] := R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21
+R5["list"] := R6
+R6 := {}
+R6["name"] := "알베르타"
+R7 := {}
+R8 := {}
+R8["name"] := "침몰선 1층"
+R9 := {}
+R9["name"] := "침몰선 2층"
+R9["colorR"] := 255
+R9["colorG"] := 0
+R9["colorB"] := 0
+R10 := {}
+R10["name"] := "거북이 섬"
+R11 := {}
+R11["name"] := "거북이 섬 던전"
+R12 := {}
+R12["name"] := "양거촌"
+R13 := {}
+R13["name"] := "구양궁"
+R13["colorR"] := 255
+R13["colorG"] := 0
+R13["colorB"] := 0
+R7[1,2,3,4,5,6] := R8,R9,R10,R11,R12,R13
+R6["list"] := R7
+R7 := {}
+R7["name"] := "모로크"
+R8 := {}
+R9 := {}
+R9["name"] := "소그라트 사막"
+R9["colorR"] := 255
+R9["colorG"] := 0
+R9["colorB"] := 0
+R10 := {}
+R10["name"] := "소그라트 사막 차원의 균열"
+R10["colorR"] := 255
+R10["colorG"] := 0
+R10["colorB"] := 0
+R11 := {}
+R11["name"] := "개미지옥 던전 1층"
+R12 := {}
+R12["name"] := "개미지옥 던전 2층"
+R12["colorR"] := 255
+R12["colorG"] := 0
+R12["colorB"] := 0
+R13 := {}
+R13["name"] := "스핑크스 지하 1층"
+R14 := {}
+R14["name"] := "스핑크스 지하 2층"
+R15 := {}
+R15["name"] := "스핑크스 지하 3층"
+R16 := {}
+R16["name"] := "스핑크스 지하 4층"
+R17 := {}
+R17["name"] := "스핑크스 지하 5층"
+R17["colorR"] := 255
+R17["colorG"] := 0
+R17["colorB"] := 0
+R18 := {}
+R18["name"] := "피라미드 지상 1층"
+R19 := {}
+R19["name"] := "피라미드 지상 2층"
+R20 := {}
+R20["name"] := "피라미드 지상 3층"
+R21 := {}
+R21["name"] := "피라미드 지상 4층"
+R21["colorR"] := 255
+R21["colorG"] := 0
+R21["colorB"] := 0
+R22 := {}
+R22["name"] := "피라미드 지하 1층"
+R23 := {}
+R23["name"] := "피라미드 지하 2층"
+R23["colorR"] := 255
+R23["colorG"] := 0
+R23["colorB"] := 0
+R8[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15] := R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23
+R7["list"] := R8
+R8 := {}
+R8["name"] := "이즈루드"
+R9 := {}
+R10 := {}
+R10["name"] := "해저동굴 던전 1층"
+R11 := {}
+R11["name"] := "해저동굴 던전 2층"
+R12 := {}
+R12["name"] := "해저동굴 던전 3층"
+R13 := {}
+R13["name"] := "해저동굴 던전 4층"
+R14 := {}
+R14["name"] := "해저동굴 던전 5층"
+R9[1,2,3,4,5] := R10,R11,R12,R13,R14
+R8["list"] := R9
+R9 := {}
+R9["name"] := "코모도"
+R10 := {}
+R11 := {}
+R11["name"] := "파푸치카 숲"
+R12 := {}
+R12["name"] := "코코모 해변"
+R13 := {}
+R13["name"] := "지나이 늪"
+R14 := {}
+R14["name"] := "파로스 등대섬"
+R15 := {}
+R15["name"] := "요새도시 산다르만(동)"
+R16 := {}
+R16["name"] := "요새도시 산다르만(남)"
+R17 := {}
+R17["name"] := "요새도시 산다르만(서)"
+R18 := {}
+R18["name"] := "서쪽 동굴 카루"
+R18["colorR"] := 255
+R18["colorG"] := 0
+R18["colorB"] := 0
+R19 := {}
+R19["name"] := "북쪽 동굴 루안다"
+R20 := {}
+R20["name"] := "동쪽 동굴 마오"
+R10[1,2,3,4,5,6,7,8,9,10] := R11,R12,R13,R14,R15,R16,R17,R18,R19,R20
+R9["list"] := R10
+R10 := {}
+R10["name"] := "루티에"
+R11 := {}
+R12 := {}
+R12["name"] := "필드"
+R12["colorR"] := 255
+R12["colorG"] := 0
+R12["colorB"] := 0
+R13 := {}
+R13["name"] := "장난감 공장 창고"
+R14 := {}
+R14["name"] := "장난감 분류소"
+R14["colorR"] := 255
+R14["colorG"] := 0
+R14["colorB"] := 0
+R11[1,2,3] := R12,R13,R14
+R10["list"] := R11
+R11 := {}
+R11["name"] := "유노"
+R12 := {}
+R13 := {}
+R13["name"] := "슈발츠발드 국경 검문소"
+R14 := {}
+R14["name"] := "킬 하이르의 별장"
+R15 := {}
+R15["name"] := "엘메스 플레투"
+R16 := {}
+R16["name"] := "엘메스 협곡(심연의 골짜기)"
+R17 := {}
+R17["name"] := "킬 하이르 학원"
+R18 := {}
+R18["name"] := "슈발츠발드 경비대 야영지"
+R19 := {}
+R19["name"] := "필드"
+R20 := {}
+R20["name"] := "노그로드 1층"
+R21 := {}
+R21["name"] := "노그로드 2층"
+R22 := {}
+R22["name"] := "유페로스 폐허 외부"
+R23 := {}
+R23["name"] := "유페로스 폐허 내부"
+R24 := {}
+R24["name"] := "유페로스 중심부"
+R24["colorR"] := 255
+R24["colorG"] := 0
+R24["colorB"] := 0
+R25 := {}
+R25["name"] := "기계인형공장 1층"
+R26 := {}
+R26["name"] := "기계인형공장 2층"
+R26["colorR"] := 255
+R26["colorG"] := 0
+R26["colorB"] := 0
+R12[1,2,3,4,5,6,7,8,9,10,11,12,13,14] := R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26
+R11["list"] := R12
+R12 := {}
+R12["name"] := "움발라"
+R13 := {}
+R14 := {}
+R14["name"] := "루루카 숲"
+R15 := {}
+R15["name"] := "카라라 늪"
+R16 := {}
+R16["name"] := "훔가 숲"
+R17 := {}
+R17["name"] := "훔가 정글"
+R13[1,2,3,4] := R14,R15,R16,R17
+R12["list"] := R13
+R13 := {}
+R13["name"] := "아인베흐"
+R14 := {}
+R15 := {}
+R15["name"] := "광산 1층"
+R16 := {}
+R16["name"] := "광산 2층"
+R16["colorR"] := 255
+R16["colorG"] := 0
+R16["colorB"] := 0
+R14[1,2] := R15,R16
+R13["list"] := R14
+R14 := {}
+R14["name"] := "리히타르젠"
+R15 := {}
+R16 := {}
+R16["name"] := "필드"
+R17 := {}
+R17["name"] := "필드(사신의 계곡)"
+R18 := {}
+R18["name"] := "생체실험 연구소 지하 1층"
+R19 := {}
+R19["name"] := "생체실험 연구소 지하 2층"
+R19["colorR"] := 255
+R19["colorG"] := 0
+R19["colorB"] := 0
+R20 := {}
+R20["name"] := "생체실험 연구소 지하 3층"
+R20["colorR"] := 255
+R20["colorG"] := 0
+R20["colorB"] := 0
+R15[1,2,3,4,5] := R16,R17,R18,R19,R20
+R14["list"] := R15
+R15 := {}
+R15["name"] := "타나토스 타워"
+R16 := {}
+R17 := {}
+R17["name"] := "하층부 박물관 입구"
+R18 := {}
+R18["name"] := "하층부 박물관"
+R19 := {}
+R19["name"] := "하층부 버려진 공간"
+R20 := {}
+R20["name"] := "상층부"
+R21 := {}
+R21["name"] := "상층부 천사의 방"
+R22 := {}
+R22["name"] := "상층부 고뇌의 방"
+R23 := {}
+R23["name"] := "상층부 슬픔의 방"
+R24 := {}
+R24["name"] := "상층부 절망의 방"
+R25 := {}
+R25["name"] := "상층부 증오의 방"
+R26 := {}
+R26["name"] := "알 수 없는 곳"
+R26["colorR"] := 255
+R26["colorG"] := 0
+R26["colorB"] := 0
+R16[1,2,3,4,5,6,7,8,9,10] := R17,R18,R19,R20,R21,R22,R23,R24,R25,R26
+R15["list"] := R16
+R16 := {}
+R16["name"] := "글레스트헤임"
+R17 := {}
+R18 := {}
+R18["name"] := "성 1층"
+R19 := {}
+R19["name"] := "성 2층"
+R20 := {}
+R20["name"] := "수도원"
+R21 := {}
+R21["name"] := "지하 묘지"
+R21["colorR"] := 255
+R21["colorG"] := 0
+R21["colorB"] := 0
+R22 := {}
+R22["name"] := "최하층 지하 동굴 1층"
+R23 := {}
+R23["name"] := "최하층 지하 동굴 2층"
+R24 := {}
+R24["name"] := "실내"
+R25 := {}
+R25["name"] := "기사단 1층"
+R26 := {}
+R26["name"] := "기사단 2층"
+R27 := {}
+R27["name"] := "지하 감옥 1층"
+R28 := {}
+R28["name"] := "지하 감옥 2층"
+R29 := {}
+R29["name"] := "지하 수로 1층"
+R30 := {}
+R30["name"] := "지하 수로 2층"
+R31 := {}
+R31["name"] := "지하 수로 3층"
+R32 := {}
+R32["name"] := "지하 수로 4층"
+R33 := {}
+R33["name"] := "계단 던전"
+R17[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16] := R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33
+R16["list"] := R17
+R17 := {}
+R17["name"] := "휘겔"
+R18 := {}
+R19 := {}
+R19["name"] := "필드"
+R20 := {}
+R20["name"] := "오딘 신전 서쪽 지역"
+R21 := {}
+R21["name"] := "오딘 신전 남쪽 지역"
+R22 := {}
+R22["name"] := "오딘 신전 북쪽 지역"
+R22["colorR"] := 255
+R22["colorG"] := 0
+R22["colorB"] := 0
+R23 := {}
+R23["name"] := "어비스 호수"
+R24 := {}
+R24["name"] := "어비스 호수 지하 동굴 1층"
+R25 := {}
+R25["name"] := "어비스 호수 지하 동굴 2층"
+R26 := {}
+R26["name"] := "어비스 호수 지하 동굴 3층"
+R26["colorR"] := 255
+R26["colorG"] := 0
+R26["colorB"] := 0
+R27 := {}
+R27["name"] := "타나토스 타워 앞"
+R18[1,2,3,4,5,6,7,8,9] := R19,R20,R21,R22,R23,R24,R25,R26,R27
+R17["list"] := R18
+R18 := {}
+R18["name"] := "라헬"
+R19 := {}
+R20 := {}
+R20["name"] := "아우둠라 초원"
+R21 := {}
+R21["name"] := "이다 평원"
+R21["colorR"] := 255
+R21["colorG"] := 0
+R21["colorB"] := 0
+R22 := {}
+R22["name"] := "포르투 루나"
+R22["colorR"] := 255
+R22["colorG"] := 0
+R22["colorB"] := 0
+R23 := {}
+R23["name"] := "신전 성역 1층 북쪽 구역"
+R24 := {}
+R24["name"] := "신전 성역 1층 서쪽 구역"
+R25 := {}
+R25["name"] := "신전 성역 1층 동쪽 구역"
+R26 := {}
+R26["name"] := "신전 성역 1층 남쪽 구역"
+R27 := {}
+R27["name"] := "신전 성역 2층 중앙 구역"
+R27["colorR"] := 255
+R27["colorG"] := 0
+R27["colorB"] := 0
+R28 := {}
+R28["name"] := "얼음 동굴 1층"
+R29 := {}
+R29["name"] := "얼음 동굴 2층"
+R30 := {}
+R30["name"] := "얼음 동굴 3층"
+R19[1,2,3,4,5,6,7,8,9,10,11] := R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30
+R18["list"] := R19
+R19 := {}
+R19["name"] := "베인스"
+R20 := {}
+R21 := {}
+R21["name"] := "필드"
+R21["colorR"] := 255
+R21["colorG"] := 0
+R21["colorB"] := 0
+R22 := {}
+R22["name"] := "이름없는 섬"
+R23 := {}
+R23["name"] := "이름없는 섬 수도원 1층"
+R24 := {}
+R24["name"] := "이름없는 섬 수도원 지하 1층"
+R24["colorR"] := 255
+R24["colorG"] := 0
+R24["colorB"] := 0
+R25 := {}
+R25["name"] := "이름없는 섬 수도원 지하 2층"
+R25["colorR"] := 255
+R25["colorG"] := 0
+R25["colorB"] := 0
+R26 := {}
+R26["name"] := "토르 화산 던전 1층"
+R27 := {}
+R27["name"] := "토르 화산 던전 2층"
+R28 := {}
+R28["name"] := "토르 화산 던전 3층"
+R28["colorR"] := 255
+R28["colorG"] := 0
+R28["colorB"] := 0
+R20[1,2,3,4,5,6,7,8] := R21,R22,R23,R24,R25,R26,R27,R28
+R19["list"] := R20
+R20 := {}
+R20["name"] := "니플헤임"
+R21 := {}
+R22 := {}
+R22["name"] := "외딴 마을 스켈링튼"
+R23 := {}
+R23["name"] := "굘의 골짜기"
+R24 := {}
+R24["name"] := "니플헤임"
+R24["colorR"] := 255
+R24["colorG"] := 0
+R24["colorB"] := 0
+R21[1,2,3] := R22,R23,R24
+R20["list"] := R21
+R21 := {}
+R21["name"] := "이계"
+R22 := {}
+R23 := {}
+R23["name"] := "마누크 필드"
+R24 := {}
+R24["name"] := "스플랑디드 필드"
+R25 := {}
+R25["name"] := "카미달 산기슭"
+R26 := {}
+R26["name"] := "카미달 터널"
+R27 := {}
+R27["name"] := "스카라바 홀"
+R27["colorR"] := 255
+R27["colorG"] := 0
+R27["colorB"] := 0
+R28 := {}
+R28["name"] := "스플랑디드 난폭자의 상처 1층"
+R29 := {}
+R29["name"] := "스플랑디드 난폭자의 상처 2층"
+R22[1,2,3,4,5,6,7] := R23,R24,R25,R26,R27,R28,R29
+R21["list"] := R22
+R22 := {}
+R22["name"] := "아마쯔"
+R23 := {}
+R24 := {}
+R24["name"] := "필드"
+R25 := {}
+R25["name"] := "다다미 미궁"
+R26 := {}
+R26["name"] := "지하 숲 전장"
+R27 := {}
+R27["name"] := "지하 신사"
+R27["colorR"] := 255
+R27["colorG"] := 0
+R27["colorB"] := 0
+R23[1,2,3,4] := R24,R25,R26,R27
+R22["list"] := R23
+R23 := {}
+R23["name"] := "쿤룬"
+R24 := {}
+R25 := {}
+R25["name"] := "필드"
+R26 := {}
+R26["name"] := "서왕모 신전"
+R27 := {}
+R27["name"] := "신선의 바둑판"
+R28 := {}
+R28["name"] := "무릉도원"
+R28["colorR"] := 255
+R28["colorG"] := 0
+R28["colorB"] := 0
+R24[1,2,3,4] := R25,R26,R27,R28
+R23["list"] := R24
+R24 := {}
+R24["name"] := "용지성"
+R25 := {}
+R26 := {}
+R26["name"] := "필드"
+R27 := {}
+R27["name"] := "왕릉"
+R28 := {}
+R28["name"] := "왕릉 내부"
+R29 := {}
+R29["name"] := "센양궁"
+R29["colorR"] := 255
+R29["colorG"] := 0
+R29["colorB"] := 0
+R25[1,2,3,4] := R26,R27,R28,R29
+R24["list"] := R25
+R25 := {}
+R25["name"] := "아요타야"
+R26 := {}
+R27 := {}
+R27["name"] := "필드"
+R28 := {}
+R28["name"] := "고대 신전 미궁"
+R29 := {}
+R29["name"] := "고대 신전 내부"
+R29["colorR"] := 255
+R29["colorG"] := 0
+R29["colorB"] := 0
+R26[1,2,3] := R27,R28,R29
+R25["list"] := R26
+R26 := {}
+R26["name"] := "브라질리스"
+R27 := {}
+R28 := {}
+R28["name"] := "필드"
+R29 := {}
+R29["name"] := "폭포 안의 동굴 입구"
+R30 := {}
+R30["name"] := "폭포 안의 동굴 내부"
+R30["colorR"] := 255
+R30["colorG"] := 0
+R30["colorB"] := 0
+R27[1,2,3] := R28,R29,R30
+R26["list"] := R27
+R27 := {}
+R27["name"] := "모스코비아"
+R28 := {}
+R29 := {}
+R29["name"] := "필드"
+R30 := {}
+R30["name"] := "숲"
+R31 := {}
+R31["name"] := "깊은 숲"
+R32 := {}
+R32["name"] := "깊고 깊은 숲"
+R32["colorR"] := 255
+R32["colorG"] := 0
+R32["colorB"] := 0
+R28[1,2,3,4] := R29,R30,R31,R32
+R27["list"] := R28
+R28 := {}
+R28["name"] := "메모리얼 던전"
+R29 := {}
+R30 := {}
+R30["name"] := "엔들레스 타워"
+R30["colorR"] := 255
+R30["colorG"] := 0
+R30["colorB"] := 0
+R31 := {}
+R31["name"] := "봉인의 신전"
+R31["colorR"] := 255
+R31["colorG"] := 0
+R31["colorB"] := 0
+R32 := {}
+R32["name"] := "오크의 기억"
+R32["colorR"] := 255
+R32["colorG"] := 0
+R32["colorB"] := 0
+R33 := {}
+R33["name"] := "니드호그의 둥지"
+R33["colorR"] := 255
+R33["colorG"] := 0
+R33["colorB"] := 0
+R29[1,2,3,4] := R30,R31,R32,R33
+R28["list"] := R29
+R0[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28] := R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28
+map_list := R0
+R0 := closure(Function #0)
+printMapList := R0
+R0 := {}
+__mapList := R0
+R0 := closure(Function #1)
+makeMapList := R0
+R0 := closure(Function #2)
+queryRegionInfo := R0
+R0 := closure(Function #3)
+queryMapInfo := R0
+R0 := closure(Function #4)
+getRegionIterator := R0
+R0 := closure(Function #5)
+getMapIterator := R0
+R0 := makeMapList
+R0()
+R0 := print
+R1 := "[전체 데이터 구조 출력]"
+R0(R1)
+R0 := getRegionIterator
+R0 := R0()
+regionIterator := R0
+R0 := regionIterator
+R0 := R0["hasNext"]
+R0 := R0()
+if not R0 then PC := 734
+698 [ 971]: JMP       734
+R0 := regionIterator
+R0 := R0["value"]
+R0 := R0()
+region := R0
+R0 := print
+R1 := region
+R1 := R1["id"]
+R2 := region
+R2 := R2["name"]
+R0(R1,R2)
+R0 := getMapIterator
+R1 := region
+R1 := R1["id"]
+R0 := R0(R1)
+mapIterator := R0
+R0 := mapIterator
+R0 := R0["hasNext"]
+R0 := R0()
+if not R0 then PC := 694
+718 [ 976]: JMP       694
+R0 := mapIterator
+R0 := R0["value"]
+R0 := R0()
+map := R0
+R0 := print
+R1 := "\t"
+R2 := queryMapInfo
+R3 := region
+R3 := R3["id"]
+R4 := map
+R4 := R4["id"]
+R2,... := R2(R3,R4)
+R0(R1,...)
+PC := 714
+PC := 694
+R0 := print
+R1 := "\n[지역 데이터 검색]"
+R0(R1)
+R0 := getRegionIterator
+R0 := R0()
+regionIterator := R0
+R0 := regionIterator
+R0 := R0["hasNext"]
+R0 := R0()
+if not R0 then PC := 756
+744 [ 985]: JMP       756
+R0 := regionIterator
+R0 := R0["value"]
+R0 := R0()
+region := R0
+R0 := print
+R1 := region
+R1 := R1["id"]
+R2 := region
+R2 := R2["name"]
+R0(R1,R2)
+PC := 740
+R0 := print
+R1 := "\n[맵 데이터 검색]"
+R0(R1)
+R0 := getMapIterator
+R1 := 2
+R0 := R0(R1)
+mapIterator := R0
+R0 := mapIterator
+R0 := R0["hasNext"]
+R0 := R0()
+if not R0 then PC := 779
+767 [ 992]: JMP       779
+R0 := mapIterator
+R0 := R0["value"]
+R0 := R0()
+map := R0
+R0 := print
+R1 := map
+R1 := R1["id"]
+R2 := map
+R2 := R2["name"]
+R0(R1,R2)
+PC := 763
+R0 := print
+R1 := "\n[지역 데이터 정보 요청]"
+R0(R1)
+R0 := print
+R1 := queryRegionInfo
+R2 := 2
+R1,... := R1(R2)
+R0(R1,...)
+R0 := queryRegionInfo
+R1 := 2
+R0,R1,R2,R3 := R0(R1)
+_ := R3
+mapIterator := R2
+_ := R1
+_ := R0
+R0 := mapIterator
+R0 := R0["hasNext"]
+R0 := R0()
+if not R0 then PC := 810
+798 [1001]: JMP       810
+R0 := mapIterator
+R0 := R0["value"]
+R0 := R0()
+map := R0
+R0 := print
+R1 := map
+R1 := R1["id"]
+R2 := map
+R2 := R2["name"]
+R0(R1,R2)
+PC := 794
+R0 := print
+R1 := "\n[맵 데이터 정보 요청]"
+R0(R1)
+R0 := print
+R1 := queryMapInfo
+R2 := 2
+R3 := 1
+R1,... := R1(R2,R3)
+R0(R1,...)
+R0 := {}
+R1 := "/파티모집: 파티 모집 창을 여닫습니다."
+R2 := "/모집리스트: 파티 모집 리스트 창을 여닫습니다."
+R3 := "/결성 ‘파티 이름’: 새로운 파티를 만듭니다."
+R4 := "/초대 ‘아이디’: 지정한 캐릭터를 파티에 초대합니다."
+R0[1,2,3,4] := R1,R2,R3,R4
+PartyBookingHelp := R0
+R0 := closure(Function #6)
+GetPartyBookingHelp := R0
+return 
+
+
+; Function #0:
+;
+; Name:            
+; Defined at line: 865
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  19
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000001 | 0000003d | regionId
+; 00000002 | 0000003d | mapId
+; 00000003 | 0000003d | state
+; 00000009 | 0000003a | (for generator)
+; 00000009 | 0000003a | (for state)
+; 00000009 | 0000003a | (for control)
+; 0000000a | 00000038 | key
+; 0000000a | 00000038 | region
+; 0000001a | 00000038 | (for generator)
+; 0000001a | 00000038 | (for state)
+; 0000001a | 00000038 | (for control)
+; 0000001b | 00000036 | key
+; 0000001b | 00000036 | map
+;
+; No upvalues
+
+R0 := 0
+R1 := 0
+R2 := ""
+R3 := print
+R4 := "------------------"
+R3(R4)
+R3 := pairs
+R4 := map_list
+R3,R4,R5 := R3(R4)
+PC := 57
+R0 := R0 + 1
+R1 := 0
+R8 := R7["ignore_recruit_window"]
+if R8 != 1 then PC := 18
+ 15 [874]: JMP       18
+R2 := "파티 모집 (신청) 창에서는 보이지 않는 메뉴임."
+PC := 19
+R2 := ""
+R8 := print
+R9 := R0
+R10 := R7["name"]
+R11 := R2
+R8(R9,R10,R11)
+R8 := pairs
+R9 := R7["list"]
+R8,R9,R10 := R8(R9)
+PC := 55
+R1 := R1 + 1
+R13 := R12["color"]
+if R13 != nil then PC := 35
+ 31 [884]: JMP       35
+R13 := "기본색"
+color := R13
+PC := 46
+R13 := "R:"
+R14 := R12["color"]
+R14 := R14["R"]
+R15 := " G:"
+R16 := R12["color"]
+R16 := R16["G"]
+R17 := " B:"
+R18 := R12["color"]
+R18 := R18["B"]
+R13 := R13 .. R14 .. R15 .. R16 .. R17 .. R18
+color := R13
+R13 := print
+R14 := "\t"
+R15 := R1
+R16 := ":"
+R17 := R12["name"]
+R14 := R14 .. R15 .. R16 .. R17
+R15 := R12["map_file"]
+R16 := color
+R13(R14,R15,R16)
+R11,R12 := R8(R9,R10); if R11 ~= nil then begin PC = 28; R10 := R11 end
+ 56 [889]: JMP       28
+R6,R7 := R3(R4,R5); if R6 ~= nil then begin PC = 11; R5 := R6 end
+ 58 [890]: JMP       11
+R3 := print
+R4 := "------------------"
+R3(R4)
+return 
+
+
+; Function #1:
+;
+; Name:            
+; Defined at line: 897
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  11
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000003 | 00000015 | (for generator)
+; 00000003 | 00000015 | (for state)
+; 00000003 | 00000015 | (for control)
+; 00000004 | 00000013 | regionId
+; 00000004 | 00000013 | region
+; 0000000a | 00000013 | (for generator)
+; 0000000a | 00000013 | (for state)
+; 0000000a | 00000013 | (for control)
+; 0000000b | 00000011 | mapId
+; 0000000b | 00000011 | map
+;
+; No upvalues
+
+R0 := ipairs
+R1 := map_list
+R0,R1,R2 := R0(R1)
+PC := 20
+R5 := __mapList
+R5[R3] := R4
+R4["id"] := R3
+R5 := ipairs
+R6 := R4["list"]
+R5,R6,R7 := R5(R6)
+PC := 18
+R10 := __mapList
+R10 := R10[R3]
+R10[R8] := R9
+R9["id"] := R8
+R10 := R4["ignore_recruit_window"]
+R9["ignore_recruit_window"] := R10
+R8,R9 := R5(R6,R7); if R8 ~= nil then begin PC = 12; R7 := R8 end
+ 19 [905]: JMP       12
+R3,R4 := R0(R1,R2); if R3 ~= nil then begin PC = 5; R2 := R3 end
+ 21 [906]: JMP       5
+return 
+
+
+; Function #2:
+;
+; Name:            
+; Defined at line: 910
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  5
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000011 | regionId
+;
+; No upvalues
+
+R1 := __mapList
+R1 := R1[R0]
+if R1 != nil then PC := 7
+  4 [911]: JMP       7
+R1 := R2 := R3 := R4 := nil
+return R1,R2,R3,R4
+R1 := R0
+R2 := __mapList
+R2 := R2[R0]
+R2 := R2["name"]
+R3 := getMapIterator
+R4 := R0
+R3 := R3(R4)
+R4 := __mapList
+R4 := R4[R0]
+R4 := R4["ignore_recruit_window"]
+return R1,R2,R3,R4
+return 
+
+
+; Function #3:
+;
+; Name:            
+; Defined at line: 919
+; #Upvalues:       0
+; #Parameters:     2 (R0, R1)
+; Is_vararg:       0
+; Max Stack Size:  8
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000020 | regionId
+; 00000000 | 00000020 | mapId
+;
+; No upvalues
+
+R2 := __mapList
+R2 := R2[R0]
+if R2 != nil then PC := 7
+  4 [920]: JMP       7
+R2 := R3 := R4 := R5 := R6 := R7 := nil
+return R2,R3,R4,R5,R6,R7
+R2 := __mapList
+R2 := R2[R0]
+R2 := R2[R1]
+if R2 != nil then PC := 14
+ 11 [921]: JMP       14
+R2 := R3 := R4 := R5 := R6 := R7 := nil
+return R2,R3,R4,R5,R6,R7
+R2 := R0
+R3 := R1
+R4 := __mapList
+R4 := R4[R0]
+R4 := R4[R1]
+R4 := R4["name"]
+R5 := __mapList
+R5 := R5[R0]
+R5 := R5[R1]
+R5 := R5["colorR"]
+R6 := __mapList
+R6 := R6[R0]
+R6 := R6[R1]
+R6 := R6["colorG"]
+R7 := __mapList
+R7 := R7[R0]
+R7 := R7[R1]
+R7 := R7["colorB"]
+return R2,R3,R4,R5,R6,R7
+return 
+
+
+; Function #4:
+;
+; Name:            
+; Defined at line: 933
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000001 | 00000009 | pos
+;
+; No upvalues
+
+R0 := 1
+R1 := {}
+R2 := closure(Function #4.0,R2)
+R0 := R0
+R1["hasNext"] := R2
+R2 := closure(Function #4.1,R2)
+R0 := R0
+R1["value"] := R2
+return R1
+return 
+
+
+; Function #4.0:
+;
+; Name:            
+; Defined at line: 936
+; #Upvalues:       1
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; Upvalues:
+;
+
+R0 := __mapList
+R1 := U0
+R0 := R0[R1]
+return R0
+return 
+
+
+; Function #4.1:
+;
+; Name:            
+; Defined at line: 940
+; #Upvalues:       1
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; Upvalues:
+;
+
+R0 := U0
+temp_pos := R0
+R0 := U0
+R0 := R0 + 1
+U0 := 0
+R0 := __mapList
+R1 := temp_pos
+R0 := R0[R1]
+return R0
+return 
+
+
+; Function #5:
+;
+; Name:            
+; Defined at line: 948
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  4
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000b | regionId
+; 00000001 | 0000000b | pos
+;
+; No upvalues
+
+R1 := 1
+R2 := {}
+R3 := closure(Function #5.0,R3,R4)
+R0 := R0
+R0 := R1
+R2["hasNext"] := R3
+R3 := closure(Function #5.1,R3,R4)
+R0 := R1
+R0 := R0
+R2["value"] := R3
+return R2
+return 
+
+
+; Function #5.0:
+;
+; Name:            
+; Defined at line: 951
+; #Upvalues:       2
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; Upvalues:
+;
+
+R0 := __mapList
+R1 := U0
+R0 := R0[R1]
+if R0 != nil then PC := 8
+  5 [952]: JMP       8
+R0 := nil
+return R0
+R0 := __mapList
+R1 := U0
+R0 := R0[R1]
+R1 := U1
+R0 := R0[R1]
+return R0
+return 
+
+
+; Function #5.1:
+;
+; Name:            
+; Defined at line: 956
+; #Upvalues:       2
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; Upvalues:
+;
+
+R0 := U0
+temp_pos := R0
+R0 := U0
+R0 := R0 + 1
+U0 := 0
+R0 := __mapList
+R1 := U1
+R0 := R0[R1]
+R1 := temp_pos
+R0 := R0[R1]
+return R0
+return 
+
+
+; Function #6:
+;
+; Name:            
+; Defined at line: 1018
+; #Upvalues:       0
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  9
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000001 | 00000011 | descript
+; 00000002 | 00000011 | obj
+; 00000007 | 00000010 | (for generator)
+; 00000007 | 00000010 | (for state)
+; 00000007 | 00000010 | (for control)
+; 00000008 | 0000000e | i
+; 00000008 | 0000000e | v
+;
+; No upvalues
+
+R0 := ""
+R1 := PartyBookingHelp
+if R1 == nil then PC := 17
+  4 [1022]: JMP       17
+R2 := pairs
+R3 := R1
+R2,R3,R4 := R2(R3)
+PC := 15
+R7 := R0
+R8 := R6
+R0 := R7 .. R8
+R7 := R0
+R8 := "\r\n"
+R0 := R7 .. R8
+R5,R6 := R2(R3,R4); if R5 ~= nil then begin PC = 9; R4 := R5 end
+ 16 [1025]: JMP       9
+return R0
+return 

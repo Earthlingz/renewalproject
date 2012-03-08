@@ -1,0 +1,578 @@
+R0 := closure(Function #0)
+queryNavi_MapInfo := R0
+R0 := closure(Function #1)
+queryNavi_NpcInfo := R0
+R0 := closure(Function #2)
+queryNavi_MobInfo := R0
+R0 := closure(Function #3)
+queryNavi_LinkInfo := R0
+R0 := closure(Function #4)
+queryNavi_Distance_Map := R0
+R0 := closure(Function #5)
+queryNavi_Distance_Link := R0
+R0 := closure(Function #6)
+queryNavi_Distance_Pass := R0
+R0 := closure(Function #7)
+queryNavi_NpcDistance_Map := R0
+R0 := closure(Function #8)
+queryNavi_NpcDistance_Link := R0
+R0 := closure(Function #9)
+queryNavi_NpcDistance_Pass := R0
+R0 := closure(Function #10)
+queryNavi_Scroll := R0
+R0 := closure(Function #11)
+queryNavi_Scroll_Pass := R0
+return 
+
+
+; Function #0:
+;
+; Name:            
+; Defined at line: 11
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  6
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000016 | Index
+;
+; No upvalues
+
+R1 := Navi_Map
+R1 := R1[R0]
+if R1 != nil then PC := 7
+  4 [12]: JMP       7
+R1 := R2 := R3 := R4 := R5 := nil
+return R1,R2,R3,R4,R5
+R1 := Navi_Map
+R1 := R1[R0]
+R1 := R1[1]
+R2 := Navi_Map
+R2 := R2[R0]
+R2 := R2[2]
+R3 := Navi_Map
+R3 := R3[R0]
+R3 := R3[3]
+R4 := Navi_Map
+R4 := R4[R0]
+R4 := R4[4]
+R5 := Navi_Map
+R5 := R5[R0]
+R5 := R5[5]
+return R1,R2,R3,R4,R5
+return 
+
+
+; Function #1:
+;
+; Name:            
+; Defined at line: 23
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  9
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000001f | Index
+;
+; No upvalues
+
+R1 := Navi_Npc
+R1 := R1[R0]
+if R1 != nil then PC := 7
+  4 [24]: JMP       7
+R1 := R2 := R3 := R4 := R5 := R6 := R7 := R8 := nil
+return R1,R2,R3,R4,R5,R6,R7,R8
+R1 := Navi_Npc
+R1 := R1[R0]
+R1 := R1[1]
+R2 := Navi_Npc
+R2 := R2[R0]
+R2 := R2[2]
+R3 := Navi_Npc
+R3 := R3[R0]
+R3 := R3[3]
+R4 := Navi_Npc
+R4 := R4[R0]
+R4 := R4[4]
+R5 := Navi_Npc
+R5 := R5[R0]
+R5 := R5[5]
+R6 := Navi_Npc
+R6 := R6[R0]
+R6 := R6[6]
+R7 := Navi_Npc
+R7 := R7[R0]
+R7 := R7[7]
+R8 := Navi_Npc
+R8 := R8[R0]
+R8 := R8[8]
+return R1,R2,R3,R4,R5,R6,R7,R8
+return 
+
+
+; Function #2:
+;
+; Name:            
+; Defined at line: 36
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  9
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000001f | Index
+;
+; No upvalues
+
+R1 := Navi_Mob
+R1 := R1[R0]
+if R1 != nil then PC := 7
+  4 [37]: JMP       7
+R1 := R2 := R3 := R4 := R5 := R6 := R7 := R8 := nil
+return R1,R2,R3,R4,R5,R6,R7,R8
+R1 := Navi_Mob
+R1 := R1[R0]
+R1 := R1[1]
+R2 := Navi_Mob
+R2 := R2[R0]
+R2 := R2[2]
+R3 := Navi_Mob
+R3 := R3[R0]
+R3 := R3[3]
+R4 := Navi_Mob
+R4 := R4[R0]
+R4 := R4[4]
+R5 := Navi_Mob
+R5 := R5[R0]
+R5 := R5[5]
+R6 := Navi_Mob
+R6 := R6[R0]
+R6 := R6[6]
+R7 := Navi_Mob
+R7 := R7[R0]
+R7 := R7[7]
+R8 := Navi_Mob
+R8 := R8[R0]
+R8 := R8[8]
+return R1,R2,R3,R4,R5,R6,R7,R8
+return 
+
+
+; Function #3:
+;
+; Name:            
+; Defined at line: 50
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  12
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000028 | Index
+;
+; No upvalues
+
+R1 := Navi_Link
+R1 := R1[R0]
+if R1 != nil then PC := 7
+  4 [51]: JMP       7
+R1 := R2 := R3 := R4 := R5 := R6 := R7 := R8 := R9 := R10 := nil
+return R1,R2,R3,R4,R5,R6,R7,R8,R9,R10
+R1 := Navi_Link
+R1 := R1[R0]
+R1 := R1[1]
+R2 := Navi_Link
+R2 := R2[R0]
+R2 := R2[2]
+R3 := Navi_Link
+R3 := R3[R0]
+R3 := R3[3]
+R4 := Navi_Link
+R4 := R4[R0]
+R4 := R4[4]
+R5 := Navi_Link
+R5 := R5[R0]
+R5 := R5[5]
+R6 := Navi_Link
+R6 := R6[R0]
+R6 := R6[6]
+R7 := Navi_Link
+R7 := R7[R0]
+R7 := R7[7]
+R8 := Navi_Link
+R8 := R8[R0]
+R8 := R8[8]
+R9 := Navi_Link
+R9 := R9[R0]
+R9 := R9[9]
+R10 := Navi_Link
+R10 := R10[R0]
+R10 := R10[10]
+R11 := Navi_Link
+R11 := R11[R0]
+R11 := R11[11]
+return R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11
+return 
+
+
+; Function #4:
+;
+; Name:            
+; Defined at line: 64
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  4
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000c | Index
+;
+; No upvalues
+
+R1 := Navi_Distance
+R1 := R1[R0]
+if R1 != nil then PC := 7
+  4 [65]: JMP       7
+R1 := R2 := nil
+return R1,R2
+R1 := Navi_Distance
+R1 := R1[R0]
+R2 := Navi_Distance
+R3 := R0 + 1
+R2 := R2[R3]
+return R1,R2
+return 
+
+
+; Function #5:
+;
+; Name:            
+; Defined at line: 77
+; #Upvalues:       0
+; #Parameters:     2 (R0, R1)
+; Is_vararg:       0
+; Max Stack Size:  4
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000015 | Index
+; 00000000 | 00000015 | Index2
+;
+; No upvalues
+
+R2 := Navi_Distance
+R3 := R0 + 2
+R2 := R2[R3]
+if R2 != nil then PC := 8
+  5 [78]: JMP       8
+R2 := nil
+return R2
+R2 := Navi_Distance
+R3 := R0 + 2
+R2 := R2[R3]
+R2 := R2[R1]
+if R2 != nil then PC := 16
+ 13 [79]: JMP       16
+R2 := nil
+return R2
+R2 := Navi_Distance
+R3 := R0 + 2
+R2 := R2[R3]
+R2 := R2[R1]
+R2 := R2[1]
+return R2
+return 
+
+
+; Function #6:
+;
+; Name:            
+; Defined at line: 90
+; #Upvalues:       0
+; #Parameters:     3 (R0, R1, R2)
+; Is_vararg:       0
+; Max Stack Size:  7
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000002d | Index
+; 00000000 | 0000002d | Index2
+; 00000000 | 0000002d | Index3
+;
+; No upvalues
+
+R3 := Navi_Distance
+R3 := R3[R0]
+if R3 != nil then PC := 7
+  4 [91]: JMP       7
+R3 := R4 := R5 := nil
+return R3,R4,R5
+R3 := Navi_Distance
+R4 := R0 + 2
+R3 := R3[R4]
+R3 := R3[R1]
+if R3 != nil then PC := 15
+ 12 [92]: JMP       15
+R3 := R4 := R5 := nil
+return R3,R4,R5
+R3 := Navi_Distance
+R4 := R0 + 2
+R3 := R3[R4]
+R3 := R3[R1]
+R3 := R3[R2]
+if R3 != nil then PC := 24
+ 21 [93]: JMP       24
+R3 := R4 := R5 := nil
+return R3,R4,R5
+R3 := Navi_Distance
+R4 := R0 + 2
+R3 := R3[R4]
+R3 := R3[R1]
+R4 := R2 + 1
+R3 := R3[R4]
+R3 := R3[1]
+R4 := Navi_Distance
+R5 := R0 + 2
+R4 := R4[R5]
+R4 := R4[R1]
+R5 := R2 + 1
+R4 := R4[R5]
+R4 := R4[2]
+R5 := Navi_Distance
+R6 := R0 + 2
+R5 := R5[R6]
+R5 := R5[R1]
+R6 := R2 + 1
+R5 := R5[R6]
+R5 := R5[3]
+return R3,R4,R5
+return 
+
+
+; Function #7:
+;
+; Name:            
+; Defined at line: 104
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  4
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000c | Index
+;
+; No upvalues
+
+R1 := Navi_NpcDistance
+R1 := R1[R0]
+if R1 != nil then PC := 7
+  4 [105]: JMP       7
+R1 := R2 := nil
+return R1,R2
+R1 := Navi_NpcDistance
+R1 := R1[R0]
+R2 := Navi_NpcDistance
+R3 := R0 + 1
+R2 := R2[R3]
+return R1,R2
+return 
+
+
+; Function #8:
+;
+; Name:            
+; Defined at line: 117
+; #Upvalues:       0
+; #Parameters:     2 (R0, R1)
+; Is_vararg:       0
+; Max Stack Size:  4
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000015 | Index
+; 00000000 | 00000015 | Index2
+;
+; No upvalues
+
+R2 := Navi_NpcDistance
+R3 := R0 + 2
+R2 := R2[R3]
+if R2 != nil then PC := 8
+  5 [118]: JMP       8
+R2 := nil
+return R2
+R2 := Navi_NpcDistance
+R3 := R0 + 2
+R2 := R2[R3]
+R2 := R2[R1]
+if R2 != nil then PC := 16
+ 13 [119]: JMP       16
+R2 := nil
+return R2
+R2 := Navi_NpcDistance
+R3 := R0 + 2
+R2 := R2[R3]
+R2 := R2[R1]
+R2 := R2[1]
+return R2
+return 
+
+
+; Function #9:
+;
+; Name:            
+; Defined at line: 130
+; #Upvalues:       0
+; #Parameters:     3 (R0, R1, R2)
+; Is_vararg:       0
+; Max Stack Size:  7
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000002d | Index
+; 00000000 | 0000002d | Index2
+; 00000000 | 0000002d | Index3
+;
+; No upvalues
+
+R3 := Navi_NpcDistance
+R3 := R3[R0]
+if R3 != nil then PC := 7
+  4 [131]: JMP       7
+R3 := R4 := R5 := nil
+return R3,R4,R5
+R3 := Navi_NpcDistance
+R4 := R0 + 2
+R3 := R3[R4]
+R3 := R3[R1]
+if R3 != nil then PC := 15
+ 12 [132]: JMP       15
+R3 := R4 := R5 := nil
+return R3,R4,R5
+R3 := Navi_NpcDistance
+R4 := R0 + 2
+R3 := R3[R4]
+R3 := R3[R1]
+R3 := R3[R2]
+if R3 != nil then PC := 24
+ 21 [133]: JMP       24
+R3 := R4 := R5 := nil
+return R3,R4,R5
+R3 := Navi_NpcDistance
+R4 := R0 + 2
+R3 := R3[R4]
+R3 := R3[R1]
+R4 := R2 + 1
+R3 := R3[R4]
+R3 := R3[1]
+R4 := Navi_NpcDistance
+R5 := R0 + 2
+R4 := R4[R5]
+R4 := R4[R1]
+R5 := R2 + 1
+R4 := R4[R5]
+R4 := R4[2]
+R5 := Navi_NpcDistance
+R6 := R0 + 2
+R5 := R5[R6]
+R5 := R5[R1]
+R6 := R2 + 1
+R5 := R5[R6]
+R5 := R5[3]
+return R3,R4,R5
+return 
+
+
+; Function #10:
+;
+; Name:            
+; Defined at line: 144
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  7
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000019 | Index
+;
+; No upvalues
+
+R1 := Navi_Scroll
+R1 := R1[R0]
+if R1 != nil then PC := 7
+  4 [145]: JMP       7
+R1 := R2 := R3 := R4 := R5 := R6 := nil
+return R1,R2,R3,R4,R5,R6
+R1 := Navi_Scroll
+R1 := R1[R0]
+R1 := R1[1]
+R2 := Navi_Scroll
+R2 := R2[R0]
+R2 := R2[2]
+R3 := Navi_Scroll
+R3 := R3[R0]
+R3 := R3[3]
+R4 := Navi_Scroll
+R4 := R4[R0]
+R4 := R4[4]
+R5 := Navi_Scroll
+R5 := R5[R0]
+R5 := R5[5]
+R6 := Navi_Scroll
+R6 := R6[R0]
+R6 := R6[6]
+return R1,R2,R3,R4,R5,R6
+return 
+
+
+; Function #11:
+;
+; Name:            
+; Defined at line: 156
+; #Upvalues:       0
+; #Parameters:     2 (R0, R1)
+; Is_vararg:       0
+; Max Stack Size:  5
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000019 | Index
+; 00000000 | 00000019 | Index2
+;
+; No upvalues
+
+R2 := Navi_Scroll
+R2 := R2[R0]
+if R2 != nil then PC := 7
+  4 [157]: JMP       7
+R2 := R3 := nil
+return R2,R3
+R2 := Navi_Scroll
+R2 := R2[R0]
+R3 := R1 + 6
+R2 := R2[R3]
+if R2 != nil then PC := 15
+ 12 [158]: JMP       15
+R2 := R3 := nil
+return R2,R3
+R2 := Navi_Scroll
+R2 := R2[R0]
+R3 := R1 + 6
+R2 := R2[R3]
+R2 := R2[1]
+R3 := Navi_Scroll
+R3 := R3[R0]
+R4 := R1 + 6
+R3 := R3[R4]
+R3 := R3[2]
+return R2,R3
+return 
