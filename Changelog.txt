@@ -1,3 +1,6 @@
+rev48 - [2012-03-10]
+ - Added disassembled kRO files from patch 2012-03-07
+
 rev47 - [2012-03-09]
  - Added disassembled kRO files from patch 2012-01-04 to 2012-02-29
 
