@@ -1,0 +1,22 @@
+R0 := {}
+R1 := {}
+R1["NPCFromName"] := "선장 카록"
+R1["NPCFromMap"] := "izlude"
+R1["NPCFromSpr"] := "4_M_REINDEER"
+R1["NPCFromX"] := 198
+R1["NPCFromY"] := 213
+R1["NPCToName"] := "훈"
+R1["NPCToMap"] := "izlude"
+R1["NPCToSpr"] := "4_M_KHKYEL"
+R1["NPCToX"] := 122
+R1["NPCToY"] := 207
+R1["Item"] := ""
+R1["PrizeItem"] := ""
+R1["Title"] := "세상을 위한 첫걸음"
+R1["Info"] := "크리투라 아카데미의 직원 \'훈\'씨를 만나라."
+R1["Hunt"] := ""
+R1["Time"] := "0"
+R1["LV"] := "0"
+R0[7472] := R1
+BeginTutorialQuest_List := R0
+return 
