@@ -5409,7 +5409,6 @@
 18534#helm#		
 16674#New_Insurance_Box#
 6413#New_Insurance#
-18533#Honeybee_Hat#
 18534#Fancy_Phantom_Mask#
 5674#Pig_Moneycoin#
 
@@ -5566,8 +5565,6 @@
 16681#BR_Independence_Scrol#
 17035#Energetic_Pisces_Scroll#
 17036#Pisces_Scroll_10box#
-5795#Hat#
-5737#cap#
 
 6535#Piece_Of_Red_Fabric#
 6536#Star_Shape_Decoration#
@@ -5610,8 +5607,19 @@
 18591#Mini_Glasses#
 17105#HD_Elunium_50_Box#
 17104#HD_Oridecon_50_Box#
-5795#Headgear#
-5737#Muka_Hat#
+5737#Cap#
 18589#Hat#
 5795#Hat#
 18533#Headgear#
+
+//---------20120201----------------------
+18574#hat#
+17024#Lovely_Aquarius_Scroll#
+17106#Gym_Membership_Card_10_Box#
+17115#Sprout_Hat_Box#
+18596#Hat#
+18615#glasses#
+
+
+
+

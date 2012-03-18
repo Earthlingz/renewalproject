@@ -555,7 +555,7 @@
 513#Banana#
 514#Grape#
 515#Carrot#
-516#Sweet_Potato#
+516#Anael's_Potatoes#
 517#Meat#
 518#Honey#
 519#Milk#
@@ -3160,7 +3160,7 @@
 5283#Chick_Hat#
 5284#Water_Lily_Crown#
 5285#Vane_Hairpin#
-5286#Pecopeco_Hariband#
+5286#Pecopeco_Hairband#
 5287#Vacation_Hat#
 5288#Red_Glasses#
 5289#Vanilmirth_Hat#
@@ -5460,7 +5460,6 @@
 14515#Lex_Aeterna_Scroll#
 16674#New_Insurance_Box#
 6413#New_Insurance#
-18533#Honeybee_Hat#
 18534#Fancy_Phantom_Mask#
 
 5674#Pig_Moneycoin#
@@ -5611,8 +5610,6 @@
 16681#BR_Independence_Scroll#
 17035#Energetic_Pisces_Scroll#
 17036#Energetic_Pisces_Scroll_10box#
-5795#Red_Dress_Hat#
-5737#Cactus_Hat#
 
 6535#Piece_Of_Red_Fabric#
 6536#Star_Shape_Decoration#
@@ -5648,7 +5645,6 @@
 //------------------20120111------
 2589#Fallen_Angel_Wing#
 18580#Yggdrasil Crown#
-17106#Heavy_Lifter_Box#
 17081#Yggdrasil_Crown_Box#
 18597#Mercury_Riser#
 17116#Mercury_Riser_Box#
@@ -5661,3 +5657,12 @@
 18589#Strawberry_Hat#
 5795#Red_Dress_Hat#
 18533#Honeybee_Hat#
+
+//---------20120201----------------------
+18574#Lord_of_Death#
+17024#Lovely_Aquarius_Scroll#
+17106#Gym_Membership_Card_10_Box#
+17115#Sprout_Hat_Box#
+18596#Sprout_Hat#
+18615#Injured_Eyepatch#
+

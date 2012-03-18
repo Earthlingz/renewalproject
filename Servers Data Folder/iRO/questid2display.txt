@@ -10115,8 +10115,20 @@ Hunt the Pom Spider monsters at Bifrost and return to Gramps at the Eden Group t
 Hunt 400 Pom Spider monsters.#
 
 60584#Yellow Novus Hunting#SG_FEEL#QUE_NOIMAGE#
-Hunt the Yellow Novus monsters at Hugel Field and return to Gramps at the Eden Group to get your reward.#
+Hunt the Yellow Novus monsters at Hugel and return to Gramps at the Eden Group to get your reward.#
 Hunt 400 Yellow Novus monsters.#
+
+60585#Cornus Hunting#SG_FEEL#QUE_NOIMAGE#
+Hunt the Cornus monsters at Splendide Field and return to Gramps at the Eden Group to get your reward.#
+Hunt 400 Cornus monsters.#
+
+60586#Miming Hunting#SG_FEEL#QUE_NOIMAGE#
+Hunt the Miming monsters at Bifrost and return to Gramps at the Eden Group to get your reward.#
+Hunt 400 Miming monsters.#
+
+60587#Little Fatum Hunting#SG_FEEL#QUE_NOIMAGE#
+Hunt the Little Fatum monsters at Bifrost and return to Gramps at the Eden Group to get your reward.#
+Hunt 400 Little Fatum monsters.#
 
 60901#Chefs of Iron#SG_FEEL#QUE_NOIMAGE#
 Talk to Lidia when you are ready to embark on the quest.#

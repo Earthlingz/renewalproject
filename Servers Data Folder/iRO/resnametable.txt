@@ -1,3 +1,13 @@
+espl_fild01.gnd#spl_fild01.gnd#
+espl_fild01.gat#spl_fild01.gat#
+espl_fild01.rsw#spl_fild01.rsw#
+유저인터페이스\map\espl_fild01.bmp#유저인터페이스\map\spl_fild01.bmp#
+
+era_fild01.gnd#ra_fild01.gnd#
+era_fild01.gat#ra_fild01.gat#
+era_fild01.rsw#ra_fild01.rsw#
+유저인터페이스\map\era_fild01.bmp#유저인터페이스\map\ra_fild01.bmp#
+
 ethor_v02.gnd#thor_v02.gnd#
 ethor_v02.gat#thor_v02.gat#
 ethor_v02.rsw#thor_v02.rsw#

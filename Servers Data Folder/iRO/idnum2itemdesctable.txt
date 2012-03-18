@@ -23758,6 +23758,7 @@ invulnerable Siegfried
 which allows its bearer^FFFFFF   ^000000 to overcome death.
 Revives the dead
 character.
+^ff0000If you purchase this while already dead, click 'Return to game' and press 'ESC' again to bring up the 'Resurrection' option^000000
 ^ffffff_^000000
 Weight : ^7777771^000000
 #
@@ -35226,7 +35227,8 @@ Weight : ^77777730^000000
 Physical Attack against Demihuman monsters +75%.
 Ignore 20% of Physical Defense of Demihuman monsters.
 ***Additional Weapon Refining Level Option***
-+6 Upgrade : Ignore Demihuman physical defense +5%, ^ff0000[Slaughter]^000000 Lv 1 (Damage bonus of Slaughter increases up to the upgrade level 14.)
++6 Upgrade : Ignore Demihuman physical defense +5%.
+^ff0000[Slaughter]^000000 Lv 1 5% Damage bonus per refine over 5.(Damage bonus of Slaughter increases up to the upgrade level 14.)
 +7 Upgrade : 
 Increase in attack speed(Delay after attacking reduces by 10%)
 +9 Upgrade : When using [Bash], has a chance of activating Lv. 2 [Fatal Wound].
@@ -35237,6 +35239,7 @@ Weapon Level : ^7777774^000000
 Required Level : ^77777780^000000
 Job : ^777777Novice Class / Swordman Class / Merchant Class / Thief Class^000000
 #
+
 
 13417#
 Int +6, Matk +80, Increases Int based on refine level.
@@ -35270,7 +35273,8 @@ Physical Attack against Demihuman monsters +75%.
 Ignore 20% of Physical Defense of Demihuman monsters.
 When physically attacking, has a chance of autocasting [Lex Divina] Lv 1.
 ***Additional Weapon Refining Level Option***
-+6 Upgrade : Ignore Demihuman physical defense +5%, ^ff0000[Slaughter]^000000 Lv 1 (Damage bonus of Slaughter increases up to the upgrade level 14.)
++6 Upgrade : Ignore Demihuman physical defense +5%.
+^ff0000[Slaughter]^000000 Lv 1 5% Damage bonus per refine over 5.(Damage bonus of Slaughter increases up to the upgrade level 14.)
 +9 Upgrade : When using [Sightless Mind], has a chance of inflicting [Bleed] in a 5x5 area
 Class : ^777777Dagger^000000
 Attack : ^777777120^000000
@@ -35279,6 +35283,7 @@ Weapon Level : ^7777774^000000
 Required Level : ^77777780^000000
 Job : ^777777Novice Class / Swordman Class / Mage Class / Archer Class / Merchant Class / Thief Class /Soul Linker/ Ninja Class^000000
 #
+
 
 1310#
 Physical Attack against Demihuman monsters +75%.
@@ -38794,7 +38799,11 @@ placeholder
 placeholder
 #
 5393#
-placeholder
+A cute headband declaring that you are looking Cupid to take aim at you!
+^ff0000This item is Account Bound^000000
+Location: ^777777Upper^000000
+Defense: ^7777774^000000
+Weight: ^77777720^000000
 #
 5394#
 placeholder

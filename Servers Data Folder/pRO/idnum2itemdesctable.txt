@@ -84,8 +84,8 @@ An orange root from a plant of the parsley family that can eaten raw or cooked. 
 Weight : ^7777772^000000
 #
 516#
-A central american trailing vine of the morning glory family, grown widely for its sweet tuberous roots.
- ^000088Recover a small amount of HP^000000.
+Anael's favorite. Can be fried, baked, boiled, mashed, even eaten.
+^000088Recover a small amount of HP^000000.
 ^ffffff_^000000
 Weight : ^7777772^000000
 #
@@ -20974,12 +20974,9 @@ Job : ^777777All^000000
 #
 
 5286#
-Looks like that it has wings of Pecopeco. Can make you move as fast as Pecopeco.
-Increase movement speed.
-Increases ASPD by 5%.
-(After attack delay decreases by 5%)
-and increases
-Floating Cast Time by 25%.
+Headgear with Pecopeco's wings on it. It makes wearer to move as fas as Pecopeco.
+Increases Movement Speed, but decreases Attack Speed by 10%
+Increases Cast Time by 25%.
 Class : ^777777Headgear^000000    Defense : ^7777776^000000
 Head Position : ^777777Upper^000000
 Weight : ^77777710^000000
@@ -37620,18 +37617,6 @@ Weight : ^7777771^000000
 ^ff0000 unable to trade or refund .^000000
 #
 
-18533#
-a hat pointed with unique honey bee pattern.
-you are likely to gather honey!
-MDEF + 3.
-To Insect type of Monster, physical and magical damage +5%.
-resistance to insect type of monster 5%.
-when killed the insect monster, can get a honey at regular rate.
-Class : ^777777Headgear^000000 Defense : ^7777773^000000
-location: ^777777Upper ^000000 Weight : ^77777710^000000
-Required Level : ^77777750^000000
-Jobs : ^777777All^000000
-#
 18534#
 a colorful mask that hide owner's identification, 
 there's a rumor that it make feel exciting when wears.
@@ -38031,7 +38016,7 @@ job : ^777777all jobs job°¡´É^000000
 #
 2576#
 a bag for bravery adventure. you feel safe with this bag.
-class : ^777777costume^000000 Defense : ^77777720^000000
+class : ^777777garment^000000 Defense : ^77777720^000000
 weight : ^77777720^000000
 required level : ^7777771^000000
 job : ^777777all jobs^000000
@@ -38053,7 +38038,7 @@ weight : ^7777771^000000
 a box has a bravery bag inside.
 
 a bag for bravery adventure. you feel safe with this bag.
-class : ^777777costume^000000 Defense : ^77777720^000000
+class : ^777777garment^000000 Defense : ^77777720^000000
 weight : ^77777720^000000
 required level : ^7777771^000000
 job : ^777777all jobs^000000
@@ -38501,7 +38486,7 @@ Required Lv : ^77777720^000000
 Job : ^777777All jobs^000000
 #
 6130#
-"I call upon a creature of the night¡¦in the name of the moon!" - Sofiel
+"I call upon a creature of the night ...in the name of the moon!" - Sofiel
 Weight : ^7777771^000000
 #
 18555#
@@ -38570,23 +38555,6 @@ weight : ^7777771^000000
 17036#
 a box having 10 Pices Scroll
 weight : ^7777771^000000
-#
-5737#
-a hat looks like Muka in socrat desert
-can have Cactus Needle
-class : ^777777headgear^000000 def : ^7777771^000000
-location: ^777777Upper ^000000 weight : ^77777730^000000
-Required Lev : ^7777771^000000
-Jobs : ^777777all jobs^000000
-#
-5795#
-a beatiful and colorful hat.
-MDEF+7
-MDEF + 1 when refined 2 is increasing
-class : ^777777headgear^000000    def : ^7777773^000000
-location : ^777777Upper^000000    weight : ^77777720^000000
-requred lev : ^77777720^000000
-Jobs : ^777777all Jobs^000000
 #
 
 // ----------------------- 2011 Christmas event---------
@@ -38958,4 +38926,67 @@ Class : ^777777headgear^000000 Def : ^7777773^000000
 location: ^777777Upper ^000000 weight : ^77777710^000000
 required level : ^77777750^000000
 Jobs : ^777777all jobs^000000
+#
+
+//---------20120201----------------------
+18574#
+The Helm of the Lord of Death
+MDEF + 5.
+Increase Damage to Boss Type Monsters by 10%
+Take 5% more damage from normal Monsters and Players.
+For every upgrade 5 and higher add 1% more damage to Boss Class monsters.
+^99FF66Set Bonus^000000
+^00FF00Lord of the Dead Helm^000000
+^00FF00Abysmal Knight Card^000000
+Increase Damage to Boss Type Monster by additional 5%.
+If Lord of the Dead Helm +11 negates the damage from normal Monsters and Players.
+^ff0000The Abysmal Knight Card effect is only effective once.^000000
+Location: ^777777Upper Middle^000000
+Defense: ^77777710^000000
+Weight: ^777777100^000000
+Required Level: ^77777770^000000
+Jobs: ^777777All^000000
+#
+17024#
+a special scroll for valentine.
+weight : ^7777771^000000
+#
+17106#
+A box that contains 10 Gym Passes
+Description:
+A Gym Pass that can be
+given to a special
+NPC to learn a skill
+that will increase your^FFFFFF   ^000000 Maximum Weight
+Capacity by 200 for
+each skill level.
+This special skill
+can only be learned
+up to Level 10.
+^ffffff_^000000
+Weight : ^7777771^000000
+Box Weight : ^7777771^000000
+#
+18596#
+Enables the use of Level 3 Heaven's Drive.
+^FF0000Concept created during the 2011 Create a headgear Contest.
+Created by Miii^000000
+Class : ^777777Headgear^000000
+Defense : ^7777774^000000
+Location : ^777777Upper^000000
+Weight : ^77777720^000000
+Required Level : ^77777770^000000
+Job : ^777777All^000000
+#
+17115#
+Sprout_Hat_Box
+#
+18615#
+Injured_Eyepatch
+Class : ^777777Headgear^000000
+Location: ^777777Middle^000000
+Defense: ^7777772^000000
+Weight : ^77777720^000000
+Required Level : ^77777720^000000
+Jobs: ^777777All Except Novice^000000
 #

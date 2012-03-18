@@ -2425,7 +2425,7 @@
 5390#Costume:_Blue_Christmas_Cheer#
 5391#Toast#
 5392#Louyang_NewYear_Hat#
-5393#Valentine_Hat#
+5393#Cupid's_Target#
 5394#Bubblegum_Lower#
 5395#Tiraya_Bonnet#
 5395#Tiraya_Bonnet#
@@ -5218,3 +5218,4 @@
 6415#Strange_Embryo#
 12739#Snow_Flower#
 10038#Horn_Protector#
+12623#High_Weapon_Box#

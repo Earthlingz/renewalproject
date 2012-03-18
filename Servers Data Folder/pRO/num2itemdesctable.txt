@@ -24730,21 +24730,21 @@ Can be identified by
 using a Magnifier.
 #
 5305#
-Unknown item requiring Appraisal. Can be identified by using a Magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 
 //-----2010 월드컵 이벤트 -----------------
 5856#
-Unknown item requiring Appraisal. Can be identified by using a Magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 5857#
-Unknown item requiring Appraisal. Can be identified by using a Magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 5858#
-Unknown item requiring Appraisal. Can be identified by using a Magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 5859#
-Unknown item requiring Appraisal. Can be identified by using a Magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 12767#
 A box contains 1 Worldcup Hat of Passion.
@@ -24792,14 +24792,14 @@ When you are running with these bumpy soles, you'll never be slippery.
 Weight : ^7777771^000000
 #
 5203#
-Unknown item requiring Appraisal. Can be identified by using a Magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 //------- 2010년 3분기 본사 추천 캐쉬템----------------------
 5676#
-Unknown items requiring appraisal. Can be identified by using a  magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 5677#
-Unknown items requiring appraisal. Can be identified by using a  magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 16447#
 A box that contains 1 Scorpio Celestial Crown.
@@ -24817,10 +24817,10 @@ Summer package for last summer vacation! You might get something special!
 Weight : ^77777710^000000
 #
 2565#
-Unknown item requiring Appraisal. Can be identified by using a Magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 5770#
-Unknown item requiring Appraisal. Can be identified by using a Magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 5761#
 Unidentified item, can be identified with [Magnifier].
@@ -24958,7 +24958,7 @@ A tool which is consumed for making a soket. When succeeds in the Soket Enchant,
 Weight : ^7777771^000000
 #
 18507#
-Unknown item requiring Appraisal.Can be identified by using a Magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 
 //-----2010 RWC 기념 추가 캐쉬 아이템-----
@@ -25179,74 +25179,74 @@ Jobs : ^777777Third Archer Class^000000
 #
 
 16003#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 
 1192#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 1193#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 1650#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 1651#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 1747#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 1748#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 2456#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 2457#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 2458#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 2560#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 5583#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 13050#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 13051#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 13112#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 13113#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 13423#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 13424#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 15009#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 15010#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 15011#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 16004#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 16005#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 
 11514#
@@ -25261,24 +25261,24 @@ Weight : ^7777771^000000
 #
 
 2146#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 2147#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 2148#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 15012#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 
 15013#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 
 15014#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 
 4442#
@@ -25676,25 +25676,25 @@ Weight : ^7777771^000000
 #
 
 2140#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 2794#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 2795#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 2796#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 2797#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 5516#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 5517#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 
 6150#
@@ -25780,43 +25780,43 @@ Weight : ^7777771^000000
 // ------------ 미케닉 관련 아이템 종합 -------------------
 
 1549#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 2139#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 2800#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 2801#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 2802#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 2803#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 2804#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 2805#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 2806#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 2807#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 2808#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 2809#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 2810#
-An unknown item requiring appraisal. It can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 
 6145#
@@ -26830,43 +26830,43 @@ Weight : ^7777771^000000
 
 //------ 리뉴얼 편집 (필리핀에 없는 클라) ----------
 2777#
-Unknown item requiring appraisal. Can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 2778#
-Unknown item requiring appraisal. Can be identified by using a magnifier
+Unidentified item, can be identified with [Magnifier].
 #
 2779#
-Unknown item requiring appraisal. Can be identified by using a magnifier
+Unidentified item, can be identified with [Magnifier].
 #
 2780#
-Unknown item requiring appraisal. Can be identified by using a magnifier
+Unidentified item, can be identified with [Magnifier].
 #
 2781#
-Unknown item requiring appraisal. Can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 2825#
-Unknown item requiring appraisal. Can be identified by using a magnifier
+Unidentified item, can be identified with [Magnifier].
 #
 2826#
-Unknown item requiring appraisal. Can be identified by using a magnifier
+Unidentified item, can be identified with [Magnifier].
 #
 2827#
-Unknown item requiring appraisal. Can be identified by using a magnifier
+Unidentified item, can be identified with [Magnifier].
 #
 5479#
-Unknown item requiring appraisal. Can be identified by using a magnifier
+Unidentified item, can be identified with [Magnifier].
 #
 5480#
-Unknown item requiring appraisal. Can be identified by using a magnifier
+Unidentified item, can be identified with [Magnifier].
 #
 5482#
-Unknown item requiring appraisal. Can be identified by using a magnifier
+Unidentified item, can be identified with [Magnifier].
 #
 5483#
-Unknown item requiring appraisal. Can be identified by using a magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 5577#
-Unknown item requiring appraisal. Can be identified by using a magnifier
+Unidentified item, can be identified with [Magnifier].
 #
 6070#
 An ancient manuscript that can only be read by those familiar with the old Shaman language.
@@ -26910,16 +26910,16 @@ A weird silver coin from suspicious women. It is very important to her.
 Weight : ^7777770^000000
 #
 12411#
-Unknown item requiring Appraisal. Can be identified by using a Magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 12412#
-Unknown item requiring Appraisal. Can be identified by using a Magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 16267#
-Unknown item requiring Appraisal. Can be identified by using a Magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 16268#
-Unknown item requiring Appraisal. Can be identified by using a Magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 7956#
 "Republik"
@@ -27582,7 +27582,7 @@ Weight : ^7777771^000000
 Unidentified item, can be identified with [Magnifier].
 #
 5594#
-Unknown Item, can be identified by [Magnifier].
+Unidentified item, can be identified with [Magnifier].
 #
 
 16673#
@@ -27690,13 +27690,13 @@ weight : ^7777771^000000
 #
 // --------- Dewata (Indonesia Localizing) -------------	
 15032#
-Unknown Item, can be identified by [Magnifier].
+Unidentified item, can be identified with [Magnifier].
 #
 18520#
-Unknown Item, can be identified by [Magnifier].
+Unidentified item, can be identified with [Magnifier].
 #
 13067#
-Unknown Item, can be identified by [Magnifier].
+Unidentified item, can be identified with [Magnifier].
 #
 6401#
 Vegetable oil from oil palm fruit. It's very heavy!!
@@ -27770,16 +27770,16 @@ using a Magnifier.
 #
 
 18585#
-undefined. Use magnifier
+Unidentified item, can be identified with [Magnifier].
 #
 18586#
-undefined. Use magnifier
+Unidentified item, can be identified with [Magnifier].
 #
 18587#
-undefined. Use magnifier
+Unidentified item, can be identified with [Magnifier].
 #
 18588#
-undefined. Use magnifier
+Unidentified item, can be identified with [Magnifier].
 #
 
 13541#
@@ -27886,25 +27886,22 @@ Weight : ^7777771^000000
 ^ff0000 unable to trade or refund .^000000
 #
 
-18533#
-undefined. Use magnifier
-#
 18534#
 undefined. Use magnifier
 #
 
 // ---------- Ep13.3 퀘스트아이템 ------------
 2463#
-Unknown Item, can be identified by [Magnifier].
+Unidentified item, can be identified with [Magnifier].
 #
 2564#
-Unknown Item, can be identified by [Magnifier].
+Unidentified item, can be identified with [Magnifier].
 #
 2843#
-Unknown Item, can be identified by [Magnifier].
+Unidentified item, can be identified with [Magnifier].
 #
 2844#
-Unknown Item, can be identified by [Magnifier].
+Unidentified item, can be identified with [Magnifier].
 #
 
 6304#
@@ -27975,52 +27972,52 @@ A beautiful wing fragment of a large insect. Gorgeous colors are displayed betwe
 Weight : ^7777771^000000
 #
 1196#
-Unknown Item, can be identified by [Magnifier].
+Unidentified item, can be identified with [Magnifier].
 #
 1433#
-Unknown Item, can be identified by [Magnifier].
+Unidentified item, can be identified with [Magnifier].
 #
 1654#
-Unknown Item, can be identified by [Magnifier].
+Unidentified item, can be identified with [Magnifier].
 #
 1830#
-Unknown Item, can be identified by [Magnifier].
+Unidentified item, can be identified with [Magnifier].
 #
 1930#
-Unknown Item, can be identified by [Magnifier].
+Unidentified item, can be identified with [Magnifier].
 #
 1984#
-Unknown Item, can be identified by [Magnifier].
+Unidentified item, can be identified with [Magnifier].
 #
 1985#
-Unknown Item, can be identified by [Magnifier].
+Unidentified item, can be identified with [Magnifier].
 #
 2153#
-Unknown Item, can be identified by [Magnifier].
+Unidentified item, can be identified with [Magnifier].
 #
 2465#
-Unknown Item, can be identified by [Magnifier].
+Unidentified item, can be identified with [Magnifier].
 #
 2853#
-Unknown Item, can be identified by [Magnifier].
+Unidentified item, can be identified with [Magnifier].
 #
 2854#
-Unknown Item, can be identified by [Magnifier].
+Unidentified item, can be identified with [Magnifier].
 #
 13061#
-Unknown Item, can be identified by [Magnifier].
+Unidentified item, can be identified with [Magnifier].
 #
 13062#
-Unknown Item, can be identified by [Magnifier].
+Unidentified item, can be identified with [Magnifier].
 #
 13431#
-Unknown Item, can be identified by [Magnifier].
+Unidentified item, can be identified with [Magnifier].
 #
 16010#
-Unknown Item, can be identified by [Magnifier].
+Unidentified item, can be identified with [Magnifier].
 #
 18103#
-Unknown Item, can be identified by [Magnifier].
+Unidentified item, can be identified with [Magnifier].
 #
 6437#
 A perfume made from Scaraba secreted material with odd smell. Feels like all the scarabas are looking at me.
@@ -28101,51 +28098,51 @@ A box that contains Nut on head.
 Weight : ^7777771^000000
 #
 19507#
-Unknown Item, can be identified by [Magnifier]
+Unidentified item, can be identified with [Magnifier].
 #
 19509#
-Unknown Item, can be identified by [Magnifier]
+Unidentified item, can be identified with [Magnifier].
 #
 19510#
-Unknown Item, can be identified by [Magnifier]
+Unidentified item, can be identified with [Magnifier].
 #
 19513#
-Unknown Item, can be identified by [Magnifier]
+Unidentified item, can be identified with [Magnifier].
 #
 19514#
-Unknown Item, can be identified by [Magnifier]
+Unidentified item, can be identified with [Magnifier].
 #
 19515#
-Unknown Item, can be identified by [Magnifier]
+Unidentified item, can be identified with [Magnifier].
 #
 19516#
-Unknown Item, can be identified by [Magnifier]
+Unidentified item, can be identified with [Magnifier].
 #
 19517#
-Unknown Item, can be identified by [Magnifier]
+Unidentified item, can be identified with [Magnifier].
 #
 19518#
-Unknown Item, can be identified by [Magnifier]
+Unidentified item, can be identified with [Magnifier].
 #
 19519#
-Unknown Item, can be identified by [Magnifier]
+Unidentified item, can be identified with [Magnifier].
 #
 19520#
-Unknown Item, can be identified by [Magnifier]
+Unidentified item, can be identified with [Magnifier].
 #
 19521#
-Unknown Item, can be identified by [Magnifier]
+Unidentified item, can be identified with [Magnifier].
 #
 19522#
-Unknown Item, can be identified by [Magnifier]
+Unidentified item, can be identified with [Magnifier].
 #
 
 //대천사+모험가 배낭 업데이트
 2573#
-Unknown Item, can be identified by [Magnifier]
+Unidentified item, can be identified with [Magnifier].
 #
 2576#
-Unknown Item, can be identified by [Magnifier]
+Unidentified item, can be identified with [Magnifier].
 #
 16998#
 a box has a archangel wing inside.
@@ -28171,13 +28168,13 @@ weight : ^7777771^000000
 #
 //20110915----
 2736#
-Unknown Item, can be identified by [Magnifier]
+Unidentified item, can be identified with [Magnifier].
 #
 5600#
-Unknown Item, can be identified by [Magnifier]
+Unidentified item, can be identified with [Magnifier].
 #
 5601#
-Unknown Item, can be identified by [Magnifier]
+Unidentified item, can be identified with [Magnifier].
 #
 12204#
 with a taste of it, you can't never forget this liquor.
@@ -28213,7 +28210,7 @@ This is a cool firecracker to celebrate 2011 RWC! You will enjoy it for 10 secon
 Weight : ^7777772^000000
 #
 18521#
-Unknown Item, can be identified by [Magnifier]
+Unidentified item, can be identified with [Magnifier].
 #
 
 17030#
@@ -28222,7 +28219,7 @@ A box containing 1 St_Patrick's_Hat.
 Weight : ^77777710^000000
 #
 18565#
-Unknown item requiring Appraisal. Can be identified by using a Magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 6012#
 The letter ^000088C^000000 card which could be good for learning letters for the first time. It's frequently used for event.
@@ -28254,7 +28251,7 @@ Weight : ^7777771^000000
 //--2011 RWC----
 
 2168#
-Not idenfitied.
+Unidentified item, can be identified with [Magnifier].
 #
 12690#
 An album which has only headgear class card on it. this old card album seems to have mysterious power.
@@ -28355,20 +28352,20 @@ Jobs : ^777777All^000000
 Weight : ^7777771^000000
 #
 18599#
-Not idenfitied.
+Unidentified item, can be identified with [Magnifier].
 #
 18600#
-Not idenfitied.
+Unidentified item, can be identified with [Magnifier].
 #
 18601#
-Not idenfitied.
+Unidentified item, can be identified with [Magnifier].
 #
 18603#
-Not idenfitied.
+Unidentified item, can be identified with [Magnifier].
 #
 
 18539#
-Not idenfitied.
+Unidentified item, can be identified with [Magnifier].
 #
 
 6456#
@@ -28427,7 +28424,7 @@ You can refine your armor to + 6 through ^0000FFRefine Master^000000 in ^8B4513P
 Weight : ^7777770^000000
 #
 18538#
-Not idenfitied.
+Unidentified item, can be identified with [Magnifier].
 #
 16757#
 a scroll for celebrating holloween day. can have random item.
@@ -28435,7 +28432,7 @@ a scroll for celebrating holloween day. can have random item.
 weight : ^7777771^000000
 #
 15040#
-Not idenfitied
+Unidentified item, can be identified with [Magnifier].
 #
 
 7608#
@@ -28444,34 +28441,34 @@ Weight : ^7777771^000000
 #
 
 18540#
-Unknown Item, can be identified by [Magnifier]
+Unidentified item, can be identified with [Magnifier].
 #
 5475#
-Unknown Item, can be identified by [Magnifier].
+Unidentified item, can be identified with [Magnifier].
 #
 18656#
-Unknown Item, can be identified by [Magnifier].
+Unidentified item, can be identified with [Magnifier].
 #
 6130#
-"I call upon a creature of the night…in the name of the moon!" - Sofiel
+"I call upon a creature of the night ...in the name of the moon!" - Sofiel
 #
 18555#
-undefined. use magnfier
+Unidentified item, can be identified with [Magnifier].
 #
 2881#
-undefined. use magnfier
+Unidentified item, can be identified with [Magnifier].
 #
 18541#
-undefined. use magnfier
+Unidentified item, can be identified with [Magnifier].
 #
 18542#
-undefined. use magnfier
+Unidentified item, can be identified with [Magnifier].
 #
 18531#
-undefined. use magnfier
+Unidentified item, can be identified with [Magnifier].
 #
 18549#
-undefined. use magnfier
+Unidentified item, can be identified with [Magnifier].
 #
 16681#
 a scroll for celebrating indepence in Brazil. You can expect the items.
@@ -28486,14 +28483,8 @@ weight : ^7777771^000000
 a box having 10 Pices Scroll
 weight : ^7777771^000000
 #
-5737#
-spectacles…
-#
-5795#
-spectacles…
-#
 18505#
-spectacles…
+Unidentified item, can be identified with [Magnifier].
 #
 
 
@@ -28509,7 +28500,7 @@ A material to decorate Raccoon Hurray Team's [Supert large size Christmas socks]
 Weight : ^7777771^000000
 #
 18671#
-Unidentified. You can identify it with a [Magnifier].
+Unidentified item, can be identified with [Magnifier].
 #
 12739#
 The rare flower only available around Christmas. Although it look cool, but it can recover HP/SP.
@@ -28523,37 +28514,37 @@ Weight : ^7777770^000000
 
 //--------------------------iro 1219-------------------------
 18612#
-Unknown Item, can be identified by [Magnifier].
+Unidentified item, can be identified with [Magnifier].
 #
 18613#
-Unknown Item, can be identified by [Magnifier].
+Unidentified item, can be identified with [Magnifier].
 #
 18614#
-Unknown Item, can be identified by [Magnifier].
+Unidentified item, can be identified with [Magnifier].
 #
 18616#
-Unknown Item, can be identified by [Magnifier].
+Unidentified item, can be identified with [Magnifier].
 #
 18618#
-Unknown Item, can be identified by [Magnifier].
+Unidentified item, can be identified with [Magnifier].
 #
 18619#
-Unknown Item, can be identified by [Magnifier].
+Unidentified item, can be identified with [Magnifier].
 #
 18620#
-Unknown Item, can be identified by [Magnifier].
+Unidentified item, can be identified with [Magnifier].
 #
 18626#
-Unknown Item, can be identified by [Magnifier].
+Unidentified item, can be identified with [Magnifier].
 #
 18522#
-Unknown Item, can be identified by [Magnifier].
+Unidentified item, can be identified with [Magnifier].
 #
 5671#
-Unknown Item, can be identified by [Magnifier].
+Unidentified item, can be identified with [Magnifier].
 #
 5775#
-Unknown Item, can be identified by [Magnifier].
+Unidentified item, can be identified with [Magnifier].
 #
 4480#
 decrease 15% delay after using all skill 
@@ -28609,17 +28600,17 @@ weight : ^7777771^000000
 #
 
 18619#
-Unknown Item, can be identified by [Magnifier].
+Unidentified item, can be identified with [Magnifier].
 #
 5664#
-Unknown item requiring Appraisal. Can be identified by using a Magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 2589#
-Unknown Item, can be identified by [Magnifier].
+Unidentified item, can be identified with [Magnifier].
 #
 
 18580#
-Unknown item requiring Appraisal. Can be identified by using a Magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 
 17081#
@@ -28631,7 +28622,7 @@ Weight : ^7777771^000000
 18597#Mercury_Riser#
 17116#Mercury_Riser_Box#
 18591#
-Unknown item requiring Appraisal. Can be identified by using a Magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 17105#HD_Elunium_50_Box#
 17104#HD_Oridecon_50_Box#
@@ -28653,14 +28644,51 @@ Weight : ^7777771^000000
 Box Weight : ^7777771^000000
 #
 5737#
-Unknown item requiring Appraisal. Can be identified by using a Magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 5795#
-Unknown item requiring Appraisal. Can be identified by using a Magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 18589#
-Unknown item requiring Appraisal. Can be identified by using a Magnifier.
+Unidentified item, can be identified with [Magnifier].
 #
 18533#
-Unknown item requiring Appraisal. Can be identified by using a Magnifier.
+Unidentified item, can be identified with [Magnifier].
+#
+
+//---------20120201----------------------
+
+18575#
+Unidentified item, can be identified with [Magnifier].
+#
+17024#
+a special scroll for valentine. you will get lots of rare items in it
+weight : ^7777771^000000
+#
+17115#
+^ff0000once you open this box, this item won't be refundable.^000000
+a box has sprout hat
+weight : ^7777771^000000
+#
+18596#
+Unidentified item, can be identified with [Magnifier].
+#
+18615#
+Unidentified item, can be identified with [Magnifier].
+#
+17106#
+A box that contains 10 Gym Passes
+Description:
+A Gym Pass that can be
+given to a special
+NPC to learn a skill
+that will increase your^FFFFFF   ^000000 Maximum Weight
+Capacity by 200 for
+each skill level.
+This special skill
+can only be learned
+up to Level 10.
+^ffffff_^000000
+Weight : ^7777771^000000
+Box Weight : ^7777771^000000
 #
