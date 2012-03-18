@@ -5636,5 +5636,14 @@
 18582#Mask#
 18595#Ancient_Horns#
 18621#Mobster's Disguise#
+18573#Hat#
+18575#Hat#
+17141#Virgo_Scroll#
+12391#Lucky_Egg_C#
+12403#Lucky_Egg_C2#
+12827#Water_Type_Scroll#
+12828#Fire_Type_Scroll#
+12829#Earth_Type_Scroll#
+
 
 

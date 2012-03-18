@@ -18167,7 +18167,7 @@ contain goods.
 
 //---------------2006 US St. Patrick's Day------------------------------
 12135#
-^ff0000On Nov. 15th, 2011 these will become account bound until they are back in season.^000000
+^ff0000This items effects will decrease in recovery percentage by 10% on April 10, 2012.^000000
 A wonderfully
 refreshing drink that
 may cause stumbling
@@ -18179,6 +18179,7 @@ of Max HP and SP, but
 has a 10% chance of
 casting the Chaos
 effect on its user.
+This can be consumed 10 seconds after each use.
 ^ffffff_^000000
 Weight : ^77777725^000000
 #
@@ -46462,7 +46463,7 @@ Box Weight : ^77777710^000000
 18565#
 This is an exact replica of the hat worn by O'Riley the Leprechaun.
 Str +1, Int +1, Mdef +4.
-If refined to +7 or higher, adds a chance of automatically using 1 Green Ale while physically attacking.
+If refined to +8 or higher, adds a chance of automatically using 1 Green Ale while physically attacking and a low chance of dropping Green Ale with each monster killed.
 ^ff0000Can be traded, stored, and vended^000000
 Class : ^777777Headgear^000000
 Defense : ^7777778^000000
@@ -50188,7 +50189,7 @@ Filled with darkness of hatred and jealousy.
 Weight : ^7777770^000000
 #
 12537#
-Beautifully wrapped gift basket is for someone.
+Beautifully wrapped gift basket filled with goodies to share.
 Weight : ^7777771^000000
 #
 12538#
@@ -50196,10 +50197,7 @@ Filled with firecrackers for events.
 Weight : ^7777771^000000
 #
 18556#
-^ff0000Item is Character Bound^000000
 Glasses which proves you are a member of the Angel side.
-All Stats + 1.
-While wearing this, Hate Crates drop from Devil's Messengers when killed
 Class : ^777777Headgear^000000
 Defense : ^7777770^000000
 Location : ^777777Middle^000000
@@ -50208,10 +50206,7 @@ Required Level : ^7777771^000000
 Job : ^777777All^000000
 #
 18557#
-^ff0000Item is Character Bound^000000
 A sunglasses which proves the member of the Devil side.
-All State + 1.
-While wearing this, Love Lumps drop from Angel's Messengers when killed
 Class : ^777777Headgear^000000
 Defense : ^7777770^000000
 Location : ^777777Middle^000000
@@ -50299,4 +50294,183 @@ Defense: ^77777710^000000
 Weight : ^77777750^000000
 Required Level : ^7777771^000000
 Jobs: ^777777All^000000
+#
+
+
+17113#
+환상의 영약, 쌍어궁 보관, 쌍어궁 왕관, 티라야보넷, 보스 이그니젬Card 등 희귀한 아이템이 들어있는 스크롤.
+Weight : ^7777771^000000
+#
+17110#
+환상의 영약, 보병궁 보관, 보병궁 왕관, 늘어진 구미호, 어쌔신크로스Card 등 희귀한 아이템이 들어있는 스크롤.
+Weight : ^7777771^000000
+#
+17121#
+월야화 Card, 사자궁보관, 쌍녀궁보관, 쌍녀궁왕관, 천칭궁보관, 천칭궁왕관 등 희귀한 아이템이 들어있는 스크롤.
+Weight : ^7777771^000000
+#
+17127#
+대만 8월 별자리 한정 판매 상자.
+Weight : ^7777771^000000
+#
+2589#
+타락천사의 커다랗고 검은 날개.
+LUK + 2.
+인간형 몬스터의 공격에 대한 내성 10% 증가.
+암속성 공격에 대한 내성 30% 증가, 성속성 공격에 대한 내성 30% 감소.
+Class : ^777777걸칠것^000000  Defense : ^77777718^000000
+Weight : ^77777720^000000
+Required Level : ^7777771^000000
+Jobs : ^777777전직업 장착가능^000000
+#
+17117#
+타락천사의 날개, 이프리트 Card, 백양궁 왕관, 백양궁 보관, 환상의 영약 등 희귀한 아이템이 들어있는 스크롤.
+Weight : ^7777771^000000
+#
+18581#
+순진하던 사람도 이 마스크를 쓰게 되면, 전사가 된다는 소문이 있다.
+STR + 3
+HP + 100
+제련불가
+Class : ^777777투구^000000    Defense : ^7777772^000000
+Location : ^777777상중단^000000    Weight : ^77777740^000000
+Required Level : ^77777750^000000
+Jobs : ^777777All Jobs^000000
+#
+18582#
+순진하던 사람도 이 마스크를 쓰게 되면, 전사가 된다는 소문이 있다.
+STR + 3
+HP + 100
+제련불가
+Class : ^777777투구^000000    Defense : ^7777772^000000
+Location : ^777777상중단^000000    Weight : ^77777740^000000
+Required Level : ^77777750^000000
+Jobs : ^777777All Jobs^000000
+#
+18583#
+머리위에 얹고 다닐수 있도록 만들어진 인형. 어디선가 고양이 울음소리가 들리거나 머리위에서 움직임이 느껴지거나 하는건 기분탓이다.
+MDEF + 15
+저주에 대한 내성 30%
+Class : ^777777Headgear^000000    Defense : ^7777773^000000
+Location : ^777777상단^000000    Weight : ^77777750^000000
+Required Level : ^777777None^000000
+Jobs : ^777777노비스계열을 제외한 All Jobs^000000
+#
+18584#
+머리위에 얹고 다닐수 있도록 만들어진 인형. 어디선가 고양이 울음소리가 들리거나 머리위에서 움직임이 느껴지거나 하는건 기분탓이다.
+MDEF + 15
+저주에 대한 내성 30%
+Class : ^777777Headgear^000000    Defense : ^7777773^000000
+Location : ^777777상단^000000    Weight : ^77777750^000000
+Required Level : ^777777None^000000
+Jobs : ^777777노비스계열을 제외한 All Jobs^000000
+#
+17109#
+환상의 영약, 마갈궁 보관, 마갈궁 왕관, 마력 깃든 Card첩, 타락한대신관Card 등 희귀한 아이템이 들어있는 스크롤.
+Weight : ^7777771^000000
+#
+17080#
+^ff0000Available for sale until March 26, 2012.
+Can only be placed in storage.^000000
+May cause unrestrained delight from the receiver of Gift Baskets, Each March and Groove pack contains:
+2 Gift Baskets which have delightful chocolates!
+And randomly:
+-1x Safe to 7 Chance Box,
+-1x Battle Manual x3,
+-25x Mystical Amplification Scrolls,
+-1x Heroic Desocketing Book,
+-1x 4 Leaf Clover in Mouth.
+
+Box Weight : ^7777771^000000
+#
+17120#
+아트로스 Card, 환상의 영약, 발키리의 갑옷, 아요타야 모자, 대행자의 껍질 조각 등 희귀한 아이템이 들어있는 스크롤.
+Weight : ^7777771^000000
+#
+17138#
+거해궁 자리의 달을 기념하는 특별한 스크롤. 거해궁 왕관, 거해궁 보관, 하티 Card, 비치타올, 비상하는 천사 및 다른 귀중한 아이템을 획득할 수 있다.
+Weight : ^7777771^000000
+#
+17140#
+사자궁 자리의 달을 기념하는 특별한 스크롤. 사자궁 왕관, 사자궁 보관, 타락한대신관 Card, 스킨 오브 벤투스, 날고 싶은 엔젤링 및 다른 귀중한 아이템을 획득할 수 있다.
+Weight : ^7777771^000000
+#
+17141#
+쌍녀궁 자리의 달을 기념하는 특별한 스크롤. 쌍녀궁 왕관, 쌍녀궁 보관, 대행자의 껍질조각, 물의 갑옷[1], 대형 마제스틱고우트 및 다른 귀중한 아이템을 획득할 수 있다.
+Weight : ^7777771^000000
+#
+17142#
+천칭궁 자리의 달을 기념하는 특별한 스크롤. 천칭궁 왕관, 천칭궁 보관, 하이위자드Card, 모험가의 배낭, 엔젤링 핀, 마력깃든 Card첩 및 다른 귀중한 아이템을 획득할 수 있다.
+Weight : ^7777771^000000
+#
+17143#
+천헐궁 자리의 달을 기념하는 특별한 스크롤. 천헐궁 왕관, 천헐궁 보관, 타나토스의 기억 Card, 본플레이트, 타나토스의 증오 가면, 휘케바인의 검은 꼬리 및 다른 귀중한 아이템을 획득할 수 있다.
+Weight : ^7777771^000000
+#
+17082#
+A special scroll to celebrate the month of Gemini. You would get Gemini Diadem, Salamander Card, Freyja's Overcoat, Boys Cap, Gang's Scarf and also other valuable items.
+Weight : ^7777771^000000
+#
+17083#
+A box containing ten Gemini Diadem Scrolls.
+Weight : ^7777771^000000
+#
+17107#
+A special scroll to celebrate the month of Gemini. You can get a valuable item such as Gemini Crown, Dark Snake Lord Card, Elven Ears, Gentleman's Pipe, Hawk Eyes etc.
+Weight : ^7777771^000000
+#
+17108#
+A box containing 10 piece of Gemini Crown Scroll.
+Weight : ^7777771^000000
+#
+4480#
+모든 스킬의 후 딜레이가 15% 감소한다.
+15제련 이상 시 시전 후 딜레이 5% 추가 감소.
+Class : ^777777Card^000000
+Compound on : ^777777Headgear^000000
+Weight : ^7777771^000000
+#
+4481#
+화속성 몬스터에게 물리 데미지 25% 추가.
+물리, 마법 데미지를 입었을 때 일정 확률로 오토스펠 프로스트 노바 Lv10 발동.
+15제련 이상일 경우 화속성 몬스터에게 물리 데미지 10% 추가증가.
+Class : ^777777Card^000000
+Compound on : ^777777갑옷^000000
+Weight : ^7777771^000000
+#
+4482#
+15초마다 50의 HP, 10의 Sp 회복.
+MHP와 MSP가 5% 증가한다.
+15제련 이상 일 경우 HP, SP회복속도 10초로 단축, MHP, MSP가 2% 추가 증가.
+Class : ^777777Card^000000
+Compound on : ^777777신발^000000
+Weight : ^7777771^000000
+#
+4483#
+일정확률(5%)로 적에게 준 대미지의 5% 를 자신의 SP로 흡수 한다. 15제련 이상일 경우 흡수할 확률이 7%로 증가.
+Class : ^777777Card^000000
+Compound on : ^777777무기^000000
+Weight : ^7777771^000000
+#
+4484#
+젬스톤을 소모하는 마법들을 소모없이 사용가능하게 한다.
+스킬 사용시 SP소모량이 50% 증가한다.
+15제련 이상 일 경우 스킬 사용시 SP소모량이 35% 증가.
+Class : ^777777Card^000000
+Compound on : ^777777Headgear^000000
+Weight : ^7777771^000000
+#
+4485#
+성속성, 암속성, 천사형, 악마형 몬스터에게 물리 데미지 20% 추가.
+15제련 이상일 경우, 성속성, 암속성, 천사형, 악마형 몬스터에게 물리 데미지 10% 추가 증가.
+Class : ^777777Card^000000
+Compound on : ^777777갑옷^000000
+Weight : ^7777771^000000
+#
+2573#
+대천사의 커다랗고 하얀 날개.
+계열 : ^777777걸칠것^000000  방어 : ^77777718^000000
+무게 : ^77777720^000000
+요구 레벨 : ^7777771^000000
+장착 : ^777777전직업 장착가능^000000
 #

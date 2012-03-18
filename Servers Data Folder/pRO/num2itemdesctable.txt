@@ -28756,3 +28756,38 @@ Unidentified item, can use [Spectacles] from merchant to identify it.
 Unknown Item, can be identified by [Magnifier].
 #
 18595#Ancient_Horns#
+18573#
+Unknown Item, can be identified by [Magnifier].
+#
+18575#
+Unknown Item, can be identified by [Magnifier].
+#
+17141#
+a special scroll celebrating month of Gemini. you can get precious items in it
+weight : ^7777771^000000
+#
+12391#
+a egg type of bundle with cute. you might be able to get something
+^ffffff_^000000
+weight : ^7777771^000000
+#
+12403#
+a egg type of bundle with cute. you might be able to get something
+weight : ^7777771^000000
+#
+12827#
+a water type of scroll
+you can get so precious items in it .
+weight : ^7777771^000000
+#
+12828#
+a fire type of scrolll
+you can get so precious items in it .
+weight : ^7777771^000000
+#
+12829#
+Earth Type of scroll
+you can get so precious items in it .
+weight : ^7777771^000000
+#
+

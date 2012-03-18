@@ -39136,3 +39136,49 @@ Weight : ^77777740^000000
 Required Level : ^77777750^000000
 Job : ^777777All^000000
 #
+18573#
+a berret decorated with white feather.
+HIT + 20, MHP - 10%.
+if refined lev5 ,  HIT - 10, MHP + 10%, addtional refine level 2 increaseHIT - 3, MHP + 3%.
+Class : ^777777Headgear^000000 Def : ^7777772^000000
+Location : ^777777Upper ^000000 weight : ^77777750^000000
+Req level : ^77777730^000000
+jobs : ^777777all jobs^000000
+#
+18575#
+suspicious box that has eyebrow 
+unable to refine, MDEF + 10.
+when close attack, can get random skill with regular rate.
+Class : ^777777Headgear^000000 Def : ^77777710^000000
+Location : ^777777Upper-mid-low ^000000 weight : ^77777750^000000
+Req Level : ^77777720^000000
+Jobs : ^777777All Jobs^000000
+#
+17141#
+a special scroll celebrating month of Gemini. you can get precious items in it
+weight : ^7777771^000000
+#
+12391#
+a egg type of bundle with cute. you might be able to get something
+^ffffff_^000000
+weight : ^7777771^000000
+#
+12403#
+a egg type of bundle with cute. you might be able to get something
+weight : ^7777771^000000
+#
+12827#
+a water type of scroll
+you can get so precious items in it .
+weight : ^7777771^000000
+#
+12828#
+a fire type of scrolll
+you can get so precious items in it .
+weight : ^7777771^000000
+#
+12829#
+Earth Type of scroll
+you can get so precious items in it .
+weight : ^7777771^000000
+#

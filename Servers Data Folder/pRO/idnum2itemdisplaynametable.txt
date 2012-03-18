@@ -5683,3 +5683,12 @@
 18582#Blue_Tiger_Mask#
 18621#Mobster's Disguise#
 18595#Ancient_Horns#
+18573#White_Feather#
+18575#Wunderkammer#
+17141#Virgo_Scroll#
+12391#Lucky_Egg_C#
+12403#Lucky_Egg_C2#
+12827#Water_Type_Scroll#
+12828#Fire_Type_Scroll#
+12829#Earth_Type_Scroll#
+
