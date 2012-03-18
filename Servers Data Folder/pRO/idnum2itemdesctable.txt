@@ -38990,3 +38990,23 @@ Weight : ^77777720^000000
 Required Level : ^77777720^000000
 Jobs: ^777777All Except Novice^000000
 #
+
+//----2012 πﬂ∑ª≈∏¿Œ---
+6566#
+Magic Recipe which will teach you how to make a fierce Cacao 99.
+It seems like there's a certain place for using this recipe.
+^B90000Essencial Ingredients :  99 Cacao beans, 1 Milk.^000000
+Weight : ^7777770^000000
+#
+6567#
+Magic Recipe which will teach you how to make a cool chocolate drink.
+It seems like there's a certain place for using this recipe.
+^B90000Essencial Ingredients :  30 Cacao beans, 3 Chocolates, 2 Milk^000000
+Weight : ^7777770^000000
+#
+11057#
+A cooking book where you can find creative and yummy chocolate-using desserts' recipe.
+The most wanted book for the lovers in between Winter and Spring!
+The Author: Arles Orleans, the Chocolate Expert and the famous Patissier.
+Weight : ^7777775^000000
+#

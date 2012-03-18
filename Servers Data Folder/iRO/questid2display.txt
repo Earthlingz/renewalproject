@@ -10855,6 +10855,14 @@ Continue your conversation with Zeldys#
 You need to wait at least 23 hours before repeating the lunar new year quest.#
 #
 
+60919#Pinkamenia's Request#SG_FEEL#QUE_NOIMAGE#
+Continue your conversation with Pinkamenia#
+#
+
+60920#Recovering the Stolen Cacao#SG_FEEL#QUE_NOIMAGE#
+Pinkamenia in Moscovia has asked you to get a Costume Cake Hat from the Baker Extaordinaire and use it to bring her 15 Stolen Cacao.#
+#
+
 4154#Homunculus S mutation#SG_FEEL#QUE_NOIMAGE#
 You are seeking Viorel help in Mutating your mighty Evolved Homunculus in Lighthalzen.#
 #
@@ -10882,3 +10890,38 @@ Your homunculus has been reborn as a Strange Embryo, take it to Viorel to bring 
 4160#Homunculus S mutation#SG_FEEL#QUE_NOIMAGE#
 Viorel will help you finally mutate your Homunculus, this is an important decision!#
 #
+
+
+//2012 Valentine Day Event
+5101#You have chosen Angel's Side.#SG_FEEL#QUE_NOIMAGE#
+Talk to the Angel from the Angel's Side.#
+The Angel is in front of the Inn located at the 11 O'clock direction in Alberta.#
+
+5102#You have chosen Devil's Side.#SG_FEEL#QUE_NOIMAGE#
+Talk to the Devil from the Devil's Side.#
+The Devil is in front of the Merchant Guild located at the 7 O'clock direction in Alberta.#
+
+5103#[Angel] Please Wait!!#SG_FEEL#QUE_NOIMAGE#
+1 hour has not passed since you finished the Angel's Side mission.#
+You can start the mission after 1 hour.#
+
+5104#[Angel's Side] Expand!!#SG_FEEL#QUE_NOIMAGE#
+If you defeat the Devil's Messenger while wearing the symbol, you can acquire Hate Much. It would be a great help in expanding our side if you bring those to me.#
+Collect 20 Hate Much and bring them#
+
+5105#[Angel's Side] Sabotage!!#SG_FEEL#QUE_NOIMAGE#
+Devil's Side dispatched Messengers of Devil. Go stop them!! #
+Stop 7 Messenger of Devil!!#
+
+5106#[Devil] Wait!!#SG_FEEL#QUE_NOIMAGE#
+1 hour has not passed since you finished the Devil's Side mission.#
+You can start the mission after 1 hour.#
+
+5107#[Devil's Side] Expand!!#SG_FEEL#QUE_NOIMAGE#
+Angels are expanding their side. We have to something about it. Wear your Symbols and Defeat Messenger of Angels!!! You will get Love Much. Bring those to me!!!#
+Collect 20 Love Much and bring them#
+
+5108#[Devil's Side] Sabotage!!#SG_FEEL#QUE_NOIMAGE#
+Angel's Side dispatched Messenger of Angel. Go stop them!!#
+Defeat 7 Messenger of Angel.#
+

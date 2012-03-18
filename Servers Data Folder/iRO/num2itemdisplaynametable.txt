@@ -2191,7 +2191,7 @@
 5102#Accessory#
 5103#Hat#
 5104#Headgear#
-5105#2nd_Anniversary_Hat#
+5105#Costume:_Cake_Hat#
 5106#2nd_Anniversary_Hat#
 5107#Accessory#
 5108#Headgear#
@@ -2425,7 +2425,7 @@
 5390#Costume:_Blue_Christmas_Cheer#
 5391#Toast#
 5392#Louyang_NewYear_Hat#
-5393#Cupid's_Target#
+5393#Valentine_Hat#
 5394#Bubblegum_Lower#
 5395#Tiraya_Bonnet#
 5395#Tiraya_Bonnet#
@@ -4907,7 +4907,7 @@
 12391#Fortune_Egg#
 12403#Fortune_Egg¥±#
 12416#Fortune_Egg¥²#
-12493#Groovy_Dragon_Box#
+12493#Fortune_Egg¥³#
 12545#Fortune_Egg¥´#
 12577#Fortune_Egg¥µ#
 12595#Incarnation_Of_Morocc_Doll_Box#
@@ -5219,3 +5219,9 @@
 12739#Snow_Flower#
 10038#Horn_Protector#
 12623#High_Weapon_Box#
+7864#Stolen_Cacao#
+5146#Elephant_Hat#
+2576#Heroic_Backpack#
+16999#Heroic_Backpack_Box#
+6484#Heroic_Desocketing_Book#
+17181#Getting_Lucky_Box#

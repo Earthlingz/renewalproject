@@ -10233,10 +10233,11 @@ A birthday cake replica that won't fit a Dancer
 inside, but it's almost just as much fun to
 wear it on top of your
 head. Almost.
+^FF0000If you refine this to +8 bring it to Baker Extraordinaire in Moscovia and you can exchange it for a Costume version^000000.
 Class : ^777777Headgear^000000
 Defense: ^7777772^000000
 Location : ^777777Upper^000000
-Weight : ^777777150^000000
+Weight : ^77777710^000000
 Jobs: ^777777All^000000
 #
 5025#
@@ -16042,17 +16043,17 @@ are rumors that this orb has other hidden powers.
 Weight : ^77777710^000000
 #
 5105#
-An appetizing looking
-Cake Hat that has been
-created to celebrate
-Ragnarok Online's
-second anniversary.
-Dex +1, SP +80
-Class : ^777777Headgear^000000
-Defense: ^7777771^000000
-Location: ^777777Upper^000000
-Weight : ^777777100^000000
-Required Level : ^77777724^000000
+A birthday cake replica that won't fit a Dancer
+inside, but it's almost just as much fun to
+wear it on top of your
+head. Almost.
+^ff0000While wearing this, monsters have a chance of dropping Stolen Cacao when killed which can be turned into Pinkemenia in Moscovia for chocolates.^000000
+MaxSP +60
+Class : ^777777Costume^000000
+Defense: ^7777772^000000
+Location : ^777777Upper^000000
+Weight : ^7777770^000000
+Required Level : ^7777771^000000
 Jobs: ^777777All^000000
 #
 12023#
@@ -23758,7 +23759,6 @@ invulnerable Siegfried
 which allows its bearer^FFFFFF   ^000000 to overcome death.
 Revives the dead
 character.
-^ff0000If you purchase this while already dead, click 'Return to game' and press 'ESC' again to bring up the 'Resurrection' option^000000
 ^ffffff_^000000
 Weight : ^7777771^000000
 #
@@ -35227,8 +35227,7 @@ Weight : ^77777730^000000
 Physical Attack against Demihuman monsters +75%.
 Ignore 20% of Physical Defense of Demihuman monsters.
 ***Additional Weapon Refining Level Option***
-+6 Upgrade : Ignore Demihuman physical defense +5%.
-^ff0000[Slaughter]^000000 Lv 1 5% Damage bonus per refine over 5.(Damage bonus of Slaughter increases up to the upgrade level 14.)
++6 Upgrade : Ignore Demihuman physical defense +5%, ^ff0000[Slaughter]^000000 Lv 1 (Damage bonus of Slaughter increases up to the upgrade level 14.)
 +7 Upgrade : 
 Increase in attack speed(Delay after attacking reduces by 10%)
 +9 Upgrade : When using [Bash], has a chance of activating Lv. 2 [Fatal Wound].
@@ -35239,7 +35238,6 @@ Weapon Level : ^7777774^000000
 Required Level : ^77777780^000000
 Job : ^777777Novice Class / Swordman Class / Merchant Class / Thief Class^000000
 #
-
 
 13417#
 Int +6, Matk +80, Increases Int based on refine level.
@@ -35273,8 +35271,7 @@ Physical Attack against Demihuman monsters +75%.
 Ignore 20% of Physical Defense of Demihuman monsters.
 When physically attacking, has a chance of autocasting [Lex Divina] Lv 1.
 ***Additional Weapon Refining Level Option***
-+6 Upgrade : Ignore Demihuman physical defense +5%.
-^ff0000[Slaughter]^000000 Lv 1 5% Damage bonus per refine over 5.(Damage bonus of Slaughter increases up to the upgrade level 14.)
++6 Upgrade : Ignore Demihuman physical defense +5%, ^ff0000[Slaughter]^000000 Lv 1 (Damage bonus of Slaughter increases up to the upgrade level 14.)
 +9 Upgrade : When using [Sightless Mind], has a chance of inflicting [Bleed] in a 5x5 area
 Class : ^777777Dagger^000000
 Attack : ^777777120^000000
@@ -35283,7 +35280,6 @@ Weapon Level : ^7777774^000000
 Required Level : ^77777780^000000
 Job : ^777777Novice Class / Swordman Class / Mage Class / Archer Class / Merchant Class / Thief Class /Soul Linker/ Ninja Class^000000
 #
-
 
 1310#
 Physical Attack against Demihuman monsters +75%.
@@ -38799,11 +38795,7 @@ placeholder
 placeholder
 #
 5393#
-A cute headband declaring that you are looking Cupid to take aim at you!
-^ff0000This item is Account Bound^000000
-Location: ^777777Upper^000000
-Defense: ^7777774^000000
-Weight: ^77777720^000000
+placeholder
 #
 5394#
 placeholder
@@ -47209,7 +47201,7 @@ Jobs : ^777777Royal Guard Only^000000
 1654#
 A staff which converts elemental power into psychic energy.
 Fluctuate casting time of Psychic Wave decreased by 3 secs. Increases SP of Psychic Wave by 60.
-Damage of Psychic Wave increased by 2% and MHP decreased by 2% for every upgrade above level 6.
+ATK increased by 2% and MHP decreased by 2% for every upgrade above level 6.
 Loses SP 100 upon disrobement.
 MATK + 170
 Class : ^777777One-Hand Staff^000000
@@ -47628,20 +47620,7 @@ And randomly give you one of the following item sets.
 Weight : ^7777771^000000
 #
 12493#
-A Groove Pack to celebrate the Lunar New Year of the Dragon!
-^CC0000Available until January 31st.^000000
-
-Every time you open one you will get 25 Red Envelopes and 25 Handsei.
-Envelopes give about 1 monster kill worth of EXP and the Handsei give zeny.
-
-Also a random chance of:
-Mega Resist Potion
-Battle Manual X3
-MVP Hunt Box
-Slotting Advertisement
-Gold Dragonhelm (Account Bound)
-
-The Groovy Dragon Box is untradable, but may be stored.
+A very cute egg scroll. It feels so fancy that makes you expect something from it.
 Weight : ^7777771^000000
 #
 12545#
@@ -48198,7 +48177,7 @@ Required Level : ^77777720^000000
 Jobs: ^777777All Except Novice^000000
 #
 18620#
-Heart_Eyepatch
+An eyepatch for those who would not like to look lovelier than a pirate.
 Class : ^777777Headgear^000000
 Location: ^777777Middle^000000
 Defense: ^7777772^000000
@@ -50004,11 +49983,30 @@ Available by quest until February 7, 2012 in celebration of the Year of the Drag
 4% tolerance to Dragon Race monsters
 +1% tolerance to Dragon Race monsters per refine level, up to a limit of +8.
 +1% damage to Dragon Race monsters up to a limit of +8
-^770000Account Bound^000000
+^770000Cannot be upgraded
+Account Bound^000000
 Class : ^777777Headgear^000000
 Location : ^777777Upper^000000
 Defense: ^77777710^000000
 Weight : ^777777150^000000
+Required Level : ^7777771^000000
+Jobs: ^777777All^000000
+#
+
+5453#
+Copper Dragonhelm is specially constructed to offer the utmost in protection against Dragon Type Monsters.  
+The materials used in creating the Copper Dragonhelm work perfectly when used as components to safely upgrade either the Copper or Silver Dragonhelms, talk to Dragos in Prontera for details.
+Available by quest until February 7, 2012 in celebration of the Year of the Dragon.
++1% tolerance to Dragon Race monsters per refine level, up to a limit of 8%.
+^770000Cannot be upgraded
+Account Bound^000000
+Class : ^777777Headgear^000000
+Location : ^777777Upper^000000
+Defense: ^7777775^000000
+Weight : ^777777150^000000
+Required Level : ^7777771^000000
+Jobs: ^777777All^000000
+#00
 Required Level : ^7777771^000000
 Jobs: ^777777All^000000
 #
@@ -50048,4 +50046,120 @@ Weight : ^7777771^000000
 Horn protector, not implemented.
 ^ffffff_^000000
 Weight : ^7777770^000000
+#
+
+7864#
+Cacao stolen from Pinkamenia in Moscovia while she was baking. Return them to her and she will give you some rewards.
+Weight : ^7777770^000000
+#
+
+5146#
+An headress shaped like a magnificent Elephant.
+Enables the use of Level 1 Greed.
+If refined to 9 or higher, has a chance of activating Greed while physically attacking.
+Vit +1
+Class : ^777777Headgear^000000
+Defense : ^7777770^000000
+Location : ^777777Upper^000000
+Weight : ^77777750^000000
+Required Level : ^7777771^000000
+Jobs : ^777777All^000000
+#
+
+2576#
+A backpack befitting of any hero.
+Enables the use of level 1 Greed
+^ff0000This item will become tradeable on 02/28/2012^000000
+If refined to +7 or higher and base stats (without modifiers) is equal to 90 or higher,
+-Str -> Attack +20
+-Int -> Magic Attack +30
+-Vit -> Tolerance to Neutral Property +5
+-Agi -> Aspd +8%
+-Dex -> Ranged Attack +5
+-Luk -> Cri +10
+If refined to +9 or higher and base stats (without modifiers) is equal to 90 or higher,
+-Str -> Attack +30
+-Int -> Magic Attack +50
+-Vit -> Tolerance to Neutral Property +10
+-Agi -> Aspd +8% & Aspd +1
+-Dex -> Ranged Attack +10
+-Luk -> Cri +15
+Class : ^777777Garment^000000
+Defense: ^77777720^000000
+Weight : ^77777720^000000
+Required Level : ^7777771^000000
+Jobs: ^777777All^000000
+#
+
+16999#
+A box that contains 1 Heroic Backpack
+Description:
+A backpack befitting of any hero.
+Enables the use of level 1 Greed
+If refined to +7 or higher and base stats (without modifiers) is equal to 90 or higher,
+-Str -> Attack +20
+-Int -> Magic Attack +30
+-Vit -> Tolerance to Neutral Property +5
+-Agi -> Aspd +8%
+-Dex -> Ranged Attack +5
+-Luk -> Cri +10
+If refined to +9 or higher and base stats (without modifiers) is equal to 90 or higher,
+-Str -> Attack +30
+-Int -> Magic Attack +50
+-Vit -> Tolerance to Neutral Property +10
+-Agi -> Aspd +8% & Aspd +1
+-Dex -> Ranged Attack +10
+-Luk -> Cri +15
+Class : ^777777Garment^000000
+Defense: ^77777720^000000
+Weight : ^77777720^000000
+Required Level : ^7777771^000000
+Jobs: ^777777All^000000
+
+Box Weight : ^7777771^000000
+#
+
+6484#
+Bring this book and 1 Slotting Advertisement to Troy at the second floor of Eden Group Headquarters and he will remove all cards from 1 item in your equipped inventory.
+All cards will be returned but the item that they are slotted in will be destroyed forever.
+^ff00001 Book is required for every card being removed.^000000
+Weight : ^7777771^000000
+#
+
+18589#
+A ripe strawberry shaped hat.
+Drops Strawberry at a certain rate when killing monsters.
+Increases the drop rate of Strawberry with each refine level and caps at level 10.
+Class : ^777777Headgear^000000
+Defense : ^7777775^000000
+Location : ^777777Upper^000000
+Weight : ^77777710^000000
+Required Level : ^7777771^000000
+Jobs : ^777777All^000000
+#
+
+17181#
+The Getting Lucky Box contains many items of pure win.  It is advised to use with caution.
+Getting Lucky Box is not meant to be consumed internally.
+^FFFFFF_^000000
+Opening this randomly give you one of the following item sets
+- 1x Heroic Desocketing Book
+- 1x Heroic Backpack
+- 1x Elephant Hat
+- 1x Scarlet Rose
+- 1x Koneko Hat
+- 1x Aquarius Crown
+- 1x Aquarius Diadem
+- 1x Heart Eyepatch
+- 1x Party Hard Pack
+- 1x Party Buff Scroll Pack
+- 1x +20 Basic Food Pack
+- 3x Battle Manual X3
+- 10x Mental Potion
+- 10x Spearman Scroll 10
+- 1500x Prize Medal
+^FFFFFF_^000000
+^FF0000This item cannot be traded, but may be stored.^000000
+^FFFFFF_^000000
+Weight : ^7777771^000000
 #

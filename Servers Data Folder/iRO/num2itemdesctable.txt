@@ -29342,16 +29342,16 @@ placeholder
 Unknown item requiring appraisal. Can be identified by using a magnifier.
 #
 5391#
-Unknown item requiring appraisal. Can be identified by using a magnifier.
+placeholder
 #
 5392#
-Unknown item requiring appraisal. Can be identified by using a magnifier.
+placeholder
 #
 5393#
-Unknown item requiring appraisal. Can be identified by using a magnifier.
+placeholder
 #
 5394#
-Unknown item requiring appraisal. Can be identified by using a magnifier.
+placeholder
 #
 5395#
 Unknown item requiring appraisal. Can be identified by using a magnifier.
@@ -34726,20 +34726,7 @@ A very cute egg scroll. It feels so fancy that makes you expect something from i
 Weight : ^7777771^000000
 #
 12493#
-A Groove Pack to celebrate the Lunar New Year of the Dragon!
-^CC0000Available until January 31st.^000000
-
-Every time you open one you will get 25 Red Envelopes and 25 Handsei.
-Envelopes give about 1 monster kill worth of EXP and the Handsei give zeny.
-
-Also a random chance of:
-Mega Resist Potion
-Battle Manual X3
-MVP Hunt Box
-Slotting Advertisement
-Gold Dragonhelm (Account Bound)
-
-The Groovy Dragon Box is untradable, but may be stored.
+A very cute egg scroll. It feels so fancy that makes you expect something from it.
 Weight : ^7777771^000000
 #
 12545#
@@ -35953,6 +35940,31 @@ Unknown Item, can be identified by [Magnifier].
 
 5453#
 Unknown Item, can be identified by [Magnifier].
+#you the appearance of a famous old-timey actor.
+^ff0000This box can be stored and traded, the items inside are account bound.^000000
+Opening it will give both of the following:
+-1x Costume: Charlie Mustache
+-1x Costume: Brown Bowler
+^ff0000Once this item opened, it cannot be refunded.^000000
+Weight : ^7777771^000000
+#
+
+11505#
+A plant that brings up your spirit.
+Recovers 150 SP when consumed.
+Weight : ^7777773^000000
+#
+
+5451#
+Unknown Item, can be identified by [Magnifier].
+#
+
+5452#
+Unknown Item, can be identified by [Magnifier].
+#
+
+5453#
+Unknown Item, can be identified by [Magnifier].
 #
 
 12350#
@@ -35974,4 +35986,84 @@ Weight : ^7777771^000000
 Horn protector, not implemented.
 ^ffffff_^000000
 Weight : ^7777770^000000
+#
+
+
+7864#
+Cacao stolen from Pinkamenia in Moscovia while she was baking. Return them to her and she will give you some rewards.
+Weight : ^7777770^000000
+#
+
+5146#
+Unknown Item, can be identified by [Magnifier].
+#
+
+
+2576#
+A backpack befitting of any hero.
+Enables the use of level 1 Greed
+If refined to +7 or higher and base stats (without modifiers) is equal to 90 or higher,
+-Str -> Attack +20
+-Int -> Magic Attack +30
+-Vit -> Tolerance to Neutral Property +5
+-Agi -> Aspd +8%
+-Dex -> Ranged Attack +5
+-Luk -> Cri +10
+If refined to +9 or higher and base stats (without modifiers) is equal to 90 or higher,
+-Str -> Attack +30
+-Int -> Magic Attack +50
+-Vit -> Tolerance to Neutral Property +10
+-Agi -> Aspd +8% & Aspd +1
+-Dex -> Ranged Attack +10
+-Luk -> Cri +15
+Class : ^777777Garment^000000
+Defense: ^77777720^000000
+Weight : ^77777720^000000
+Required Level : ^7777771^000000
+Jobs: ^777777All^000000
+#
+
+16999#
+A box that contains 1 Heroic Backpack
+Description:
+A backpack befitting of any hero.
+Enables the use of level 1 Greed
+If refined to +7 or higher and base stats (without modifiers) is equal to 90 or higher,
+-Str -> Attack +20
+-Int -> Magic Attack +30
+-Vit -> Tolerance to Neutral Property +5
+-Agi -> Aspd +8%
+-Dex -> Ranged Attack +5
+-Luk -> Cri +10
+If refined to +9 or higher and base stats (without modifiers) is equal to 90 or higher,
+-Str -> Attack +30
+-Int -> Magic Attack +50
+-Vit -> Tolerance to Neutral Property +10
+-Agi -> Aspd +8% & Aspd +1
+-Dex -> Ranged Attack +10
+-Luk -> Cri +15
+Class : ^777777Garment^000000
+Defense: ^77777720^000000
+Weight : ^77777720^000000
+Required Level : ^7777771^000000
+Jobs: ^777777All^000000
+
+Box Weight : ^7777771^000000
+#
+
+6484#
+Bring this book to Troy at the second floor of Eden Group Headquarters and he will remove all cards from 1 item in your equipped inventory.
+All cards will be returned but the item that they are slotted in will be destroyed forever.
+Weight : ^7777771^000000
+#
+18589#
+Unknown Item, can be identified by [Magnifier].
+#
+
+17181#
+The Getting Lucky Box contains many items of pure win.  It is advised to use with caution.
+Getting Lucky Box is not meant to be consumed internally.
+^FF0000This item cannot be traded, but may be stored.^000000
+^FFFFFF_^000000
+Weight : ^7777771^000000
 #
