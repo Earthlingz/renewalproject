@@ -5260,3 +5260,8 @@
 5453#Copper_Dragonhelm#
 
 12350#Angeling_Potion#
+
+6415#Strange_Embryo#
+
+12739#Snow_Flower#
+10038#Horn_Protector#

@@ -47200,7 +47200,7 @@ Jobs : ^777777Royal Guard Only^000000
 1654#
 A staff which converts elemental power into psychic energy.
 Fluctuate casting time of Psychic Wave decreased by 3 secs. Increases SP of Psychic Wave by 60.
-ATK increased by 2% and MHP decreased by 2% for every upgrade above level 6.
+Damage of Psychic Wave increased by 2% and MHP decreased by 2% for every upgrade above level 6.
 Loses SP 100 upon disrobement.
 MATK + 170
 Class : ^777777One-Hand Staff^000000
@@ -50021,4 +50021,22 @@ Jobs: ^777777All^000000
 12350#
 A potion that casts Level 5 Bless and Angelus
 Weight : ^77777710^000000
+#
+
+6415#
+Your precious Homunculus rebuilt into this Strange Embryo.
+^ffffff_^000000
+Weight : ^7777771^000000
+#
+
+
+12739#
+A rare Flower Grown of Snow, be careful or it will melt.
+^ffffff_^000000
+Weight : ^7777771^000000
+#
+10038#
+Horn protector, not implemented.
+^ffffff_^000000
+Weight : ^7777770^000000
 #

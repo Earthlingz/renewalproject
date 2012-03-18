@@ -35959,3 +35959,19 @@ Unknown Item, can be identified by [Magnifier].
 A potion that casts Level 5 Bless and Angelus
 Weight : ^77777710^000000
 #
+6415#
+Your precious Homunculus rebuilt into this Strange Embryo.
+^ffffff_^000000
+Weight : ^7777771^000000
+#
+
+12739#
+A rare Flower Grown of Snow, be careful or it will melt.
+^ffffff_^000000
+Weight : ^7777771^000000
+#
+10038#
+Horn protector, not implemented.
+^ffffff_^000000
+Weight : ^7777770^000000
+#

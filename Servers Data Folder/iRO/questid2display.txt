@@ -10114,6 +10114,10 @@ Hunt 400 Angra Mantis monsters.#
 Hunt the Pom Spider monsters at Bifrost and return to Gramps at the Eden Group to get your reward.#
 Hunt 400 Pom Spider monsters.#
 
+60584#Yellow Novus Hunting#SG_FEEL#QUE_NOIMAGE#
+Hunt the Yellow Novus monsters at Hugel Field and return to Gramps at the Eden Group to get your reward.#
+Hunt 400 Yellow Novus monsters.#
+
 60901#Chefs of Iron#SG_FEEL#QUE_NOIMAGE#
 Talk to Lidia when you are ready to embark on the quest.#
 #
@@ -10837,4 +10841,32 @@ Continue your conversation with Zeldys#
 
 60918#Lunar New Year Timer#SG_FEEL#QUE_NOIMAGE#
 You need to wait at least 23 hours before repeating the lunar new year quest.#
+#
+
+4154#Homunculus S mutation#SG_FEEL#QUE_NOIMAGE#
+You are seeking Viorel help in Mutating your mighty Evolved Homunculus in Lighthalzen.#
+#
+
+4155#Homunculus S mutation#SG_FEEL#QUE_NOIMAGE#
+Go to Viorel secret labratory to advance your cause.#
+#
+
+4156#Homunculus S mutation#SG_FEEL#QUE_NOIMAGE#
+Talk to Jeyna to learn further about current known Homunculus Mutations.#
+#
+
+4157#Homunculus S mutation#SG_FEEL#QUE_NOIMAGE#
+Check out the Magic Board behind Jeyna to read about specific Mutations.#
+#
+
+4158#Homunculus S mutation#SG_FEEL#QUE_NOIMAGE#
+You've read about the Mutations, talk to Jeyna to confirm the findings.#
+#
+
+4159#Homunculus S mutation#SG_FEEL#QUE_NOIMAGE#
+Your homunculus has been reborn as a Strange Embryo, take it to Viorel to bring it to life!#
+#
+
+4160#Homunculus S mutation#SG_FEEL#QUE_NOIMAGE#
+Viorel will help you finally mutate your Homunculus, this is an important decision!#
 #
