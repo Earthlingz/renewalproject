@@ -28746,4 +28746,13 @@ Unidentified item, can use [Spectacles] from merchant to identify it.
 18530#
 Unidentified item, can use [Spectacles] from merchant to identify it.
 #
-
+18581#
+Unidentified item, can use [Spectacles] from merchant to identify it.
+#
+18582#
+Unidentified item, can use [Spectacles] from merchant to identify it.
+#
+18621#
+Unknown Item, can be identified by [Magnifier].
+#
+18595#Ancient_Horns#

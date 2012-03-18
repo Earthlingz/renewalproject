@@ -5632,6 +5632,9 @@
 18529#hat#
 18530#mask#
 18531#hat#
-
+18581#Mask#
+18582#Mask#
+18595#Ancient_Horns#
+18621#Mobster's Disguise#
 
 

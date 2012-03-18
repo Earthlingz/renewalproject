@@ -39095,3 +39095,44 @@ location: ^777777mid-low ^000000 Weight : ^77777710^000000
 Req Lev : ^77777730^000000
 Job : ^777777all jobs^000000
 #
+18581#
+a good man can be a warrior with this mast.
+STR + 4
+HP + 200
+unable to refine
+class : ^777777Headgear^000000    Def : ^7777772^000000
+location : ^777777Upper-Middle^000000    weight : ^77777740^000000
+req level : ^77777750^000000
+jobs : ^777777all jobs^000000
+#
+18582#
+a good man can be a warrior with this mast.
+increase attack speed( decrease delay 3% after attack)
+HP + 100
+unable to refine
+class : ^777777Headgear^000000    Def : ^7777772^000000
+location : ^777777Upper-Middle^000000    weight : ^77777740^000000
+req level : ^77777750^000000
+jobs : ^777777all jobs^000000
+#
+18621#
+A gift given to you by Agent York which he retrieved from thugs in Geffen that used this mask to disguise themselves while committing crimes and extorting citizens.
+^ff0000From August 16-September 13 special effect: 15% chance to resist Silence, 1% chance to reflect targeted magic, and 15% bonus to EXP from monsters.
+Class : ^777777Headgear^000000
+Defense : ^7777770^000000
+Location : ^777777Upper^000000
+Weight : ^77777710^000000
+Required Level : ^77777770^000000
+Job : ^777777All^000000
+#
+18595#
+If refined to +7 or higher, has a 1% chance of activating +100 attack for 10 seconds.
+^FF0000Concept created during the 2011 Create a headgear Contest.
+Created by Creciableu^000000
+Class : ^777777Headgear^000000
+Defense : ^7777778^000000
+Location : ^777777Upper^000000
+Weight : ^77777740^000000
+Required Level : ^77777750^000000
+Job : ^777777All^000000
+#

@@ -1,5 +1,16 @@
 //맵이름.rsw#bgm\\음악번호#
 
+iz_int.rsw#bgm\\26.mp3#
+iz_int01.rsw#bgm\\26.mp3#
+iz_int02.rsw#bgm\\26.mp3#
+iz_int03.rsw#bgm\\26.mp3#
+iz_int04.rsw#bgm\\26.mp3#
+iz_ac01.rsw#bgm\\26.mp3#
+iz_ac02.rsw#bgm\\26.mp3#
+iz_ng01.rsw#bgm\\26.mp3#
+treasure_n1.rsw#bgm\\17.mp3#
+treasure_n2.rsw#bgm\\17.mp3#
+
 //피라미드 나이트메어 던젼 (복사맵)
 moc_pryd1.rsw#bgm\\22.mp3#
 moc_pryd2.rsw#bgm\\22.mp3#
@@ -49,7 +60,6 @@ gld2_prt.rsw#bgm\\44.mp3#
 lhz_dun04.rsw#bgm\\92.mp3#
 que_lhz.rsw#bgm\\92.mp3#
 1@lhz.rsw#bgm\\92.mp3#
-
 iz_dun05.rsw#bgm\\49.mp3#
 malangdo.rsw#bgm\\145.mp3#
 mal_in01.rsw#bgm\\145.mp3#

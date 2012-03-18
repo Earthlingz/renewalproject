@@ -10933,3 +10933,142 @@ Collect 20 Love Lumps and bring them#
 Angel's Side has dispatched Angel Messengers. Go stop them!!#
 Defeat 7 Messenger of Angel.#
 
+60921#Stumped Investigators#SG_FEEL#QUE_NOIMAGE#
+Agent York says that a group of kids are at the Brasilis Museum investigating a crime.#
+Brasilis Museum (location - southwest Brasilis)#
+
+60922#Anomalies LLC#SG_FEEL#QUE_NOIMAGE#
+The group of investigators says that this mystery is the toughest case they've ever had.#
+Continue your conversation with Velmenna#
+
+60923#Museum Murder Mystery#SG_FEEL#QUE_NOIMAGE#
+Mrs. Moneybags hasn't left her room since the murder occurred. Find her at the Brasilis hotel.#
+Go to the Brasilis Hotel at the southeast area of Brasilis.#
+
+60924#Museum Murder Mystery#SG_FEEL#QUE_NOIMAGE#
+Mrs. Moneybags says that you need to talk to the museum's Head Curator.#
+Find the Head Curator on the second floor of the Brasilis museum#
+
+60925#Museum Murder Mystery#SG_FEEL#QUE_NOIMAGE#
+The Head Curator said that the security guard on duty is being questioned downstairs.#
+Speak to the security guard Mr. Herring.#
+
+60926#Museum Murder Mystery#SG_FEEL#QUE_NOIMAGE#
+Red Herring said that Mr. Moneybags was robbed of a Locket that he always wore around his neck.#
+Report your findings to the Anomalies LLC group in the museum.#
+
+60927#Museum Murder Mystery#SG_FEEL#QUE_NOIMAGE#
+You've told the investigators that Red Herring murdered Mr. Moneybags.#
+Go back to Red and tell him of your accusation#
+
+60928#Museum Murder Mystery#SG_FEEL#QUE_NOIMAGE#
+You've decided that you need to find more clues before accusing anyone yet. Mrs. Moneybags might have some insight about the murder.#
+#
+
+60929#Museum Murder Mystery#SG_FEEL#QUE_NOIMAGE#
+Red Herring blames Broddy for being accused of the murder.#
+#
+
+60930#Museum Murder Mystery#SG_FEEL#QUE_NOIMAGE#
+You've once again caught Mrs. Moneybags stuffing something into her pocket as you walked in...#
+Speak to Mrs. Moneybags.#
+
+60931#Museum Murder Mystery#SG_FEEL#QUE_NOIMAGE#
+Mrs. Moneybags is clearly distraught. The investigators may have found clues while you were away.#
+Speak to the Investigating kids at the museum.#
+
+60932#Museum Murder Mystery#SG_FEEL#QUE_NOIMAGE#
+Seems that the kids found a secret passage that can't be accessed from here. You better ask someone more knowledgable about the museum about it.#
+#
+
+60933#Museum Murder Mystery#SG_FEEL#QUE_NOIMAGE#
+The Head Curator said that there is a house next to the mansion that belonged to the former owners of the museum.#
+Find the house and break the door down.#
+
+60934#Museum Murder Mystery#SG_FEEL#QUE_NOIMAGE#
+You managed to get into the mansion. Search around and find the secret passageway to the museum.#
+#
+
+60935#Museum Murder Mystery#SG_FEEL#QUE_NOIMAGE#
+You're convinced that the culprit must have been the Head Curator. Time to go and present your accusation to him.#
+#
+
+60936#Museum Murder Mystery#SG_FEEL#QUE_NOIMAGE#
+You decide that you need to investigate further to be sure of who the real culprit is so you should consult Mrs. Moneybags further.#
+#
+
+60937#Museum Murder Mystery#SG_FEEL#QUE_NOIMAGE#
+With Mrs. Moneybags' help you are sure that the Head Curator is the murderer. Now you just have to present your evidence to the investigators.#
+#
+
+60938#Museum Murder Mystery#SG_FEEL#QUE_NOIMAGE#
+The Head Curator says that you don't have enough evidence to incriminate him... Mrs. Moneybags must be told of this turn of events.#
+#
+
+60939#Museum Murder Mystery#SG_FEEL#QUE_NOIMAGE#
+It's up to you now to confront the Head Curator about the murder.#
+#
+
+60940#Museum Murder Mystery#SG_FEEL#QUE_NOIMAGE#
+Present the evidence of the 'Note' to the Head Curator.#
+#
+
+60941#Museum Murder Mystery#SG_FEEL#QUE_NOIMAGE#
+The Head Curator has made a run for it through the southern exit!!! Chase him quickly!#
+#
+
+60942#Museum Murder Mystery#SG_FEEL#QUE_NOIMAGE#
+The Head Curator has made a run for it into the jungle. Search for him at Brasilis Field, he couldn't have gotten far.#
+#
+
+60943#Museum Murder Mystery#SG_FEEL#QUE_NOIMAGE#
+Now that you've finally caught the Head Curator, you can tell the investigators that the true murderer has been found.#
+#
+
+60944#Museum Murder Mystery#SG_FEEL#QUE_NOIMAGE#
+Mrs. Moneybags apparently has a reward for the person who found the killer. Speak to her now.#
+#
+
+60945#Museum Murder Mystery#SG_FEEL#QUE_NOIMAGE#
+Mrs. Moneybags asked you to find the remains of Mr. Moneybags' missing locket. Search the Brasilis Sewers for the locket's pieces#
+#
+
+60946#Museum Murder Mystery#SG_FEEL#QUE_NOIMAGE#
+You've found a fragment of the locket under some wet earth. Take it back to Mrs. Moneybags.#
+#
+
+60947#Museum Murder Mystery#SG_FEEL#QUE_NOIMAGE#
+Wait 12 hours before helping Mrs. Moneybags find another locket fragment.#
+#
+
+60948#Museum Murder Mystery#SG_FEEL#QUE_NOIMAGE#
+Mrs. Moneybags asked you to find the remains of Mr. Moneybags' missing locket. Search the Brasilis Sewers for the locket's pieces#
+#
+
+60949#Museum Murder Mystery#SG_FEEL#QUE_NOIMAGE#
+You've found a fragment of the locket under some wet earth. Take it back to Mrs. Moneybags.#
+#
+
+60950#Museum Murder Mystery#SG_FEEL#QUE_NOIMAGE#
+Wait 12 hours before helping Mrs. Moneybags find another locket fragment.#
+#
+
+60951#Museum Murder Mystery#SG_FEEL#QUE_NOIMAGE#
+Mrs. Moneybags asked you to find the remains of Mr. Moneybags' missing locket. Search the Brasilis Sewers for the locket's pieces#
+#
+
+60952#Museum Murder Mystery#SG_FEEL#QUE_NOIMAGE#
+You've found a fragment of the locket under some wet earth. Take it back to Mrs. Moneybags.#
+#
+
+60953#Museum Murder Mystery#SG_FEEL#QUE_NOIMAGE#
+Wait 12 hours before helping Mrs. Moneybags find another locket fragment.#
+#
+
+60954#Museum Murder Mystery#SG_FEEL#QUE_NOIMAGE#
+Mrs. Moneybags asked you to find the last remains of Mr. Moneybags' missing locket. Search the Brasilis Sewers for the locket's pieces#
+#
+
+60955#Museum Murder Mystery#SG_FEEL#QUE_NOIMAGE#
+You've found the last fragment of the locket under some wet earth. Take it back to Mrs. Moneybags.#
+#

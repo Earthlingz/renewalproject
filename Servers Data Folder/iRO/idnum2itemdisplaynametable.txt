@@ -2743,7 +2743,7 @@
 6241#HD_Elunium#
 6243#WPS_Point_Token#
 6286#Gym_Pass#
-6287#New_Clothing_Dye_Coupon#
+6287#Omni_Clothing_Dye#
 6288#Summer_Happy_Box#
 6289#Mysterious_Dyestuffs#
 6290#Hairstyle_Coupon#
@@ -3493,7 +3493,7 @@
 10010#Battered_Pot#
 10011#Stellar_Hairpin#
 10012#Tiny_Egg_Shell#
-10013#Backpack#
+10013#Poring_Pet_Backpack#
 10014#Rocker_Glasses#
 10015#Green_Lace#
 10016#Golden_Bell#
@@ -5291,3 +5291,4 @@
 12664#Transformation Scroll(Golem)#
 
 16976#Costume:_Chicken_Box#
+17113#Marching_Hat_Box#

@@ -36836,8 +36836,9 @@ up to Level 10.
 Weight : ^7777771^000000
 #
 6287#
-If you give this coupon to the NPC, she will dye your costume.
+If you give this coupon to the Stylist Dinorah Lacostt at Prontera or Eden Group Headquarters, she will dye your costume to 1 of 3 different color variations.
 ^ffffff_^000000
+^ff0000This item can be traded, stored, and vended^000000"
 Weight : ^7777770^000000
 #
 6288#
@@ -50254,4 +50255,48 @@ A box that contains 1 of each:
 -1x Costume: Rooster¡¯s Comb
 This box can be stored and traded, the items inside are account bound.
 Box Weight : ^7777771^000000
+#
+17113#
+Available from March 9 - April 3
+Randomly Gives one of the 3 Marching hats.
+^ff0000The Box is not tradable, but the hats inside may be traded and vended normally.^000000
+Box Weight : ^7777771^000000
+
+Parade Hat Description:
+A hat by those leading the way to celebrations.
+Mdef +2,
+Increases tolerance to Stun by 10%.
+When being physically attacked, has a chance of auto-casting Lv 5 Angelus or Lv 1 Assumptio on onself.
+If the user is an Acolyte, Priest , High Priest or Arch Bishop class, will auto-cast Lv 1 Lex Aeterna when using Heal Skill on an enemy.
+^ff0000This item can be traded, stored, and put into a cart^000000
+Class : ^777777Headgear^000000
+Location : ^777777Upper^000000
+Defense : ^7777774^000000
+Weight : ^77777720^000000
+Required Level : ^77777710^000000
+Job : ^777777All Classes^000000
+
+Holy Marching Hat Description:
+A marching hat with holy angel wings affixed to the sides made famous by a righteous Rune Midgardian band.
+Int +1, Dex +1, Mdef +5.
+If refined to +7 or higher, increases Heal effectieness by 5%.
+If refined to +9 or higher, Matk +5 and increases Heal effectiveness by 5%.
+Class : ^777777Headgear^000000
+Location: ^777777Upper^000000
+Defense: ^7777775^000000
+Weight : ^77777720^000000
+Required Level : ^7777771^000000
+Jobs: ^777777All^000000
+
+Evil Marcher Hat Description:
+A dark marching hat worn by members of an undead band from Niffleheim.
+Str +2. Attack +2% to all monsters.
+If refined to +7 or higher, Critical +10%.
+If refined to +9 or higher, the Attack and ranged attack damage increases by 5%.
+Class : ^777777Headgear^000000
+Location: ^777777Upper^000000
+Defense: ^77777710^000000
+Weight : ^77777750^000000
+Required Level : ^7777771^000000
+Jobs: ^777777All^000000
 #

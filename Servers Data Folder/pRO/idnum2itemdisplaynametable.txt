@@ -5679,3 +5679,7 @@
 18529#Drooping_Wild_Rose#
 18530#Tha_Despero_Mask#
 18531#Drooping_Permeter#
+18581#Red_Tiger_Mask#
+18582#Blue_Tiger_Mask#
+18621#Mobster's Disguise#
+18595#Ancient_Horns#

@@ -2742,7 +2742,7 @@
 6241#HD_Elunium#
 6243#WPS_Point_Token#
 6286#Max_Weight_Up_Scroll#
-6287#Clothing_Dye_Coupon#
+6287#Omni_Clothing_Dye#
 6288#Happy_Box#
 6289#Mysterious_Dyestuff#
 6290#New_Style_Coupon#
@@ -3486,7 +3486,7 @@
 10010#Hat#
 10011#Accessory#
 10012#Hat#
-10013#Accessory#
+10013#Poring_Pet_Backpack#
 10014#Glasses#
 10015#Accessory#
 10016#Accessory#
@@ -5244,3 +5244,4 @@
 12664#Transformation Scroll(Golem)#
 
 16976#Costume:_Chicken_Box#
+17113#Marching_Hat_Box#
