@@ -1,3 +1,11 @@
+rev53 - [2012-03-18]
+ - Updated Raw data folders from kRO, iRO and pRO
+ * iRO 2012-01-10
+ * pRO 2012-01-11
+ * kRO 2012-01-11
+
+ - Moved Servers Raw lua files to /Raw Lua Files/ folder
+
 rev52 - [2012-03-18]
  - Added Raw data folders from kRO, iRO and pRO
  * iRO 2012-01-03

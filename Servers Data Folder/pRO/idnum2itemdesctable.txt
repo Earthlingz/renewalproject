@@ -22622,28 +22622,11 @@ Crusader Jobs^000000
 
 
 2000#
-A tremendously
-powerful Two-Handed
-Staff that can only be
-wielded by someone
-who is spiritually
-strong. MATK +280,
-INT +3, AGI +10.
-Reduces Cast Time of
-magic skills by 50%.
-Increases MATK by 1%
-for every 2 Upgrade
-Levels, but raising
-the Upgrade Level
-also increases SP
-Consumption.
-Has a chance of
-auto casting Lv.5
-Jupitel Thunder with
-each enemy attack;
-this chance can be
-increased by raising the weapon's Upgrade Level.
-Item Class: ^777777Staff^000000
+A tremendously powerful Two-handed Staff that can only be wielded by someone who is spiritually strong. MATK+280, INT+3, AGI+10.
+Reduce casting time of Amplify Magic by 50%.
+Increase MATK by 1% for every 2 upgrade levels, but raising the upgrade level also increase SP consumption.
+Has a chance of auto casting Lv.5 Jupiter Thunder with each enemy attack; this chance can be increased by raising the weapon¡¯s upgrade level.
+Class: ^777777Staff^000000
 ATK: ^777777130^000000
 Weight: ^777777250^000000
 Weapon LV: ^7777774^000000
@@ -29022,7 +29005,7 @@ Jobs : ^777777Novice Class/Swordman Class/Acolyte Class/Merchant Class Jobs^0000
 #
 
 1576#
-MATK + 155
+MATK + 115
 Increases Physical Attack Strength to Demihuman monster by 80%..
 Ignores Physical defense from Demihuman monster by 25%.
 Indestructible.
@@ -38817,4 +38800,113 @@ Weight : ^77777710^000000
 Required Level : ^77777770^000000
 Job : ^777777All^000000
 #
-
+2589#
+a dark wing from fallen angel.
+LUK + 2.
+increase resistance 10% against human type of monster
+increase resistance 30% against dark type of attack, and decrese resistance 30% against holy attact
+class : ^777777wear^000000  def : ^77777718^000000
+weight : ^77777720^000000
+req leve : ^7777771^000000
+jobs : ^777777all jobs^000000
+#
+18580#
+^ff0000Not available for trade.^000000
+A Crown woven from Yggdrasil's Branches which represents new life after a sacrifice.
+Vit +2, Int +2.
+Increases the effectiveness of received healing and your own healing by 1%.
+For each refine level up to +6, this percentage increases by 1.
+If refine level is +7 or higher, this percentage increases by 2.
+^FF0000Concept created by Channa^000000
+Class : ^777777Headgear^000000
+Defense : ^7777776^000000
+Location : ^777777Upper ^000000
+Weight : ^77777720^000000
+Required Level : ^77777770^000000
+Job : ^777777All^000000
+#
+17081#
+^ff0000Not available for trade.^000000
+A Box containing 1 Crown of Yggdrasil
+^ff0000This item is not available for refund or cancel of purchase.^000000
+Item Description:
+A Crown woven from Yggdrasil's Branches which represents new life after a sacrifice.
+Vit +2, Int +2.
++1% Heal to yourself and others.
+For each refine level up to +6, this percentage increases by 1.
+If refine level is at +7 or higher, this percentage increases by 2.
+^FF0000Concept created by Channa^000000
+Class : ^777777Headgear^000000
+Defense : ^7777776^000000
+Location : ^777777Upper ^000000
+Weight : ^77777720^000000
+Required Level : ^77777770^000000
+Job : ^777777All^000000
+^ffffff_^000000
+Weight : ^7777771^000000
+#
+18597#
+Aspd +3%, Critical +3
+If refined to +7 or +8, adds an additional Aspd +2% and Critical +2.
+If refined to +9 or higher, adds an additional Aspd +2% and Critical +2.
+^FF0000Concept created during the 2011 Create a headgear Contest.
+Created by areitus^000000
+Class : ^777777Headgear^000000
+Defense : ^77777710^000000
+Location : ^777777Upper^000000
+Weight : ^77777740^000000
+Required Level : ^77777770^000000
+Job : ^777777All^000000
+#
+17116#
+Mercury_Helm_Box
+#
+18591#
+Glasses worn by
+true sophisticates.
+Class : ^777777Headgear^000000
+Defense : ^7777772^000000
+Location : ^777777Middle^000000
+Weight : ^77777710^000000
+Jobs: ^777777Every Job except Novice^000000
+#
+17104#
+A box that contains 50 HD Oridecon
+Description:
+High Density Oridecon
+that has been buried
+deep underground. 
+Used as a material to
+strengthen weapons currently from refine levels 7 through 9.
+This item's density ensures that refine attempts will not break the weapon and if the attempt fails it will only downgrade by 1.
+Only a Blacksmith named Mighty Hammer in Payon can use this ore to refine.
+Box Weight : ^7777771^000000
+#
+17105#
+A box that contains 50 HD Elunium
+Description:
+High Density Elunium
+that has been buried
+deep underground. 
+Used as a material
+to strengthen armor currently from refine levels 7 through 9.
+This item's density ensures that refine attempts will not break the armor and if the attempt fails it will only downgrade by 1.
+Only a Blacksmith named Mighty Hammer in Payon can use this ore to refine.
+Box Weight : ^7777771^000000
+#
+17106#
+A box that contains 10 Gym Passes
+Description:
+A Gym Pass that can be
+given to a special
+NPC to learn a skill
+that will increase your^FFFFFF   ^000000 Maximum Weight
+Capacity by 200 for
+each skill level.
+This special skill
+can only be learned
+up to Level 10.
+^ffffff_^000000
+Weight : ^7777771^000000
+Box Weight : ^7777771^000000
+#

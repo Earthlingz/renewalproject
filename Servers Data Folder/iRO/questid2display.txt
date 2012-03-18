@@ -7669,9 +7669,9 @@ Speak to Chochoco again.#
 Keep checking on the seed to see if it has grown...#
 #
 
-60810#Overlook Water Dungeon#SG_FEEL#QUE_NOIMAGE#
-You are allowed to access this dungeon for 30 days. Once the timer expires, you will not be able to gain access.#
-#
+60810#Limited VIP Access#SG_FEEL#QUE_NOIMAGE#
+For 3 days this allows you to use the discounted Kafra Employee services, Primo d'Buffer, VIP Service warps, Gramps get 2 hunt quests and warps. Once the timer expires, you will not be able to gain access.#
+*Note VIP EXP Bonuses, extra character slots and 600 storage are not included with this access#
 
 50501#Mother's Day#SG_FEEL#QUE_NOIMAGE#
 Steven Heartfelt asked you to go to Nifflheim and search for his love named Lenore. A girl named Synthia is in Nifflheim who may have seen her.#
@@ -10102,6 +10102,10 @@ Hunt 400 Red Novus monsters.#
 Hunt the Archdam monsters at the Center of Juperos and return to Gramps at the Eden Group to get your reward.#
 Hunt 400 Archdam monsters.#
 
+60581#Nepenthes Hunting#SG_FEEL#QUE_NOIMAGE#
+Hunt the Nepenthes monsters at Manuk Field and return to Gramps at the Eden Group to get your reward.#
+Hunt 400 Nepenthes monsters.#
+
 60901#Chefs of Iron#SG_FEEL#QUE_NOIMAGE#
 Talk to Lidia when you are ready to embark on the quest.#
 #
@@ -10634,3 +10638,163 @@ Talk with the Little Santa at Santa's home in Lutie.#
 1213#Look out the window, Cheers for Raccoon Hurray team!#SG_FEEL#QUE_NOIMAGE#
 Seems the raccoons are satisfied enough with the nice sweet popatoes gift. Let's give this message to Quercus.#
 Talk with 'Quercus', Raccoon Hurray Team Member in prontera square.#
+
+7214#Advanced Training at Comodo#SG_FEEL#QUE_NOIMAGE#
+Look for the cave located to the north. There's someone there named Romeo. You know? As in Romeo, Romeo, wherefore art thou Romeo.#
+Find and speak to Romeo#
+
+7215#Stalactic Golem Hunt#SG_FEEL#QUE_NOIMAGE#
+There is a cave north of Comodo that has these big monsters there. It shouldn't be difficult to hunt 3 of them.#
+Hunt 3 Stalactic Golems and return to Romeo in Comodo.#
+
+7216#More Golem Hunting#SG_FEEL#QUE_NOIMAGE#
+Now that you've proven yourself, hunt 10 more Stalactic Golems so that travelers can travel safely through the cave.#
+Hunt 10 Stalactic Golems and return to Romeo in Comodo#
+
+7217#Field drops#SG_FEEL#QUE_NOIMAGE#
+Instructor Romeo asked you to bring him some materials from hunting Wootans and Dryads in the field north of the Comodo Cave.#
+Find 5 Shoulder Protector and 7 Sharp Leaf#
+
+7218#Report to Instructor Ur#SG_FEEL#QUE_NOIMAGE#
+Your tasks for Step 1 are over for now so go back to Eden Group Headquarters and speak to Instructor Ur.#
+Report to Instructor Ur back at Eden Group Headquarters#
+
+7219#Advanced Training at Glast Heim#SG_FEEL#QUE_NOIMAGE#
+Near Geffen, there is an area known as Glast Heim infested with undead and ghost monsters.#
+Find and speak to Johan at Glast Heim#
+
+7220#Wraith Hunt#SG_FEEL#QUE_NOIMAGE#
+Help clear out the Abbey by hunting the Wraiths inside.#
+Hunt 20 Wraiths and return to Johan outside#
+
+7221#Evil Druid hunt#SG_FEEL#QUE_NOIMAGE#
+Another problem monster in the Abbey is the Evil Druids. Hunt them inside the Abbey and return to Johan.#
+Hunt 10 Evil Druids#
+
+7222#Report to Instructor Ur#SG_FEEL#QUE_NOIMAGE#
+Your hunting at Glast Heim has helped clear the Abbey. Go back to Eden Group Headquarters and speak to Instructor Ur.#
+Report to Instructor Ur back at Eden Group Headquarters#
+
+7223#Advaned Training in Einbroch#SG_FEEL#QUE_NOIMAGE#
+The industrial city of Einbroch east of Lighthalzen is where the next training mission is.#
+Find the Dispatched Instructor Kiren at the field south of Einbroch#
+
+7224#Porcellio hunting#SG_FEEL#QUE_NOIMAGE#
+As a warm-up find and hunt 30 Porcellio monsters crawling around the fields of Einbroch.#
+Hunt 30 Porcellios and return to Kiren at the field south of Einbroch#
+
+7226#Venomous hunting#SG_FEEL#QUE_NOIMAGE#
+There are gaseous green monsters known as Venomous that have been terrorizing the workers north of Einbroch.#
+Hunt 30 Venomous monsters#
+
+7227#Teddy Bear hunting#SG_FEEL#QUE_NOIMAGE#
+These Teddy Bears are not the cute cuddly things for kids. Hunt 5 of them quickly in the field north of Einbroch#
+Hunt 5 Teddy Bear monsters#
+
+7228#Report to Instructor Ur#SG_FEEL#QUE_NOIMAGE#
+Your work at the Einbroch area is done. Go back to Eden Group Headquarters and speak to Instructor Ur.#
+Report to Instructor Ur back at Eden Group Headquarters.#
+
+7229#Advanced Training in Ice Dungeon#SG_FEEL#QUE_NOIMAGE#
+There is an Ice Dungeon Cave if you travel North from Rachel. It's a long walk but it's worth it if you can make the trek.#
+Find the Dispatched Instructor Naomi at the Ice Dungeon#
+
+7230#Siroma hunting#SG_FEEL#QUE_NOIMAGE#
+You can confuse these for giant balls of snow but they're actually monsters in disguise.#
+Hunt 30 Siroma monsters and return to Naomi near the cave entrance.#
+
+7231#Hunting and Gathering#SG_FEEL#QUE_NOIMAGE#
+Now that you have a feel for it, hunt 30 more Siromas and bring back some materials.#
+Hunt 30 Siroma and bring 30 Ice Cubic, 1 Sweet Sauce and 1 Milk to Naomi.#
+
+7232#Report to Instructor Ur#SG_FEEL#QUE_NOIMAGE#
+You are done hunting at Ice Dungeon. Go back to Eden Group Headquarters and speak to Instructor Ur.#
+Report to Instructor Ur back at Eden Group Headquarters.#
+
+7233#Advanced Training at Ash Vacuum#SG_FEEL#QUE_NOIMAGE#
+Since you are a third class job, you should be able to fight the monsters at Ash Vacuum pretty easily.#
+Find the Dispatched Instructor Margaret at the Midgard Expedition Camp#
+
+7234#Margaret's favor#SG_FEEL#QUE_NOIMAGE#
+Margaret asked you to find the Dispatched Instructors Meeru and Mine. They're located at the fields just West and East of the Midgard Expedition Camp.#
+Find Meeru and Mine and complete their quests and return to Margaret#
+
+7235#Nepenthes Hunt#SG_FEEL#QUE_NOIMAGE#
+Meeru asked you to hunt 1 Nepenthes monster at Manuk Field and return to him.#
+Hunt 1 Nepenthes monster and return to Meeru#
+
+7236#Pinguicula Hunt#SG_FEEL#QUE_NOIMAGE#
+Mine asked you to hunt 5 Pinguicula monsters instead of him.#
+Hunt 5 Pinguicula monsters and return to Mine#
+
+7237#Report to Instructor Ur#SG_FEEL#QUE_NOIMAGE#
+Your training is done at Ash Vacuum. Go back to Eden Group Headquarters and speak to Instructor Ur.#
+Report to Instructor Ur back at Eden Group Headquarters.#
+
+7238#Errands for Thorn (easy)#SG_FEEL#QUE_NOIMAGE#
+Thorn needs materials for refining so bring him 20 Iron Ore and 10 Iron.#
+Collect 20 Iron Ore and 10 Iron#
+
+7239#Errands for Thorn (hard)#SG_FEEL#QUE_NOIMAGE#
+Thorn needs materials for refining so bring him 20 Used Iron Plate#
+Collect 20 Used Iron Plate#
+
+7240#Equipment Enhancement#SG_FEEL#QUE_NOIMAGE#
+Bring your new Eden Group Equipment to Thorn and ask him to strengthen them for you and he will give you a random equipment bonus.#
+#
+
+7241#Errands for Thorn timer#SG_FEEL#QUE_NOIMAGE#
+Return to Thorn after waiting 24 hours.#
+#
+
+9167#Tutorial - Mercenary for Hire#SG_FEEL#QUE_NOIMAGE#
+Find the Mercenary Guild Official and hire a mercenary and speak to the Tutorial Instructor while the mercenary is still hired.#
+#
+
+9168#Quest Window Check#SG_FEEL#QUE_NOIMAGE#
+The material that you need to tell the Tutorial Instructor is 10 Jellopy.#
+#
+
+9169#Window Shopper Catalogue#SG_FEEL#QUE_NOIMAGE#
+Find the ^0000ffCatalogue Wizard^000000 located at South Prontera and obtain 1 ^006400Window Shopper Catalogue^000000#
+#
+
+9170#Window Shopper Catalogue#SG_FEEL#QUE_NOIMAGE#
+Use the Window Shopper Catalogue and then go back to the Tutorial Instructor for another lesson.#
+#
+
+9171#Enchanting Items#SG_FEEL#QUE_NOIMAGE#
+Next up to learn about is enchanting items. Remember to bring 10 Jellopy and to make sure your inventory is pretty empty, then talk to the Tutorial Instructor to learn about enchanting.#
+#
+
+9172#Enchanted Items#SG_FEEL#QUE_NOIMAGE#
+Examine the Tutorial Mantles that you've received and notice the differences between the normal and enchanted versions. Then return them to the Tutorial Instructor.#
+#
+
+9173#Tutorial Timer Cooldown#SG_FEEL#QUE_NOIMAGE#
+You have to wait 20 hours before you can re-take the Tutorial Instructor's lessons again.#
+#
+
+4161#Siege Expert#SG_FEEL#QUE_NOIMAGE#
+Speak to the Siege Expert at the Eden Group Headquarters second floor and pass his quiz.#
+#
+
+4162#Party Recruiting Expert#SG_FEEL#QUE_NOIMAGE#
+Speak to the Party Recruiting Expert at the Eden Group Headquarters second floor and pass his quiz.#
+#
+
+4163#Battleground Expert#SG_FEEL#QUE_NOIMAGE#
+Speak to the Battleground Expert at the Eden Group Headquarters second floor and pass his quiz.#
+#
+
+4164#Memorial Dungeon Expert#SG_FEEL#QUE_NOIMAGE#
+Speak to the Memorial Dungeon Expert at the Eden Group Headquarters second floor and pass her quiz.#
+#
+
+4165#Map Expert#SG_FEEL#QUE_NOIMAGE#
+Speak to the Map Expert at the Eden Group Headquarters second floor and pass his quiz.#
+#
+
+4166#Passing Grades#SG_FEEL#QUE_NOIMAGE#
+Congrats on passing all the Experts' quizzes! Now, go find and talk to the ^006400Tutorial Goal^000000!#
+#

@@ -35849,3 +35849,77 @@ Increases SP consumption by 10%
 Increases heal efficiency by 20%
 Increases SP consumption by 15%
 #
+
+1197#
+Unknown Item, can be identified by [Magnifier].
+#
+1289#
+Unknown Item, can be identified by [Magnifier].
+#
+1391#
+Unknown Item, can be identified by [Magnifier].
+#
+1434#
+Unknown Item, can be identified by [Magnifier].
+#
+1583#
+Unknown Item, can be identified by [Magnifier].
+#
+1658#
+Unknown Item, can be identified by [Magnifier].
+#
+1831#
+Unknown Item, can be identified by [Magnifier].
+#
+1931#
+Unknown Item, can be identified by [Magnifier].
+#
+1986#
+Unknown Item, can be identified by [Magnifier].
+#
+2473#
+Unknown Item, can be identified by [Magnifier].
+#
+2571#
+Unknown Item, can be identified by [Magnifier].
+#
+13066#
+Unknown Item, can be identified by [Magnifier].
+#
+13310#
+Unknown Item, can be identified by [Magnifier].
+#
+13114#
+Unknown Item, can be identified by [Magnifier].
+#
+13434#
+Unknown Item, can be identified by [Magnifier].
+#
+15031#
+Unknown Item, can be identified by [Magnifier].
+#
+15033#
+Unknown Item, can be identified by [Magnifier].
+#
+15034#
+Unknown Item, can be identified by [Magnifier].
+#
+16014#
+Unknown Item, can be identified by [Magnifier].
+#
+18106#
+Unknown Item, can be identified by [Magnifier].
+#
+18514#
+Unknown Item, can be identified by [Magnifier].
+#
+
+16974#
+A box that contains 2 costume headgears that give you the appearance of a famous old-timey actor.
+^ff0000This box can be stored and traded, the items inside are account bound.^000000
+Opening it will give both of the following:
+-1x Costume: Charlie Mustache
+-1x Costume: Brown Bowler
+^ff0000Once this item opened, it cannot be refunded.^000000
+Weight : ^7777771^000000
+#

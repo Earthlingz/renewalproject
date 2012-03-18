@@ -34947,7 +34947,7 @@ Attack : ^77777795^000000
 Weight : ^77777760^000000
 Weapon Level : ^7777773^000000
 Required Level : ^77777760^000000
-Jobs : ^777777Champion Jobs^000000
+Jobs : ^777777Champion Classes^000000
 #
 
 13038#
@@ -39534,7 +39534,7 @@ Class : ^777777Armor^000000
 Defense : ^7777777^000000
 Weight : ^777777100^000000
 Required Level : ^77777785^000000
-Job : ^777777Transcendent Thief Classes^000000
+Job : ^777777Transcendent Thief / Merchant / Swordman Classes^000000
 #
 
 // -----------  Ep 13.2 additional equipment items ------------
@@ -42101,19 +42101,19 @@ Attack : ^77777760^000000
 Weight : ^7777770^000000
 Weapon Level : ^7777772^000000
 Required Level : ^77777726^000000
-Jobs : ^777777Mage and Acolyte Class^000000
+Jobs : ^777777Mage / Acolyte Class^000000
 #
 
 1651#
-A staff that is made by the Eden Group. A basic item for a beginning Mage.
+A staff that is made by the Eden Group. A basic item for an intermediate Mage.
 Int +3 , Matk +150
 Cannot be upgraded.
 Class : ^777777Staff^000000
 Attack : ^77777760^000000
 Weight : ^7777770^000000
 Weapon Level : ^7777772^000000
-Required Level : ^77777726^000000
-Jobs : ^777777Magician Class/Acolyte Class^000000
+Required Level : ^77777740^000000
+Jobs : ^777777Mage / Acolyte Class^000000
 #
 
 1747#
@@ -49702,4 +49702,252 @@ Increases SP consumption by 10%
 4852#
 Increases heal efficiency by 20%
 Increases SP consumption by 15%
+#
+
+1197#
+A two-handed sword that is made by the Eden Group. It is suitable for those who have more advanced experience handling two-handed swords.
+Cannot be upgraded.
+Class : ^777777Two-handed Sword^000000
+Attack : ^777777200^000000
+Weight : ^7777770^000000
+Weapon Level : ^7777773^000000
+Required Level : ^77777760^000000
+Jobs : ^777777Swordman Class^000000
+#
+
+1289#
+A katar that is made by the Eden Group. It is suitable for those who have more advanced experience handling katars.
+Cannot be upgraded.
+Class : ^777777Katar^000000
+Attack : ^777777155^000000
+Weight : ^7777770^000000
+Weapon Level : ^7777773^000000
+Required Level : ^77777760^000000
+Jobs: ^777777Assassin^000000
+#
+
+1391#
+An axe that is made by the Eden Group. It is suitable for those who have more advanced experience handling two-handed axes.
+Cannot be upgraded.
+Class : ^777777Two-Handed Axe^000000
+Attack : ^777777195^000000
+Weight : ^7777770^000000
+Weapon Level : ^7777773^000000
+Required Level : ^77777760^000000
+Job : ^777777Swordman Class / Merchant Class^000000
+#
+
+1434#
+A spear that is made by the Eden Group. It is suitable for those who have more advanced experience handling spears.
+Cannot be upgraded.
+Class : ^777777Spear^000000
+Attack : ^777777165^000000
+Weight : ^7777770^000000
+Weapon Level : ^7777773^000000
+Required Level : ^77777760^000000
+Job : ^777777Swordman Class^000000
+#
+
+1583#
+A book that is made by the Eden Group. It is suitable for those who have more advanced experience handling magic books.
+Matk +110
+Cannot be upgraded.
+Class : ^777777Book^000000
+Attack : ^777777135^000000
+Weight : ^7777770^000000
+Weapon Level : ^7777773^000000
+Required Level : ^77777760^000000
+Job : ^777777Priest / Sage / Taekwon Master^000000
+#
+
+1658#
+A staff that is made by the Eden Group. An advanced item for an experienced magic practitioner.
+Int +4 , Matk +170
+Cannot be upgraded.
+Class : ^777777Staff^000000
+Attack : ^77777760^000000
+Weight : ^7777770^000000
+Weapon Level : ^7777773^000000
+Required Level : ^77777760^000000
+Jobs : ^777777Mage Class/Acolyte Class^000000
+#
+
+1831#
+A clas that is made by the Eden Group. It is suitable for those who have more advanced experience as Champions.
+Class : ^777777Claw^000000
+Attack : ^777777120^000000
+Weight : ^7777770^000000
+Weapon Level : ^7777773^000000
+Required Level : ^77777760^000000
+Jobs: ^777777Priest and Monk Classes^000000
+#
+
+1931#
+An instrument that is made by the Eden Group. It is suitable for those who have more advanced experience as Bards.
+Class : ^777777Musical Instrument^000000
+Attack : ^777777125^000000
+Weight : ^7777770^000000
+Weapon Level : ^7777773^000000
+Required Level : ^77777760^000000
+Job : ^777777Bard^000000
+#
+
+1986#
+A whip that is made by the Eden Group. It is suitable for those who have more advanced experience as Dancers.
+Class : ^777777Whip^00000
+Attack : ^777777125^000000
+Weight : ^7777770^000000
+Weapon Level: ^7777773^000000
+Required Level : ^77777760^000000
+Jobs: ^777777Dancer^000000
+#
+
+2473#
+Boots that are provided only for members of the Eden Group.
+These are designed to fit comfortably throughout long-walks.
+HP recovery   +28%
+SP recovery +12%
+Cannot be upgraded.
+Class : ^777777Footwear^000000
+Defense : ^77777720^000000
+Weight : ^7777770^000000
+Required Level : ^77777760^000000
+Jobs : ^777777All Jobs^000000
+#
+
+2571#
+A manteau which is only for Eden Group members.
+It is designed to flatter anyone's backside.
+Increases tolerance to neutral property by 10%.
+FLEE +12
+Cannot be upgraded.
+Class : ^777777Garment^000000
+Defense : ^77777718^000000
+Weight : ^7777770^000000
+Required Level : ^77777760^000000
+Jobs : ^777777All Jobs^000000
+#
+
+13066#
+A practical dagger that is made by the Eden Group.
+It's suitable for those who have experience handling daggers.
+Matk +70
+Cannot be upgraded.
+Class : ^777777Dagger^000000
+Attack : ^777777165^000000
+Weight : ^7777770^000000
+Weapon Level : ^7777773^000000
+Required Level : ^77777760^000000
+Jobs : ^777777Novice / Swordman / Mage / Archer / Merchant / Thief / Soul Linker / Ninja^000000
+#
+
+13310#
+A Huuma Shuriken that is made by the Eden Group.
+It is suitable for experienced Ninjas only.
+Class : ^777777Huuma^000000
+Attack : ^777777150^000000
+Weight : ^7777770^000000
+Weapon Level: ^7777773^000000
+Required Level : ^77777760^000000
+Jobs :^777777Ninja^000000
+#
+
+13114#
+A revolver that is made by the Eden Group. It's suitable for an advanced gun handler.
+Hit -5.
+Cannot be upgraded.
+Class : ^777777Pistol^000000
+Attack : ^77777776^000000
+Weight : ^7777770^000000
+Weapon Level : ^7777773^000000
+Required Level : ^77777760^000000
+Jobs : ^777777Gunslinger^000000
+#
+
+13434#
+A one-handed sword that is made by the Eden Group. It's suitable for an experienced sword handler.
+Cannot be upgraded.
+Class : ^777777Sword^000000
+Attack : ^777777185^000000
+Weight : ^7777770^000000
+Weapon Level : ^7777773^000000
+Required Level : ^77777760^000000
+Jobs : ^777777Swordman / Merchant / Thief Class^000000
+#
+
+15031#
+Armor that is only provided for members of the Eden Group.
+There are various sizes so tall people don't have to worry about it. 
+MaxHP +500, MaxSP  +50,
+Mdef +5.
+Cannot be upgraded.
+Class : ^777777Armor^000000
+Defense : ^77777770^000000
+Weight : ^7777770^000000
+Required Level : ^77777760^000000
+Jobs : ^777777All Jobs^000000
+#
+
+15033#
+An armor used by the Tutorial Instructor from Eden Group to show you what armor enchanted items looks like.
+^ff0000Cannot be worn or sold^000000
+Class : ^777777Armor^000000
+Defense : ^77777737^000000
+Weight : ^77777760^000000
+Required Level : ^7777771^000000
+Jobs : ^777777None^000000
+#
+
+15034#
+An armor used by the Tutorial Instructor from Eden Group to show you what armor enchanted items looks like.
+^ff0000Cannot be worn or sold^000000
+Class : ^777777Armor^000000
+Defense : ^77777737^000000
+Weight : ^77777760^000000
+Required Level : ^7777771^000000
+Jobs : ^777777None^000000
+#
+
+16014#
+A mace that is made by the Eden Group. It's suitable for an experienced mace wielder.
+Cannot be upgraded.
+Class : ^777777Mace^000000
+Attack : ^777777172^000000
+Weight : ^7777770^000000
+Weapon Level : ^7777773^000000
+Required Level : ^77777760^000000
+Jobs : ^777777Swordman / Acolyte / Merchant Class^000000
+#
+
+18106#
+A rich bow that is made by the Eden Group. It is suitable for advanced level adventurers who know how to handle a bow.
+Cannot be upgraded.
+Class : ^777777Bow^000000
+Attack : ^777777140^000000
+Weight : ^7777770^000000
+Weapon Level : ^7777773^000000
+Required Level : ^77777760^000000
+Jobs : ^777777Archer Class / Thief / Rogue^000000
+#
+
+18514#
+A hat that is provided only for members of the Eden Group.
+It's designed to go well with a suit.
+Has a chance of adding 10 Atk or 10 Matk power for 5 seconds while doing physical or magic damage.
+Class : ^777777Headgear^000000
+Defense : ^7777775^000000
+Location : ^777777Upper ^000000
+Weight : ^7777770^000000
+Required Level : ^77777760^000000
+Jobs : ^777777All Jobs^000000
+#
+
+16974#
+A box that contains 2 costume headgears that give you the appearance of a famous old-timey actor.
+^ff0000This box can be stored and traded, the items inside are account bound.^000000
+Opening it will give both of the following:
+-1x Costume: Old Timey Mustache
+-1x Costume: Old Timey Bowler
+^ff0000Once this item opened, it cannot be refunded.^000000
+Weight : ^7777771^000000
 #
