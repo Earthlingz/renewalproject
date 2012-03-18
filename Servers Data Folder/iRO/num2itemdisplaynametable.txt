@@ -4907,7 +4907,7 @@
 12391#Fortune_Egg#
 12403#Fortune_Egg¥±#
 12416#Fortune_Egg¥²#
-12493#Fortune_Egg¥³#
+12493#Groovy_Dragon_Box#
 12545#Fortune_Egg¥´#
 12577#Fortune_Egg¥µ#
 12595#Incarnation_Of_Morocc_Doll_Box#
@@ -5207,3 +5207,10 @@
 18514#Eden_Group_Hat_II#
 
 16974#Costume:_Old-Timey_Box#
+11505#Iris#
+
+5451#Costume:_Gold_Dragonhelm#
+5452#Silver_Dragonhelm#
+5453#Copper_Dragonhelm#
+
+12350#Angeling_Potion#

@@ -47619,7 +47619,20 @@ And randomly give you one of the following item sets.
 Weight : ^7777771^000000
 #
 12493#
-A very cute egg scroll. It feels so fancy that makes you expect something from it.
+A Groove Pack to celebrate the Lunar New Year of the Dragon!
+^CC0000Available until January 31st.^000000
+
+Every time you open one you will get 25 Red Envelopes and 25 Handsei.
+Envelopes give about 1 monster kill worth of EXP and the Handsei give zeny.
+
+Also a random chance of:
+Mega Resist Potion
+Battle Manual X3
+MVP Hunt Box
+Slotting Advertisement
+Gold Dragonhelm (Account Bound)
+
+The Groovy Dragon Box is untradable, but may be stored.
 Weight : ^7777771^000000
 #
 12545#
@@ -48932,7 +48945,7 @@ A small case used for keeping ashes of the dead safe.
 Weight : ^7777771^000000
 #
 6383#
-^ff0000This item cannot be traded between accounts.^000000
+^ff0000This item cannot be traded between accounts but can be sold to an NPC.^000000
 A piece of paper with a few words written on it. When you put all of them together, you may be able to find out Lope's whereabouts.
 Weight : ^7777770^000000
 #
@@ -49950,4 +49963,62 @@ Opening it will give both of the following:
 -1x Costume: Old Timey Bowler
 ^ff0000Once this item opened, it cannot be refunded.^000000
 Weight : ^7777771^000000
+#
+
+11505#
+A plant that brings up your spirit.
+Recovers 150 SP when consumed.
+Weight : ^7777773^000000
+#
+
+5451#
+Gold Dragonhelm is specially constructed to offer the utmost in protection and offense against Dragon Type Monsters.  
+The Gold Dragonhelm is the epitome of Dragonhelm technology, making it a wonderful showpiece, as such it is a Costume item.
+Available by quest until February 7, 2012 in celebration of the Year of the Dragon.
+12% tolerance to Dragon Race monsters
+8% damage to Dragon Race monsters
+5% bonus XP when fighting Dragons.
+^770000Cannot be upgraded
+Account Bound^000000
+Class : ^777777Costume Headgear^000000
+Location : ^777777Upper^000000
+Defense: ^7777770^000000
+Weight : ^7777770^000000
+Required Level : ^7777771^000000
+Jobs: ^777777All^000000
+#
+
+5452#
+Silver Dragonhelm is specially constructed to offer the utmost in protection and offense against Dragon Type Monsters.  
+The Silver Dragonhelm may be upgraded by Dragos in Prontera using special ingredients for higher success.
+Available by quest until February 7, 2012 in celebration of the Year of the Dragon.
+4% tolerance to Dragon Race monsters
++1% tolerance to Dragon Race monsters per refine level, up to a limit of +8.
++1% damage to Dragon Race monsters up to a limit of +8
+^770000Account Bound^000000
+Class : ^777777Headgear^000000
+Location : ^777777Upper^000000
+Defense: ^77777710^000000
+Weight : ^777777150^000000
+Required Level : ^7777771^000000
+Jobs: ^777777All^000000
+#
+
+5453#
+Copper Dragonhelm is specially constructed to offer the utmost in protection against Dragon Type Monsters.  
+The materials used in creating the Copper Dragonhelm work perfectly when used as components to safely upgrade either the Copper or Silver Dragonhelms, talk to Dragos in Prontera for details.
+Available by quest until February 7, 2012 in celebration of the Year of the Dragon.
++1% tolerance to Dragon Race monsters per refine level, up to a limit of 8%.
+^770000Account Bound^000000
+Class : ^777777Headgear^000000
+Location : ^777777Upper^000000
+Defense: ^7777775^000000
+Weight : ^777777150^000000
+Required Level : ^7777771^000000
+Jobs: ^777777All^000000
+#
+
+12350#
+A potion that casts Level 5 Bless and Angelus
+Weight : ^77777710^000000
 #

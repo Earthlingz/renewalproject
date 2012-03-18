@@ -10106,6 +10106,14 @@ Hunt 400 Archdam monsters.#
 Hunt the Nepenthes monsters at Manuk Field and return to Gramps at the Eden Group to get your reward.#
 Hunt 400 Nepenthes monsters.#
 
+60582#Angra Mantis Hunting#SG_FEEL#QUE_NOIMAGE#
+Hunt the Angra Mantis monsters at Bifrost and return to Gramps at the Eden Group to get your reward.#
+Hunt 400 Angra Mantis monsters.#
+
+60583#Pom Spider Hunting#SG_FEEL#QUE_NOIMAGE#
+Hunt the Pom Spider monsters at Bifrost and return to Gramps at the Eden Group to get your reward.#
+Hunt 400 Pom Spider monsters.#
+
 60901#Chefs of Iron#SG_FEEL#QUE_NOIMAGE#
 Talk to Lidia when you are ready to embark on the quest.#
 #
@@ -10797,4 +10805,36 @@ Speak to the Map Expert at the Eden Group Headquarters second floor and pass his
 
 4166#Passing Grades#SG_FEEL#QUE_NOIMAGE#
 Congrats on passing all the Experts' quizzes! Now, go find and talk to the ^006400Tutorial Goal^000000!#
+#
+
+60911#Man from the stars#SG_FEEL#QUE_NOIMAGE#
+Zeldys points at the sky covered of stars. You are thinking that this fellow's strange story bears further investigation.#
+#
+
+60912#The master forger#SG_FEEL#QUE_NOIMAGE#
+Find the forger Mime at Mjolnir Dead Pit and ask him to forge a weapon that can defeat the Cursed Sword.#
+#
+
+60913#Mime's Weapon Materials#SG_FEEL#QUE_NOIMAGE#
+Bring the following items to Mime: 3 Steel, 20 Dragon Scale, 10 Dragon Tail, 4 Dragon Canine, 1 Diamond Ring.#
+#
+
+60914#Mime's Weapon#SG_FEEL#QUE_NOIMAGE#
+Mime has forged the weapon for you. Return to Zeldys and let him know that you are ready for the fight.#
+#
+
+60915#Inside the Lacryma Den#SG_FEEL#QUE_NOIMAGE#
+Find and kill the Cursed Sword. It is carrying a scroll that can help teleport Zeldys home.#
+#
+
+60916#Princess Aeon's Soul#SG_FEEL#QUE_NOIMAGE#
+You need to find Princess Aeon's Soul which is inside of a Blue Dragon. Hunt it in the Emerald Cave and bring it back.#
+#
+
+60917#True Love#SG_FEEL#QUE_NOIMAGE#
+Continue your conversation with Zeldys#
+#
+
+60918#Lunar New Year Timer#SG_FEEL#QUE_NOIMAGE#
+You need to wait at least 23 hours before repeating the lunar new year quest.#
 #

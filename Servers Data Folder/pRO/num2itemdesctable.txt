@@ -28652,3 +28652,15 @@ up to Level 10.
 Weight : ^7777771^000000
 Box Weight : ^7777771^000000
 #
+5737#
+Unknown item requiring Appraisal. Can be identified by using a Magnifier.
+#
+5795#
+Unknown item requiring Appraisal. Can be identified by using a Magnifier.
+#
+18589#
+Unknown item requiring Appraisal. Can be identified by using a Magnifier.
+#
+18533#
+Unknown item requiring Appraisal. Can be identified by using a Magnifier.
+#

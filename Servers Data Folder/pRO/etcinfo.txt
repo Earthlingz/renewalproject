@@ -1,5 +1,12 @@
 loadingscreen#
 5#
 
+weather#prontera.rsw#pokjuk# 
+weather#morocc.rsw#pokjuk# 
+weather#geffen.rsw#pokjuk# 
+weather#izlude.rsw#pokjuk# 
+weather#yuno.rsw#pokjuk# 
+weather#payon.rsw#pokjuk# 
+weather#alberta.rsw#pokjuk#
 
 //file end

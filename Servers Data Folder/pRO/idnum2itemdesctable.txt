@@ -34083,7 +34083,7 @@ Weight : ^7777771^000000
 1191#
 A reddish wide two-handed sword.
 Attack Speed increases by +1. for every 2 upgrade level, 
-Weapon Class : ^777777Two-handed Sword^000000 Attack Strength : 7777280^000000
+Weapon Class : ^777777Two-handed Sword^000000 Attack Strength : ^777777280^000000
 Weight : ^777777340^000000
 Weapon Level : ^7777773^000000
 Required Level : ^777777100^000000
@@ -38909,4 +38909,53 @@ up to Level 10.
 ^ffffff_^000000
 Weight : ^7777771^000000
 Box Weight : ^7777771^000000
+#
+5737#
+The friendly Potted Muka likes to encourage you by aggravating your opponents!
+Enables the use of ^00ff00Level 3 Provoke^000000
+Fully Tradable, cannot be upgraded.
+Class : ^777777Headgear^000000
+Defense : ^77777710^000000
+Location : ^777777Upper^000000
+Weight : ^77777730^000000
+Required Level : ^7777771^000000
+Jobs: ^777777All^000000
+#
+18589#
+a hat lools like a strawberry.
+you can get a strawberry once you kill monsters.
+class : ^777777headgear^000000 defense : ^7777775^000000
+location : ^777777Upper ^000000weight : ^77777710^000000
+required level : ^7777771^000000
+Jobs : ^777777 all jobs^000000
+#
+5795#
+a bright and beautiful hat coordinating a colorful dress.
+MDEF+7
+if refined level increase + 2, can get MDEF + 1
+class : ^777777headgear^000000    defense : ^7777773^000000
+location : ^777777Upper^000000    weight : ^77777720^000000
+required level : ^77777720^000000
+Jobs : ^777777all Jobs^000000
+#
+5594#
+Chewing on this deliciously glazed ring-shaped fried cake will make you happy.
+MaxHP +100.
+Recover 1 HP every 10 seconds.
+Class : ^777777Headgear^000000
+Defense : ^7777771^000000
+Location : ^777777Lower^000000
+Weight : ^7777775^000000
+Required Level : ^7777771^000000
+Jobs : ^777777All^000000
+#
+18533#
+a hat looks like bee with unique stripe pattern.
+MDEF + 3.
+Physical, magical damage +5% against bug type of monsters.
+resistance +5% against buy type of monsters 5%.
+Class : ^777777headgear^000000 Def : ^7777773^000000
+location: ^777777Upper ^000000 weight : ^77777710^000000
+required level : ^77777750^000000
+Jobs : ^777777all jobs^000000
 #

@@ -5656,3 +5656,8 @@
 17105#HD_Elunium_50_Box#
 17104#HD_Oridecon_50_Box#
 17106#Heavy_Lifter_Box#
+
+5737#Potted_Muka_Hat#
+18589#Strawberry_Hat#
+5795#Red_Dress_Hat#
+18533#Honeybee_Hat#

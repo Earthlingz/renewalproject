@@ -5610,3 +5610,8 @@
 18591#Mini_Glasses#
 17105#HD_Elunium_50_Box#
 17104#HD_Oridecon_50_Box#
+5795#Headgear#
+5737#Muka_Hat#
+18589#Hat#
+5795#Hat#
+18533#Headgear#

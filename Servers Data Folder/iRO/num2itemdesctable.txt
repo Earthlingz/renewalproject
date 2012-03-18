@@ -34726,7 +34726,20 @@ A very cute egg scroll. It feels so fancy that makes you expect something from i
 Weight : ^7777771^000000
 #
 12493#
-A very cute egg scroll. It feels so fancy that makes you expect something from it.
+A Groove Pack to celebrate the Lunar New Year of the Dragon!
+^CC0000Available until January 31st.^000000
+
+Every time you open one you will get 25 Red Envelopes and 25 Handsei.
+Envelopes give about 1 monster kill worth of EXP and the Handsei give zeny.
+
+Also a random chance of:
+Mega Resist Potion
+Battle Manual X3
+MVP Hunt Box
+Slotting Advertisement
+Gold Dragonhelm (Account Bound)
+
+The Groovy Dragon Box is untradable, but may be stored.
 Weight : ^7777771^000000
 #
 12545#
@@ -35922,4 +35935,27 @@ Opening it will give both of the following:
 -1x Costume: Brown Bowler
 ^ff0000Once this item opened, it cannot be refunded.^000000
 Weight : ^7777771^000000
+#
+
+11505#
+A plant that brings up your spirit.
+Recovers 150 SP when consumed.
+Weight : ^7777773^000000
+#
+
+5451#
+Unknown Item, can be identified by [Magnifier].
+#
+
+5452#
+Unknown Item, can be identified by [Magnifier].
+#
+
+5453#
+Unknown Item, can be identified by [Magnifier].
+#
+
+12350#
+A potion that casts Level 5 Bless and Angelus
+Weight : ^77777710^000000
 #
