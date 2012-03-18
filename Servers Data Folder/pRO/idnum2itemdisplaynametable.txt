@@ -5223,7 +5223,7 @@
 14423#Broken_Sword_Box#
 14424#Bijofnil_Feather_Box#
 16256#Rag_DS_Helm_Box#
-7959#UP_Coin#
+7959#Vazilos'_RPS_Coin#
 7960#Ancient_Coin#
 12411#HE_Battle_Manual#
 12412#HE_Bubble_Gum#
@@ -5669,3 +5669,7 @@
 6566#Fierce_Cacao_99_Recipe#
 6567#Chocolate_Drink_Recipe#
 11057#February_Sweets#
+12826#Wind Type Scroll#
+18663#Sunglasses Baseball Hat#
+18670#Hankie In Mouth#
+5777#Remover_Hat#

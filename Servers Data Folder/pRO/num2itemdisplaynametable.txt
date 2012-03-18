@@ -5622,6 +5622,10 @@
 6566#Fierce_Cacao_99_Recipe#
 6567#Chocolate_Drink_Recipe#
 11057#February_Sweets#
+12826#Wind Type Scroll#
+18663#Cap#
+18670#Accessory#
+5777#Headgear#
 
 
 

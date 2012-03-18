@@ -44282,14 +44282,12 @@ Jobs : ^777777Mechanic^000000
 #
 
 6377#
-^FF0000This Item item has been disabled. The buying shop is disabled until further notice.^000000
 An official license from the Merchant Guild that allows you to open a Bulk Buyer Vending Shop.
 You must have at least 1 of the items in your inventory that you wish to Buy in Bulk from others.
 Consumed when using the 
 Weight : ^7777771^000000
 #
 12548#
-^FF0000This Item item has been disabled. The buying shop is disabled until further notice.^000000
 A questionable license that allows you to open a Bulk Buyer Vending Shop. The Merchant Guild's stamp looks like it has been hand drawn.
 You must have at least 1 of the items in your inventory that you wish to Buy in Bulk from others.
 (One time use)
@@ -50054,8 +50052,8 @@ Weight : ^7777770^000000
 #
 
 5146#
-An headress shaped like a magnificent Elephant.
-Enables the use of Level 1 Greed.
+A headress shaped like a magnificent Elephant.
+Enables the use of Level 1 Water Ball.
 If refined to 9 or higher, has a chance of activating Greed while physically attacking.
 Vit +1
 Class : ^777777Headgear^000000
@@ -50069,21 +50067,20 @@ Jobs : ^777777All^000000
 2576#
 A backpack befitting of any hero.
 Enables the use of level 1 Greed
-^ff0000This item will become tradeable on 02/28/2012^000000
 If refined to +7 or higher and base stats (without modifiers) is equal to 90 or higher,
 -Str -> Attack +20
 -Int -> Magic Attack +30
 -Vit -> Tolerance to Neutral Property +5
 -Agi -> Aspd +8%
 -Dex -> Ranged Attack +5
--Luk -> Cri +10
+-Luk -> Inflict 10% more critical attack.
 If refined to +9 or higher and base stats (without modifiers) is equal to 90 or higher,
 -Str -> Attack +30
 -Int -> Magic Attack +50
 -Vit -> Tolerance to Neutral Property +10
 -Agi -> Aspd +8% & Aspd +1
 -Dex -> Ranged Attack +10
--Luk -> Cri +15
+-Luk -> Inflict 15% more critical attack.
 Class : ^777777Garment^000000
 Defense: ^77777720^000000
 Weight : ^77777720^000000
@@ -50162,4 +50159,54 @@ Opening this randomly give you one of the following item sets
 ^FF0000This item cannot be traded, but may be stored.^000000
 ^FFFFFF_^000000
 Weight : ^7777771^000000
+#
+
+4846#
+Used to be a normal stone until it is filled with love.
+ATK + 10, MATK + 10.
+#
+4847#
+Used to be a normal stone until it is filled with evil spirit.
+ATK + 10, MATK + 10.
+#
+6345#
+Filled with loving varied colors.
+Weight : ^7777770^000000
+#
+6464#
+^ff0000Cannot be traded with others.^000000
+Filled with darkness of hatred and jealousy.
+Weight : ^7777770^000000
+#
+12537#
+Beautifully wrapped gift basket is for someone.
+Weight : ^7777771^000000
+#
+12538#
+Filled with firecrackers for events.
+Weight : ^7777771^000000
+#
+18556#
+^ff0000Item is Character Bound^000000
+Glasses which proves you are a member of the Angel side.
+All Stats + 1.
+While wearing this, Hate Crates drop from Devil's Messengers when killed
+Class : ^777777Headgear^000000
+Defense : ^7777770^000000
+Location : ^777777Middle^000000
+Weight : ^7777770^000000
+Required Level : ^7777771^000000
+Job : ^777777All^000000
+#
+18557#
+^ff0000Item is Character Bound^000000
+A sunglasses which proves the member of the Devil side.
+All State + 1.
+While wearing this, Love Lumps drop from Angel's Messengers when killed
+Class : ^777777Headgear^000000
+Defense : ^7777770^000000
+Location : ^777777Middle^000000
+Weight : ^7777770^000000
+Required Level : ^7777771^000000
+Job : ^777777All^000000
 #

@@ -36285,8 +36285,9 @@ There is a chicken researcher in the southwestern part of Geffen that knows abou
 Weight : ^7777771^000000
 #
 7959#
-The UP Coin is a Gift from O'Riley the Leprechaun.
-You can acquire more by purchasing them at PlaySpan.com. Use them to purchase kafra points and packages to improve your Ragnarok Adventure!
+A coin that belongs to the GameMaster.
+Rumor has it, if you carry all 30,001 coins you become the King of Rock-Paper-Scissor.
+Two brothers are travelling Midgard in search for all the coins.
 #
 
 12411#
@@ -39009,4 +39010,40 @@ A cooking book where you can find creative and yummy chocolate-using desserts' r
 The most wanted book for the lovers in between Winter and Spring!
 The Author: Arles Orleans, the Chocolate Expert and the famous Patissier.
 Weight : ^7777775^000000
+#
+12654#
+The colourful lucky scroll, open it will may obtain unexpected surprise!
+^ffffff_^000000
+Weight : ^7777771^000000
+#
+
+18663#
+The hat is made with sunglasses, it will bring a cool look upon wear it.
+INT + 3.
+Series : ^777777Headgear^000000    Defense : ^7777772^000000
+Location : ^777777Upper^000000    Weight : ^77777720^000000
+Level Requirement : ^77777720^000000
+Job : ^777777All Job except Novice^000000
+#
+18670#
+Biting the handkerchief with delicate and charming look.
+Damage from Demi-Human -3%.
+Series : ^777777Headgear^000000    Defense : ^7777771^000000
+Location : ^777777Lower^000000    Weight : ^77777710^000000
+Level Requirement : ^77777712^000000
+Job : ^777777All Job^000000
+#
+5777#
+A replica of the helmet worn by firemen.
+Not as durable as the real firemen's helmet because it is a replica.
+Mdef + 1
+Drops [Empty Bottle], [Ditrimindexta], [Karvodailnirol] in certain rate
+when defeating Neutral monsters.
+Unable to Refine
+Class : ^777777Headgear^000000
+DEF : ^7777772^000000
+Location : ^777777Upper^000000
+Weight : ^77777780^000000
+Required Lv : ^77777730^000000
+Jobs : ^777777All Jobs^000000
 #

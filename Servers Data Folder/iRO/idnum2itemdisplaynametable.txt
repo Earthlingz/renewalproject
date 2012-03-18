@@ -5272,3 +5272,12 @@
 16999#Heroic_Backpack_Box#
 6484#Heroic_Desocketing_Book#
 17181#Getting_Lucky_Box#
+
+4846#Fully_Loved_Stone#
+4847#Spelled_Stone#
+6345#Love_Lump#
+6464#Hate_Crate#
+12537#Gift_Basket#
+12538#Firecracker_Basket#
+18556#Angel's_Symbol#
+18557#Devil's_Symbol#

@@ -28711,3 +28711,20 @@ The most wanted book for the lovers in between Winter and Spring!
 The Author: Arles Orleans, the Chocolate Expert and the famous Patissier.
 Weight : ^7777775^000000
 #
+12826#
+The scroll in Wind Type zodiac.
+Can obtain either Garm Card, Sunglasses Baseball Hat, Hankie In Mouth, Gemini Crown/Diadem, Libra Crown/Diadem, Neutralizer and etc randomly.
+Weight : ^7777771^0000
+#
+18663#
+Unidentified item, can use [Spectacles] from merchant to identify it.
+#
+18670#
+Unidentified item, can use [Spectacles] from merchant to identify it.
+#
+5777#
+Unknown item
+requiring Appraisal.
+Can be identified by
+using a Magnifier.
+#

@@ -10130,6 +10130,14 @@ Hunt 400 Miming monsters.#
 Hunt the Little Fatum monsters at Bifrost and return to Gramps at the Eden Group to get your reward.#
 Hunt 400 Little Fatum monsters.#
 
+60588#Heater Hunting#SG_FEEL#QUE_NOIMAGE#
+Hunt the Heater monsters at Turtle Dungeon and return to Gramps at the Eden Group to get your reward.#
+Hunt 400 Heater monsters.#
+
+60589#Assaulter Hunting#SG_FEEL#QUE_NOIMAGE#
+Hunt the Assaulter monsters at Turtle Dungeon and return to Gramps at the Eden Group to get your reward.#
+Hunt 400 Assaulter monsters.#
+
 60901#Chefs of Iron#SG_FEEL#QUE_NOIMAGE#
 Talk to Lidia when you are ready to embark on the quest.#
 #
@@ -10776,7 +10784,7 @@ Find the Mercenary Guild Official and hire a mercenary and speak to the Tutorial
 #
 
 9168#Quest Window Check#SG_FEEL#QUE_NOIMAGE#
-The material that you need to tell the Tutorial Instructor is 10 Jellopy.#
+The material that you need to tell the Tutorial Instructor is '10 Jellopy'.#
 #
 
 9169#Window Shopper Catalogue#SG_FEEL#QUE_NOIMAGE#
@@ -10907,7 +10915,7 @@ You can start the mission after 1 hour.#
 
 5104#[Angel's Side] Expand!!#SG_FEEL#QUE_NOIMAGE#
 If you defeat the Devil's Messenger while wearing the symbol, you can acquire Hate Much. It would be a great help in expanding our side if you bring those to me.#
-Collect 20 Hate Much and bring them#
+Collect 20 Hate Crate and bring them#
 
 5105#[Angel's Side] Sabotage!!#SG_FEEL#QUE_NOIMAGE#
 Devil's Side dispatched Messengers of Devil. Go stop them!! #
@@ -10918,10 +10926,10 @@ Stop 7 Messenger of Devil!!#
 You can start the mission after 1 hour.#
 
 5107#[Devil's Side] Expand!!#SG_FEEL#QUE_NOIMAGE#
-Angels are expanding their side. We have to something about it. Wear your Symbols and Defeat Messenger of Angels!!! You will get Love Much. Bring those to me!!!#
-Collect 20 Love Much and bring them#
+Angels are expanding their side. We have to do something about it. Wear your Symbols and Defeat Angel Messengers! You will get Love Much. Bring those to me!#
+Collect 20 Love Lumps and bring them#
 
 5108#[Devil's Side] Sabotage!!#SG_FEEL#QUE_NOIMAGE#
-Angel's Side dispatched Messenger of Angel. Go stop them!!#
+Angel's Side has dispatched Angel Messengers. Go stop them!!#
 Defeat 7 Messenger of Angel.#
 

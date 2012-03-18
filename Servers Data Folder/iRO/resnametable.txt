@@ -1,3 +1,13 @@
+era_san04.gnd#ra_san04.gnd#
+era_san04.gat#ra_san04.gat#
+era_san04.rsw#ra_san04.rsw#
+유저인터페이스\map\era_san04.bmp#유저인터페이스\map\ra_san04.bmp#
+
+etur_dun03.gnd#tur_dun03.gnd#
+etur_dun03.gat#tur_dun03.gat#
+etur_dun03.rsw#tur_dun03.rsw#
+유저인터페이스\map\etur_dun03.bmp#유저인터페이스\map\tur_dun03.bmp#
+
 eman_fild03.gnd#man_fild03.gnd#
 eman_fild03.gat#man_fild03.gat#
 eman_fild03.rsw#man_fild03.rsw#

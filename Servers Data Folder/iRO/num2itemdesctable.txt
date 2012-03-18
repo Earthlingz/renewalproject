@@ -36067,3 +36067,35 @@ Getting Lucky Box is not meant to be consumed internally.
 ^FFFFFF_^000000
 Weight : ^7777771^000000
 #
+
+4846#
+Used to be a normal stone until it is filled with love.
+ATK + 10, MATK + 10.
+#
+4847#
+Used to be a normal stone until it is filled with evil spirit.
+ATK + 10, MATK + 10.
+#
+6345#
+Filled with loving variegated colors.
+Weight : ^7777770^000000
+#
+6464#
+^ff0000Cannot be traded with others.^000000
+Filled with darkness of hatred and jealousy.
+Weight : ^7777770^000000
+#
+12537#
+Beautifully wrapped gift basket is for someone.
+Weight : ^7777771^000000
+#
+12538#
+Filled with firecrackers for events.
+Weight : ^7777771^000000
+#
+18556#
+Unidentified item, can be identified with [Magnifier].
+#
+18557#
+Unidentified item, can be identified with [Magnifier].
+#
