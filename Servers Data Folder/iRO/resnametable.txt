@@ -1,3 +1,8 @@
+ekh_dun02.gnd#kh_dun02.gnd#
+ekh_dun02.gat#kh_dun02.gat#
+ekh_dun02.rsw#kh_dun02.rsw#
+유저인터페이스\map\ekh_dun02.bmp#유저인터페이스\map\kh_dun02.bmp#
+
 edic_fild01.gnd#dic_fild01.gnd#
 edic_fild01.gat#dic_fild01.gat#
 edic_fild01.rsw#dic_fild01.rsw#

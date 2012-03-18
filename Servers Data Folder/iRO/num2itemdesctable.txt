@@ -29348,7 +29348,7 @@ placeholder
 placeholder
 #
 5393#
-placeholder
+Unknown item requiring appraisal. Can be identified by using a magnifier.
 #
 5394#
 placeholder
@@ -36126,4 +36126,13 @@ Weight : ^7777772^000000
 
 12664#
 Weight : ^7777772^000000
+#
+
+16976#
+Wearing these items will give you the presence of the tastiest poultry in all of Rune Midgard.
+A box that contains 1 of each:
+-1x Costume: Chicken Beak
+-1x Costume: Rooster¡¯s Comb
+This box can be stored and traded, the items inside are account bound.
+Box Weight : ^7777771^000000
 #
