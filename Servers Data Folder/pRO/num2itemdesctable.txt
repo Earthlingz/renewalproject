@@ -28728,3 +28728,22 @@ requiring Appraisal.
 Can be identified by
 using a Magnifier.
 #
+12530#
+a box that has Mastela fruit inside
+weight : ^7777770^000000
+"^ff0000notice - if you have too much weight, item might be lost!^000000"
+#
+2164#
+Unidentified item, can use [Spectacles] from merchant to identify it.
+#
+18590#
+Unidentified item, can use [Spectacles] from merchant to identify it.
+#
+
+18529#
+Unidentified item, can use [Spectacles] from merchant to identify it.
+#
+18530#
+Unidentified item, can use [Spectacles] from merchant to identify it.
+#
+

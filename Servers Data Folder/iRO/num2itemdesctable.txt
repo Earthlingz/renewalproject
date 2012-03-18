@@ -36099,3 +36099,31 @@ Unidentified item, can be identified with [Magnifier].
 18557#
 Unidentified item, can be identified with [Magnifier].
 #
+
+12658#
+Weight : ^7777772^000000
+#
+
+12659#
+Weight : ^7777772^000000
+#
+
+12660#
+Weight : ^7777772^000000
+#
+
+12661#
+Weight : ^7777772^000000
+#
+
+12662#
+Weight : ^7777772^000000
+#
+
+12663#
+Weight : ^7777772^000000
+#
+
+12664#
+Weight : ^7777772^000000
+#

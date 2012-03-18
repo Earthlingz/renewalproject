@@ -27579,6 +27579,7 @@ Weight : ^77777710^000000
 Summon a 10th Grade,
 which is the top rank,
 Bow Mercenary.
+^ff0000This item can only be put into storage.^000000
 ^ffffff_^000000
 Weight : ^7777770^000000
 #
@@ -27640,6 +27641,7 @@ Weight : ^77777710^000000
 Summon a 10th Grade,
 which is the top rank,
 Sword Mercenary.
+^ff0000This item can only be put into storage.^000000
 ^ffffff_^000000
 Weight : ^7777770^000000
 #
@@ -27701,6 +27703,7 @@ Weight : ^77777710^000000
 Summon a 10th Grade,
 which is the top rank,
 Spear Mercenary.
+^ff0000This item can only be put into storage.^000000
 ^ffffff_^000000
 Weight : ^7777770^000000
 #
@@ -50210,3 +50213,32 @@ Weight : ^7777770^000000
 Required Level : ^7777771^000000
 Job : ^777777All^000000
 #
+
+12658#
+Weight : ^7777772^000000
+#
+
+12659#
+Weight : ^7777772^000000
+#
+
+12660#
+Weight : ^7777772^000000
+#
+
+12661#
+Weight : ^7777772^000000
+#
+
+12662#
+Weight : ^7777772^000000
+#
+
+12663#
+Weight : ^7777772^000000
+#
+
+12664#
+Weight : ^7777772^000000
+#
+

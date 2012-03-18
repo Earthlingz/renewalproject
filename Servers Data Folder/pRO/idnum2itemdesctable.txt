@@ -39047,3 +39047,51 @@ Weight : ^77777780^000000
 Required Lv : ^77777730^000000
 Jobs : ^777777All Jobs^000000
 #
+12826#
+A Wind-Type Zodiac scroll 
+Contains new items such as Sunglasses Baseball Hat and Hankie in Mouth
+You might also obtain a Garm Card
+Weight : ^7777771^000000
+#
+12530#
+a box that has Mastela fruit inside
+weight : ^7777770^000000
+"^ff0000notice - if you have too much weight, item might be lost!^000000"
+#
+2164#
+a shield that has internal resistance.
+decrease damage 5% from dark monster type
+decrease damage 5% from fire monster type
+Class : ^777777Shield^000000 Defense : ^77777750^000000
+Weight : ^777777130^000000
+Req Lev : ^77777765^000000
+Job : ^777777all jobs^000000
+#
+18590#
+a hairband made with gold string
+decrease magic damage 5% from evel monster type
+increase registance 5% from evel monster type
+MDEF + 3.
+Class : ^777777headgear^000000 Defense : ^7777773^000000
+location : ^777777upper ^000000Weight : ^77777720^000000
+Req Lev : ^77777710^000000
+Job : ^777777all jobs^000000
+#
+
+18529#
+wild rose hat with rapid movement 
+MaxHP - 10%, ASPD + 3%.
+with 'Fish InMouth', can cast auto spell [greedy] at regular rate
+Class : ^777777headgear^000000 Defense : ^7777775^000000
+location: ^777777upper-mid ^000000 Weight : ^77777750^000000
+Req Lev : ^77777730^000000
+Job : ^777777all jobs^000000
+#
+18530#
+desperate mask of thanatos,cute but evasion
+LUK - 5, FLEE + 4.
+Class : ^777777headgear^000000 Defense : ^7777770^000000
+location: ^777777mid-low ^000000 Weight : ^77777710^000000
+Req Lev : ^77777730^000000
+Job : ^777777all jobs^000000
+#

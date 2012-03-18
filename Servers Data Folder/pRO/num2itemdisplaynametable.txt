@@ -5626,7 +5626,12 @@
 18663#Cap#
 18670#Accessory#
 5777#Headgear#
-
+12530#Fruit_Of_Mastela#
+2164#Shield#
+18590#hairband#
+18529#hat#
+18530#mask#
+18531#hat#
 
 
 

@@ -5673,3 +5673,9 @@
 18663#Sunglasses Baseball Hat#
 18670#Hankie In Mouth#
 5777#Remover_Hat#
+12530#Fruit_Of_Mastela#
+2164#Sombre_Shield#
+18590#Gemma_Hairband#
+18529#Drooping_Wild_Rose#
+18530#Tha_Despero_Mask#
+18531#Drooping_Permeter#

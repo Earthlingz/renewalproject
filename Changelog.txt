@@ -1,3 +1,9 @@
+rev59 - [2012-03-18]
+ - Updated Raw data folders from kRO, iRO and pRO
+ * iRO 2012-02-21
+ * pRO 2012-02-22
+ * kRO 2012-02-22
+
 rev58 - [2012-03-18]
  - Updated Raw data folders from kRO, iRO and pRO
  * iRO 2012-02-14

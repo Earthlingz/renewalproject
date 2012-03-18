@@ -5234,3 +5234,11 @@
 12538#Firecracker_Basket#
 18556#Glasses#
 18557#Glasses#
+
+12658#Transformation Scroll(Deviruchi)#
+12659#Transformation Scroll(Raydric)#
+12660#Transformation Scroll(Mavka)#
+12661#Transformation Scroll(Marduk)#
+12662#Transformation Scroll(Banshee)#
+12663#Transformation Scroll(Poring)#
+12664#Transformation Scroll(Golem)#
