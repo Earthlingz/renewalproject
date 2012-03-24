@@ -5691,4 +5691,13 @@
 12827#Water_Type_Scroll#
 12828#Fire_Type_Scroll#
 12829#Earth_Type_Scroll#
+2914#Left_Eye_Of_An_Wizard#
+4494#Sealed_Turtle_General_Card#
+4495#Sealed_Amon_Ra_Card#
+4497#Sealed_Stormy_Knight_Card#
+4498#Sealed_Lady_Tanee_Card#
+18682#Teardrop#
+18676#Hexagon_Spectacles#
+18660#Indian_Feather_Headband#
+18679#Abacus_In_Mouth#
 

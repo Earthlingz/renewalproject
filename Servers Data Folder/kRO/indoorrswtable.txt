@@ -1,9 +1,5 @@
 //사크라이 12.3.6
-iz_int.rsw#
-iz_int01.rsw#
-iz_int02.rsw#
-iz_int03.rsw#
-iz_int04.rsw#
+
 iz_ng01.rsw#
 
 //사크라이 11.11.07

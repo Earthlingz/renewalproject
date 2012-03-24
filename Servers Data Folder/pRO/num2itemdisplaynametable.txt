@@ -5644,6 +5644,15 @@
 12827#Water_Type_Scroll#
 12828#Fire_Type_Scroll#
 12829#Earth_Type_Scroll#
+2914#accessory#
+4494#Sealed_Turtle_General_Card#
+4495#Sealed_Amon_Ra_Card#
+4497#Sealed_Stormy_Knight_Card#
+4498#Sealed_Lady_Tanee_Card#
+18682#accessory#
+18676#glass#
+18660#hairpin#
+18679#accessory#
 
 
 

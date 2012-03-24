@@ -2429,7 +2429,7 @@
 5390#Costume:_Blue_Christmas_Cheer#
 5391#Toast#
 5392#Louyang_NewYear_Hat#
-5393#Valentine_Hat#
+5393#Cupid's_Target#
 5394#Bubblegum_Lower#
 5395#Striped_Hat#
 5396#Jasper_Crest#
@@ -5277,7 +5277,7 @@
 4847#Spelled_Stone#
 6345#Love_Lump#
 6464#Hate_Crate#
-12537#Gift_Basket#
+12537#Gift_Chocolate_Basket#
 12538#Firecracker_Basket#
 18556#Angel's_Symbol#
 18557#Devil's_Symbol#
@@ -5295,7 +5295,7 @@
 
 17110#Aquarius_Scroll#
 17121#Starry_Scroll#
-17127#Leo_Scroll2#
+17127#March_Groove_and_Win_Crate#
 2589#Fallen_Angel_Wing#
 17117#Aries_Scroll#
 18581#Red_Tiger_Mask#
@@ -5321,3 +5321,6 @@
 4484#Sealed_Mistress_Card#
 4485#Sealed_Gloom_Card#
 2573#Archangel_Wing#
+6457#Safe_to_10_Certificate#
+6157#Vote_1#
+6158#Vote_2#

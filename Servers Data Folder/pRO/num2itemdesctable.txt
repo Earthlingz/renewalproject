@@ -28790,4 +28790,56 @@ Earth Type of scroll
 you can get so precious items in it .
 weight : ^7777771^000000
 #
+2914#
+Unidentified item, can use [Spectacles] from merchant to identify it.
+#
+4494#
+attack increase 10% 
+auto spell magnum break cast Lv10 at regular rate
+if refine is ver level15, additional attck increase 5% 
+Class : ^777777Card^000000
+Jobs : ^777777weapon^000000
+Weight : ^7777771^000000
+#
+4495#
+all status  + 1,
+when having physical damage, cast L raison Lv5
+if over INT 99, you can more opportunity for casting
+if refine is over 15, cast Giriae L raison Lv8 
+Class : ^777777Card^000000
+Jobs : ^777777Shoe^000000
+Weight : ^7777771^000000
+#
+4497#
+when physical attack, cast storm gast Lv1 
+when attack near and far , can cast ice move.
+if refine is over 15, more chance
+Class : ^777777Card^000000
+Jobs : ^777777weapon^000000
+Weight : ^7777771^000000
+#
+4498#
+MHP -60%, MSP +50%.
+when hunting monster, can get banana and its recovery rate is 50%.
+if refine is over 15 , MHP -50%, MSP +50%, can get banan and its recovery rate is added 30%
+Class : ^777777Card^000000
+Jobs : ^777777Shoe^000000
+Weight : ^7777771^000000
+#
+
+18660#
+Unidentified item, can use [Spectacles] from merchant to identify it.
+#
+
+18682#
+Unidentified item, can use [Spectacles] from merchant to identify it.
+#
+18676#
+Unidentified item, can use [Spectacles] from merchant to identify it.
+#
+18679#
+Unidentified item, can use [Spectacles] from merchant to identify it.
+#
+
+
 

@@ -5250,7 +5250,7 @@
 17113#Pisces_Scroll#
 17110#Aquarius_Scroll#
 17121#Starry_Scroll#
-17127#Leo_Scroll2#
+17127#March_Groove_and_Win_Crate#
 2589#Fallen_Angel_Wing#
 17117#Aries_Scroll#
 18581#Red_Tiger_Mask#
@@ -5276,3 +5276,6 @@
 4484#Sealed_Mistress_Card#
 4485#Sealed_Gloom_Card#
 2573#Archangel_Wing#
+6457#Safe_to_10_Certificate#
+6157#Vote_1#
+6158#Vote_2#

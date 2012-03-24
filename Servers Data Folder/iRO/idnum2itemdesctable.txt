@@ -50190,6 +50190,14 @@ Weight : ^7777770^000000
 #
 12537#
 Beautifully wrapped gift basket filled with goodies to share.
+Bring these to the Lucky Dogg at Eden Group and exchange it for 75 Prize Medals.
+^0000ffLucky Dogg will stay to take your baskets until April 17th^000000.
+Opening it will give you the following:
+-5x Lovely Choco-Tart - restores an average amount of HP
+-3x Cute Strawberry-Choco -restores an average amount of SP
+-4x Chocolate Drink -Restores a high amount of HP and a low amount of SP
+-10x Hand-made Chocolate -restores 50hp/50sp
+-10x Handmade White Chocolate -restores 50hp/50sp
 Weight : ^7777771^000000
 #
 12538#
@@ -50297,76 +50305,83 @@ Jobs: ^777777All^000000
 #
 
 
-17113#
-환상의 영약, 쌍어궁 보관, 쌍어궁 왕관, 티라야보넷, 보스 이그니젬Card 등 희귀한 아이템이 들어있는 스크롤.
-Weight : ^7777771^000000
-#
 17110#
-환상의 영약, 보병궁 보관, 보병궁 왕관, 늘어진 구미호, 어쌔신크로스Card 등 희귀한 아이템이 들어있는 스크롤.
+A scroll with the Aquarius sign fixed upon it.
 Weight : ^7777771^000000
 #
 17121#
-월야화 Card, 사자궁보관, 쌍녀궁보관, 쌍녀궁왕관, 천칭궁보관, 천칭궁왕관 등 희귀한 아이템이 들어있는 스크롤.
+A scroll with numerous stars.
 Weight : ^7777771^000000
 #
 17127#
-대만 8월 별자리 한정 판매 상자.
+This Special Crate not only contains 5 March Groove Packs, it also contains a special Safe to 10 Certificate, which allows Mighty Hammer to not degrade equipment on a failure, increasing your ability to +10 equipment.
+^ff0000Available until March 27.^000000
 Weight : ^7777771^000000
 #
 2589#
-타락천사의 커다랗고 검은 날개.
+Large, black wings of a fallen dark angel.
 LUK + 2.
-인간형 몬스터의 공격에 대한 내성 10% 증가.
-암속성 공격에 대한 내성 30% 증가, 성속성 공격에 대한 내성 30% 감소.
-Class : ^777777걸칠것^000000  Defense : ^77777718^000000
+Increases tolerance to Demihuman attacks by 10%.
+Increases resistance to the Shadow Property by 30%.
+Increases resistance to the Holy Property by 30%.
+Class : ^777777Garment^000000
+Defense : ^77777718^000000
 Weight : ^77777720^000000
 Required Level : ^7777771^000000
-Jobs : ^777777전직업 장착가능^000000
+Jobs : ^777777All Jobs^000000
 #
 17117#
-타락천사의 날개, 이프리트 Card, 백양궁 왕관, 백양궁 보관, 환상의 영약 등 희귀한 아이템이 들어있는 스크롤.
+A scroll with the Aries sign fixed upon it.
 Weight : ^7777771^000000
 #
 18581#
-순진하던 사람도 이 마스크를 쓰게 되면, 전사가 된다는 소문이 있다.
-STR + 3
-HP + 100
-제련불가
-Class : ^777777투구^000000    Defense : ^7777772^000000
-Location : ^777777상중단^000000    Weight : ^77777740^000000
+A menacing red Tiger's mask rumored to have belonged to a great warrior.
+Str +3
+HP +100
+Cannot be refined.
+Class : ^777777Headgear^000000
+Defense : ^7777772^000000
+Location : ^777777Upper & Middle^000000
+Weight : ^77777740^000000
 Required Level : ^77777750^000000
 Jobs : ^777777All Jobs^000000
 #
 18582#
-순진하던 사람도 이 마스크를 쓰게 되면, 전사가 된다는 소문이 있다.
-STR + 3
-HP + 100
-제련불가
-Class : ^777777투구^000000    Defense : ^7777772^000000
-Location : ^777777상중단^000000    Weight : ^77777740^000000
+A menacing blue Tiger's mask rumored to have belonged to a great warrior.
+Str +3
+HP +100
+Cannot be refined
+Class : ^777777Headgear^000000
+Defense : ^7777772^000000
+Location : ^777777Upper & Middle^000000
+Weight : ^77777740^000000
 Required Level : ^77777750^000000
 Jobs : ^777777All Jobs^000000
 #
 18583#
-머리위에 얹고 다닐수 있도록 만들어진 인형. 어디선가 고양이 울음소리가 들리거나 머리위에서 움직임이 느껴지거나 하는건 기분탓이다.
-MDEF + 15
-저주에 대한 내성 30%
-Class : ^777777Headgear^000000    Defense : ^7777773^000000
-Location : ^777777상단^000000    Weight : ^77777750^000000
-Required Level : ^777777None^000000
-Jobs : ^777777노비스계열을 제외한 All Jobs^000000
+A lazy drooping blue kitty hat.
+Mdef +15
+Adds 30% resistance to the Curse status.
+Class : ^777777Headgear^000000
+Defense : ^7777773^000000
+Location : ^777777Upper^000000
+Weight : ^77777750^000000
+Required Level : ^7777771^000000
+Jobs : ^777777All except Novice^000000
 #
 18584#
-머리위에 얹고 다닐수 있도록 만들어진 인형. 어디선가 고양이 울음소리가 들리거나 머리위에서 움직임이 느껴지거나 하는건 기분탓이다.
-MDEF + 15
-저주에 대한 내성 30%
-Class : ^777777Headgear^000000    Defense : ^7777773^000000
-Location : ^777777상단^000000    Weight : ^77777750^000000
-Required Level : ^777777None^000000
-Jobs : ^777777노비스계열을 제외한 All Jobs^000000
+A lazy drooping brown kitty hat.
+Mdef +15
+Adds 30% resistance to the Curse status.
+Class : ^777777Headgear^000000
+Defense : ^7777773^000000
+Location : ^777777Upper^000000
+Weight : ^77777750^000000
+Required Level : ^7777771^000000
+Jobs : ^777777All except Novice^000000
 #
 17109#
-환상의 영약, 마갈궁 보관, 마갈궁 왕관, 마력 깃든 Card첩, 타락한대신관Card 등 희귀한 아이템이 들어있는 스크롤.
+A scroll with the Capricorn sign fixed upon it.
 Weight : ^7777771^000000
 #
 17080#
@@ -50384,27 +50399,27 @@ And randomly:
 Box Weight : ^7777771^000000
 #
 17120#
-아트로스 Card, 환상의 영약, 발키리의 갑옷, 아요타야 모자, 대행자의 껍질 조각 등 희귀한 아이템이 들어있는 스크롤.
+A scroll with the Taurus sign fixed upon it.
 Weight : ^7777771^000000
 #
 17138#
-거해궁 자리의 달을 기념하는 특별한 스크롤. 거해궁 왕관, 거해궁 보관, 하티 Card, 비치타올, 비상하는 천사 및 다른 귀중한 아이템을 획득할 수 있다.
+A scroll with the Cancer sign fixed upon it.
 Weight : ^7777771^000000
 #
 17140#
-사자궁 자리의 달을 기념하는 특별한 스크롤. 사자궁 왕관, 사자궁 보관, 타락한대신관 Card, 스킨 오브 벤투스, 날고 싶은 엔젤링 및 다른 귀중한 아이템을 획득할 수 있다.
+A scroll with the Leo sign fixed upon it.
 Weight : ^7777771^000000
 #
 17141#
-쌍녀궁 자리의 달을 기념하는 특별한 스크롤. 쌍녀궁 왕관, 쌍녀궁 보관, 대행자의 껍질조각, 물의 갑옷[1], 대형 마제스틱고우트 및 다른 귀중한 아이템을 획득할 수 있다.
+A scroll with the Virgo sign fixed upon it.
 Weight : ^7777771^000000
 #
 17142#
-천칭궁 자리의 달을 기념하는 특별한 스크롤. 천칭궁 왕관, 천칭궁 보관, 하이위자드Card, 모험가의 배낭, 엔젤링 핀, 마력깃든 Card첩 및 다른 귀중한 아이템을 획득할 수 있다.
+A scroll with the Libra sign fixed upon it.
 Weight : ^7777771^000000
 #
 17143#
-천헐궁 자리의 달을 기념하는 특별한 스크롤. 천헐궁 왕관, 천헐궁 보관, 타나토스의 기억 Card, 본플레이트, 타나토스의 증오 가면, 휘케바인의 검은 꼬리 및 다른 귀중한 아이템을 획득할 수 있다.
+A scroll with the Scorpio sign fixed upon it.
 Weight : ^7777771^000000
 #
 17082#
@@ -50424,26 +50439,27 @@ A box containing 10 piece of Gemini Crown Scroll.
 Weight : ^7777771^000000
 #
 4480#
-모든 스킬의 후 딜레이가 15% 감소한다.
-15제련 이상 시 시전 후 딜레이 5% 추가 감소.
+After cast delay reduced by 15%
+If this card is slotted into a headgear refined to +15 or higher, reduces after-cast delay by 5% more.
 Class : ^777777Card^000000
 Compound on : ^777777Headgear^000000
 Weight : ^7777771^000000
 #
 4481#
-화속성 몬스터에게 물리 데미지 25% 추가.
-물리, 마법 데미지를 입었을 때 일정 확률로 오토스펠 프로스트 노바 Lv10 발동.
-15제련 이상일 경우 화속성 몬스터에게 물리 데미지 10% 추가증가.
+Increases damage to Fire Property monsters by 25%.
+Has a low chance of auto-casting Frost Nova while being attacked.
+If this card is slotted into an armor refined to +15 or higher, increases damage to Fire Property monsters by 10% more.
 Class : ^777777Card^000000
-Compound on : ^777777갑옷^000000
+Compound on : ^777777Armor^000000
 Weight : ^7777771^000000
 #
 4482#
-15초마다 50의 HP, 10의 Sp 회복.
-MHP와 MSP가 5% 증가한다.
-15제련 이상 일 경우 HP, SP회복속도 10초로 단축, MHP, MSP가 2% 추가 증가.
+MaxHP +7%
+MaxSP +7%
+Every 15 seconds, you recover 50 HP and 10 SP.
+If this card is slotted into shoes refined to +15 or higher, every 10 seconds, you recover 10 SP.
 Class : ^777777Card^000000
-Compound on : ^777777신발^000000
+Compound on : ^777777Shoes^000000
 Weight : ^7777771^000000
 #
 4483#
@@ -50473,4 +50489,12 @@ Weight : ^7777771^000000
 무게 : ^77777720^000000
 요구 레벨 : ^7777771^000000
 장착 : ^777777전직업 장착가능^000000
+#
+
+6457#
+A Certificate that will ensure that Mighty Hammer, in Eden Group, will not degrade your Equipment when it is +9 attempting +10.
+You must use this in conjunction with the normal HD Ore to take advantage of non-Degrade.
+Acquired by buying the Special Groove Pack Crates.
+^ff0000Limited Item^000000
+Weight : ^7777771^0000000
 #
