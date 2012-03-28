@@ -1,3 +1,13 @@
+rev64 - [2012-03-29]
+ - Added disassembled kRO files from patch 2012-03-28
+
+rev63 - [2012-03-24]
+ - Added disassembled kRO files from patch 2012-03-21
+ - Updated Raw data folders from kRO, iRO and pRO
+ * iRO 2012-03-20
+ * pRO 2012-03-21
+ * kRO 2012-03-21
+
 rev62 - [2012-03-18]
  - Updated Raw data folders from kRO, iRO and pRO
  * iRO 2012-03-13
