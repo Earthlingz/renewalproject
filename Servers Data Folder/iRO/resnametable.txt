@@ -1,3 +1,8 @@
+eice_dun03.gnd#ice_dun03.gnd#
+eice_dun03.gat#ice_dun03.gat#
+eice_dun03.rsw#ice_dun03.rsw#
+유저인터페이스\map\eice_dun03.bmp#유저인터페이스\map\ice_dun03.bmp#
+
 elhz_fild01.gnd#lhz_fild01.gnd#
 elhz_fild01.gat#lhz_fild01.gat#
 elhz_fild01.rsw#lhz_fild01.rsw#

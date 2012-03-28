@@ -8089,8 +8089,8 @@ Hunt 200 Wickebine Tres and return to the Thief Hunter at the 2nd floor of the S
 
 60443#Alarm Hunting#SG_FEEL#QUE_NOIMAGE#
 
-Hunt 400 Alarm monsters on the third level of the Clock Tower. Return to Gramps at the Eden Group to get your reward.#
-#
+Hunt the Alarm monsters at the special hunting grounds and return to Gramps at the Eden Group to get your reward.#
+Hunt 400 Alarm monsters.#
 
 
 
@@ -8184,8 +8184,8 @@ Hunt 400 Gazeti monsters at Ice Dungeon. Return to Gramps at the Eden Group to g
 
 60460#Ice Titan Hunting#SG_FEEL#QUE_NOIMAGE#
 
-Hunt 400 Ice Titan monsters at Ice Dungeon. Return to Gramps at the Eden Group to get your reward.#
-#
+Hunt the Ice Titan monsters at the special hunting grounds and return to Gramps at the Eden Group to get your reward.#
+Hunt 400 Ice Titan monsters.#
 
 60461#Skogul Hunting#SG_FEEL#QUE_NOIMAGE#
 
@@ -8322,7 +8322,7 @@ Hunt the Centipede monsters at Dicastes Field 1 and return to Gramps at the Eden
 Hunt 400 Centipede monsters.#
 
 60493#Bradium Golem Hunt#SG_FEEL#QUE_NOIMAGE#
-Hunt the Bradium Golem monsters at Manuk Field 2 and return to Gramps at the Eden Group to get your reward.#
+Hunt the Bradium Golem monsters at the special hunting grounds and return to Gramps at the Eden Group to get your reward.#
 Hunt 400 Bradium Golem monsters.#
 
 60494#Hunting Timer 1#SG_FEEL#QUE_NOIMAGE#
@@ -8498,7 +8498,7 @@ Hunt the Tatacho monsters at Kamidal Mountain and return to Gramps at the Eden G
 Hunt 400 Tatacho monsters.#
 
 60542#Dolomedes Hunting#SG_FEEL#QUE_NOIMAGE#
-Hunt the Dolomedes monsters at Kamidal Mountain and return to Gramps at the Eden Group to get your reward.#
+Hunt the Dolomedes monsters at the special hunting grounds and return to Gramps at the Eden Group to get your reward.#
 Hunt 400 Dolomedes monsters.#
 
 60543#Axe Kobold Hunting#SG_FEEL#QUE_NOIMAGE#
@@ -10138,6 +10138,18 @@ Hunt 400 Heater monsters.#
 Hunt the Assaulter monsters at Turtle Dungeon and return to Gramps at the Eden Group to get your reward.#
 Hunt 400 Assaulter monsters.#
 
+60590#Blazzer Hunting#SG_FEEL#QUE_NOIMAGE#
+Hunt the Blazzer monsters at Nogg Road and return to Gramps at the Eden Group to get your reward.#
+Hunt 400 Blazzer monsters.#
+
+60591#Lava Golem Hunting#SG_FEEL#QUE_NOIMAGE#
+Hunt the Lava Golem monsters at Nogg Road and return to Gramps at the Eden Group to get your reward.#
+Hunt 400 Lava Golem monsters.#
+
+60592#Owl Baron Hunting#SG_FEEL#QUE_NOIMAGE#
+Hunt the Owl Baron monsters at the special hunting grounds and return to Gramps at the Eden Group to get your reward.#
+Hunt 400 Owl Baron monsters.#
+
 60901#Chefs of Iron#SG_FEEL#QUE_NOIMAGE#
 Talk to Lidia when you are ready to embark on the quest.#
 #
@@ -11071,4 +11083,8 @@ Mrs. Moneybags asked you to find the last remains of Mr. Moneybags' missing lock
 
 60955#Museum Murder Mystery#SG_FEEL#QUE_NOIMAGE#
 You've found the last fragment of the locket under some wet earth. Take it back to Mrs. Moneybags.#
+#
+
+60956#Orcish Envoy#SG_FEEL#QUE_NOIMAGE#
+The Orcish Envoy is only accepting Orcish Vouchers every 5 minutes. Wait for the timer before giving him more.#
 #

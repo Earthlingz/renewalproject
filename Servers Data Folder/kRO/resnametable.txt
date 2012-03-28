@@ -1,5 +1,24 @@
 //초보자수련장
 
+treasure_n1.gnd#treasure01.gnd#
+treasure_n1.gat#treasure01.gat#
+treasure_n1.rsw#treasure01.rsw#
+유저인터페이스\map\treasure_n1.bmp#유저인터페이스\map\treasure_n1.bmp#
+
+treasure_n2.gnd#treasure02.gnd#
+treasure_n2.gat#treasure02.gat#
+treasure_n2.rsw#treasure02.rsw#
+유저인터페이스\map\treasure_n2.bmp#유저인터페이스\map\treasure_n2.bmp#
+
+iz_ac02.gnd#iz_ac02.gnd#
+iz_ac02.gat#iz_ac02.gat#
+iz_ac02.rsw#iz_ac02.rsw#
+유저인터페이스\map\iz_ac02.bmp#유저인터페이스\map\iz_ac02.bmp#
+
+iz_ac01.gnd#iz_ac01.gnd#
+iz_ac01.gat#iz_ac01.gat#
+iz_ac01.rsw#iz_ac01.rsw#
+유저인터페이스\map\iz_ac01.bmp#유저인터페이스\map\iz_ac01.bmp#
 
 iz_int.gnd#iz_int.gnd#
 iz_int.gat#iz_int.gat#

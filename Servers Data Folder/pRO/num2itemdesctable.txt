@@ -28781,8 +28781,8 @@ you can get so precious items in it .
 weight : ^7777771^000000
 #
 12828#
-a fire type of scrolll
-you can get so precious items in it .
+"I am what was, what is, what will be : the Chaos-Bringer! I AM POWER!"
+-The Phoenix Aeon
 weight : ^7777771^000000
 #
 12829#
@@ -28840,6 +28840,226 @@ Unidentified item, can use [Spectacles] from merchant to identify it.
 18679#
 Unidentified item, can use [Spectacles] from merchant to identify it.
 #
+// ---------- Port Malaya 신규 아이템 ------------
+2169#
+Unknown Item, can be identified by [Magnifier].
+#
+2170#
+Unknown Item, can be identified by [Magnifier].
+#
+2491#
+Unknown Item, can be identified by [Magnifier].
+#
+2492#
+Unknown Item, can be identified by [Magnifier].
+#
+2590#
+Unknown Item, can be identified by [Magnifier].
+#
+2591#
+Unknown Item, can be identified by [Magnifier].
+#
+2907#
+Unknown Item, can be identified by [Magnifier].
+#
+2910#
+Unknown Item, can be identified by [Magnifier].
+#
+2911#
+Unknown Item, can be identified by [Magnifier].
+#
+9059#
+Qpet Tikbalang egg. Hatch the egg to awaken the monster with the [Pet Incubator].
+Damage to Bakonawa, Bangungot, and Buwaya 10% increase. MDEF +3.
+Type : ^777777Monster Egg^000000
+#
+15051#
+Unknown Item, can be identified by [Magnifier].
+#
+15052#
+Unknown Item, can be identified by [Magnifier].
+#
+12699#
+Special belt made to control Tikbalang as a servant. Be careful since Tikbalang will struggle violently when used.
+Type : ^777777Taming Item^000000
+Weight : ^7777775^000000
+#
+12700#
+Common shirt turned inside out. Used to break Tikbalang’s curse that makes people get lost.
+Can warp back to the ‘Port Malaya’ village when used directly.
+^ffffff_^000000
+Weight : ^7777771^000000
+#
+12775#
+Totem with powerful abilities to aggressively fight against demons. Emits powerful, holy energy.
+10% increase of physical and magic damage to demon monsters for 20 min.
+^ffffff_^000000
+Weight : ^77777760^000000
+#
+6496#
+Tikbalang's thick and tough spine. Sell to a collection dealer.
+^ffffff_^000000
+Weight : ^7777771^000000
+#
+6497#
+Paper that protects a player from harms way or casts special abilities.
+A faint energy can be felt.
+^ffffff_^000000
+Weight : ^7777771^000000
+#
+6498#
+Looks similar to a Large Jellopy but with a shinier crystal.
+^ffffff_^000000
+Weight : ^7777771^000000
+#
+6499#
+Paper that protects a player from harm's way or casts special abilities.
+^ffffff_^000000
+Weight : ^7777771^000000
+#
+6500#
+^ff0000Item cannot be traded with other characters.^000000
+Bamboo piece trimmed to be pointy. Looks like it was cut tilted from a thick bamboo.
+Weight : ^7777770^000000
+#
+6501#
+^ff0000Item cannot be traded with other characters.^000000
+Bag used to contain sea salt manufactured from the seashore. Said to scare off bad spirits.
+Weight : ^7777770^000000
+#
+6502#
+^ff0000Item cannot be traded with other characters.^000000
+Cross-shaped ornament made of silver. Used to scare off demons.
+Weight : ^7777770^000000
+#
+6503#
+^ff0000Item cannot be traded with other characters.^000000
+Portable spiritual protection made with holy energy from silver and exorcising energy from salt. Used to prevent bad spirits from approaching.
+Weight : ^7777770^000000
+#
+6504#
+^ff0000Item cannot be traded with other characters.^000000
+Large caldron made from hard iron. Lets off a rich and full clunk sound when hit. Used to stun Bakonawa by making loud noises from it instead of cooking with it.
+Weight : ^7777770^000000
+#
+6505#
+^ff0000Item cannot be traded with other characters.^000000
+Wholly cleaned out bone was an Evil Spirit Bone purified by Mumbaki to get rid of all evilness. Guard dog Vantai especially likes it.
+Weight : ^7777770^000000
+#
+6506#
+^ff0000Item cannot be traded with other characters.^000000
+Flower bouquet made to comfort wandering or victimized souls. Offer flowers with a true heart and the souls may actually rest.
+Weight : ^7777770^000000
+#
+6507#
+^ff0000Item cannot be traded with other characters.^000000
+Animal bones with a hint of evil spirit. Won’t be able to as dog treats at this state.
+Weight : ^7777770^000000
+#
+6508#
+Hellish silver bracelet. Looks more like a restraint.
+Weight : ^7777771^000000
+#
+6509#
+Mysteriously colorful flower. Looks like it was made from a rainbow.
+Weight : ^7777771^000000
+#
+6510#
+Soft and gentle looking elegant flower.
+Weight : ^7777771^000000
+#
+6511#
+Ordinary flower that can be found anywhere.
+Weight : ^7777771^000000
+#
+6516#
+Doll made to look like Bakonawa. Cuter than its original.
+Weight : ^7777771^000000
+#
+6517#
+Doll made to look like Bangungot. Suspicious of the creator’s taste.
+Weight : ^7777771^000000
+#
+6518#
+Doll made to look like Buwaya. Popular among Port Malaya children.
+Weight : ^7777771^000000
+#
+6519#
+^ff0000Item cannot be traded with other characters.^000000
+Animal samples collected for a special purpose. Smells nasty.
+Weight : ^7777770^000000
+#
+6520#
+^ff0000Item cannot be traded with other characters.^000000
+Belong to a missing Port Malaya villager.
+Weight : ^7777770^000000
+#
+6523#
+Transparent item which imprisons Bakonawa's Spirit. Rumor says you can see Bakonawa when held up to moonlight.
+Weight : ^7777771^000000
+#
+6524#
+Transparent item which imprisons Bangungot's Spirit. Rumor says you can hear Bangungot’s screeching screams when placed in a dark room.
+Weight : ^7777771^000000
+#
+6525#
+Transparent item which imprisons Buwaya’s Spirit. Rumor says you can hear Buwaya’s angry shrieks when touched with water.
+Weight : ^7777771^000000
+#
+6439#
+Elunium which is blessed by the smith God. When refining weapon with refine Lv between +6  and +12, armor won't vanish even if the refine fails.
+Weight : ^7777771^000000
+#
+16755#
+A box which contains a blessed armor ore.
 
+Elunium which is blessed by the smith God. When refining weapon with refine Lv between +6  and +12, armor won't vanish even if the refine fails.
+Weight : ^7777771^000000
 
+^ff0000Once this item is purchased, termination of contract is impossible. Also, this item is not refundable.^000000
+#
+16756#
+A box which contains a blessed armor ore.
 
+Elunium which is blessed by the smith God. When refining weapon with refine Lv between +6  and +12, armor won't vanish even if the refine fails.
+Weight : ^7777771^000000
+
+^ff0000Once this item is purchased, termination of contract is impossible. Also, this item is not refundable.^000000
+6438#
+Oridecon which is blessed by the smith God. When refining weapon with refine Lv between +6  and +12, weapon won't vanish even if the refine fails.
+Weight : ^7777771^000000
+#
+16753#
+A box which contains a blessed weapon ore.
+
+Oridecon which is blessed by the smith God. When refining weapon with refine Lv between +6  and +12, weapon won't vanish even if the refine fails.
+Weight : ^7777771^000000
+
+^ff0000Once this item is purchased, termination of contract is impossible. Also, this item is not refundable.^000000
+#
+16754#
+A box which contains a blessed weapon ore.
+
+Oridecon which is blessed by the smith God. When refining weapon with refine Lv between +6  and +12, weapon won't vanish even if the refine fails.
+Weight : ^7777771^000000
+
+^ff0000Once this item is purchased, termination of contract is impossible. Also, this item is not refundable.^000000
+#
+4493#
+MaxHP + 50%, DEF, MDEF - 50.
+if refine is over 15, MaxHP + 75%, DEF,  MDEF - 50.
+Class : ^777777Card^000000
+Location : ^777777armor^000000
+weight : ^7777771^000000
+#
+12822#
+a box has 50 pcs of rice cake.
+weight : ^7777771^000000
+#
+5690#
+Unknown Item, can be identified by [Magnifier].
+#
+5819#
+Unknown Item, can be identified by [Magnifier].
+#
