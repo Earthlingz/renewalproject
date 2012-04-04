@@ -48317,8 +48317,8 @@ Jobs : ^777777All^000000
 19509#
 Have the appearance of wearing the wings of a butterfly as your ears with this accessory.
 ^ff0000This item is account bound^000000
-Class : ^777777Middle^000000
-Location: ^777777Upper ^000000
+Class : ^777777Costume^000000
+Location: ^777777Middle^000000
 Defense : ^7777770^000000
 Weight : ^7777770^000000
 Required Level : ^7777771^000000
@@ -48327,8 +48327,8 @@ Jobs : ^777777All^000000
 19510#
 You can look like you just rolled off the assembly line with these bolt-on ear accessories.
 ^ff0000This item is account bound^000000
-Class : ^777777Middle^000000
-Location: ^777777Upper ^000000
+Class : ^777777Costume^000000
+Location: ^777777Middle^000000
 Defense : ^7777770^000000
 Weight : ^7777770^000000
 Required Level : ^7777771^000000

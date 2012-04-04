@@ -5322,5 +5322,5 @@
 4485#Sealed_Gloom_Card#
 2573#Archangel_Wing#
 6457#Safe_to_10_Certificate#
-6157#Old_Card_Album#
+6157#Vote_1#
 6158#Vote_2#

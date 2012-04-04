@@ -6,8 +6,8 @@ iz_int04.rsw#인트로#
 iz_ac01.rsw#아카데미1층#
 iz_ac02.rsw#아카데미2층#
 iz_ng01.rsw#닌자튜토리얼맵#
-treasure_n1.rsw#알베르타 침몰선 1층#
-treasure_n2.rsw#알베르타 침몰선 2층#
+treasure_n1.rsw#이즈루드 난파선 1층#
+treasure_n2.rsw#이즈루드 난파선 2층#
 
 moc_prydn1.rsw#모로크 피라미드 지하 1층 - 나이트#
 moc_prydn2.rsw#모로크 피라미드 지하 2층 - 나이트#

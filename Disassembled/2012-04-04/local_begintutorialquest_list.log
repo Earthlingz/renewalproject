@@ -1,0 +1,23 @@
+R0 := {}
+R1 := {}
+R1["name"] := "초보자튜토리얼"
+R1["imagefile"] := "ep_test_sample.bmp"
+R2 := {}
+R3 := {}
+R3["name"] := "라그나로크 시작의 길"
+R4 := {}
+R5 := {}
+R5["name"] := "세상을 위한 첫걸음"
+R5["scrfilename"] := "BeginTutorialQuest"
+R5["questID"] := 7472
+R6 := {}
+R6["name"] := "세상에서 제일맛있는.."
+R6["scrfilename"] := "BeginTutorialQuest"
+R6["questID"] := 11339
+R4[1,2] := R5,R6
+R3["list"] := R4
+R2[1] := R3
+R1["list"] := R2
+R0[1] := R1
+LOCAL_BeginTuTorialQuest_list := R0
+return 

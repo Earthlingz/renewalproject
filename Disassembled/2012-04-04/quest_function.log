@@ -1,0 +1,804 @@
+R0 := {}
+__LOCAL_QuestList := R0
+R0 := {}
+__EP_QuestList := R0
+R0 := {}
+QuestTable := R0
+R0 := closure(Function #0)
+makeLocalQuestList := R0
+R0 := closure(Function #1)
+makeEPQuestList := R0
+R0 := closure(Function #2)
+queryEpisode := R0
+R0 := closure(Function #3)
+queryChapter := R0
+R0 := closure(Function #4)
+queryQuest := R0
+R0 := closure(Function #5)
+getEpisodeIterator := R0
+R0 := closure(Function #6)
+getChapterIterator := R0
+R0 := closure(Function #7)
+getQuestIterator := R0
+R0 := closure(Function #8)
+queryQuestID := R0
+R0 := makeLocalQuestList
+R1 := LOCAL_MalayaQuest_List
+R0(R1)
+R0 := makeLocalQuestList
+R1 := LOCAL_DewataQuest_List
+R0(R1)
+R0 := makeLocalQuestList
+R1 := LOCAL_BeginTuTorialQuest_list
+R0(R1)
+R0 := makeEPQuestList
+R1 := EP_141Quest_List
+R0(R1)
+R0 := QuestTable
+R1 := malayaQuest_List
+R0["malayaQuest"] := R1
+R0 := QuestTable
+R1 := epsoid141Quest_List
+R0["epsoid141Quest"] := R1
+R0 := QuestTable
+R1 := DewataQuest_List
+R0["DewataQuest"] := R1
+R0 := QuestTable
+R1 := BeginTutorialQuest_List
+R0["BeginTutorialQuest"] := R1
+return 
+
+
+; Function #0:
+;
+; Name:            
+; Defined at line: 5
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  17
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000022 | Quest_list
+; 00000003 | 00000022 | (for generator)
+; 00000003 | 00000022 | (for state)
+; 00000003 | 00000022 | (for control)
+; 00000004 | 00000020 | episodeId
+; 00000004 | 00000020 | episode
+; 0000000e | 00000020 | (for generator)
+; 0000000e | 00000020 | (for state)
+; 0000000e | 00000020 | (for control)
+; 0000000f | 0000001e | chapterId
+; 0000000f | 0000001e | chapter
+; 00000016 | 0000001e | (for generator)
+; 00000016 | 0000001e | (for state)
+; 00000016 | 0000001e | (for control)
+; 00000017 | 0000001c | questId
+; 00000017 | 0000001c | quest
+;
+; No upvalues
+
+R1 := ipairs
+R2 := R0
+R1,R2,R3 := R1(R2)
+PC := 33
+R6 := getTableSize
+R7 := __LOCAL_QuestList
+R6 := R6(R7)
+R4 := R6 + 1
+R6 := __LOCAL_QuestList
+R6[R4] := R5
+R5["id"] := R4
+R6 := ipairs
+R7 := R5["list"]
+R6,R7,R8 := R6(R7)
+PC := 31
+R11 := __LOCAL_QuestList
+R11 := R11[R4]
+R11[R9] := R10
+R10["id"] := R9
+R11 := ipairs
+R12 := R10["list"]
+R11,R12,R13 := R11(R12)
+PC := 29
+R16 := __LOCAL_QuestList
+R16 := R16[R4]
+R16 := R16[R9]
+R16[R14] := R15
+R15["id"] := R14
+R14,R15 := R11(R12,R13); if R14 ~= nil then begin PC = 24; R13 := R14 end
+ 30 [17]: JMP       24
+R9,R10 := R6(R7,R8); if R9 ~= nil then begin PC = 16; R8 := R9 end
+ 32 [18]: JMP       16
+R4,R5 := R1(R2,R3); if R4 ~= nil then begin PC = 5; R3 := R4 end
+ 34 [19]: JMP       5
+return 
+
+
+; Function #1:
+;
+; Name:            
+; Defined at line: 23
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  17
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000022 | Quest_list
+; 00000003 | 00000022 | (for generator)
+; 00000003 | 00000022 | (for state)
+; 00000003 | 00000022 | (for control)
+; 00000004 | 00000020 | episodeId
+; 00000004 | 00000020 | episode
+; 0000000e | 00000020 | (for generator)
+; 0000000e | 00000020 | (for state)
+; 0000000e | 00000020 | (for control)
+; 0000000f | 0000001e | chapterId
+; 0000000f | 0000001e | chapter
+; 00000016 | 0000001e | (for generator)
+; 00000016 | 0000001e | (for state)
+; 00000016 | 0000001e | (for control)
+; 00000017 | 0000001c | questId
+; 00000017 | 0000001c | quest
+;
+; No upvalues
+
+R1 := ipairs
+R2 := R0
+R1,R2,R3 := R1(R2)
+PC := 33
+R6 := getTableSize
+R7 := __EP_QuestList
+R6 := R6(R7)
+R4 := R6 + 1
+R6 := __EP_QuestList
+R6[R4] := R5
+R5["id"] := R4
+R6 := ipairs
+R7 := R5["list"]
+R6,R7,R8 := R6(R7)
+PC := 31
+R11 := __EP_QuestList
+R11 := R11[R4]
+R11[R9] := R10
+R10["id"] := R9
+R11 := ipairs
+R12 := R10["list"]
+R11,R12,R13 := R11(R12)
+PC := 29
+R16 := __EP_QuestList
+R16 := R16[R4]
+R16 := R16[R9]
+R16[R14] := R15
+R15["id"] := R14
+R14,R15 := R11(R12,R13); if R14 ~= nil then begin PC = 24; R13 := R14 end
+ 30 [35]: JMP       24
+R9,R10 := R6(R7,R8); if R9 ~= nil then begin PC = 16; R8 := R9 end
+ 32 [36]: JMP       16
+R4,R5 := R1(R2,R3); if R4 ~= nil then begin PC = 5; R3 := R4 end
+ 34 [37]: JMP       5
+return 
+
+
+; Function #2:
+;
+; Name:            
+; Defined at line: 43
+; #Upvalues:       0
+; #Parameters:     2 (R0, R1)
+; Is_vararg:       0
+; Max Stack Size:  8
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000002d | tabid
+; 00000000 | 0000002d | episodeId
+;
+; No upvalues
+
+if R0 != 4 then PC := 24
+  2 [44]: JMP       24
+R2 := __LOCAL_QuestList
+R2 := R2[R1]
+if R2 != nil then PC := 9
+  6 [45]: JMP       9
+R2 := R3 := R4 := R5 := nil
+return R2,R3,R4,R5
+R2 := __LOCAL_QuestList
+R2 := R2[R1]
+R2 := R2["id"]
+R3 := __LOCAL_QuestList
+R3 := R3[R1]
+R3 := R3["name"]
+R4 := __LOCAL_QuestList
+R4 := R4[R1]
+R4 := R4["imagefile"]
+R5 := getChapterIterator
+R6 := R1
+R7 := __LOCAL_QuestList
+R5,... := R5(R6,R7)
+return R2,...
+PC := 46
+if R0 != 3 then PC := 46
+ 25 [51]: JMP       46
+R2 := __EP_QuestList
+R2 := R2[R1]
+if R2 != nil then PC := 32
+ 29 [52]: JMP       32
+R2 := R3 := R4 := R5 := nil
+return R2,R3,R4,R5
+R2 := __EP_QuestList
+R2 := R2[R1]
+R2 := R2["id"]
+R3 := __EP_QuestList
+R3 := R3[R1]
+R3 := R3["name"]
+R4 := __EP_QuestList
+R4 := R4[R1]
+R4 := R4["imagefile"]
+R5 := getChapterIterator
+R6 := R1
+R7 := __EP_QuestList
+R5,... := R5(R6,R7)
+return R2,...
+return 
+
+
+; Function #3:
+;
+; Name:            
+; Defined at line: 62
+; #Upvalues:       0
+; #Parameters:     3 (R0, R1, R2)
+; Is_vararg:       0
+; Max Stack Size:  10
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000041 | tabid
+; 00000000 | 00000041 | episodeId
+; 00000000 | 00000041 | chapterId
+;
+; No upvalues
+
+if R0 != 4 then PC := 34
+  2 [63]: JMP       34
+R3 := __LOCAL_QuestList
+R3 := R3[R1]
+if R3 != nil then PC := 9
+  6 [64]: JMP       9
+R3 := R4 := R5 := R6 := nil
+return R3,R4,R5,R6
+R3 := __LOCAL_QuestList
+R3 := R3[R1]
+R3 := R3[R2]
+if R3 != nil then PC := 16
+ 13 [65]: JMP       16
+R3 := R4 := R5 := R6 := nil
+return R3,R4,R5,R6
+R3 := __LOCAL_QuestList
+R3 := R3[R1]
+R3 := R3["id"]
+R4 := __LOCAL_QuestList
+R4 := R4[R1]
+R4 := R4[R2]
+R4 := R4["id"]
+R5 := __LOCAL_QuestList
+R5 := R5[R1]
+R5 := R5[R2]
+R5 := R5["name"]
+R6 := getQuestIterator
+R7 := R1
+R8 := R2
+R9 := __LOCAL_QuestList
+R6,... := R6(R7,R8,R9)
+return R3,...
+PC := 66
+if R0 != 3 then PC := 66
+ 35 [71]: JMP       66
+R3 := __EP_QuestList
+R3 := R3[R1]
+if R3 != nil then PC := 42
+ 39 [72]: JMP       42
+R3 := R4 := R5 := R6 := nil
+return R3,R4,R5,R6
+R3 := __EP_QuestList
+R3 := R3[R1]
+R3 := R3[R2]
+if R3 != nil then PC := 49
+ 46 [73]: JMP       49
+R3 := R4 := R5 := R6 := nil
+return R3,R4,R5,R6
+R3 := __EP_QuestList
+R3 := R3[R1]
+R3 := R3["id"]
+R4 := __EP_QuestList
+R4 := R4[R1]
+R4 := R4[R2]
+R4 := R4["id"]
+R5 := __EP_QuestList
+R5 := R5[R1]
+R5 := R5[R2]
+R5 := R5["name"]
+R6 := getQuestIterator
+R7 := R1
+R8 := R2
+R9 := __EP_QuestList
+R6,... := R6(R7,R8,R9)
+return R3,...
+return 
+
+
+; Function #4:
+;
+; Name:            
+; Defined at line: 82
+; #Upvalues:       0
+; #Parameters:     4 (R0, R1, R2, R3)
+; Is_vararg:       0
+; Max Stack Size:  10
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000067 | tabid
+; 00000000 | 00000067 | episodeId
+; 00000000 | 00000067 | chapterId
+; 00000000 | 00000067 | questId
+;
+; No upvalues
+
+if R0 != 4 then PC := 53
+  2 [ 83]: JMP       53
+R4 := __LOCAL_QuestList
+R4 := R4[R1]
+if R4 != nil then PC := 9
+  6 [ 84]: JMP       9
+R4 := R5 := R6 := R7 := R8 := R9 := nil
+return R4,R5,R6,R7,R8,R9
+R4 := __LOCAL_QuestList
+R4 := R4[R1]
+R4 := R4[R2]
+if R4 != nil then PC := 16
+ 13 [ 85]: JMP       16
+R4 := R5 := R6 := R7 := R8 := R9 := nil
+return R4,R5,R6,R7,R8,R9
+R4 := __LOCAL_QuestList
+R4 := R4[R1]
+R4 := R4[R2]
+R4 := R4[R3]
+if R4 != nil then PC := 24
+ 21 [ 86]: JMP       24
+R4 := R5 := R6 := R7 := R8 := R9 := nil
+return R4,R5,R6,R7,R8,R9
+R4 := __LOCAL_QuestList
+R4 := R4[R1]
+R4 := R4["id"]
+R5 := __LOCAL_QuestList
+R5 := R5[R1]
+R5 := R5[R2]
+R5 := R5["id"]
+R6 := __LOCAL_QuestList
+R6 := R6[R1]
+R6 := R6[R2]
+R6 := R6[R3]
+R6 := R6["id"]
+R7 := __LOCAL_QuestList
+R7 := R7[R1]
+R7 := R7[R2]
+R7 := R7[R3]
+R7 := R7["name"]
+R8 := __LOCAL_QuestList
+R8 := R8[R1]
+R8 := R8[R2]
+R8 := R8[R3]
+R8 := R8["scrfilename"]
+R9 := __LOCAL_QuestList
+R9 := R9[R1]
+R9 := R9[R2]
+R9 := R9[R3]
+R9 := R9["questID"]
+return R4,R5,R6,R7,R8,R9
+PC := 104
+if R0 != 3 then PC := 104
+ 54 [ 94]: JMP       104
+R4 := __EP_QuestList
+R4 := R4[R1]
+if R4 != nil then PC := 61
+ 58 [ 95]: JMP       61
+R4 := R5 := R6 := R7 := R8 := R9 := nil
+return R4,R5,R6,R7,R8,R9
+R4 := __EP_QuestList
+R4 := R4[R1]
+R4 := R4[R2]
+if R4 != nil then PC := 68
+ 65 [ 96]: JMP       68
+R4 := R5 := R6 := R7 := R8 := R9 := nil
+return R4,R5,R6,R7,R8,R9
+R4 := __EP_QuestList
+R4 := R4[R1]
+R4 := R4[R2]
+R4 := R4[R3]
+if R4 != nil then PC := 76
+ 73 [ 97]: JMP       76
+R4 := R5 := R6 := R7 := R8 := R9 := nil
+return R4,R5,R6,R7,R8,R9
+R4 := __EP_QuestList
+R4 := R4[R1]
+R4 := R4["id"]
+R5 := __EP_QuestList
+R5 := R5[R1]
+R5 := R5[R2]
+R5 := R5["id"]
+R6 := __EP_QuestList
+R6 := R6[R1]
+R6 := R6[R2]
+R6 := R6[R3]
+R6 := R6["id"]
+R7 := __EP_QuestList
+R7 := R7[R1]
+R7 := R7[R2]
+R7 := R7[R3]
+R7 := R7["name"]
+R8 := __EP_QuestList
+R8 := R8[R1]
+R8 := R8[R2]
+R8 := R8[R3]
+R8 := R8["scrfilename"]
+R9 := __EP_QuestList
+R9 := R9[R1]
+R9 := R9[R2]
+R9 := R9[R3]
+R9 := R9["questID"]
+return R4,R5,R6,R7,R8,R9
+return 
+
+
+; Function #5:
+;
+; Name:            
+; Defined at line: 108
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  4
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000b | __QuestList
+; 00000001 | 0000000b | pos
+;
+; No upvalues
+
+R1 := 1
+R2 := {}
+R3 := closure(Function #5.0,R3,R4)
+R0 := R0
+R0 := R1
+R2["hasNext"] := R3
+R3 := closure(Function #5.1,R3,R4)
+R0 := R1
+R0 := R0
+R2["value"] := R3
+return R2
+return 
+
+
+; Function #5.0:
+;
+; Name:            
+; Defined at line: 111
+; #Upvalues:       2
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; Upvalues:
+;
+
+R0 := U0
+R1 := U1
+R0 := R0[R1]
+return R0
+return 
+
+
+; Function #5.1:
+;
+; Name:            
+; Defined at line: 115
+; #Upvalues:       2
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; Upvalues:
+;
+
+R0 := U0
+temp_pos := R0
+R0 := U0
+R0 := R0 + 1
+U0 := 0
+R0 := U1
+R1 := temp_pos
+R0 := R0[R1]
+return R0
+return 
+
+
+; Function #6:
+;
+; Name:            
+; Defined at line: 123
+; #Upvalues:       0
+; #Parameters:     2 (R0, R1)
+; Is_vararg:       0
+; Max Stack Size:  5
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000d | episodeId
+; 00000000 | 0000000d | __QuestList
+; 00000001 | 0000000d | pos
+;
+; No upvalues
+
+R2 := 1
+R3 := {}
+R4 := closure(Function #6.0,R4,R5,R6)
+R0 := R1
+R0 := R0
+R0 := R2
+R3["hasNext"] := R4
+R4 := closure(Function #6.1,R4,R5,R6)
+R0 := R2
+R0 := R1
+R0 := R0
+R3["value"] := R4
+return R3
+return 
+
+
+; Function #6.0:
+;
+; Name:            
+; Defined at line: 126
+; #Upvalues:       3
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; Upvalues:
+;
+
+R0 := U0
+R1 := U1
+R0 := R0[R1]
+if R0 != nil then PC := 8
+  5 [127]: JMP       8
+R0 := nil
+return R0
+R0 := U0
+R1 := U1
+R0 := R0[R1]
+R1 := U2
+R0 := R0[R1]
+return R0
+return 
+
+
+; Function #6.1:
+;
+; Name:            
+; Defined at line: 131
+; #Upvalues:       3
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; Upvalues:
+;
+
+R0 := U0
+temp_pos := R0
+R0 := U0
+R0 := R0 + 1
+U0 := 0
+R0 := U1
+R1 := U2
+R0 := R0[R1]
+R1 := temp_pos
+R0 := R0[R1]
+return R0
+return 
+
+
+; Function #7:
+;
+; Name:            
+; Defined at line: 139
+; #Upvalues:       0
+; #Parameters:     3 (R0, R1, R2)
+; Is_vararg:       0
+; Max Stack Size:  6
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000f | episodeId
+; 00000000 | 0000000f | chapterId
+; 00000000 | 0000000f | __QuestList
+; 00000001 | 0000000f | pos
+;
+; No upvalues
+
+R3 := 1
+R4 := {}
+R5 := closure(Function #7.0,R5,R6,R7,R8)
+R0 := R2
+R0 := R0
+R0 := R1
+R0 := R3
+R4["hasNext"] := R5
+R5 := closure(Function #7.1,R5,R6,R7,R8)
+R0 := R3
+R0 := R2
+R0 := R0
+R0 := R1
+R4["value"] := R5
+return R4
+return 
+
+
+; Function #7.0:
+;
+; Name:            
+; Defined at line: 142
+; #Upvalues:       4
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; Upvalues:
+;
+
+R0 := U0
+R1 := U1
+R0 := R0[R1]
+R1 := U2
+R0 := R0[R1]
+if R0 != nil then PC := 10
+  7 [143]: JMP       10
+R0 := nil
+return R0
+R0 := U0
+R1 := U1
+R0 := R0[R1]
+R1 := U2
+R0 := R0[R1]
+R1 := U3
+R0 := R0[R1]
+return R0
+return 
+
+
+; Function #7.1:
+;
+; Name:            
+; Defined at line: 147
+; #Upvalues:       4
+; #Parameters:     0
+; Is_vararg:       0
+; Max Stack Size:  2
+;
+; No locals information
+; Upvalues:
+;
+
+R0 := U0
+temp_pos := R0
+R0 := U0
+R0 := R0 + 1
+U0 := 0
+R0 := U1
+R1 := U2
+R0 := R0[R1]
+R1 := U3
+R0 := R0[R1]
+R1 := temp_pos
+R0 := R0[R1]
+return R0
+return 
+
+
+; Function #8:
+;
+; Name:            
+; Defined at line: 155
+; #Upvalues:       0
+; #Parameters:     2 (R0, R1)
+; Is_vararg:       0
+; Max Stack Size:  21
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 00000043 | tableName
+; 00000000 | 00000043 | questID
+;
+; No upvalues
+
+R2 := QuestTable
+R2 := R2[R0]
+returnTable := R2
+R2 := returnTable
+R2 := R2[R1]
+if R2 != nil then PC := 10
+  7 [159]: JMP       10
+R2 := R3 := R4 := R5 := R6 := R7 := R8 := R9 := R10 := R11 := R12 := R13 := R14 := R15 := R16 := R17 := R18 := R19 := R20 := nil
+return R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20
+R2 := returnTable
+R2 := R2[R1]
+R2 := R2["NPCFromName"]
+R3 := returnTable
+R3 := R3[R1]
+R3 := R3["NPCFromMap"]
+R4 := returnTable
+R4 := R4[R1]
+R4 := R4["NPCFromSpr"]
+R5 := returnTable
+R5 := R5[R1]
+R5 := R5["NPCFromX"]
+R6 := returnTable
+R6 := R6[R1]
+R6 := R6["NPCFromY"]
+R7 := returnTable
+R7 := R7[R1]
+R7 := R7["NPCToName"]
+R8 := returnTable
+R8 := R8[R1]
+R8 := R8["NPCToMap"]
+R9 := returnTable
+R9 := R9[R1]
+R9 := R9["NPCToSpr"]
+R10 := returnTable
+R10 := R10[R1]
+R10 := R10["NPCToX"]
+R11 := returnTable
+R11 := R11[R1]
+R11 := R11["NPCToY"]
+R12 := returnTable
+R12 := R12[R1]
+R12 := R12["Item"]
+R13 := returnTable
+R13 := R13[R1]
+R13 := R13["PrizeItem"]
+R14 := returnTable
+R14 := R14[R1]
+R14 := R14["Title"]
+R15 := returnTable
+R15 := R15[R1]
+R15 := R15["Info"]
+R16 := returnTable
+R16 := R16[R1]
+R16 := R16["Hunt1"]
+R17 := returnTable
+R17 := R17[R1]
+R17 := R17["Hunt2"]
+R18 := returnTable
+R18 := R18[R1]
+R18 := R18["Hunt3"]
+R19 := returnTable
+R19 := R19[R1]
+R19 := R19["Time"]
+R20 := returnTable
+R20 := R20[R1]
+R20 := R20["Lv"]
+return R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20
+return 
