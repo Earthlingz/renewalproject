@@ -1,6 +1,12 @@
+rev68 - [2012-04-12]
+ - Updated Raw data folders from iRO
+ * iRO Patches Nos. 2008 ~ 2011
+ * pRO Patches Nos. No Patch Available
+ * kRO Patches Nos. No Patch Available
+
 rev67 - [2012-04-11]
  - Added disassembled kRO files from patch 2012-04-10
- - Updated Raw data folders from kRO, iRO
+ - Updated Raw data folders from kRO
  * iRO Patches Nos. No Patch Available
  * pRO Patches Nos. No Patch Available
  * kRO Patches Nos. 2340 ~ 2343

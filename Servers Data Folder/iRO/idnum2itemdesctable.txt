@@ -48635,8 +48635,12 @@ A box that contains 50 Poison Bottles. Use caution when handling it.
 Weight: ^7777771^000000
 #
 17068#
-^ff0000 unable to trade with other account.^000000
-A box has 50 Bottle Grenades and 50 Acid Bottles. Use caution when handling it.
+A demolition specialist's starter kit, designed to help with creation of Acid Bombs.
+Contains 50 each of the following:
+-Acid Bottle
+-Bottle Grenade
+^ff0000This item will be available initially for one week as a test, if it proves viable it may remain in the shop.^000000.
+^ff0000unable to trade with other account.^000000
 ^ff0000Cannot be refunded once opened.^000000
 Weight: ^7777771^000000
 #
@@ -50484,11 +50488,13 @@ Compound on : ^777777갑옷^000000
 Weight : ^7777771^000000
 #
 2573#
-대천사의 커다랗고 하얀 날개.
-계열 : ^777777걸칠것^000000  방어 : ^77777718^000000
-무게 : ^77777720^000000
-요구 레벨 : ^7777771^000000
-장착 : ^777777전직업 장착가능^000000
+White wings of a holy Archangel.
+Slot : ^7777771^000000
+Class : ^777777Garment^000000
+Defense : ^77777718^000000
+Weight : ^77777720^000000
+Required Level : ^7777771^000000
+Jobs : ^777777All^000000
 #
 
 6457#
@@ -50501,4 +50507,69 @@ Weight : ^7777771^0000000
 
 6157#
 Not sure how you got this
+#
+
+6158#
+Not sure how you got this
+#
+
+12859#
+Available ^ff0000April 11 - April 24th 2012^000000. The Spring Lucky Pack also can be bought at a slight discount via the Spring Lucky Crate which also contains 1 Safe to 10 Certificate.
+Grandma Boxter is in and surely she would love some of these items too!
+^FFFFFF_^000000
+Opening this randomly give you one of the following item sets
+- 1x Heroic Desocketing Book
+- 1x Slotting Advertisement
+- 1x Party Hard Pack
+- 1x +20 Basic Food Pack
+- 1x Party Buff Scroll Pack
+- 1x Class Set Card Album
+- 2x Battle Manual X3
+- 10x Fencer Scroll
+- 30x KVM Badge
+- 1500x Prize Medal
+- 1x Archangel Wing
+- 1x Blue Tiger Mask
+- 1x Mini Glasses [1]
+- 1x Red Wing Hat [1]
+- 1x Taurus Crown
+- 1x Taurus Diadem
+- 1x Aries Crown
+- 1x Aries Diadem
+^FFFFFF_^000000
+^FF0000This item cannot be traded, but may be stored.^000000
+^FFFFFF_^000000
+Weight : ^7777771^000000
+#
+
+17199#
+A crate that contains ^0000CC6 Spring Lucky Boxes^000000 & ^0000CC1 Safe to 10 Certificate^000000
+^ff0000This item and the box inside is account bound.^000000
+Description:
+The Spring Lucky Box contains many items of pure win.  It is advised to use with caution.
+Spring Lucky Box is not meant to be consumed internally.
+^FFFFFF_^000000
+Opening this randomly give you one of the following item sets
+- 1x Heroic Desocketing Book
+- 1x Slotting Advertisement
+- 1x Party Hard Pack
+- 1x +20 Basic Food Pack
+- 1x Party Buff Scroll Pack
+- 1x Class Set Card Album
+- 2x Battle Manual X3
+- 10x Fencer Scroll
+- 30x KVM Badge
+- 1500x Prize Medal
+- 1x Archangel Wing
+- 1x Blue Tiger Mask
+- 1x Mini Glasses [1]
+- 1x Red Wing Hat [1]
+- 1x Taurus Crown
+- 1x Taurus Diadem
+- 1x Aries Crown
+- 1x Aries Diadem
+^FFFFFF_^000000
+^FF0000This item cannot be traded, but may be stored.^000000
+^FFFFFF_^000000
+Weight : ^7777771^000000
 #

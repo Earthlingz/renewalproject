@@ -2522,12 +2522,12 @@
 5537#Hat#
 5538#Hat#
 5539#Hat#
-5545#Helm#
-5546#Helm#
+5545#Aries_Diadem#
+5546#Aries_Crown#
 5547#Headgear#
 5548#Helm#
-5549#Helm#
-5550#Helm#
+5549#Taurus_Diadem#
+5550#Taurus_Crown#
 5555#Hat#
 5560#Headgear#
 5561#Hat#
@@ -5011,7 +5011,7 @@
 18574#Headgear#
 18576#Headgear#
 17066#Poison_Bottle_Box50#
-17068#Acidbomb_Box50#
+17068#Acid_Bomb_50_Pack#
 14600#Mental_Potion#
 
 6535#Piece_Of_Red_Fabric#
@@ -5279,3 +5279,6 @@
 6457#Safe_to_10_Certificate#
 6157#Vote_1#
 6158#Vote_2#
+
+12859#Spring_Lucky_Pack#
+17199#Spring_Lucky_Crate#

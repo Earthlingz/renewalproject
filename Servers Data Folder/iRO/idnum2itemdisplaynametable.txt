@@ -5054,7 +5054,7 @@
 18574#Lord_of_the_Dead_Helm#
 18576#Yin_Yang_Earrings#
 17066#Poison_Bottle_Box50#
-17068#Acidbomb_Box50#
+17068#Acid_Bomb_50_Pack#
 14600#Mental_Potion#
 
 12989#Christmas_Holiday_Box#
@@ -5324,3 +5324,6 @@
 6457#Safe_to_10_Certificate#
 6157#Vote_1#
 6158#Vote_2#
+
+12859#Spring_Lucky_Pack#
+17199#Spring_Lucky_Crate#

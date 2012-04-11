@@ -804,3 +804,6 @@ ayothaya_e.rsw#bgm\\81.mp3#
 louyang_e.rsw#bgm\\79.mp3#
 morocc_mem.rsw#bgm\\11.mp3#
 payon_mem.rsw#bgm\\14.mp3#
+ehu_fild01.rsw#bgm\\89.mp3#
+emoc_pryd06.rsw#bgm\\89.mp3#
+ethor_v02.rsw#bgm\\89.mp3#
