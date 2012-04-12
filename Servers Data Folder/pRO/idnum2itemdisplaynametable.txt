@@ -5690,7 +5690,7 @@
 12403#Lucky_Egg_C2#
 12827#Water_Type_Scroll#
 12828#Aeon_Firesong_Scroll#
-12829#Earth_Type_Scroll#
+12829#Geheimnis_Terra_Scroll#
 2914#Left_Eye_Of_An_Wizard#
 4494#Sealed_Turtle_General_Card#
 4495#Sealed_Amon_Ra_Card#
@@ -5751,3 +5751,8 @@
 12822#Songpyun_Box50#
 5690#Red_Wing_Hat#
 5819#Carnival_Circlet#
+7550#Bunny_Coupon_A#
+7551#Bunny_Coupon_B#
+7552#Bunny_Coupon_C#
+16755#Unbreak_Def_Box#
+16753#Unbreak_Weap_Box#

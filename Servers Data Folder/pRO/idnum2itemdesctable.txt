@@ -39178,9 +39178,8 @@ weight : ^7777771^000000
 weight : ^7777771^000000
 #
 12829#
-Earth Type of scroll
-you can get so precious items in it .
-weight : ^7777771^000000
+You know this day is going to be epic! *wink wink* - Geheimnis
+Weight : ^77777720^000000
 #
 2914#
 a legend eye that had lost all knowledge and magic instead.
@@ -39537,4 +39536,16 @@ class : ^777777Headgear^000000        Def : ^7777776^000000
 Location : ^777777Upper^000000
 Weight : ^7777770^000000
 Jobs : ^777777all jobs^000000
+#
+7550#
+Coupon used by Bunny Corp. for the Upgrading Challenge Event, equivalent to +7.
+Weight : ^7777771^000000
+#
+7551#
+Coupon used by Bunny Corp. for the Upgrading Challenge Event, equivalent to +8.
+Weight : ^7777771^000000
+#
+7552#
+Coupon used by Bunny Corp. for the Upgrading Challenge Event, equivalent to +9.
+Weight : ^7777771^000000
 #
