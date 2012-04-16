@@ -49505,7 +49505,7 @@ Job : ^777777Archbishop^000000
 15030#
 Blesses the wearer with the Shadow Property
 Increases damage of Judex skill by 30%
-Decreases SP Consumption of Judex skill by 40
+Increases SP Consumption of Judex skill by 40
 Str +1, Int +1, Mdef +10
 Type : ^777777Garment^000000
 Defense : ^77777722^000000
