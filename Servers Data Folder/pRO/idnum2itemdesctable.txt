@@ -39168,9 +39168,9 @@ a egg type of bundle with cute. you might be able to get something
 weight : ^7777771^000000
 #
 12827#
-a water type of scroll
-you can get so precious items in it .
-weight : ^7777771^000000
+¡°Water...soft and yielding, formless and flowing.
+Rise up, storm the heavens and rain down upon us!" - Sofiel
+Weight : ^7777771^000000
 #
 12828#
 "I am what was, what is, what will be : the Chaos-Bringer! I AM POWER!"
@@ -39548,4 +39548,30 @@ Weight : ^7777771^000000
 7552#
 Coupon used by Bunny Corp. for the Upgrading Challenge Event, equivalent to +9.
 Weight : ^7777771^000000
+#
+5744#
+A magnificent crown created to pay tribute to the 10th sign of the zodiac, Capricorn the Goat.  Attached to the crown is a Garnet gemstone, the birthstone for those born under this sign.
+Dex +2, Vit +2
+If refined to 7 or higher, when melee-attacking, has a chance of auto-casting Lv 1 Mild Wind (Earth endow).
+Class : ^777777Headgear^000000
+Defense : ^7777773^000000
+Location : ^777777Upper ^000000
+Weight : ^77777730^000000
+Required level : ^7777771^000000
+Jobs : ^777777All^000000
+#
+5745#
+A magnificent diadem created to pay tribute to the 10th sign of the zodiac, Capricorn the Goat.  Attached to the crown is a Garnet gemstone, the birthstone for those born under this sign.
+Dex +2, Mdef +5.
+Increases resistance to Earth property by 5%.
+If refined to 7 or higher, Int +2.
+If refined to 8 or higher, decreases casting time by 3%.
+If refined to 9 or higher, increases the effectiveness of Heal and Sanctuary skills by 4%.
+If refined to 10 or higher, when attacked, has a low chance of auto-casting Lv 5 Hammer Fall.
+Class : ^777777Headgear^000000
+Defense : ^7777773^000000
+Location : ^777777Upper ^000000
+Weight : ^77777730^000000
+Required level : ^7777771^000000
+Jobs : ^777777All^000000
 #

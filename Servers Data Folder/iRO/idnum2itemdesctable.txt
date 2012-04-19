@@ -41956,21 +41956,21 @@ Weight : ^77777715^000000
 #
 
 6225#
-A high density Carnium used in upgrading armor. Take this to Basta in Payon next to the Kafra Shop Ladies to help you upgrade armor at +10 and higher.
+A high density Carnium used in upgrading armor. Take this to Mighty Hammer in Eden Group or Payon next to the Kafra Shop Ladies to help you upgrade armor at +10 and higher.
 This Carnium's density guarantees that your armor will NOT break when attempting to upgrade and if the upgrade attempt fails, it will only downgrade 1 level instead of 3 like a normal Carnium.
 Weight : ^7777770^000000
 #
 
 6226#
-A high density Bradium used in upgrading weapons. Take this to Basta in Payon next to the Kafra Shop Ladies to help you upgrade weapons at +10 and higher.
+A high density Bradium used in upgrading weapons. Take this to Mighty Hammer in Eden Group or Payon next to the Kafra Shop Ladies to help you upgrade weapons at +10 and higher.
 This Bradium's density guarantees that your weapon will NOT break when attempting to upgrade and if the upgrade attempt fails, it will only downgrade 1 level instead of 3 like a normal Bradium.
 Weight : ^7777770^000000
 #
 
 16258#
 A box which contains 5 high density bradiums.
-The density and solidity has been heightened by repeated experiments from Rune Midgard's scholars. It seems that it becomes more difficult for weapon upgrade.
-When you fail while upgrading defense weapon whose upgrade level is over +10, it won't be destroyed. (When the upgrade fails, upgrade level gets -1)
+A high density Bradium used in upgrading weapons. Take this to Mighty Hammer in Eden Group or Payon next to the Kafra Shop Ladies to help you upgrade weapons at +10 and higher.
+This Bradium's density guarantees that your weapon will NOT break when attempting to upgrade and if the upgrade attempt fails, it will only downgrade 1 level instead of 3 like a normal Bradium.
 Weight : ^7777771^000000
 ^ff0000This item is excluded from subscription withdrawal or refund.^000000
 Weight : ^7777771^000000
@@ -41978,8 +41978,8 @@ Weight : ^7777771^000000
 
 16259#
 A box which contains 5 high density carniums.
-It has been compressed for such a long time that the density and solidity is heightened. It seems that it becomes more difficult for Defense Weapon Upgrade.
-When you fail while upgrading defense weapon whose upgrade level is over +10, it won't be destroyed. (When the upgrade fails, upgrade level gets -1)
+A high density Carnium used in upgrading armor. Take this to Mighty Hammer in Eden Group or Payon next to the Kafra Shop Ladies to help you upgrade armor at +10 and higher.
+This Carnium's density guarantees that your armor will NOT break when attempting to upgrade and if the upgrade attempt fails, it will only downgrade 1 level instead of 3 like a normal Carnium.
 Weight : ^7777771^000000
 ^ff0000This item is excluded from subscription withdrawal or refund.^000000
 Weight : ^7777771^000000

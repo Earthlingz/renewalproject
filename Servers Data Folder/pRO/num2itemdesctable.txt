@@ -28776,9 +28776,9 @@ a egg type of bundle with cute. you might be able to get something
 weight : ^7777771^000000
 #
 12827#
-a water type of scroll
-you can get so precious items in it .
-weight : ^7777771^000000
+¡°Water...soft and yielding, formless and flowing.
+Rise up, storm the heavens and rain down upon us!" - Sofiel
+Weight : ^7777771^000000
 #
 12828#
 "I am what was, what is, what will be : the Chaos-Bringer! I AM POWER!"
@@ -29073,5 +29073,11 @@ Weight : ^7777771^000000
 7552#
 Coupon used by Bunny Corp. for the Upgrading Challenge Event, equivalent to +9.
 Weight : ^7777771^000000
+#
+5744#
+Unknown item requiring appraisal. Can be identified by using a magnifier.
+#
+5745#
+Unknown item requiring appraisal. Can be identified by using a magnifier.
 #
 

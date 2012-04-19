@@ -11088,3 +11088,119 @@ You've found the last fragment of the locket under some wet earth. Take it back 
 60956#Orcish Envoy#SG_FEEL#QUE_NOIMAGE#
 The Orcish Envoy is only accepting Orcish Vouchers every 5 minutes. Wait for the timer before giving him more.#
 #
+
+61001#Eye of the Beholder#SG_FEEL#QUE_NOIMAGE#
+You have met a Beholder on the Airship that says that a friend of his needs help inside the Rachel Temple#
+Search the second floor of Rachel Temple for Beho#
+
+61002#Eye of the Beholder#SG_FEEL#QUE_NOIMAGE#
+Continue your conversation with Beho#
+#
+
+61003#Eye of the Beholder#SG_FEEL#QUE_NOIMAGE#
+Look for the love of Beho's life Bianca. She is in one of the lower floor libraries of Rachel Temple.#
+#
+
+61004#Eye of the Beholder#SG_FEEL#QUE_NOIMAGE#
+Return to Beho on the second floor of the Temple and tell him about the situation of Bianca's fear of Beholders.#
+#
+
+61005#Eye of the Beholder#SG_FEEL#QUE_NOIMAGE#
+Continue your conversation with Beho#
+#
+
+61006#Eye of the Beholder#SG_FEEL#QUE_NOIMAGE#
+Search for Kyara in the sanctuary to have her prepare some a delicious gift for Bianca from Beho.#
+#
+
+61007#Eye of the Beholder#SG_FEEL#QUE_NOIMAGE#
+You have received a White Chocolate from Kyara. Now it's time to convince her that Beholders are not evil.#
+Continue your conversation with Kyara#
+
+61008#Eye of the Beholder#SG_FEEL#QUE_NOIMAGE#
+Now that you seem to have Kyara convinced, it's time to go back and tell Beho what you've accomplished so far. Oh and don't forget the chocolate.#
+#
+
+61009#Eye of the Beholder#SG_FEEL#QUE_NOIMAGE#
+Beho mentions that Bianca loves a singer named Doina who happens to be visiting here in Rachel.#
+Search for Doina and ask her about writing a song.#
+
+61010#Eye of the Beholder#SG_FEEL#QUE_NOIMAGE#
+Speak to Doina about writing the score for the song that you want her to sing.#
+#
+
+61011#Eye of the Beholder#SG_FEEL#QUE_NOIMAGE#
+Now that you have the score, bring it back to Beho.#
+#
+
+61012#Eye of the Beholder#SG_FEEL#QUE_NOIMAGE#
+Search for Lilla at the Rachel Inn and ask her to make some jewelry for Beho so he can give it to Bianca.#
+#
+
+61013#Eye of the Beholder#SG_FEEL#QUE_NOIMAGE#
+Search for the missing beads that Lilla has lost at the Inn.#
+#
+
+61014#Eye of the Beholder#SG_FEEL#QUE_NOIMAGE#
+You've found one of the missing beads, continue your search until you've found all 4.#
+#
+
+61015#Eye of the Beholder#SG_FEEL#QUE_NOIMAGE#
+You've found one of the missing beads, continue your search until you've found all 4.#
+#
+
+61016#Eye of the Beholder#SG_FEEL#QUE_NOIMAGE#
+You've found one of the missing beads, continue your search until you've found all 4.#
+#
+
+61017#Eye of the Beholder#SG_FEEL#QUE_NOIMAGE#
+You've found the last bag of missing beads, return to Lilla and give them to her.#
+#
+
+61018#Eye of the Beholder#SG_FEEL#QUE_NOIMAGE#
+You have received a necklace from Lilla after giving her the missing beads. Lilla tells you to find the gardener named Kees outside of the Inn.#
+#
+
+61019#Eye of the Beholder#SG_FEEL#QUE_NOIMAGE#
+Find a Rose in the area surrounding the Inn#
+#
+
+61020#Eye of the Beholder#SG_FEEL#QUE_NOIMAGE#
+Find an Iris in the area surrounding the Inn#
+#
+
+61021#Eye of the Beholder#SG_FEEL#QUE_NOIMAGE#
+Find a Mimosa in the area surrounding the Inn#
+#
+
+61022#Eye of the Beholder#SG_FEEL#QUE_NOIMAGE#
+Find a Lily in the area surrounding the Inn#
+#
+
+61023#Eye of the Beholder#SG_FEEL#QUE_NOIMAGE#
+Now that you have all of the flowers, bring them all back to Kees.#
+#
+
+61024#Eye of the Beholder#SG_FEEL#QUE_NOIMAGE#
+You have received a bouquet of flowers to give to Bianca for Beho.#
+#
+
+61025#Eye of the Beholder#SG_FEEL#QUE_NOIMAGE#
+Speak to the Pope who is near the entrance on the first floor of Rachel Temple.#
+#
+
+61026#Eye of the Beholder#SG_FEEL#QUE_NOIMAGE#
+Now that you've received a prayer from the Pope, go to Bianca and bring her the Chocolate, Flowers and Jewelry that you are supposed to give her.#
+#
+
+61027#Eye of the Beholder#SG_FEEL#QUE_NOIMAGE#
+Continue your conversation with Bianca#
+#
+
+61028#Eye of the Beholder#SG_FEEL#QUE_NOIMAGE#
+Bianca has agreed to meet Beho at the Rachel Temple Gardens just to the northwest area of the Temple entrance.#
+#
+
+61029#Eye of the Beholder#SG_FEEL#QUE_NOIMAGE#
+Observe Beho and Bianca and make sure that your plan for the one-eyed loverboy worked.#
+#

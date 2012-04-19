@@ -1,3 +1,13 @@
+rev72 - [2012-04-20]
+ - Added disassembled kRO files from patch 2012-04-18
+ - Updated Raw data folders from kRO, iRO and pRO
+ * iRO Patches Nos. 2013
+ * pRO Patches Nos. 1757 ~ 1762
+ * kRO Patches Nos. 2344 ~ 2355
+
+rev71 - [2012-04-19]
+ - Converted kRO's item desc tables to a readable string
+
 rev70 - [2012-04-17]
  - Updated Raw data folders from iRO
  * iRO Patches Nos. 2012

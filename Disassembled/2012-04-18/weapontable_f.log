@@ -1,0 +1,69 @@
+R0 := closure(Function #0)
+ReqWeaponName := R0
+R0 := closure(Function #1)
+ReqWeaponHitWaveName := R0
+return 
+
+
+; Function #0:
+;
+; Name:            
+; Defined at line: 15
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000d | index
+; 00000007 | 0000000d | NameMsg
+;
+; No upvalues
+
+R1 := WeaponNameTable
+if R1 != nil then PC := 6
+  3 [16]: JMP       6
+R1 := ""
+return R1
+R1 := WeaponNameTable
+R1 := R1[R0]
+if R1 == nil then PC := 12
+  9 [22]: JMP       12
+return R1
+PC := 14
+R2 := ""
+return R2
+return 
+
+
+; Function #1:
+;
+; Name:            
+; Defined at line: 36
+; #Upvalues:       0
+; #Parameters:     1 (R0)
+; Is_vararg:       0
+; Max Stack Size:  3
+;
+; Locals:
+; Start PC |  End PC  | Name
+; 00000000 | 0000000d | index
+; 00000007 | 0000000d | NameMsg
+;
+; No upvalues
+
+R1 := WeaponHitWaveNameTable
+if R1 != nil then PC := 6
+  3 [37]: JMP       6
+R1 := ""
+return R1
+R1 := WeaponHitWaveNameTable
+R1 := R1[R0]
+if R1 == nil then PC := 12
+  9 [43]: JMP       12
+return R1
+PC := 14
+R2 := ""
+return R2
+return 

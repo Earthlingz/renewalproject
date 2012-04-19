@@ -5641,7 +5641,7 @@
 17141#Virgo_Scroll#
 12391#Lucky_Egg_C#
 12403#Lucky_Egg_C2#
-12827#Water_Type_Scroll#
+12827#Sofiel_Aqua_Scroll#
 12828#Aeon_Firesong_Scroll#
 12829#Geheimnis_Terra_Scroll#
 2914#accessory#
@@ -5707,3 +5707,5 @@
 7550#Bunny_Coupon_A#
 7551#Bunny_Coupon_B#
 7552#Bunny_Coupon_C#
+5745#Helm#
+5744#Helm#
