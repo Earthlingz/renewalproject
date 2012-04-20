@@ -1,3 +1,7 @@
+rev73 - [2012-04-21]
+ - Updated Raw data folders from iRO
+ * iRO Patches Nos. 2014
+
 rev72 - [2012-04-20]
  - Added disassembled kRO files from patch 2012-04-18
  - Updated Raw data folders from kRO, iRO and pRO
